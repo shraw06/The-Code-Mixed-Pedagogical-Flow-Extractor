@@ -21,15 +21,15 @@
 
 ## Problem Statement
 
-Indian educational content on platforms like YouTube is incredibly rich but highly unstructured. Teachers freely **code-mix** — switching between English and regional languages (Hindi, Tamil, Telugu, Marathi, etc.) — while teaching technical concepts. This makes computational analysis extremely challenging.
+Indian educational content on platforms like YouTube is incredibly rich but highly unstructured. Teachers freely **code-mix** - switching between English and regional languages (Hindi, Tamil, Telugu, Marathi, etc.) - while teaching technical concepts. This makes computational analysis extremely challenging.
 
-This pipeline ingests 5 such code-mixed educational videos, extracts the core technical concepts, maps colloquial terms to standard English academic terminology, and builds a **directed acyclic graph (DAG)** representing the pedagogical prerequisite flow — which concepts must be understood before others. It additionally computes a **topologically sorted learning roadmap** and provides quantitative **code-mixing analysis** for each video.
+This pipeline ingests 5 such code-mixed educational videos, extracts the core technical concepts, maps colloquial terms to standard English academic terminology, and builds a **directed acyclic graph (DAG)** representing the pedagogical prerequisite flow - which concepts must be understood before others. It additionally computes a **topologically sorted learning roadmap** and provides quantitative **code-mixing analysis** for each video.
 
 ---
 
 ## Architectural Overview
 
-The pipeline is designed as a **linear chain of self-contained stages**, each consuming the outputs of the previous stage and writing to well-defined directories. This design allows any stage to be re-run independently and makes debugging straightforward — intermediate results in `data/` are always inspectable.
+The pipeline is designed as a **linear chain of self-contained stages**, each consuming the outputs of the previous stage and writing to well-defined directories. This design allows any stage to be re-run independently and makes debugging straightforward - intermediate results in `data/` are always inspectable.
 
 ```
 YouTube Videos / Uploaded File
@@ -46,7 +46,7 @@ YouTube Videos / Uploaded File
          ▼
   ┌──────────────────────────────────────────────────────┐
   │ 3. Speech-to-Text (Gemini 2.5 Flash)                 │
-  │    • Transcription-first (not translate-first)       │
+  │    • Transcription-first                             │
   │    • Preserves verbatim code-mixed original_text     │
   │    • Parallel English translation per segment        │
   │    • Per-segment language label                      │
@@ -110,7 +110,7 @@ YouTube Videos / Uploaded File
 
 | Decision | Rationale |
 |----------|-----------|
-| **Linear stage chain** | Each stage reads from disk and writes to disk. This means any stage can be re-run without replaying the full pipeline — essential during development and debugging. |
+| **Linear stage chain** | Each stage reads from disk and writes to disk. This means any stage can be re-run without replaying the full pipeline - essential during development and debugging. |
 | **Subprocess-per-stage in `main.py`** | Avoids side-effects from modules that execute work at import time. Each stage runs in its own Python process for isolation. |
 | **Gemini for transcription AND graph construction** | A single LLM provider simplifies API-key management and gives consistent behaviour. Gemini 2.5 Flash excels at both audio understanding and structured-JSON generation. |
 | **JSON-only outputs** | Every intermediate and final artefact is JSON (except visualisation images). JSON is human-readable, machine-parseable, and diff-friendly — ideal for reproducibility. |
@@ -122,13 +122,12 @@ YouTube Videos / Uploaded File
 
 ### 1. Transcription-First, Not Translation-First
 
-**The most critical architectural decision.** A naïve approach uses OpenAI Whisper in `translate` mode, which directly translates code-mixed speech into English — **destroying the original code-mixed phrasing entirely**. This loses:
+**The most critical architectural decision.** Initially the approach used OpenAI Whisper in `translate` mode, which directly translates code-mixed speech into English - **destroying the original code-mixed phrasing entirely**. This loses:
 - The ability to analyse *which language* each concept was taught in
-- Code-switching patterns (when does the teacher switch languages?)
 - Colloquial Indic terms and analogies used to explain technical concepts
 - The matrix/embedded language structure
 
-Our pipeline uses Gemini's multimodal capabilities to **transcribe first** — preserving the verbatim code-mixed speech — then provides a parallel English translation per segment. Every segment carries:
+Our pipeline uses Gemini's multimodal capabilities to **transcribe first** - preserving the verbatim code-mixed speech - then provides a parallel English translation per segment. Every segment carries:
 
 ```json
 {
@@ -147,11 +146,11 @@ This dual representation enables downstream code-mixing analysis on `original_te
 - **Whisper** struggles with heavily code-mixed audio and has no native Indic-script transcription
 - **Gemini 2.5 Flash** handles code-mixed audio natively, transcribes in the original script (Devanagari, Telugu, Tamil) or romanised form, and provides structured JSON output
 - `temperature=0` + `response_mime_type="application/json"` ensures deterministic, parseable output with no hallucinated structure
-- Audio files uploaded via the Files API to handle large lectures (10–30 minutes)
+- Audio files uploaded via the Files API to handle large lectures (10-30 minutes)
 
 ### 3. Dual-Track Concept Extraction
 
-Concepts are extracted from **both** the cleaned/lemmatised English text (for precision) and the richer `english_text` translation (for recall), then consolidated via deduplication. This captures:
+Concepts are extracted from both the cleaned/lemmatised English text (for precision) and the richer `english_text` translation (for recall), then consolidated via deduplication. This captures:
 - Concepts that survive aggressive lemmatisation/stop-word removal
 - Concepts that appear only in the fuller English translation
 
@@ -159,7 +158,7 @@ The combination of **spaCy** (noun chunks + NER) and **KeyBERT** (semantic keyph
 
 ### 4. LLM-Powered Prerequisite Graph
 
-Rather than using heuristic co-occurrence or temporal proximity alone, we use Gemini to understand **pedagogical intent** — which concepts the teacher presents as prerequisites for others. The LLM receives:
+Rather than using heuristic co-occurrence or temporal proximity alone, we use Gemini to understand **pedagogical intent** - which concepts the teacher presents as prerequisites for others. The LLM receives:
 - Concept names + timestamp ranges
 - The detected code-mixed language
 - Instructions to build a DAG with transitive reduction
@@ -168,7 +167,7 @@ This produces a clean prerequisite graph that reflects the teacher's intended le
 
 ### 5. Code-Mixing as a First-Class Signal
 
-Code-mixing is not just noise to be cleaned away — it's a **signal** about how educators teach. We compute:
+Code-mixing is not just noise to be cleaned away - it's a **signal** about how educators teach. We compute:
 - **CMI (Code-Mixing Index)** — standard sociolinguistic metric
 - **Script distribution** — Devanagari vs Latin vs Telugu etc.
 - **Romanised detection** — many videos use Latin-script Indic languages
@@ -184,16 +183,16 @@ The prerequisite graph is topologically sorted (with automatic cycle-breaking vi
 
 | # | Stage | Script | Input → Output |
 |---|-------|--------|-----------------|
-| 1 | Video Download | `video_downloader.py` | YouTube URLs → MP4 files (`data/videos/`) |
-| 2 | Audio Extraction | `audio_extractor.py` | MP4 → 16 kHz mono WAV (`data/audios/`) |
-| 3 | Speech-to-Text | `speech_to_text.py` | WAV → timestamped code-mixed + English JSON (`data/transcripts/`) |
-| 4 | Linguistic Standardisation | `linguistic_standardizer.py` | Raw transcripts → cleaned, lemmatised segments (`data/cleaned_transcripts/`) |
-| 4b | Code-Mix Analysis | `codemix_analyzer.py` | Cleaned transcripts → CMI, script stats, switch density (`data/analysis/`) |
-| 5 | Concept Extraction | `concept_extract.py` | Cleaned transcripts → concepts with timestamps (`data/concepts/`) |
-| 6 | Prerequisite Graph | `build_graph.py` | Concepts → LLM-powered pedagogical DAG (`data/graphs/`) |
-| 7 | Visualisation | `visualize_graph.py` | Graph JSON → interactive HTML, static PNG, GEXF, canonical JSON (`outputs/`) |
-| 8 | Learning Roadmap | `topological_sort.py` | Canonical JSON → topologically sorted study plan + flowchart PNG (`outputs/`) |
-| 9 | Code-Mix Visualisation | `visualize_codemix.py` | Analysis JSON → CMI profile + language distribution chart (`outputs/`) |
+| 1 | Video Download | `video_downloader.py` | YouTube URLs -> MP4 files (`data/videos/`) |
+| 2 | Audio Extraction | `audio_extractor.py` | MP4 -> 16 kHz mono WAV (`data/audios/`) |
+| 3 | Speech-to-Text | `speech_to_text.py` | WAV -> timestamped code-mixed + English JSON (`data/transcripts/`) |
+| 4 | Linguistic Standardisation | `linguistic_standardizer.py` | Raw transcripts -> cleaned, lemmatised segments (`data/cleaned_transcripts/`) |
+| 4b | Code-Mix Analysis | `codemix_analyzer.py` | Cleaned transcripts -> CMI, script stats, switch density (`data/analysis/`) |
+| 5 | Concept Extraction | `concept_extract.py` | Cleaned transcripts -> concepts with timestamps (`data/concepts/`) |
+| 6 | Prerequisite Graph | `build_graph.py` | Concepts -> LLM-powered pedagogical DAG (`data/graphs/`) |
+| 7 | Visualisation | `visualize_graph.py` | Graph JSON -> interactive HTML, static PNG, GEXF, canonical JSON (`outputs/`) |
+| 8 | Learning Roadmap | `topological_sort.py` | Canonical JSON -> topologically sorted study plan + flowchart PNG (`outputs/`) |
+| 9 | Code-Mix Visualisation | `visualize_codemix.py` | Analysis JSON -> CMI profile + language distribution chart (`outputs/`) |
 
 ---
 
