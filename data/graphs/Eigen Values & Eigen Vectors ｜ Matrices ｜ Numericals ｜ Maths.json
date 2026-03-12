@@ -1,0 +1,750 @@
+{
+    "nodes": [
+        {
+            "concept": "Matrix",
+            "time_references": [
+                [
+                    5.3,
+                    12.7
+                ],
+                [
+                    18.9,
+                    30.3
+                ],
+                [
+                    39.4,
+                    48.7
+                ],
+                [
+                    48.7,
+                    58.3
+                ],
+                [
+                    58.3,
+                    112.5
+                ],
+                [
+                    112.5,
+                    131.2
+                ],
+                [
+                    204.2,
+                    220.3
+                ],
+                [
+                    259.7,
+                    318.8
+                ],
+                [
+                    342.2,
+                    356.7
+                ],
+                [
+                    628.3,
+                    636.2
+                ],
+                [
+                    831.6,
+                    846.6
+                ],
+                [
+                    1009.4,
+                    1029.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 0
+        },
+        {
+            "concept": "Eigenvalues & Eigenvectors",
+            "time_references": [
+                [
+                    0.0,
+                    5.3
+                ],
+                [
+                    5.3,
+                    12.7
+                ],
+                [
+                    18.9,
+                    30.3
+                ],
+                [
+                    30.7,
+                    38.8
+                ],
+                [
+                    221.0,
+                    233.7
+                ],
+                [
+                    233.7,
+                    246.4
+                ],
+                [
+                    246.8,
+                    259.7
+                ],
+                [
+                    318.8,
+                    341.8
+                ],
+                [
+                    514.4,
+                    534.9
+                ],
+                [
+                    535.4,
+                    548.7
+                ],
+                [
+                    549.0,
+                    604.7
+                ],
+                [
+                    616.2,
+                    627.8
+                ],
+                [
+                    737.6,
+                    758.8
+                ],
+                [
+                    759.0,
+                    815.7
+                ],
+                [
+                    818.9,
+                    823.9
+                ],
+                [
+                    824.4,
+                    830.9
+                ],
+                [
+                    856.4,
+                    902.7
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    927.3,
+                    938.6
+                ],
+                [
+                    938.6,
+                    954.7
+                ],
+                [
+                    955.3,
+                    1008.7
+                ],
+                [
+                    1009.4,
+                    1029.9
+                ],
+                [
+                    1030.3,
+                    1053.4
+                ],
+                [
+                    1053.7,
+                    1120.9
+                ],
+                [
+                    1121.3,
+                    1127.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 1
+        },
+        {
+            "concept": "Identity Matrix",
+            "time_references": [
+                [
+                    48.7,
+                    58.3
+                ],
+                [
+                    58.3,
+                    112.5
+                ],
+                [
+                    259.7,
+                    318.8
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 2
+        },
+        {
+            "concept": "Lambda (\u03bb)",
+            "time_references": [
+                [
+                    39.4,
+                    48.7
+                ],
+                [
+                    48.7,
+                    58.3
+                ],
+                [
+                    58.3,
+                    112.5
+                ],
+                [
+                    112.5,
+                    131.2
+                ],
+                [
+                    131.6,
+                    148.7
+                ],
+                [
+                    149.0,
+                    203.9
+                ],
+                [
+                    204.2,
+                    220.3
+                ],
+                [
+                    233.7,
+                    246.4
+                ],
+                [
+                    246.8,
+                    259.7
+                ],
+                [
+                    318.8,
+                    341.8
+                ],
+                [
+                    342.2,
+                    356.7
+                ],
+                [
+                    535.4,
+                    548.7
+                ],
+                [
+                    549.0,
+                    604.7
+                ],
+                [
+                    616.2,
+                    627.8
+                ],
+                [
+                    628.3,
+                    636.2
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    955.3,
+                    1008.7
+                ],
+                [
+                    1053.7,
+                    1120.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 3
+        },
+        {
+            "concept": "Characteristic Equation",
+            "time_references": [
+                [
+                    39.4,
+                    48.7
+                ],
+                [
+                    149.0,
+                    203.9
+                ],
+                [
+                    246.8,
+                    259.7
+                ],
+                [
+                    318.8,
+                    341.8
+                ],
+                [
+                    420.7,
+                    434.9
+                ],
+                [
+                    503.6,
+                    513.9
+                ],
+                [
+                    549.0,
+                    604.7
+                ],
+                [
+                    657.0,
+                    709.2
+                ],
+                [
+                    709.2,
+                    726.6
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 4
+        },
+        {
+            "concept": "Determinant",
+            "time_references": [
+                [
+                    131.6,
+                    148.7
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 5
+        },
+        {
+            "concept": "Solving Characteristic Equation",
+            "time_references": [
+                [
+                    39.4,
+                    48.7
+                ],
+                [
+                    58.3,
+                    112.5
+                ],
+                [
+                    112.5,
+                    131.2
+                ],
+                [
+                    131.6,
+                    148.7
+                ],
+                [
+                    149.0,
+                    203.9
+                ],
+                [
+                    204.2,
+                    220.3
+                ],
+                [
+                    233.7,
+                    246.4
+                ],
+                [
+                    259.7,
+                    318.8
+                ],
+                [
+                    318.8,
+                    341.8
+                ],
+                [
+                    404.0,
+                    420.7
+                ],
+                [
+                    420.7,
+                    434.9
+                ],
+                [
+                    535.4,
+                    548.7
+                ],
+                [
+                    549.0,
+                    604.7
+                ],
+                [
+                    605.0,
+                    615.6
+                ],
+                [
+                    616.2,
+                    627.8
+                ],
+                [
+                    628.3,
+                    636.2
+                ],
+                [
+                    646.3,
+                    656.7
+                ],
+                [
+                    709.2,
+                    726.6
+                ],
+                [
+                    759.0,
+                    815.7
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    938.6,
+                    954.7
+                ],
+                [
+                    955.3,
+                    1008.7
+                ],
+                [
+                    1009.4,
+                    1029.9
+                ],
+                [
+                    1053.7,
+                    1120.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 6
+        },
+        {
+            "concept": "Eigenvector Components (X)",
+            "time_references": [
+                [
+                    318.8,
+                    341.8
+                ],
+                [
+                    342.2,
+                    356.7
+                ],
+                [
+                    357.0,
+                    403.2
+                ],
+                [
+                    404.0,
+                    420.7
+                ],
+                [
+                    503.6,
+                    513.9
+                ],
+                [
+                    514.4,
+                    534.9
+                ],
+                [
+                    616.2,
+                    627.8
+                ],
+                [
+                    628.3,
+                    636.2
+                ],
+                [
+                    737.6,
+                    758.8
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 7
+        },
+        {
+            "concept": "Constant (k)",
+            "time_references": [
+                [
+                    514.4,
+                    534.9
+                ],
+                [
+                    709.2,
+                    726.6
+                ],
+                [
+                    737.6,
+                    758.8
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 8
+        },
+        {
+            "concept": "General Method for Eigenvalues",
+            "time_references": [
+                [
+                    818.9,
+                    823.9
+                ],
+                [
+                    824.4,
+                    830.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 9
+        },
+        {
+            "concept": "Numerical Problems",
+            "time_references": [
+                [
+                    18.9,
+                    30.3
+                ],
+                [
+                    856.4,
+                    902.7
+                ],
+                [
+                    1121.3,
+                    1127.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 10
+        },
+        {
+            "concept": "Triangular Matrix",
+            "time_references": [
+                [
+                    831.6,
+                    846.6
+                ],
+                [
+                    846.6,
+                    855.9
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    927.3,
+                    938.6
+                ],
+                [
+                    938.6,
+                    954.7
+                ],
+                [
+                    955.3,
+                    1008.7
+                ],
+                [
+                    1009.4,
+                    1029.9
+                ],
+                [
+                    1053.7,
+                    1120.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 11
+        },
+        {
+            "concept": "Diagonal Elements",
+            "time_references": [
+                [
+                    131.6,
+                    148.7
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    938.6,
+                    954.7
+                ],
+                [
+                    955.3,
+                    1008.7
+                ],
+                [
+                    1009.4,
+                    1029.9
+                ],
+                [
+                    1053.7,
+                    1120.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 12
+        },
+        {
+            "concept": "Conditions for Shortcut",
+            "time_references": [
+                [
+                    831.6,
+                    846.6
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    955.3,
+                    1008.7
+                ],
+                [
+                    1009.4,
+                    1029.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 13
+        },
+        {
+            "concept": "Shortcut Method for Eigenvalues",
+            "time_references": [
+                [
+                    824.4,
+                    830.9
+                ],
+                [
+                    831.6,
+                    846.6
+                ],
+                [
+                    846.6,
+                    855.9
+                ],
+                [
+                    903.3,
+                    926.7
+                ],
+                [
+                    927.3,
+                    938.6
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 14
+        },
+        {
+            "concept": "Power of Matrix",
+            "time_references": [
+                [
+                    1030.3,
+                    1053.4
+                ],
+                [
+                    1053.7,
+                    1120.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 15
+        }
+    ],
+    "edges": [
+        {
+            "source": "Matrix",
+            "target": "Eigenvalues & Eigenvectors",
+            "explanation": "Eigenvalues and Eigenvectors are properties derived from a Matrix.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Matrix",
+            "target": "Identity Matrix",
+            "explanation": "The Identity Matrix is a special type of Matrix used in eigenvalue calculations.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Identity Matrix",
+            "target": "Characteristic Equation",
+            "explanation": "The Characteristic Equation is formulated using the Identity Matrix (A - \u03bbI).",
+            "confidence": 1.0
+        },
+        {
+            "source": "Lambda (\u03bb)",
+            "target": "Characteristic Equation",
+            "explanation": "Lambda (\u03bb) represents the unknown eigenvalue in the Characteristic Equation.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Characteristic Equation",
+            "target": "Determinant",
+            "explanation": "The Characteristic Equation involves setting the Determinant of (A - \u03bbI) to zero.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Determinant",
+            "target": "Solving Characteristic Equation",
+            "explanation": "Solving the Determinant of (A - \u03bbI) = 0 leads to finding the eigenvalues.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Solving Characteristic Equation",
+            "target": "Eigenvector Components (X)",
+            "explanation": "Once eigenvalues are found, they are used to solve for the Eigenvector Components (X).",
+            "confidence": 1.0
+        },
+        {
+            "source": "Eigenvector Components (X)",
+            "target": "Constant (k)",
+            "explanation": "Eigenvectors are often expressed with a scalar Constant (k).",
+            "confidence": 1.0
+        },
+        {
+            "source": "Eigenvalues & Eigenvectors",
+            "target": "General Method for Eigenvalues",
+            "explanation": "The General Method is a standard approach to find Eigenvalues.",
+            "confidence": 1.0
+        },
+        {
+            "source": "General Method for Eigenvalues",
+            "target": "Numerical Problems",
+            "explanation": "Numerical Problems are solved by applying the General Method for Eigenvalues.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Matrix",
+            "target": "Triangular Matrix",
+            "explanation": "A Triangular Matrix is a specific type of Matrix.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Triangular Matrix",
+            "target": "Diagonal Elements",
+            "explanation": "Diagonal Elements are key features of a Triangular Matrix.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Diagonal Elements",
+            "target": "Conditions for Shortcut",
+            "explanation": "The Conditions for Shortcut methods often depend on the Diagonal Elements of a matrix.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Conditions for Shortcut",
+            "target": "Shortcut Method for Eigenvalues",
+            "explanation": "The Shortcut Method for Eigenvalues can be applied if certain Conditions are met.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Triangular Matrix",
+            "target": "Shortcut Method for Eigenvalues",
+            "explanation": "The Shortcut Method for Eigenvalues is particularly applicable to Triangular Matrices.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Eigenvalues & Eigenvectors",
+            "target": "Power of Matrix",
+            "explanation": "Eigenvalues are used in calculations involving the Power of a Matrix.",
+            "confidence": 1.0
+        }
+    ]
+}

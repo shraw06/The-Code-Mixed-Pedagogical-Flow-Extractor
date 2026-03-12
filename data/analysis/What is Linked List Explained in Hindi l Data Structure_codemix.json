@@ -1,0 +1,85 @@
+{
+  "video": "What is Linked List Explained in Hindi l Data Structure",
+  "total_segments": 5,
+  "total_words": 2594,
+  "global_cmi": 0.0,
+  "switch_density_per_100_words": 0.0,
+  "matrix_script": "LATIN",
+  "matrix_language": "English/Romanised",
+  "embedded_scripts": {},
+  "is_mostly_romanised": true,
+  "romanised_segment_fraction": 1.0,
+  "language_label_distribution": {
+    "Hindi-English": 5
+  },
+  "script_distribution": {
+    "LATIN": 2588
+  },
+  "segment_analyses": [
+    {
+      "start": 0.0,
+      "end": 10.2,
+      "language": "Hindi-English",
+      "n_words": 40,
+      "script_counts": {
+        "LATIN": 40
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 10.2,
+      "end": 22.3,
+      "language": "Hindi-English",
+      "n_words": 49,
+      "script_counts": {
+        "LATIN": 49
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 22.3,
+      "end": 33.7,
+      "language": "Hindi-English",
+      "n_words": 44,
+      "script_counts": {
+        "LATIN": 44
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 33.7,
+      "end": 48.7,
+      "language": "Hindi-English",
+      "n_words": 56,
+      "script_counts": {
+        "LATIN": 56
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 48.7,
+      "end": 100.4,
+      "language": "Hindi-English",
+      "n_words": 2405,
+      "script_counts": {
+        "LATIN": 2399
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    }
+  ]
+}

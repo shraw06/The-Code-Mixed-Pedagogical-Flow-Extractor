@@ -1,0 +1,1431 @@
+{
+  "video": "What is Python｜ History of Python｜ Why we learn Python in Tamil-Python Series Part 1",
+  "nodes": [
+    {
+      "id": "Interpreted Language",
+      "concept": "Interpreted Language",
+      "start": 37.43,
+      "end": 111.23,
+      "avg_t": 63.063,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 37.43,
+          "end": 42.73
+        },
+        {
+          "start": 44.03,
+          "end": 50.03
+        },
+        {
+          "start": 107.73,
+          "end": 111.23
+        }
+      ]
+    },
+    {
+      "id": "History of Python",
+      "concept": "History of Python",
+      "start": 17.03,
+      "end": 221.63,
+      "avg_t": 118.53,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 17.03,
+          "end": 27.63
+        },
+        {
+          "start": 220.03,
+          "end": 221.63
+        }
+      ]
+    },
+    {
+      "id": "Output",
+      "concept": "Output",
+      "start": 116.43,
+      "end": 134.93,
+      "avg_t": 122.43,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 116.43,
+          "end": 124.03
+        },
+        {
+          "start": 128.43,
+          "end": 134.93
+        }
+      ]
+    },
+    {
+      "id": "IDE/Editor",
+      "concept": "IDE/Editor",
+      "start": 128.43,
+      "end": 134.93,
+      "avg_t": 128.43,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 128.43,
+          "end": 134.93
+        }
+      ]
+    },
+    {
+      "id": "Interpreter",
+      "concept": "Interpreter",
+      "start": 44.03,
+      "end": 405.93,
+      "avg_t": 137.13,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 44.03,
+          "end": 50.03
+        },
+        {
+          "start": 51.03,
+          "end": 52.13
+        },
+        {
+          "start": 54.43,
+          "end": 103.73
+        },
+        {
+          "start": 399.03,
+          "end": 405.93
+        }
+      ]
+    },
+    {
+      "id": "Web Development",
+      "concept": "Web Development",
+      "start": 156.53,
+      "end": 166.73,
+      "avg_t": 156.53,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 156.53,
+          "end": 166.73
+        }
+      ]
+    },
+    {
+      "id": "Game Development",
+      "concept": "Game Development",
+      "start": 156.53,
+      "end": 166.73,
+      "avg_t": 156.53,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 156.53,
+          "end": 166.73
+        }
+      ]
+    },
+    {
+      "id": "Mobile Application Development",
+      "concept": "Mobile Application Development",
+      "start": 156.53,
+      "end": 166.73,
+      "avg_t": 156.53,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 156.53,
+          "end": 166.73
+        }
+      ]
+    },
+    {
+      "id": "Programming Paradigms",
+      "concept": "Programming Paradigms",
+      "start": 168.53,
+      "end": 177.53,
+      "avg_t": 168.53,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 168.53,
+          "end": 177.53
+        }
+      ]
+    },
+    {
+      "id": "Object-Oriented Programming (OOP)",
+      "concept": "Object-Oriented Programming (OOP)",
+      "start": 37.43,
+      "end": 481.93,
+      "avg_t": 193.63,
+      "freq": 5,
+      "time_references": [
+        {
+          "start": 37.43,
+          "end": 42.73
+        },
+        {
+          "start": 136.43,
+          "end": 146.63
+        },
+        {
+          "start": 147.43,
+          "end": 151.43
+        },
+        {
+          "start": 168.53,
+          "end": 177.53
+        },
+        {
+          "start": 478.33,
+          "end": 481.93
+        }
+      ]
+    },
+    {
+      "id": "ABC Language",
+      "concept": "ABC Language",
+      "start": 235.33,
+      "end": 261.83,
+      "avg_t": 246.18,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 235.33,
+          "end": 241.83
+        },
+        {
+          "start": 257.03,
+          "end": 261.83
+        }
+      ]
+    },
+    {
+      "id": "Guido van Rossum",
+      "concept": "Guido van Rossum",
+      "start": 223.43,
+      "end": 308.83,
+      "avg_t": 267.83,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 223.43,
+          "end": 234.43
+        },
+        {
+          "start": 281.43,
+          "end": 286.03
+        },
+        {
+          "start": 298.63,
+          "end": 308.83
+        }
+      ]
+    },
+    {
+      "id": "Programmer",
+      "concept": "Programmer",
+      "start": 54.43,
+      "end": 493.93,
+      "avg_t": 275.355,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 54.43,
+          "end": 103.73
+        },
+        {
+          "start": 223.43,
+          "end": 234.43
+        },
+        {
+          "start": 335.93,
+          "end": 342.93
+        },
+        {
+          "start": 487.63,
+          "end": 493.93
+        }
+      ]
+    },
+    {
+      "id": "Python 2",
+      "concept": "Python 2",
+      "start": 298.63,
+      "end": 308.83,
+      "avg_t": 298.63,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 298.63,
+          "end": 308.83
+        }
+      ]
+    },
+    {
+      "id": "List Comprehension",
+      "concept": "List Comprehension",
+      "start": 308.83,
+      "end": 313.33,
+      "avg_t": 308.83,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 308.83,
+          "end": 313.33
+        }
+      ]
+    },
+    {
+      "id": "Garbage Collection",
+      "concept": "Garbage Collection",
+      "start": 308.83,
+      "end": 313.33,
+      "avg_t": 308.83,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 308.83,
+          "end": 313.33
+        }
+      ]
+    },
+    {
+      "id": "Python 3",
+      "concept": "Python 3",
+      "start": 313.33,
+      "end": 323.43,
+      "avg_t": 316.03,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 313.33,
+          "end": 318.73
+        },
+        {
+          "start": 318.73,
+          "end": 323.43
+        }
+      ]
+    },
+    {
+      "id": "Programming Language",
+      "concept": "Programming Language",
+      "start": 17.03,
+      "end": 648.73,
+      "avg_t": 320.508,
+      "freq": 36,
+      "time_references": [
+        {
+          "start": 17.03,
+          "end": 27.63
+        },
+        {
+          "start": 35.03,
+          "end": 36.63
+        },
+        {
+          "start": 37.43,
+          "end": 42.73
+        },
+        {
+          "start": 44.03,
+          "end": 50.03
+        },
+        {
+          "start": 54.43,
+          "end": 103.73
+        },
+        {
+          "start": 107.73,
+          "end": 111.23
+        },
+        {
+          "start": 147.43,
+          "end": 151.43
+        },
+        {
+          "start": 153.03,
+          "end": 155.93
+        },
+        {
+          "start": 168.53,
+          "end": 177.53
+        },
+        {
+          "start": 235.33,
+          "end": 241.83
+        },
+        {
+          "start": 242.73,
+          "end": 248.23
+        },
+        {
+          "start": 248.93,
+          "end": 256.43
+        },
+        {
+          "start": 257.03,
+          "end": 261.83
+        },
+        {
+          "start": 263.63,
+          "end": 268.63
+        },
+        {
+          "start": 287.43,
+          "end": 296.63
+        },
+        {
+          "start": 298.63,
+          "end": 308.83
+        },
+        {
+          "start": 325.43,
+          "end": 329.03
+        },
+        {
+          "start": 330.63,
+          "end": 335.63
+        },
+        {
+          "start": 354.33,
+          "end": 358.03
+        },
+        {
+          "start": 358.83,
+          "end": 363.03
+        },
+        {
+          "start": 369.83,
+          "end": 374.73
+        },
+        {
+          "start": 375.43,
+          "end": 382.43
+        },
+        {
+          "start": 386.33,
+          "end": 387.93
+        },
+        {
+          "start": 388.93,
+          "end": 396.03
+        },
+        {
+          "start": 399.03,
+          "end": 405.93
+        },
+        {
+          "start": 427.23,
+          "end": 431.43
+        },
+        {
+          "start": 438.53,
+          "end": 441.03
+        },
+        {
+          "start": 468.23,
+          "end": 474.63
+        },
+        {
+          "start": 487.63,
+          "end": 493.93
+        },
+        {
+          "start": 498.03,
+          "end": 503.63
+        },
+        {
+          "start": 504.23,
+          "end": 509.93
+        },
+        {
+          "start": 515.83,
+          "end": 519.63
+        },
+        {
+          "start": 525.63,
+          "end": 535.03
+        },
+        {
+          "start": 566.73,
+          "end": 573.93
+        },
+        {
+          "start": 575.03,
+          "end": 584.63
+        },
+        {
+          "start": 644.03,
+          "end": 648.73
+        }
+      ]
+    },
+    {
+      "id": "Software Development",
+      "concept": "Software Development",
+      "start": 156.53,
+      "end": 535.03,
+      "avg_t": 341.08,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 156.53,
+          "end": 166.73
+        },
+        {
+          "start": 525.63,
+          "end": 535.03
+        }
+      ]
+    },
+    {
+      "id": "Code Execution",
+      "concept": "Code Execution",
+      "start": 44.03,
+      "end": 509.93,
+      "avg_t": 345.68,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 44.03,
+          "end": 50.03
+        },
+        {
+          "start": 412.63,
+          "end": 416.73
+        },
+        {
+          "start": 421.83,
+          "end": 426.33
+        },
+        {
+          "start": 504.23,
+          "end": 509.93
+        }
+      ]
+    },
+    {
+      "id": "Why Learn Python",
+      "concept": "Why Learn Python",
+      "start": 17.03,
+      "end": 683.03,
+      "avg_t": 346.316,
+      "freq": 7,
+      "time_references": [
+        {
+          "start": 17.03,
+          "end": 27.63
+        },
+        {
+          "start": 325.43,
+          "end": 329.03
+        },
+        {
+          "start": 330.63,
+          "end": 335.63
+        },
+        {
+          "start": 335.93,
+          "end": 342.93
+        },
+        {
+          "start": 366.63,
+          "end": 369.03
+        },
+        {
+          "start": 369.83,
+          "end": 374.73
+        },
+        {
+          "start": 678.73,
+          "end": 683.03
+        }
+      ]
+    },
+    {
+      "id": "Data Types",
+      "concept": "Data Types",
+      "start": 344.63,
+      "end": 353.93,
+      "avg_t": 346.43,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 344.63,
+          "end": 347.63
+        },
+        {
+          "start": 348.23,
+          "end": 353.93
+        }
+      ]
+    },
+    {
+      "id": "Python",
+      "concept": "Python",
+      "start": 17.03,
+      "end": 653.73,
+      "avg_t": 353.873,
+      "freq": 46,
+      "time_references": [
+        {
+          "start": 17.03,
+          "end": 27.63
+        },
+        {
+          "start": 35.03,
+          "end": 36.63
+        },
+        {
+          "start": 44.03,
+          "end": 50.03
+        },
+        {
+          "start": 54.43,
+          "end": 103.73
+        },
+        {
+          "start": 107.73,
+          "end": 111.23
+        },
+        {
+          "start": 116.43,
+          "end": 124.03
+        },
+        {
+          "start": 136.43,
+          "end": 146.63
+        },
+        {
+          "start": 147.43,
+          "end": 151.43
+        },
+        {
+          "start": 153.03,
+          "end": 155.93
+        },
+        {
+          "start": 156.53,
+          "end": 166.73
+        },
+        {
+          "start": 168.53,
+          "end": 177.53
+        },
+        {
+          "start": 220.03,
+          "end": 221.63
+        },
+        {
+          "start": 263.63,
+          "end": 268.63
+        },
+        {
+          "start": 276.73,
+          "end": 280.63
+        },
+        {
+          "start": 287.43,
+          "end": 296.63
+        },
+        {
+          "start": 298.63,
+          "end": 308.83
+        },
+        {
+          "start": 308.83,
+          "end": 313.33
+        },
+        {
+          "start": 313.33,
+          "end": 318.73
+        },
+        {
+          "start": 318.73,
+          "end": 323.43
+        },
+        {
+          "start": 325.43,
+          "end": 329.03
+        },
+        {
+          "start": 330.63,
+          "end": 335.63
+        },
+        {
+          "start": 344.63,
+          "end": 347.63
+        },
+        {
+          "start": 358.83,
+          "end": 363.03
+        },
+        {
+          "start": 369.83,
+          "end": 374.73
+        },
+        {
+          "start": 388.93,
+          "end": 396.03
+        },
+        {
+          "start": 399.03,
+          "end": 405.93
+        },
+        {
+          "start": 409.53,
+          "end": 412.03
+        },
+        {
+          "start": 412.63,
+          "end": 416.73
+        },
+        {
+          "start": 427.23,
+          "end": 431.43
+        },
+        {
+          "start": 438.53,
+          "end": 441.03
+        },
+        {
+          "start": 443.73,
+          "end": 448.03
+        },
+        {
+          "start": 451.03,
+          "end": 459.03
+        },
+        {
+          "start": 478.33,
+          "end": 481.93
+        },
+        {
+          "start": 487.63,
+          "end": 493.93
+        },
+        {
+          "start": 498.03,
+          "end": 503.63
+        },
+        {
+          "start": 504.23,
+          "end": 509.93
+        },
+        {
+          "start": 515.83,
+          "end": 519.63
+        },
+        {
+          "start": 525.63,
+          "end": 535.03
+        },
+        {
+          "start": 541.93,
+          "end": 545.33
+        },
+        {
+          "start": 552.73,
+          "end": 563.23
+        },
+        {
+          "start": 566.73,
+          "end": 573.93
+        },
+        {
+          "start": 575.03,
+          "end": 584.63
+        },
+        {
+          "start": 604.33,
+          "end": 609.93
+        },
+        {
+          "start": 610.73,
+          "end": 618.03
+        },
+        {
+          "start": 644.03,
+          "end": 648.73
+        },
+        {
+          "start": 649.03,
+          "end": 653.73
+        }
+      ]
+    },
+    {
+      "id": "Dynamic Typing",
+      "concept": "Dynamic Typing",
+      "start": 354.33,
+      "end": 358.03,
+      "avg_t": 354.33,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 354.33,
+          "end": 358.03
+        }
+      ]
+    },
+    {
+      "id": "High-Level Language",
+      "concept": "High-Level Language",
+      "start": 369.83,
+      "end": 396.03,
+      "avg_t": 379.38,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 369.83,
+          "end": 374.73
+        },
+        {
+          "start": 388.93,
+          "end": 396.03
+        }
+      ]
+    },
+    {
+      "id": "Easy to Learn",
+      "concept": "Easy to Learn",
+      "start": 330.63,
+      "end": 535.03,
+      "avg_t": 388.087,
+      "freq": 7,
+      "time_references": [
+        {
+          "start": 330.63,
+          "end": 335.63
+        },
+        {
+          "start": 335.93,
+          "end": 342.93
+        },
+        {
+          "start": 366.63,
+          "end": 369.03
+        },
+        {
+          "start": 369.83,
+          "end": 374.73
+        },
+        {
+          "start": 388.93,
+          "end": 396.03
+        },
+        {
+          "start": 399.03,
+          "end": 405.93
+        },
+        {
+          "start": 525.63,
+          "end": 535.03
+        }
+      ]
+    },
+    {
+      "id": "Readability",
+      "concept": "Readability",
+      "start": 388.93,
+      "end": 396.03,
+      "avg_t": 388.93,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 388.93,
+          "end": 396.03
+        }
+      ]
+    },
+    {
+      "id": "Debugging",
+      "concept": "Debugging",
+      "start": 399.03,
+      "end": 405.93,
+      "avg_t": 399.03,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 399.03,
+          "end": 405.93
+        }
+      ]
+    },
+    {
+      "id": "Cross-Platform",
+      "concept": "Cross-Platform",
+      "start": 407.43,
+      "end": 431.43,
+      "avg_t": 415.897,
+      "freq": 6,
+      "time_references": [
+        {
+          "start": 407.43,
+          "end": 408.63
+        },
+        {
+          "start": 409.53,
+          "end": 412.03
+        },
+        {
+          "start": 412.63,
+          "end": 416.73
+        },
+        {
+          "start": 416.73,
+          "end": 421.43
+        },
+        {
+          "start": 421.83,
+          "end": 426.33
+        },
+        {
+          "start": 427.23,
+          "end": 431.43
+        }
+      ]
+    },
+    {
+      "id": "Syntax",
+      "concept": "Syntax",
+      "start": 335.93,
+      "end": 496.73,
+      "avg_t": 426.68,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 335.93,
+          "end": 342.93
+        },
+        {
+          "start": 388.93,
+          "end": 396.03
+        },
+        {
+          "start": 487.63,
+          "end": 493.93
+        },
+        {
+          "start": 494.23,
+          "end": 496.73
+        }
+      ]
+    },
+    {
+      "id": "Developer Friendly",
+      "concept": "Developer Friendly",
+      "start": 375.43,
+      "end": 535.03,
+      "avg_t": 450.53,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 375.43,
+          "end": 382.43
+        },
+        {
+          "start": 525.63,
+          "end": 535.03
+        }
+      ]
+    },
+    {
+      "id": "Open-Source",
+      "concept": "Open-Source",
+      "start": 435.33,
+      "end": 477.03,
+      "avg_t": 454.18,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 435.33,
+          "end": 437.03
+        },
+        {
+          "start": 438.53,
+          "end": 441.03
+        },
+        {
+          "start": 468.23,
+          "end": 474.63
+        },
+        {
+          "start": 474.63,
+          "end": 477.03
+        }
+      ]
+    },
+    {
+      "id": "Installation",
+      "concept": "Installation",
+      "start": 441.83,
+      "end": 477.03,
+      "avg_t": 455.713,
+      "freq": 6,
+      "time_references": [
+        {
+          "start": 441.83,
+          "end": 443.33
+        },
+        {
+          "start": 443.73,
+          "end": 448.03
+        },
+        {
+          "start": 451.03,
+          "end": 459.03
+        },
+        {
+          "start": 459.73,
+          "end": 462.93
+        },
+        {
+          "start": 463.33,
+          "end": 465.93
+        },
+        {
+          "start": 474.63,
+          "end": 477.03
+        }
+      ]
+    },
+    {
+      "id": "Extensive Libraries",
+      "concept": "Extensive Libraries",
+      "start": 358.83,
+      "end": 563.23,
+      "avg_t": 472.73,
+      "freq": 7,
+      "time_references": [
+        {
+          "start": 358.83,
+          "end": 363.03
+        },
+        {
+          "start": 375.43,
+          "end": 382.43
+        },
+        {
+          "start": 468.23,
+          "end": 474.63
+        },
+        {
+          "start": 512.43,
+          "end": 515.03
+        },
+        {
+          "start": 515.83,
+          "end": 519.63
+        },
+        {
+          "start": 525.63,
+          "end": 535.03
+        },
+        {
+          "start": 552.73,
+          "end": 563.23
+        }
+      ]
+    },
+    {
+      "id": "Extensibility",
+      "concept": "Extensibility",
+      "start": 487.63,
+      "end": 493.93,
+      "avg_t": 487.63,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 487.63,
+          "end": 493.93
+        }
+      ]
+    },
+    {
+      "id": "GUI Development",
+      "concept": "GUI Development",
+      "start": 537.33,
+      "end": 563.23,
+      "avg_t": 543.61,
+      "freq": 5,
+      "time_references": [
+        {
+          "start": 537.33,
+          "end": 539.03
+        },
+        {
+          "start": 540.03,
+          "end": 541.33
+        },
+        {
+          "start": 541.93,
+          "end": 545.33
+        },
+        {
+          "start": 546.03,
+          "end": 551.93
+        },
+        {
+          "start": 552.73,
+          "end": 563.23
+        }
+      ]
+    },
+    {
+      "id": "Integration with other languages",
+      "concept": "Integration with other languages",
+      "start": 566.73,
+      "end": 573.93,
+      "avg_t": 566.73,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 566.73,
+          "end": 573.93
+        }
+      ]
+    },
+    {
+      "id": "Widespread Use",
+      "concept": "Widespread Use",
+      "start": 575.03,
+      "end": 584.63,
+      "avg_t": 575.03,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 575.03,
+          "end": 584.63
+        }
+      ]
+    },
+    {
+      "id": "Search Techniques",
+      "concept": "Search Techniques",
+      "start": 587.53,
+      "end": 667.33,
+      "avg_t": 624.961,
+      "freq": 16,
+      "time_references": [
+        {
+          "start": 587.53,
+          "end": 591.33
+        },
+        {
+          "start": 592.23,
+          "end": 595.63
+        },
+        {
+          "start": 596.23,
+          "end": 597.63
+        },
+        {
+          "start": 598.43,
+          "end": 603.43
+        },
+        {
+          "start": 604.33,
+          "end": 609.93
+        },
+        {
+          "start": 610.73,
+          "end": 618.03
+        },
+        {
+          "start": 618.03,
+          "end": 621.23
+        },
+        {
+          "start": 622.03,
+          "end": 628.73
+        },
+        {
+          "start": 629.03,
+          "end": 632.23
+        },
+        {
+          "start": 634.43,
+          "end": 638.33
+        },
+        {
+          "start": 639.03,
+          "end": 643.73
+        },
+        {
+          "start": 644.03,
+          "end": 648.73
+        },
+        {
+          "start": 649.03,
+          "end": 653.73
+        },
+        {
+          "start": 654.33,
+          "end": 658.33
+        },
+        {
+          "start": 659.23,
+          "end": 660.33
+        },
+        {
+          "start": 660.73,
+          "end": 667.33
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Python",
+      "target": "History of Python",
+      "weight": 1,
+      "explanation": "The video discusses the history of Python."
+    },
+    {
+      "source": "Python",
+      "target": "Programmer",
+      "weight": 1,
+      "explanation": "Python is a tool used by programmers."
+    },
+    {
+      "source": "Python",
+      "target": "Programming Language",
+      "weight": 1,
+      "explanation": "Python is introduced as a type of programming language."
+    },
+    {
+      "source": "Python",
+      "target": "Why Learn Python",
+      "weight": 1,
+      "explanation": "The video explains the reasons to learn Python."
+    },
+    {
+      "source": "Python",
+      "target": "Software Development",
+      "weight": 1,
+      "explanation": "Python is used for various types of software development."
+    },
+    {
+      "source": "Programming Language",
+      "target": "Interpreted Language",
+      "weight": 1,
+      "explanation": "Interpreted language is a characteristic of Python as a programming language."
+    },
+    {
+      "source": "Programming Language",
+      "target": "Data Types",
+      "weight": 1,
+      "explanation": "Data types are fundamental concepts in any programming language."
+    },
+    {
+      "source": "Programming Language",
+      "target": "Programming Paradigms",
+      "weight": 1,
+      "explanation": "Python supports various programming paradigms."
+    },
+    {
+      "source": "Programming Language",
+      "target": "High-Level Language",
+      "weight": 1,
+      "explanation": "Python is characterized as a high-level programming language."
+    },
+    {
+      "source": "Programming Language",
+      "target": "Object-Oriented Programming (OOP)",
+      "weight": 1,
+      "explanation": "OOP is a paradigm supported by Python."
+    },
+    {
+      "source": "Programming Language",
+      "target": "Syntax",
+      "weight": 1,
+      "explanation": "Every programming language has its own syntax."
+    },
+    {
+      "source": "Interpreted Language",
+      "target": "Interpreter",
+      "weight": 1,
+      "explanation": "Interpreted languages use an interpreter for execution."
+    },
+    {
+      "source": "Interpreter",
+      "target": "Code Execution",
+      "weight": 1,
+      "explanation": "The interpreter is responsible for code execution."
+    },
+    {
+      "source": "Interpreter",
+      "target": "Debugging",
+      "weight": 1,
+      "explanation": "Interpreters can provide immediate feedback, aiding debugging."
+    },
+    {
+      "source": "Code Execution",
+      "target": "Output",
+      "weight": 1,
+      "explanation": "Code execution produces an output."
+    },
+    {
+      "source": "Code Execution",
+      "target": "IDE/Editor",
+      "weight": 1,
+      "explanation": "Code is written and executed in an IDE or editor."
+    },
+    {
+      "source": "High-Level Language",
+      "target": "Easy to Learn",
+      "weight": 1,
+      "explanation": "Being a high-level language contributes to Python's ease of learning."
+    },
+    {
+      "source": "Data Types",
+      "target": "Dynamic Typing",
+      "weight": 1,
+      "explanation": "Python uses dynamic typing for its data types."
+    },
+    {
+      "source": "Syntax",
+      "target": "Easy to Learn",
+      "weight": 1,
+      "explanation": "Simple syntax makes Python easy to learn."
+    },
+    {
+      "source": "History of Python",
+      "target": "Guido van Rossum",
+      "weight": 1,
+      "explanation": "Guido van Rossum is the creator of Python."
+    },
+    {
+      "source": "History of Python",
+      "target": "Python 2",
+      "weight": 1,
+      "explanation": "Python 2 is an important version in Python's history."
+    },
+    {
+      "source": "Guido van Rossum",
+      "target": "ABC Language",
+      "weight": 1,
+      "explanation": "ABC Language was a predecessor that influenced Guido van Rossum."
+    },
+    {
+      "source": "Python 2",
+      "target": "Python 3",
+      "weight": 1,
+      "explanation": "Python 3 is the successor to Python 2."
+    },
+    {
+      "source": "Python 2",
+      "target": "Garbage Collection",
+      "weight": 1,
+      "explanation": "Garbage collection is a feature in Python 2 (and 3)."
+    },
+    {
+      "source": "Python 2",
+      "target": "List Comprehension",
+      "weight": 1,
+      "explanation": "List comprehension was a feature in Python 2 (and 3)."
+    },
+    {
+      "source": "Why Learn Python",
+      "target": "Widespread Use",
+      "weight": 1,
+      "explanation": "Python's widespread use makes it valuable to learn."
+    },
+    {
+      "source": "Why Learn Python",
+      "target": "Easy to Learn",
+      "weight": 1,
+      "explanation": "Python is easy to learn, which is a reason to learn it."
+    },
+    {
+      "source": "Why Learn Python",
+      "target": "Extensibility",
+      "weight": 1,
+      "explanation": "Python's extensibility is a reason to learn it."
+    },
+    {
+      "source": "Why Learn Python",
+      "target": "Cross-Platform",
+      "weight": 1,
+      "explanation": "Cross-platform compatibility is a benefit of Python."
+    },
+    {
+      "source": "Why Learn Python",
+      "target": "Extensive Libraries",
+      "weight": 1,
+      "explanation": "Extensive libraries are a major advantage of Python."
+    },
+    {
+      "source": "Why Learn Python",
+      "target": "Open-Source",
+      "weight": 1,
+      "explanation": "Python being open-source is an advantage."
+    },
+    {
+      "source": "Easy to Learn",
+      "target": "Readability",
+      "weight": 1,
+      "explanation": "Python's readability makes it easy to learn."
+    },
+    {
+      "source": "Easy to Learn",
+      "target": "Developer Friendly",
+      "weight": 1,
+      "explanation": "Python's ease of use makes it developer friendly."
+    },
+    {
+      "source": "Developer Friendly",
+      "target": "Debugging",
+      "weight": 1,
+      "explanation": "Python's developer-friendly nature aids in debugging."
+    },
+    {
+      "source": "Widespread Use",
+      "target": "Integration with other languages",
+      "weight": 1,
+      "explanation": "Python's ability to integrate with other languages contributes to its widespread use."
+    },
+    {
+      "source": "Software Development",
+      "target": "Game Development",
+      "weight": 1,
+      "explanation": "Game development is a specific application of Python in software development."
+    },
+    {
+      "source": "Software Development",
+      "target": "Mobile Application Development",
+      "weight": 1,
+      "explanation": "Mobile application development is a specific application of Python in software development."
+    },
+    {
+      "source": "Software Development",
+      "target": "GUI Development",
+      "weight": 1,
+      "explanation": "GUI development is a specific application of Python in software development."
+    },
+    {
+      "source": "Software Development",
+      "target": "Web Development",
+      "weight": 1,
+      "explanation": "Web development is a specific application of Python in software development."
+    },
+    {
+      "source": "Programmer",
+      "target": "Search Techniques",
+      "weight": 1,
+      "explanation": "Programmers use search techniques for learning and problem-solving."
+    },
+    {
+      "source": "Programmer",
+      "target": "Installation",
+      "weight": 1,
+      "explanation": "Programmers need to install Python to use it."
+    }
+  ]
+}

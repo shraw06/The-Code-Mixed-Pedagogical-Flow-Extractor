@@ -1,0 +1,369 @@
+{
+  "video": "What is Linked List Explained in Hindi l Data Structure",
+  "nodes": [
+    {
+      "id": "Data Structure",
+      "concept": "Data Structure",
+      "start": 0.0,
+      "end": 100.4,
+      "avg_t": 20.3,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.2
+        },
+        {
+          "start": 10.2,
+          "end": 22.3
+        },
+        {
+          "start": 22.3,
+          "end": 33.7
+        },
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Linked List",
+      "concept": "Linked List",
+      "start": 0.0,
+      "end": 100.4,
+      "avg_t": 20.3,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.2
+        },
+        {
+          "start": 10.2,
+          "end": 22.3
+        },
+        {
+          "start": 22.3,
+          "end": 33.7
+        },
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Data Element",
+      "concept": "Data Element",
+      "start": 0.0,
+      "end": 100.4,
+      "avg_t": 20.3,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.2
+        },
+        {
+          "start": 10.2,
+          "end": 22.3
+        },
+        {
+          "start": 22.3,
+          "end": 33.7
+        },
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Link Field",
+      "concept": "Link Field",
+      "start": 0.0,
+      "end": 100.4,
+      "avg_t": 20.3,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.2
+        },
+        {
+          "start": 10.2,
+          "end": 22.3
+        },
+        {
+          "start": 22.3,
+          "end": 33.7
+        },
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Important Terminology",
+      "concept": "Important Terminology",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Node",
+      "concept": "Node",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Address",
+      "concept": "Address",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Head Pointer",
+      "concept": "Head Pointer",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Null",
+      "concept": "Null",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Basic Representation",
+      "concept": "Basic Representation",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Sequence",
+      "concept": "Sequence",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Array",
+      "concept": "Array",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Access",
+      "concept": "Access",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Operations",
+      "concept": "Operations",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Implementation",
+      "concept": "Implementation",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "id": "Circular Linked List",
+      "concept": "Circular Linked List",
+      "start": 48.7,
+      "end": 100.4,
+      "avg_t": 48.7,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 100.4
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Data Structure",
+      "target": "Linked List",
+      "weight": 1,
+      "explanation": "Linked List is a type of Data Structure."
+    },
+    {
+      "source": "Linked List",
+      "target": "Array",
+      "weight": 1,
+      "explanation": "Linked Lists are often contrasted with Arrays."
+    },
+    {
+      "source": "Linked List",
+      "target": "Important Terminology",
+      "weight": 1,
+      "explanation": "Important terminology is introduced for Linked Lists."
+    },
+    {
+      "source": "Important Terminology",
+      "target": "Node",
+      "weight": 1,
+      "explanation": "Node is an important term related to Linked Lists."
+    },
+    {
+      "source": "Important Terminology",
+      "target": "Head Pointer",
+      "weight": 1,
+      "explanation": "Head Pointer is an important term related to Linked Lists."
+    },
+    {
+      "source": "Node",
+      "target": "Data Element",
+      "weight": 1,
+      "explanation": "A Node contains a Data Element."
+    },
+    {
+      "source": "Node",
+      "target": "Link Field",
+      "weight": 1,
+      "explanation": "A Node contains a Link Field."
+    },
+    {
+      "source": "Link Field",
+      "target": "Sequence",
+      "weight": 1,
+      "explanation": "Link Fields define the sequence of elements in a Linked List."
+    },
+    {
+      "source": "Link Field",
+      "target": "Address",
+      "weight": 1,
+      "explanation": "A Link Field stores the Address of the next node."
+    },
+    {
+      "source": "Link Field",
+      "target": "Basic Representation",
+      "weight": 1,
+      "explanation": "Basic Representation helps visualize Link Fields."
+    },
+    {
+      "source": "Link Field",
+      "target": "Null",
+      "weight": 1,
+      "explanation": "Null indicates the end of a Linked List, often stored in a Link Field."
+    },
+    {
+      "source": "Link Field",
+      "target": "Circular Linked List",
+      "weight": 1,
+      "explanation": "Link Fields are used to create the circularity in Circular Linked Lists."
+    },
+    {
+      "source": "Array",
+      "target": "Access",
+      "weight": 1,
+      "explanation": "Accessing elements is a key aspect of Arrays."
+    },
+    {
+      "source": "Access",
+      "target": "Operations",
+      "weight": 1,
+      "explanation": "Access is a fundamental operation on data structures."
+    },
+    {
+      "source": "Operations",
+      "target": "Implementation",
+      "weight": 1,
+      "explanation": "Implementing a Linked List involves implementing its operations."
+    }
+  ]
+}

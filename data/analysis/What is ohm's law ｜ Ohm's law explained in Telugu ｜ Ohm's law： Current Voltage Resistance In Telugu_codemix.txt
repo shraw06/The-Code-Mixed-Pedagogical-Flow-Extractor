@@ -1,0 +1,13 @@
+Video: What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu
+  Segments: 50
+  Total words (tokenised): 3105
+  Global CMI (Code-Mixing Index): 0.0016
+  Switch-point density: 0.19 per 100 words
+  Matrix script: TELUGU (Telugu)
+  Embedded scripts: {'LATIN': 5}
+  Mostly romanised code-mixing: No
+    Romanised segment fraction: 0.0
+  Language labels (from Gemini): {'Telugu-English': 50}
+  Script distribution: {'TELUGU': 3085, 'LATIN': 5}
+  Avg segment CMI: 0.0018
+  Highly code-mixed segments (CMI > 0.3): 0/50

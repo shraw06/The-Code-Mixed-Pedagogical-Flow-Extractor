@@ -1,0 +1,1018 @@
+{
+    "structure": [
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "link": [
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "datum": [
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "list": [
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 0.0,
+            "end": 10.2
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "brother deliver": [
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        }
+    ],
+    "brother": [
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "brother deliver basic": [
+        {
+            "start": 10.2,
+            "end": 22.3
+        }
+    ],
+    "brother come": [
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        }
+    ],
+    "right place": [
+        {
+            "start": 10.2,
+            "end": 22.3
+        }
+    ],
+    "idea": [
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 10.2,
+            "end": 22.3
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "relatable scenario": [
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        }
+    ],
+    "brother relatable": [
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        },
+        {
+            "start": 22.3,
+            "end": 33.7
+        }
+    ],
+    "relatable scenario let": [
+        {
+            "start": 22.3,
+            "end": 33.7
+        }
+    ],
+    "exam": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "exam busy": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "busy run": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "engineer": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "okay": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "engineering": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "brother maybe know": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "kind": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        },
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "run brother maybe": [
+        {
+            "start": 33.7,
+            "end": 48.7
+        }
+    ],
+    "variation": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "gain": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "z": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "matter": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "understand": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "circle": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "address": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "mentality": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "paper": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "b": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "x": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "direction": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "start": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "data element": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "sequence": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "link field": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "location": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "greed": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "information": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "need": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "reference": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "person": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "node": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "c": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "entire subject preparation": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "null": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "head pointer": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "connection": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "situation": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "subject": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "implementation": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "basic representation": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "subject study": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "list brother circular": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "different operation": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "mention": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "knowledge": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "right": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "end": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "detail": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        },
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "important terminology": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "hour": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "guy": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "hmm": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "array": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "access": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "bi": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "simple right circle form": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "begin": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "refer": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "y": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "double mean": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "simple term": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "list brother think": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "thank": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ],
+    "arrow": [
+        {
+            "start": 48.7,
+            "end": 100.4
+        }
+    ]
+}

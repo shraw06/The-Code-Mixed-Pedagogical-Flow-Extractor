@@ -1,0 +1,201 @@
+{
+  "video": "Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths",
+  "total_concepts": 16,
+  "levels": [
+    {
+      "level": 1,
+      "concepts": [
+        {
+          "concept": "Matrix",
+          "prerequisites": [],
+          "first_mentioned": 5.3,
+          "frequency": 12,
+          "explanation": "Foundational concept — no prerequisites."
+        },
+        {
+          "concept": "Lambda (λ)",
+          "prerequisites": [],
+          "first_mentioned": 39.4,
+          "frequency": 18,
+          "explanation": "Foundational concept — no prerequisites."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "concepts": [
+        {
+          "concept": "Identity Matrix",
+          "prerequisites": [
+            "Matrix"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 3,
+          "explanation": "The Identity Matrix is a special type of Matrix used in eigenvalue calculations."
+        },
+        {
+          "concept": "Eigenvalues & Eigenvectors",
+          "prerequisites": [
+            "Matrix"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 25,
+          "explanation": "Eigenvalues and Eigenvectors are properties derived from a Matrix."
+        },
+        {
+          "concept": "Triangular Matrix",
+          "prerequisites": [
+            "Matrix"
+          ],
+          "first_mentioned": 831.6,
+          "frequency": 8,
+          "explanation": "A Triangular Matrix is a specific type of Matrix."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "concepts": [
+        {
+          "concept": "Characteristic Equation",
+          "prerequisites": [
+            "Identity Matrix",
+            "Lambda (λ)"
+          ],
+          "first_mentioned": 39.4,
+          "frequency": 9,
+          "explanation": "The Characteristic Equation is formulated using the Identity Matrix (A - λI). | Lambda (λ) represents the unknown eigenvalue in the Characteristic Equation."
+        },
+        {
+          "concept": "General Method for Eigenvalues",
+          "prerequisites": [
+            "Eigenvalues & Eigenvectors"
+          ],
+          "first_mentioned": 818.9,
+          "frequency": 2,
+          "explanation": "The General Method is a standard approach to find Eigenvalues."
+        },
+        {
+          "concept": "Diagonal Elements",
+          "prerequisites": [
+            "Triangular Matrix"
+          ],
+          "first_mentioned": 131.6,
+          "frequency": 6,
+          "explanation": "Diagonal Elements are key features of a Triangular Matrix."
+        },
+        {
+          "concept": "Power of Matrix",
+          "prerequisites": [
+            "Eigenvalues & Eigenvectors"
+          ],
+          "first_mentioned": 1030.3,
+          "frequency": 2,
+          "explanation": "Eigenvalues are used in calculations involving the Power of a Matrix."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "concepts": [
+        {
+          "concept": "Determinant",
+          "prerequisites": [
+            "Characteristic Equation"
+          ],
+          "first_mentioned": 131.6,
+          "frequency": 1,
+          "explanation": "The Characteristic Equation involves setting the Determinant of (A - λI) to zero."
+        },
+        {
+          "concept": "Numerical Problems",
+          "prerequisites": [
+            "General Method for Eigenvalues"
+          ],
+          "first_mentioned": 18.9,
+          "frequency": 3,
+          "explanation": "Numerical Problems are solved by applying the General Method for Eigenvalues."
+        },
+        {
+          "concept": "Conditions for Shortcut",
+          "prerequisites": [
+            "Diagonal Elements"
+          ],
+          "first_mentioned": 831.6,
+          "frequency": 4,
+          "explanation": "The Conditions for Shortcut methods often depend on the Diagonal Elements of a matrix."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "concepts": [
+        {
+          "concept": "Solving Characteristic Equation",
+          "prerequisites": [
+            "Determinant"
+          ],
+          "first_mentioned": 39.4,
+          "frequency": 24,
+          "explanation": "Solving the Determinant of (A - λI) = 0 leads to finding the eigenvalues."
+        },
+        {
+          "concept": "Shortcut Method for Eigenvalues",
+          "prerequisites": [
+            "Conditions for Shortcut",
+            "Triangular Matrix"
+          ],
+          "first_mentioned": 824.4,
+          "frequency": 5,
+          "explanation": "The Shortcut Method for Eigenvalues can be applied if certain Conditions are met. | The Shortcut Method for Eigenvalues is particularly applicable to Triangular Matrices."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "concepts": [
+        {
+          "concept": "Eigenvector Components (X)",
+          "prerequisites": [
+            "Solving Characteristic Equation"
+          ],
+          "first_mentioned": 318.8,
+          "frequency": 9,
+          "explanation": "Once eigenvalues are found, they are used to solve for the Eigenvector Components (X)."
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "concepts": [
+        {
+          "concept": "Constant (k)",
+          "prerequisites": [
+            "Eigenvector Components (X)"
+          ],
+          "first_mentioned": 514.4,
+          "frequency": 3,
+          "explanation": "Eigenvectors are often expressed with a scalar Constant (k)."
+        }
+      ]
+    }
+  ],
+  "linear_order": [
+    "Matrix",
+    "Identity Matrix",
+    "Lambda (λ)",
+    "Characteristic Equation",
+    "Determinant",
+    "Solving Characteristic Equation",
+    "Eigenvector Components (X)",
+    "Eigenvalues & Eigenvectors",
+    "Constant (k)",
+    "General Method for Eigenvalues",
+    "Numerical Problems",
+    "Triangular Matrix",
+    "Diagonal Elements",
+    "Conditions for Shortcut",
+    "Shortcut Method for Eigenvalues",
+    "Power of Matrix"
+  ]
+}

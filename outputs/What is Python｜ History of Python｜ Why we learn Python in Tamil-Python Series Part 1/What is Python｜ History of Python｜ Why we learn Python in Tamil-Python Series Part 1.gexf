@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-12">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="explanation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="freq" type="long" />
+      <attribute id="1" title="avg_t" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Python" label="Python">
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="353.87347826086955" />
+        </attvalues>
+      </node>
+      <node id="Programming Language" label="Programming Language">
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="320.5077777777778" />
+        </attvalues>
+      </node>
+      <node id="Interpreted Language" label="Interpreted Language">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="63.06333333333333" />
+        </attvalues>
+      </node>
+      <node id="Interpreter" label="Interpreter">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="137.13" />
+        </attvalues>
+      </node>
+      <node id="Code Execution" label="Code Execution">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="345.68" />
+        </attvalues>
+      </node>
+      <node id="Output" label="Output">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="122.43" />
+        </attvalues>
+      </node>
+      <node id="IDE/Editor" label="IDE/Editor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="128.43" />
+        </attvalues>
+      </node>
+      <node id="Object-Oriented Programming (OOP)" label="Object-Oriented Programming (OOP)">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="193.63000000000002" />
+        </attvalues>
+      </node>
+      <node id="Programming Paradigms" label="Programming Paradigms">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="168.53" />
+        </attvalues>
+      </node>
+      <node id="High-Level Language" label="High-Level Language">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="379.38" />
+        </attvalues>
+      </node>
+      <node id="Data Types" label="Data Types">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="346.43" />
+        </attvalues>
+      </node>
+      <node id="Dynamic Typing" label="Dynamic Typing">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="354.33" />
+        </attvalues>
+      </node>
+      <node id="Syntax" label="Syntax">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="426.68" />
+        </attvalues>
+      </node>
+      <node id="History of Python" label="History of Python">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="118.53" />
+        </attvalues>
+      </node>
+      <node id="Guido van Rossum" label="Guido van Rossum">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="267.83" />
+        </attvalues>
+      </node>
+      <node id="ABC Language" label="ABC Language">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="246.18" />
+        </attvalues>
+      </node>
+      <node id="Python 2" label="Python 2">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="298.63" />
+        </attvalues>
+      </node>
+      <node id="List Comprehension" label="List Comprehension">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="308.83" />
+        </attvalues>
+      </node>
+      <node id="Garbage Collection" label="Garbage Collection">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="308.83" />
+        </attvalues>
+      </node>
+      <node id="Python 3" label="Python 3">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="316.03" />
+        </attvalues>
+      </node>
+      <node id="Why Learn Python" label="Why Learn Python">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="346.3157142857143" />
+        </attvalues>
+      </node>
+      <node id="Easy to Learn" label="Easy to Learn">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="388.08714285714285" />
+        </attvalues>
+      </node>
+      <node id="Readability" label="Readability">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="388.93" />
+        </attvalues>
+      </node>
+      <node id="Developer Friendly" label="Developer Friendly">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="450.53" />
+        </attvalues>
+      </node>
+      <node id="Debugging" label="Debugging">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="399.03" />
+        </attvalues>
+      </node>
+      <node id="Cross-Platform" label="Cross-Platform">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="415.8966666666667" />
+        </attvalues>
+      </node>
+      <node id="Open-Source" label="Open-Source">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="454.17999999999995" />
+        </attvalues>
+      </node>
+      <node id="Extensibility" label="Extensibility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="487.63" />
+        </attvalues>
+      </node>
+      <node id="Extensive Libraries" label="Extensive Libraries">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="472.73" />
+        </attvalues>
+      </node>
+      <node id="Widespread Use" label="Widespread Use">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="575.03" />
+        </attvalues>
+      </node>
+      <node id="Integration with other languages" label="Integration with other languages">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="566.73" />
+        </attvalues>
+      </node>
+      <node id="Software Development" label="Software Development">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="341.08" />
+        </attvalues>
+      </node>
+      <node id="Web Development" label="Web Development">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="156.53" />
+        </attvalues>
+      </node>
+      <node id="Game Development" label="Game Development">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="156.53" />
+        </attvalues>
+      </node>
+      <node id="Mobile Application Development" label="Mobile Application Development">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="156.53" />
+        </attvalues>
+      </node>
+      <node id="GUI Development" label="GUI Development">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="543.6099999999999" />
+        </attvalues>
+      </node>
+      <node id="Programmer" label="Programmer">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="275.355" />
+        </attvalues>
+      </node>
+      <node id="Installation" label="Installation">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="455.71333333333337" />
+        </attvalues>
+      </node>
+      <node id="Search Techniques" label="Search Techniques">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="624.9612500000001" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Python" target="History of Python" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The video discusses the history of Python." />
+        </attvalues>
+      </edge>
+      <edge source="Python" target="Programmer" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python is a tool used by programmers." />
+        </attvalues>
+      </edge>
+      <edge source="Python" target="Programming Language" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python is introduced as a type of programming language." />
+        </attvalues>
+      </edge>
+      <edge source="Python" target="Why Learn Python" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The video explains the reasons to learn Python." />
+        </attvalues>
+      </edge>
+      <edge source="Python" target="Software Development" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python is used for various types of software development." />
+        </attvalues>
+      </edge>
+      <edge source="Programming Language" target="Interpreted Language" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Interpreted language is a characteristic of Python as a programming language." />
+        </attvalues>
+      </edge>
+      <edge source="Programming Language" target="Data Types" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Data types are fundamental concepts in any programming language." />
+        </attvalues>
+      </edge>
+      <edge source="Programming Language" target="Programming Paradigms" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python supports various programming paradigms." />
+        </attvalues>
+      </edge>
+      <edge source="Programming Language" target="High-Level Language" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python is characterized as a high-level programming language." />
+        </attvalues>
+      </edge>
+      <edge source="Programming Language" target="Object-Oriented Programming (OOP)" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="OOP is a paradigm supported by Python." />
+        </attvalues>
+      </edge>
+      <edge source="Programming Language" target="Syntax" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Every programming language has its own syntax." />
+        </attvalues>
+      </edge>
+      <edge source="Interpreted Language" target="Interpreter" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Interpreted languages use an interpreter for execution." />
+        </attvalues>
+      </edge>
+      <edge source="Interpreter" target="Code Execution" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The interpreter is responsible for code execution." />
+        </attvalues>
+      </edge>
+      <edge source="Interpreter" target="Debugging" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Interpreters can provide immediate feedback, aiding debugging." />
+        </attvalues>
+      </edge>
+      <edge source="Code Execution" target="Output" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Code execution produces an output." />
+        </attvalues>
+      </edge>
+      <edge source="Code Execution" target="IDE/Editor" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Code is written and executed in an IDE or editor." />
+        </attvalues>
+      </edge>
+      <edge source="High-Level Language" target="Easy to Learn" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Being a high-level language contributes to Python's ease of learning." />
+        </attvalues>
+      </edge>
+      <edge source="Data Types" target="Dynamic Typing" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python uses dynamic typing for its data types." />
+        </attvalues>
+      </edge>
+      <edge source="Syntax" target="Easy to Learn" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Simple syntax makes Python easy to learn." />
+        </attvalues>
+      </edge>
+      <edge source="History of Python" target="Guido van Rossum" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Guido van Rossum is the creator of Python." />
+        </attvalues>
+      </edge>
+      <edge source="History of Python" target="Python 2" id="20" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python 2 is an important version in Python's history." />
+        </attvalues>
+      </edge>
+      <edge source="Guido van Rossum" target="ABC Language" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="ABC Language was a predecessor that influenced Guido van Rossum." />
+        </attvalues>
+      </edge>
+      <edge source="Python 2" target="Python 3" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python 3 is the successor to Python 2." />
+        </attvalues>
+      </edge>
+      <edge source="Python 2" target="Garbage Collection" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Garbage collection is a feature in Python 2 (and 3)." />
+        </attvalues>
+      </edge>
+      <edge source="Python 2" target="List Comprehension" id="24" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="List comprehension was a feature in Python 2 (and 3)." />
+        </attvalues>
+      </edge>
+      <edge source="Why Learn Python" target="Widespread Use" id="25" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python's widespread use makes it valuable to learn." />
+        </attvalues>
+      </edge>
+      <edge source="Why Learn Python" target="Easy to Learn" id="26" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python is easy to learn, which is a reason to learn it." />
+        </attvalues>
+      </edge>
+      <edge source="Why Learn Python" target="Extensibility" id="27" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python's extensibility is a reason to learn it." />
+        </attvalues>
+      </edge>
+      <edge source="Why Learn Python" target="Cross-Platform" id="28" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Cross-platform compatibility is a benefit of Python." />
+        </attvalues>
+      </edge>
+      <edge source="Why Learn Python" target="Extensive Libraries" id="29" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Extensive libraries are a major advantage of Python." />
+        </attvalues>
+      </edge>
+      <edge source="Why Learn Python" target="Open-Source" id="30" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python being open-source is an advantage." />
+        </attvalues>
+      </edge>
+      <edge source="Easy to Learn" target="Readability" id="31" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python's readability makes it easy to learn." />
+        </attvalues>
+      </edge>
+      <edge source="Easy to Learn" target="Developer Friendly" id="32" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python's ease of use makes it developer friendly." />
+        </attvalues>
+      </edge>
+      <edge source="Developer Friendly" target="Debugging" id="33" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python's developer-friendly nature aids in debugging." />
+        </attvalues>
+      </edge>
+      <edge source="Widespread Use" target="Integration with other languages" id="34" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Python's ability to integrate with other languages contributes to its widespread use." />
+        </attvalues>
+      </edge>
+      <edge source="Software Development" target="Game Development" id="35" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Game development is a specific application of Python in software development." />
+        </attvalues>
+      </edge>
+      <edge source="Software Development" target="Mobile Application Development" id="36" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Mobile application development is a specific application of Python in software development." />
+        </attvalues>
+      </edge>
+      <edge source="Software Development" target="GUI Development" id="37" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="GUI development is a specific application of Python in software development." />
+        </attvalues>
+      </edge>
+      <edge source="Software Development" target="Web Development" id="38" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Web development is a specific application of Python in software development." />
+        </attvalues>
+      </edge>
+      <edge source="Programmer" target="Search Techniques" id="39" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Programmers use search techniques for learning and problem-solving." />
+        </attvalues>
+      </edge>
+      <edge source="Programmer" target="Installation" id="40" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Programmers need to install Python to use it." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

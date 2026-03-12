@@ -1,0 +1,82 @@
+{
+  "videos": [
+    {
+      "video": "Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths",
+      "global_cmi": 0.0005,
+      "switch_density": 0.09,
+      "matrix_language": "English/Romanised",
+      "is_mostly_romanised": true,
+      "total_words": 2263,
+      "language_labels": {
+        "Hindi-English": 51
+      }
+    },
+    {
+      "video": "What is Linked List Explained in Hindi l Data Structure",
+      "global_cmi": 0.0,
+      "switch_density": 0.0,
+      "matrix_language": "English/Romanised",
+      "is_mostly_romanised": true,
+      "total_words": 2594,
+      "language_labels": {
+        "Hindi-English": 5
+      }
+    },
+    {
+      "video": "What is Python｜ History of Python｜ Why we learn Python in Tamil-Python Series Part 1",
+      "global_cmi": 0.0,
+      "switch_density": 0.0,
+      "matrix_language": "English/Romanised",
+      "is_mostly_romanised": true,
+      "total_words": 1205,
+      "language_labels": {
+        "Tamil-English": 106
+      }
+    },
+    {
+      "video": "What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu",
+      "global_cmi": 0.0016,
+      "switch_density": 0.19,
+      "matrix_language": "Telugu",
+      "is_mostly_romanised": false,
+      "total_words": 3105,
+      "language_labels": {
+        "Telugu-English": 50
+      }
+    },
+    {
+      "video": "introduction to database Management System In Marathi ⧸⧸ Lecture 01 DMS",
+      "global_cmi": 0.021,
+      "switch_density": 0.02,
+      "matrix_language": "Hindi/Marathi",
+      "is_mostly_romanised": false,
+      "total_words": 5287,
+      "language_labels": {
+        "Marathi-English": 86,
+        "English": 37
+      }
+    }
+  ],
+  "ranking_by_cmi": [
+    {
+      "video": "introduction to database Management System In Marathi ⧸⧸ Lec",
+      "cmi": 0.021
+    },
+    {
+      "video": "What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's la",
+      "cmi": 0.0016
+    },
+    {
+      "video": "Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths",
+      "cmi": 0.0005
+    },
+    {
+      "video": "What is Linked List Explained in Hindi l Data Structure",
+      "cmi": 0.0
+    },
+    {
+      "video": "What is Python｜ History of Python｜ Why we learn Python in Ta",
+      "cmi": 0.0
+    }
+  ]
+}

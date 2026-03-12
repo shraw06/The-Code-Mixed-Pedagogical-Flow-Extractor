@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1>What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #fdfdfd;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#52a7ea", "font": {"color": "#333"}, "id": "Device", "label": "Device", "shape": "dot", "title": "\u003cb\u003eDevice\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 19.7s\u003cbr\u003eSegments: 0-10s, 10-27s, 49-60s"}, {"color": "#528fea", "font": {"color": "#333"}, "id": "Circuit Breaker", "label": "Circuit Breaker", "shape": "dot", "title": "\u003cb\u003eCircuit Breaker\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 0.0s\u003cbr\u003eSegments: 0-10s"}, {"color": "#528fea", "font": {"color": "#333"}, "id": "Heater", "label": "Heater", "shape": "dot", "title": "\u003cb\u003eHeater\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 0.0s\u003cbr\u003eSegments: 0-10s"}, {"color": "#528fea", "font": {"color": "#333"}, "id": "Stove", "label": "Stove", "shape": "dot", "title": "\u003cb\u003eStove\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 0.0s\u003cbr\u003eSegments: 0-10s"}, {"color": "#52adea", "font": {"color": "#333"}, "id": "Charger", "label": "Charger", "shape": "dot", "title": "\u003cb\u003eCharger\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 24.4s\u003cbr\u003eSegments: 0-10s, 49-60s"}, {"color": "#528fea", "font": {"color": "#333"}, "id": "Electric Motor", "label": "Electric Motor", "shape": "dot", "title": "\u003cb\u003eElectric Motor\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 0.0s\u003cbr\u003eSegments: 0-10s"}, {"color": "#52ea93", "font": {"color": "#333"}, "id": "Problem", "label": "Problem", "shape": "dot", "title": "\u003cb\u003eProblem\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 144.4s\u003cbr\u003eSegments: 10-27s, 49-60s, 69-75s, 450-460s"}, {"color": "#52ea74", "font": {"color": "#333"}, "id": "Solve", "label": "Solve", "shape": "dot", "title": "\u003cb\u003eSolve\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 169.7s\u003cbr\u003eSegments: 10-27s, 49-60s, 450-460s"}, {"color": "#78ea52", "font": {"color": "#333"}, "id": "Current", "label": "Current", "shape": "dot", "title": "\u003cb\u003eCurrent\u003c/b\u003e\u003cbr\u003eMentions: 32\u003cbr\u003eAvg time: 229.0s\u003cbr\u003eSegments: 10-27s, 36-49s, 49-60s, 75-85s, 85-90s, 90-113s, 113-121s, 121-134s \u2026 (+24 more)"}, {"color": "#b4ea52", "font": {"color": "#333"}, "id": "Voltage", "label": "Voltage", "shape": "dot", "title": "\u003cb\u003eVoltage\u003c/b\u003e\u003cbr\u003eMentions: 16\u003cbr\u003eAvg time: 277.4s\u003cbr\u003eSegments: 10-27s, 75-85s, 85-90s, 209-218s, 218-225s, 232-239s, 306-317s, 317-330s \u2026 (+8 more)"}, {"color": "#52eaa5", "font": {"color": "#333"}, "id": "Power", "label": "Power", "shape": "dot", "title": "\u003cb\u003ePower\u003c/b\u003e\u003cbr\u003eMentions: 5\u003cbr\u003eAvg time: 130.3s\u003cbr\u003eSegments: 10-27s, 27-36s, 36-49s, 198-209s, 381-391s"}, {"color": "#52b5ea", "font": {"color": "#333"}, "id": "MCB", "label": "MCB", "shape": "dot", "title": "\u003cb\u003eMCB\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 31.1s\u003cbr\u003eSegments: 27-36s, 36-49s"}, {"color": "#8dea52", "font": {"color": "#333"}, "id": "Equation", "label": "Equation", "shape": "dot", "title": "\u003cb\u003eEquation\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 245.6s\u003cbr\u003eSegments: 49-60s, 60-69s, 424-432s, 450-460s"}, {"color": "#dcea52", "font": {"color": "#333"}, "id": "Ohm\u0027s Law", "label": "Ohm\u0027s Law", "shape": "dot", "title": "\u003cb\u003eOhm\u0027s Law\u003c/b\u003e\u003cbr\u003eMentions: 8\u003cbr\u003eAvg time: 309.8s\u003cbr\u003eSegments: 60-69s, 75-85s, 317-330s, 357-359s, 381-391s, 408-416s, 432-438s, 450-460s"}, {"color": "#a9ea52", "font": {"color": "#333"}, "id": "Resistance", "label": "Resistance", "shape": "dot", "title": "\u003cb\u003eResistance\u003c/b\u003e\u003cbr\u003eMentions: 16\u003cbr\u003eAvg time: 268.0s\u003cbr\u003eSegments: 10-27s, 49-60s, 75-85s, 85-90s, 246-256s, 256-274s, 274-282s, 282-289s \u2026 (+8 more)"}, {"color": "#52eac3", "font": {"color": "#333"}, "id": "Battery", "label": "Battery", "shape": "dot", "title": "\u003cb\u003eBattery\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 105.5s\u003cbr\u003eSegments: 90-113s, 121-134s"}, {"color": "#9aea52", "font": {"color": "#333"}, "id": "Wire", "label": "Wire", "shape": "dot", "title": "\u003cb\u003eWire\u003c/b\u003e\u003cbr\u003eMentions: 19\u003cbr\u003eAvg time: 255.9s\u003cbr\u003eSegments: 113-121s, 121-134s, 134-147s, 147-159s, 169-174s, 174-189s, 209-218s, 256-274s \u2026 (+11 more)"}, {"color": "#52eab0", "font": {"color": "#333"}, "id": "Terminal", "label": "Terminal", "shape": "dot", "title": "\u003cb\u003eTerminal\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 120.9s\u003cbr\u003eSegments: 121-134s"}, {"color": "#56ea52", "font": {"color": "#333"}, "id": "Electron", "label": "Electron", "shape": "dot", "title": "\u003cb\u003eElectron\u003c/b\u003e\u003cbr\u003eMentions: 10\u003cbr\u003eAvg time: 201.0s\u003cbr\u003eSegments: 134-147s, 147-159s, 159-169s, 169-174s, 174-189s, 189-198s, 198-209s, 256-274s \u2026 (+2 more)"}, {"color": "#64ea52", "font": {"color": "#333"}, "id": "Water Analogy", "label": "Water Analogy", "shape": "dot", "title": "\u003cb\u003eWater Analogy\u003c/b\u003e\u003cbr\u003eMentions: 5\u003cbr\u003eAvg time: 212.3s\u003cbr\u003eSegments: 134-147s, 218-225s, 225-232s, 239-246s, 246-256s"}, {"color": "#52ea58", "font": {"color": "#333"}, "id": "Force", "label": "Force", "shape": "dot", "title": "\u003cb\u003eForce\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 192.5s\u003cbr\u003eSegments: 174-189s, 189-198s, 198-209s, 209-218s"}, {"color": "#6fea52", "font": {"color": "#333"}, "id": "Pressure", "label": "Pressure", "shape": "dot", "title": "\u003cb\u003ePressure\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 221.4s\u003cbr\u003eSegments: 218-225s, 225-232s"}, {"color": "#b4ea52", "font": {"color": "#333"}, "id": "Atom", "label": "Atom", "shape": "dot", "title": "\u003cb\u003eAtom\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 276.9s\u003cbr\u003eSegments: 256-274s, 274-282s, 282-289s, 296-306s"}, {"color": "#b0ea52", "font": {"color": "#333"}, "id": "Length", "label": "Length", "shape": "dot", "title": "\u003cb\u003eLength\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 274.0s\u003cbr\u003eSegments: 274-282s"}, {"color": "#eac652", "font": {"color": "#333"}, "id": "Temperature", "label": "Temperature", "shape": "dot", "title": "\u003cb\u003eTemperature\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 350.3s\u003cbr\u003eSegments: 289-296s, 341-349s, 381-391s, 391-399s"}, {"color": "#cbea52", "font": {"color": "#333"}, "id": "Vibrate", "label": "Vibrate", "shape": "dot", "title": "\u003cb\u003eVibrate\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 295.5s\u003cbr\u003eSegments: 296-306s"}, {"color": "#ea9452", "font": {"color": "#333"}, "id": "Proportionality", "label": "Proportionality", "shape": "dot", "title": "\u003cb\u003eProportionality\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 391.1s\u003cbr\u003eSegments: 317-330s, 408-416s, 416-424s, 424-432s"}, {"color": "#ea8e52", "font": {"color": "#333"}, "id": "Constant", "label": "Constant", "shape": "dot", "title": "\u003cb\u003eConstant\u003c/b\u003e\u003cbr\u003eMentions: 5\u003cbr\u003eAvg time: 395.2s\u003cbr\u003eSegments: 341-349s, 381-391s, 399-408s, 424-432s, 432-438s"}, {"color": "#ea7552", "font": {"color": "#333"}, "id": "Statement", "label": "Statement", "shape": "dot", "title": "\u003cb\u003eStatement\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 415.5s\u003cbr\u003eSegments: 416-424s"}, {"color": "#ea7552", "font": {"color": "#333"}, "id": "Symbol", "label": "Symbol", "shape": "dot", "title": "\u003cb\u003eSymbol\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 415.5s\u003cbr\u003eSegments: 416-424s"}, {"color": "#ea5252", "font": {"color": "#333"}, "id": "Inversely Proportional", "label": "Inversely Proportional", "shape": "dot", "title": "\u003cb\u003eInversely Proportional\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 444.5s\u003cbr\u003eSegments: 444-450s"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Device", "title": "Charger is an example of a device.", "to": "Charger", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Device", "title": "Stove is an example of a device.", "to": "Stove", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Device", "title": "Heater is an example of a device.", "to": "Heater", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Device", "title": "Electric Motor is an example of a device.", "to": "Electric Motor", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Circuit Breaker", "title": "MCB is a type of circuit breaker.", "to": "MCB", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Problem", "title": "Problems are meant to be solved.", "to": "Solve", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Solve", "title": "Equations are used to solve problems.", "to": "Equation", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Current", "title": "Water analogy helps explain current flow.", "to": "Water Analogy", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Current", "title": "Current flows through a wire.", "to": "Wire", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Current", "title": "Current is directly proportional to voltage (Ohm\u0027s Law).", "to": "Proportionality", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Current", "title": "Current is the flow of electrons.", "to": "Electron", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Current", "title": "Current is inversely proportional to resistance (Ohm\u0027s Law).", "to": "Inversely Proportional", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Current", "title": "Battery is a source of current.", "to": "Battery", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Voltage", "title": "Water analogy helps explain voltage (as pressure).", "to": "Water Analogy", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Voltage", "title": "Battery provides voltage.", "to": "Battery", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Voltage", "title": "Voltage is the electrical force that drives current.", "to": "Force", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Voltage", "title": "Voltage is directly proportional to current (Ohm\u0027s Law).", "to": "Proportionality", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "MCB", "title": "MCB protects against excessive current.", "to": "Current", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Equation", "title": "Symbols are used in the Ohm\u0027s Law equation.", "to": "Symbol", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Equation", "title": "Ohm\u0027s Law is a fundamental electrical equation.", "to": "Ohm\u0027s Law", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Ohm\u0027s Law", "title": "Ohm\u0027s Law defines the relationship involving current.", "to": "Current", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Ohm\u0027s Law", "title": "Ohm\u0027s Law defines the relationship involving resistance.", "to": "Resistance", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Ohm\u0027s Law", "title": "The formal definition of Ohm\u0027s Law.", "to": "Statement", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Ohm\u0027s Law", "title": "Ohm\u0027s Law defines the relationship involving voltage.", "to": "Voltage", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Resistance", "title": "Water analogy helps explain resistance (as obstacles).", "to": "Water Analogy", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Resistance", "title": "Resistance arises from electrons colliding with atoms.", "to": "Atom", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Resistance", "title": "Temperature affects resistance.", "to": "Temperature", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Resistance", "title": "Resistance is inversely proportional to current (Ohm\u0027s Law).", "to": "Inversely Proportional", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Resistance", "title": "Length of the wire affects resistance.", "to": "Length", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Wire", "title": "Terminals are connection points on a wire/circuit.", "to": "Terminal", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Electron", "title": "Electrons interact with atoms in a conductor.", "to": "Atom", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Water Analogy", "title": "Pressure in the water analogy represents voltage.", "to": "Pressure", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Atom", "title": "Atoms vibrate, especially with increased temperature.", "to": "Vibrate", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Temperature", "title": "Temperature must be constant for Ohm\u0027s Law to hold.", "to": "Constant", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Temperature", "title": "Increased temperature causes atoms to vibrate more.", "to": "Vibrate", "value": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"layout": {"hierarchical": {"enabled": true, "levelSeparation": 180, "nodeSpacing": 120, "treeSpacing": 200, "blockShifting": true, "edgeMinimization": true, "parentCentralization": false, "direction": "LR"}}, "interaction": {"hover": true, "tooltipDelay": 100}, "physics": {"enabled": false}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

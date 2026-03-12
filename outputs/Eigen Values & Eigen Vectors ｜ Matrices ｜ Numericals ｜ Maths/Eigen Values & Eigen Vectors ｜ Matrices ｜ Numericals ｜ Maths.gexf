@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-12">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="explanation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="freq" type="long" />
+      <attribute id="1" title="avg_t" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Matrix" label="Matrix">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="296.5416666666667" />
+        </attvalues>
+      </node>
+      <node id="Eigenvalues &amp; Eigenvectors" label="Eigenvalues &amp; Eigenvectors">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="609.0279999999999" />
+        </attvalues>
+      </node>
+      <node id="Identity Matrix" label="Identity Matrix">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="122.23333333333333" />
+        </attvalues>
+      </node>
+      <node id="Lambda (λ)" label="Lambda (λ)">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="395.91111111111115" />
+        </attvalues>
+      </node>
+      <node id="Characteristic Equation" label="Characteristic Equation">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="399.27777777777777" />
+        </attvalues>
+      </node>
+      <node id="Determinant" label="Determinant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="131.6" />
+        </attvalues>
+      </node>
+      <node id="Solving Characteristic Equation" label="Solving Characteristic Equation">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="510.02500000000003" />
+        </attvalues>
+      </node>
+      <node id="Eigenvector Components (X)" label="Eigenvector Components (X)">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="491.3444444444445" />
+        </attvalues>
+      </node>
+      <node id="Constant (k)" label="Constant (k)">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="653.7333333333332" />
+        </attvalues>
+      </node>
+      <node id="General Method for Eigenvalues" label="General Method for Eigenvalues">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="821.65" />
+        </attvalues>
+      </node>
+      <node id="Numerical Problems" label="Numerical Problems">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="665.5333333333333" />
+        </attvalues>
+      </node>
+      <node id="Triangular Matrix" label="Triangular Matrix">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="933.225" />
+        </attvalues>
+      </node>
+      <node id="Diagonal Elements" label="Diagonal Elements">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="831.9833333333335" />
+        </attvalues>
+      </node>
+      <node id="Conditions for Shortcut" label="Conditions for Shortcut">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="924.9" />
+        </attvalues>
+      </node>
+      <node id="Shortcut Method for Eigenvalues" label="Shortcut Method for Eigenvalues">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="866.64" />
+        </attvalues>
+      </node>
+      <node id="Power of Matrix" label="Power of Matrix">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1042.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Matrix" target="Identity Matrix" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The Identity Matrix is a special type of Matrix used in eigenvalue calculations." />
+        </attvalues>
+      </edge>
+      <edge source="Matrix" target="Triangular Matrix" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="A Triangular Matrix is a specific type of Matrix." />
+        </attvalues>
+      </edge>
+      <edge source="Matrix" target="Eigenvalues &amp; Eigenvectors" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Eigenvalues and Eigenvectors are properties derived from a Matrix." />
+        </attvalues>
+      </edge>
+      <edge source="Eigenvalues &amp; Eigenvectors" target="General Method for Eigenvalues" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The General Method is a standard approach to find Eigenvalues." />
+        </attvalues>
+      </edge>
+      <edge source="Eigenvalues &amp; Eigenvectors" target="Power of Matrix" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Eigenvalues are used in calculations involving the Power of a Matrix." />
+        </attvalues>
+      </edge>
+      <edge source="Identity Matrix" target="Characteristic Equation" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The Characteristic Equation is formulated using the Identity Matrix (A - λI)." />
+        </attvalues>
+      </edge>
+      <edge source="Lambda (λ)" target="Characteristic Equation" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Lambda (λ) represents the unknown eigenvalue in the Characteristic Equation." />
+        </attvalues>
+      </edge>
+      <edge source="Characteristic Equation" target="Determinant" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The Characteristic Equation involves setting the Determinant of (A - λI) to zero." />
+        </attvalues>
+      </edge>
+      <edge source="Determinant" target="Solving Characteristic Equation" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Solving the Determinant of (A - λI) = 0 leads to finding the eigenvalues." />
+        </attvalues>
+      </edge>
+      <edge source="Solving Characteristic Equation" target="Eigenvector Components (X)" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Once eigenvalues are found, they are used to solve for the Eigenvector Components (X)." />
+        </attvalues>
+      </edge>
+      <edge source="Eigenvector Components (X)" target="Constant (k)" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Eigenvectors are often expressed with a scalar Constant (k)." />
+        </attvalues>
+      </edge>
+      <edge source="General Method for Eigenvalues" target="Numerical Problems" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Numerical Problems are solved by applying the General Method for Eigenvalues." />
+        </attvalues>
+      </edge>
+      <edge source="Triangular Matrix" target="Diagonal Elements" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Diagonal Elements are key features of a Triangular Matrix." />
+        </attvalues>
+      </edge>
+      <edge source="Diagonal Elements" target="Conditions for Shortcut" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The Conditions for Shortcut methods often depend on the Diagonal Elements of a matrix." />
+        </attvalues>
+      </edge>
+      <edge source="Conditions for Shortcut" target="Shortcut Method for Eigenvalues" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The Shortcut Method for Eigenvalues can be applied if certain Conditions are met." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

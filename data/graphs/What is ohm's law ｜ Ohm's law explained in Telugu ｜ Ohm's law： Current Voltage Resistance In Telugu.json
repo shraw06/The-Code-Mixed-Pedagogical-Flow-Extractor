@@ -1,0 +1,1095 @@
+{
+    "nodes": [
+        {
+            "concept": "Device",
+            "time_references": [
+                [
+                    0.0,
+                    10.4
+                ],
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    48.7,
+                    59.5
+                ]
+            ],
+            "confidence": 0.05,
+            "order": 0
+        },
+        {
+            "concept": "Circuit Breaker",
+            "time_references": [
+                [
+                    0.0,
+                    10.4
+                ]
+            ],
+            "confidence": 0.01,
+            "order": 1
+        },
+        {
+            "concept": "Heater",
+            "time_references": [
+                [
+                    0.0,
+                    10.4
+                ]
+            ],
+            "confidence": 0.02,
+            "order": 2
+        },
+        {
+            "concept": "Stove",
+            "time_references": [
+                [
+                    0.0,
+                    10.4
+                ]
+            ],
+            "confidence": 0.02,
+            "order": 3
+        },
+        {
+            "concept": "Charger",
+            "time_references": [
+                [
+                    0.0,
+                    10.4
+                ],
+                [
+                    48.7,
+                    59.5
+                ]
+            ],
+            "confidence": 0.02,
+            "order": 4
+        },
+        {
+            "concept": "Electric Motor",
+            "time_references": [
+                [
+                    0.0,
+                    10.4
+                ]
+            ],
+            "confidence": 0.01,
+            "order": 5
+        },
+        {
+            "concept": "Problem",
+            "time_references": [
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    48.7,
+                    59.5
+                ],
+                [
+                    68.8,
+                    74.9
+                ],
+                [
+                    449.9,
+                    459.6
+                ]
+            ],
+            "confidence": 0.07,
+            "order": 6
+        },
+        {
+            "concept": "Solve",
+            "time_references": [
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    48.7,
+                    59.5
+                ],
+                [
+                    449.9,
+                    459.6
+                ]
+            ],
+            "confidence": 0.05,
+            "order": 7
+        },
+        {
+            "concept": "Current",
+            "time_references": [
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    35.5,
+                    48.7
+                ],
+                [
+                    48.7,
+                    59.5
+                ],
+                [
+                    74.9,
+                    84.9
+                ],
+                [
+                    84.9,
+                    90.0
+                ],
+                [
+                    90.0,
+                    112.9
+                ],
+                [
+                    112.9,
+                    120.9
+                ],
+                [
+                    120.9,
+                    134.2
+                ],
+                [
+                    134.2,
+                    146.7
+                ],
+                [
+                    146.7,
+                    158.8
+                ],
+                [
+                    158.8,
+                    168.8
+                ],
+                [
+                    168.8,
+                    173.9
+                ],
+                [
+                    173.9,
+                    189.0
+                ],
+                [
+                    208.8,
+                    217.9
+                ],
+                [
+                    217.9,
+                    224.9
+                ],
+                [
+                    224.9,
+                    231.7
+                ],
+                [
+                    231.7,
+                    238.9
+                ],
+                [
+                    238.9,
+                    245.8
+                ],
+                [
+                    245.8,
+                    256.0
+                ],
+                [
+                    256.0,
+                    274.0
+                ],
+                [
+                    288.8,
+                    295.5
+                ],
+                [
+                    305.5,
+                    316.7
+                ],
+                [
+                    316.7,
+                    329.6
+                ],
+                [
+                    329.6,
+                    335.5
+                ],
+                [
+                    335.5,
+                    340.8
+                ],
+                [
+                    348.9,
+                    357.3
+                ],
+                [
+                    359.2,
+                    369.9
+                ],
+                [
+                    369.9,
+                    380.6
+                ],
+                [
+                    398.8,
+                    407.8
+                ],
+                [
+                    407.8,
+                    415.5
+                ],
+                [
+                    437.9,
+                    444.5
+                ],
+                [
+                    444.5,
+                    449.9
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 8
+        },
+        {
+            "concept": "Voltage",
+            "time_references": [
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    74.9,
+                    84.9
+                ],
+                [
+                    84.9,
+                    90.0
+                ],
+                [
+                    208.8,
+                    217.9
+                ],
+                [
+                    217.9,
+                    224.9
+                ],
+                [
+                    231.7,
+                    238.9
+                ],
+                [
+                    305.5,
+                    316.7
+                ],
+                [
+                    316.7,
+                    329.6
+                ],
+                [
+                    329.6,
+                    335.5
+                ],
+                [
+                    335.5,
+                    340.8
+                ],
+                [
+                    348.9,
+                    357.3
+                ],
+                [
+                    359.2,
+                    369.9
+                ],
+                [
+                    369.9,
+                    380.6
+                ],
+                [
+                    398.8,
+                    407.8
+                ],
+                [
+                    407.8,
+                    415.5
+                ],
+                [
+                    437.9,
+                    444.5
+                ]
+            ],
+            "confidence": 0.34,
+            "order": 9
+        },
+        {
+            "concept": "Power",
+            "time_references": [
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    26.6,
+                    35.5
+                ],
+                [
+                    35.5,
+                    48.7
+                ],
+                [
+                    198.4,
+                    208.8
+                ],
+                [
+                    380.6,
+                    391.0
+                ]
+            ],
+            "confidence": 0.08,
+            "order": 10
+        },
+        {
+            "concept": "MCB",
+            "time_references": [
+                [
+                    26.6,
+                    35.5
+                ],
+                [
+                    35.5,
+                    48.7
+                ]
+            ],
+            "confidence": 0.09,
+            "order": 11
+        },
+        {
+            "concept": "Equation",
+            "time_references": [
+                [
+                    48.7,
+                    59.5
+                ],
+                [
+                    59.5,
+                    68.8
+                ],
+                [
+                    424.4,
+                    431.6
+                ],
+                [
+                    449.9,
+                    459.6
+                ]
+            ],
+            "confidence": 0.08,
+            "order": 12
+        },
+        {
+            "concept": "Ohm's Law",
+            "time_references": [
+                [
+                    59.5,
+                    68.8
+                ],
+                [
+                    74.9,
+                    84.9
+                ],
+                [
+                    316.7,
+                    329.6
+                ],
+                [
+                    357.3,
+                    359.2
+                ],
+                [
+                    380.6,
+                    391.0
+                ],
+                [
+                    407.8,
+                    415.5
+                ],
+                [
+                    431.6,
+                    437.9
+                ],
+                [
+                    449.9,
+                    459.6
+                ]
+            ],
+            "confidence": 0.24,
+            "order": 13
+        },
+        {
+            "concept": "Resistance",
+            "time_references": [
+                [
+                    10.4,
+                    26.6
+                ],
+                [
+                    48.7,
+                    59.5
+                ],
+                [
+                    74.9,
+                    84.9
+                ],
+                [
+                    84.9,
+                    90.0
+                ],
+                [
+                    245.8,
+                    256.0
+                ],
+                [
+                    256.0,
+                    274.0
+                ],
+                [
+                    274.0,
+                    281.9
+                ],
+                [
+                    281.9,
+                    288.8
+                ],
+                [
+                    295.5,
+                    305.5
+                ],
+                [
+                    305.5,
+                    316.7
+                ],
+                [
+                    369.9,
+                    380.6
+                ],
+                [
+                    380.6,
+                    391.0
+                ],
+                [
+                    391.0,
+                    398.8
+                ],
+                [
+                    398.8,
+                    407.8
+                ],
+                [
+                    431.6,
+                    437.9
+                ],
+                [
+                    437.9,
+                    444.5
+                ]
+            ],
+            "confidence": 0.27,
+            "order": 14
+        },
+        {
+            "concept": "Battery",
+            "time_references": [
+                [
+                    90.0,
+                    112.9
+                ],
+                [
+                    120.9,
+                    134.2
+                ]
+            ],
+            "confidence": 0.05,
+            "order": 15
+        },
+        {
+            "concept": "Wire",
+            "time_references": [
+                [
+                    112.9,
+                    120.9
+                ],
+                [
+                    120.9,
+                    134.2
+                ],
+                [
+                    134.2,
+                    146.7
+                ],
+                [
+                    146.7,
+                    158.8
+                ],
+                [
+                    168.8,
+                    173.9
+                ],
+                [
+                    173.9,
+                    189.0
+                ],
+                [
+                    208.8,
+                    217.9
+                ],
+                [
+                    256.0,
+                    274.0
+                ],
+                [
+                    274.0,
+                    281.9
+                ],
+                [
+                    281.9,
+                    288.8
+                ],
+                [
+                    288.8,
+                    295.5
+                ],
+                [
+                    295.5,
+                    305.5
+                ],
+                [
+                    316.7,
+                    329.6
+                ],
+                [
+                    329.6,
+                    335.5
+                ],
+                [
+                    335.5,
+                    340.8
+                ],
+                [
+                    340.8,
+                    348.9
+                ],
+                [
+                    348.9,
+                    357.3
+                ],
+                [
+                    359.2,
+                    369.9
+                ],
+                [
+                    369.9,
+                    380.6
+                ]
+            ],
+            "confidence": 0.39,
+            "order": 16
+        },
+        {
+            "concept": "Terminal",
+            "time_references": [
+                [
+                    120.9,
+                    134.2
+                ]
+            ],
+            "confidence": 0.02,
+            "order": 17
+        },
+        {
+            "concept": "Electron",
+            "time_references": [
+                [
+                    134.2,
+                    146.7
+                ],
+                [
+                    146.7,
+                    158.8
+                ],
+                [
+                    158.8,
+                    168.8
+                ],
+                [
+                    168.8,
+                    173.9
+                ],
+                [
+                    173.9,
+                    189.0
+                ],
+                [
+                    189.0,
+                    198.4
+                ],
+                [
+                    198.4,
+                    208.8
+                ],
+                [
+                    256.0,
+                    274.0
+                ],
+                [
+                    288.8,
+                    295.5
+                ],
+                [
+                    295.5,
+                    305.5
+                ]
+            ],
+            "confidence": 0.21,
+            "order": 18
+        },
+        {
+            "concept": "Water Analogy",
+            "time_references": [
+                [
+                    134.2,
+                    146.7
+                ],
+                [
+                    217.9,
+                    224.9
+                ],
+                [
+                    224.9,
+                    231.7
+                ],
+                [
+                    238.9,
+                    245.8
+                ],
+                [
+                    245.8,
+                    256.0
+                ]
+            ],
+            "confidence": 0.25,
+            "order": 19
+        },
+        {
+            "concept": "Force",
+            "time_references": [
+                [
+                    173.9,
+                    189.0
+                ],
+                [
+                    189.0,
+                    198.4
+                ],
+                [
+                    198.4,
+                    208.8
+                ],
+                [
+                    208.8,
+                    217.9
+                ]
+            ],
+            "confidence": 0.05,
+            "order": 20
+        },
+        {
+            "concept": "Pressure",
+            "time_references": [
+                [
+                    217.9,
+                    224.9
+                ],
+                [
+                    224.9,
+                    231.7
+                ]
+            ],
+            "confidence": 0.03,
+            "order": 21
+        },
+        {
+            "concept": "Atom",
+            "time_references": [
+                [
+                    256.0,
+                    274.0
+                ],
+                [
+                    274.0,
+                    281.9
+                ],
+                [
+                    281.9,
+                    288.8
+                ],
+                [
+                    295.5,
+                    305.5
+                ]
+            ],
+            "confidence": 0.06,
+            "order": 22
+        },
+        {
+            "concept": "Length",
+            "time_references": [
+                [
+                    274.0,
+                    281.9
+                ]
+            ],
+            "confidence": 0.01,
+            "order": 23
+        },
+        {
+            "concept": "Temperature",
+            "time_references": [
+                [
+                    288.8,
+                    295.5
+                ],
+                [
+                    340.8,
+                    348.9
+                ],
+                [
+                    380.6,
+                    391.0
+                ],
+                [
+                    391.0,
+                    398.8
+                ]
+            ],
+            "confidence": 0.14,
+            "order": 24
+        },
+        {
+            "concept": "Vibrate",
+            "time_references": [
+                [
+                    295.5,
+                    305.5
+                ]
+            ],
+            "confidence": 0.04,
+            "order": 25
+        },
+        {
+            "concept": "Proportionality",
+            "time_references": [
+                [
+                    316.7,
+                    329.6
+                ],
+                [
+                    407.8,
+                    415.5
+                ],
+                [
+                    415.5,
+                    424.4
+                ],
+                [
+                    424.4,
+                    431.6
+                ]
+            ],
+            "confidence": 0.14,
+            "order": 26
+        },
+        {
+            "concept": "Constant",
+            "time_references": [
+                [
+                    340.8,
+                    348.9
+                ],
+                [
+                    380.6,
+                    391.0
+                ],
+                [
+                    398.8,
+                    407.8
+                ],
+                [
+                    424.4,
+                    431.6
+                ],
+                [
+                    431.6,
+                    437.9
+                ]
+            ],
+            "confidence": 0.1,
+            "order": 27
+        },
+        {
+            "concept": "Statement",
+            "time_references": [
+                [
+                    415.5,
+                    424.4
+                ]
+            ],
+            "confidence": 0.01,
+            "order": 28
+        },
+        {
+            "concept": "Symbol",
+            "time_references": [
+                [
+                    415.5,
+                    424.4
+                ]
+            ],
+            "confidence": 0.03,
+            "order": 29
+        },
+        {
+            "concept": "Inversely Proportional",
+            "time_references": [
+                [
+                    444.5,
+                    449.9
+                ]
+            ],
+            "confidence": 0.04,
+            "order": 30
+        }
+    ],
+    "edges": [
+        {
+            "source": "Device",
+            "target": "Heater",
+            "explanation": "Heater is an example of a device.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Device",
+            "target": "Stove",
+            "explanation": "Stove is an example of a device.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Device",
+            "target": "Charger",
+            "explanation": "Charger is an example of a device.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Device",
+            "target": "Electric Motor",
+            "explanation": "Electric Motor is an example of a device.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Circuit Breaker",
+            "target": "MCB",
+            "explanation": "MCB is a type of circuit breaker.",
+            "confidence": 0.9
+        },
+        {
+            "source": "Problem",
+            "target": "Solve",
+            "explanation": "Problems are meant to be solved.",
+            "confidence": 0.9
+        },
+        {
+            "source": "MCB",
+            "target": "Current",
+            "explanation": "MCB protects against excessive current.",
+            "confidence": 0.7
+        },
+        {
+            "source": "Solve",
+            "target": "Equation",
+            "explanation": "Equations are used to solve problems.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Equation",
+            "target": "Ohm's Law",
+            "explanation": "Ohm's Law is a fundamental electrical equation.",
+            "confidence": 0.9
+        },
+        {
+            "source": "Ohm's Law",
+            "target": "Current",
+            "explanation": "Ohm's Law defines the relationship involving current.",
+            "confidence": 0.95
+        },
+        {
+            "source": "Ohm's Law",
+            "target": "Voltage",
+            "explanation": "Ohm's Law defines the relationship involving voltage.",
+            "confidence": 0.95
+        },
+        {
+            "source": "Ohm's Law",
+            "target": "Resistance",
+            "explanation": "Ohm's Law defines the relationship involving resistance.",
+            "confidence": 0.95
+        },
+        {
+            "source": "Current",
+            "target": "Battery",
+            "explanation": "Battery is a source of current.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Voltage",
+            "target": "Battery",
+            "explanation": "Battery provides voltage.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Current",
+            "target": "Wire",
+            "explanation": "Current flows through a wire.",
+            "confidence": 0.9
+        },
+        {
+            "source": "Wire",
+            "target": "Terminal",
+            "explanation": "Terminals are connection points on a wire/circuit.",
+            "confidence": 0.7
+        },
+        {
+            "source": "Current",
+            "target": "Electron",
+            "explanation": "Current is the flow of electrons.",
+            "confidence": 0.9
+        },
+        {
+            "source": "Current",
+            "target": "Water Analogy",
+            "explanation": "Water analogy helps explain current flow.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Voltage",
+            "target": "Water Analogy",
+            "explanation": "Water analogy helps explain voltage (as pressure).",
+            "confidence": 0.8
+        },
+        {
+            "source": "Resistance",
+            "target": "Water Analogy",
+            "explanation": "Water analogy helps explain resistance (as obstacles).",
+            "confidence": 0.8
+        },
+        {
+            "source": "Voltage",
+            "target": "Force",
+            "explanation": "Voltage is the electrical force that drives current.",
+            "confidence": 0.85
+        },
+        {
+            "source": "Water Analogy",
+            "target": "Pressure",
+            "explanation": "Pressure in the water analogy represents voltage.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Electron",
+            "target": "Atom",
+            "explanation": "Electrons interact with atoms in a conductor.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Resistance",
+            "target": "Atom",
+            "explanation": "Resistance arises from electrons colliding with atoms.",
+            "confidence": 0.85
+        },
+        {
+            "source": "Resistance",
+            "target": "Length",
+            "explanation": "Length of the wire affects resistance.",
+            "confidence": 0.7
+        },
+        {
+            "source": "Resistance",
+            "target": "Temperature",
+            "explanation": "Temperature affects resistance.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Temperature",
+            "target": "Vibrate",
+            "explanation": "Increased temperature causes atoms to vibrate more.",
+            "confidence": 0.75
+        },
+        {
+            "source": "Atom",
+            "target": "Vibrate",
+            "explanation": "Atoms vibrate, especially with increased temperature.",
+            "confidence": 0.75
+        },
+        {
+            "source": "Voltage",
+            "target": "Proportionality",
+            "explanation": "Voltage is directly proportional to current (Ohm's Law).",
+            "confidence": 0.9
+        },
+        {
+            "source": "Current",
+            "target": "Proportionality",
+            "explanation": "Current is directly proportional to voltage (Ohm's Law).",
+            "confidence": 0.9
+        },
+        {
+            "source": "Temperature",
+            "target": "Constant",
+            "explanation": "Temperature must be constant for Ohm's Law to hold.",
+            "confidence": 0.85
+        },
+        {
+            "source": "Ohm's Law",
+            "target": "Statement",
+            "explanation": "The formal definition of Ohm's Law.",
+            "confidence": 0.9
+        },
+        {
+            "source": "Equation",
+            "target": "Symbol",
+            "explanation": "Symbols are used in the Ohm's Law equation.",
+            "confidence": 0.8
+        },
+        {
+            "source": "Resistance",
+            "target": "Inversely Proportional",
+            "explanation": "Resistance is inversely proportional to current (Ohm's Law).",
+            "confidence": 0.9
+        },
+        {
+            "source": "Current",
+            "target": "Inversely Proportional",
+            "explanation": "Current is inversely proportional to resistance (Ohm's Law).",
+            "confidence": 0.9
+        },
+        {
+            "source": "Problem",
+            "target": "Ohm's Law",
+            "explanation": "Ohm's Law helps solve electrical problems.",
+            "confidence": 0.8
+        }
+    ]
+}

@@ -1,0 +1,989 @@
+{
+    "language": "Marathi-English",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 6.6,
+            "original_text": "आजच्या लेक्चर मध्ये मी आपणास बेसिक जे कॉन्सेप्ट आहे डेटाबेसचे ते शिकवणार आहे.",
+            "english_text": "In today's lecture, I will teach you the basic concepts of databases.",
+            "language": "Marathi-English",
+            "text": "In today's lecture, I will teach you the basic concepts of databases."
+        },
+        {
+            "start": 6.6,
+            "end": 12.0,
+            "original_text": "याच्यामध्ये सर्वप्रथम आपण इंट्रोडक्शन बघणार आहोत बेसिक कॉन्सेप्ट मध्ये बघा कॉम्प्युटर डेटा काय असतो?",
+            "english_text": "First, we will look at the introduction. In basic concepts, see what computer data is?",
+            "language": "Marathi-English",
+            "text": "First, we will look at the introduction. In basic concepts, see what computer data is?"
+        },
+        {
+            "start": 12.0,
+            "end": 21.2,
+            "original_text": "The presentation of facts, information or concept which are created in a computer readable form or translated into such a form.",
+            "english_text": "The presentation of facts, information or concept which are created in a computer readable form or translated into such a form.",
+            "language": "English",
+            "text": "The presentation of facts, information or concept which are created in a computer readable form or translated into such a form."
+        },
+        {
+            "start": 21.2,
+            "end": 31.3,
+            "original_text": "अशी माहिती ज्याच्यामध्ये फॅक्ट्स असू शकतात, माहिती असू शकते किंवा कॉन्सेप्ट असू शकते जी आपल्याला रीडेबल फॉर्म मध्ये कॉम्प्युटर मध्ये आपण स्टोअर करू शकतो त्याला आपण काय म्हणतो कॉम्प्युटर डेटा.",
+            "english_text": "Such information which can contain facts, information, or concepts that we can store in a computer in a readable form, we call that computer data.",
+            "language": "Marathi-English",
+            "text": "Such information which can contain facts, information, or concepts that we can store in a computer in a readable form, we call that computer data."
+        },
+        {
+            "start": 31.3,
+            "end": 37.6,
+            "original_text": "डेटा आणि इन्फॉर्मेशन मध्ये काहीतरी फरक असतो. तर काय फरक आहे तो आपण या सेशन मध्ये बघणार आहोत.",
+            "english_text": "There is some difference between data and information. We will see what that difference is in this session.",
+            "language": "Marathi-English",
+            "text": "There is some difference between data and information. We will see what that difference is in this session."
+        },
+        {
+            "start": 37.6,
+            "end": 42.7,
+            "original_text": "तर इन्फॉर्मेशन काय आहे? इन्फॉर्मेशन इज अ युजेबल आन्सर टू द कॉन्क्रीट क्वेश्चन.",
+            "english_text": "So what is information? Information is a usable answer to a concrete question.",
+            "language": "Marathi-English",
+            "text": "So what is information? Information is a usable answer to a concrete question."
+        },
+        {
+            "start": 42.7,
+            "end": 47.9,
+            "original_text": "म्हणजे एक प्रश्न आहे आणि त्याचं योग्य उत्तर जे असणार आहे ते म्हणजे काय असणार आहे इन्फॉर्मेशन असणार आहे.",
+            "english_text": "Meaning there is a question, and its correct answer will be information.",
+            "language": "Marathi-English",
+            "text": "Meaning there is a question, and its correct answer will be information."
+        },
+        {
+            "start": 48.4,
+            "end": 56.0,
+            "original_text": "जसं मी तुम्हाला विचारलं तुमचं नाव काय आहे? तर तुम्ही तुमचं नावाचं जे असेल ते तुम्ही मला सांगाल तर ती काय झाली इन्फॉर्मेशन झाली.",
+            "english_text": "For example, if I ask you what your name is, you will tell me your name, so that became information.",
+            "language": "Marathi-English",
+            "text": "For example, if I ask you what your name is, you will tell me your name, so that became information."
+        },
+        {
+            "start": 56.0,
+            "end": 104.2,
+            "original_text": "आणि जर तुम्हाला सर्वांना म्हटलं तुमचे नाव तुम्ही एका कागदावर लिहून ठेवा आणि तो कागद जर माझ्या जवळ तुम्ही दिला तर ते काय झाला एक डाटा झाला. डायमेन्शन ऑफ इन्फॉर्मेशन त्याच्यामध्ये सिंटॅक्टिक येतात, सिमेंटिक येतात आणि प्रॅग्मॅटिक येतात.",
+            "english_text": "And if I told all of you to write your names on a piece of paper and you gave that paper to me, then that became data. Dimensions of information include syntactic, semantic, and pragmatic.",
+            "language": "Marathi-English",
+            "text": "And if I told all of you to write your names on a piece of paper and you gave that paper to me, then that became data. Dimensions of information include syntactic, semantic, and pragmatic."
+        },
+        {
+            "start": 104.2,
+            "end": 130.5,
+            "original_text": "त्याच्यानंतर ट्राफिक सिग्नल्स इन द सिंटॅक्टिक वी डिफरेंशिएट द थ्री कलर रेड, येलो अँड ग्रीन. सिंटॅक्टिक मध्ये आपण जे आहे डिफरंट डिफरंट जे कलर्स असतात त्यांना आपण याच्यामध्ये डिफरेंशिएट करू शकतो.",
+            "english_text": "After that, traffic signals. In the syntactic, we differentiate the three colors red, yellow, and green. In syntactic, we can differentiate the different colors.",
+            "language": "Marathi-English",
+            "text": "After that, traffic signals. In the syntactic, we differentiate the three colors red, yellow, and green. In syntactic, we can differentiate the different colors."
+        },
+        {
+            "start": 130.5,
+            "end": 138.7,
+            "original_text": "बेसिक कॉन्सेप्ट आपण बघितलेलंच आहे आता ट्राफिक सिग्नलचं एक एक्झाम्पल दिलेलं आहे जसं की हा ग्रीन आहे, हा येलो आहे आणि हा रेड आहे.",
+            "english_text": "We have already seen the basic concept. Now, an example of a traffic signal is given, such as this is green, this is yellow, and this is red.",
+            "language": "Marathi-English",
+            "text": "We have already seen the basic concept. Now, an example of a traffic signal is given, such as this is green, this is yellow, and this is red."
+        },
+        {
+            "start": 139.2,
+            "end": 141.4,
+            "original_text": "The colors are linked to meanings.",
+            "english_text": "The colors are linked to meanings.",
+            "language": "English",
+            "text": "The colors are linked to meanings."
+        },
+        {
+            "start": 141.4,
+            "end": 148.5,
+            "original_text": "या कलरमधून आपल्याला एक अर्थ कळत आहे याला बघितल्यानंतर रेड मीन्स स्टॉप, ग्रीन मीन्स गो, ओके.",
+            "english_text": "From these colors, we understand a meaning after seeing them: Red means stop, Green means go, okay.",
+            "language": "Marathi-English",
+            "text": "From these colors, we understand a meaning after seeing them: Red means stop, Green means go, okay."
+        },
+        {
+            "start": 149.3,
+            "end": 155.5,
+            "original_text": "Only in the pragmatic dimension does the traffic light become usable for the traffic.",
+            "english_text": "Only in the pragmatic dimension does the traffic light become usable for the traffic.",
+            "language": "English",
+            "text": "Only in the pragmatic dimension does the traffic light become usable for the traffic."
+        },
+        {
+            "start": 155.8,
+            "end": 200.9,
+            "original_text": "Red means that the driver of a car must stop.",
+            "english_text": "Red means that the driver of a car must stop.",
+            "language": "English",
+            "text": "Red means that the driver of a car must stop."
+        },
+        {
+            "start": 201.2,
+            "end": 208.9,
+            "original_text": "याच्यावरून आपल्याला माहिती मिळत आहे, इन्फॉर्मेशन मिळत आहे की लाल लाईट लागला तर आपल्याला काय करायचं आहे थांबायचं आहे आणि ग्रीन जर सिग्नल मिळाला तर आपल्याला समोर जायचं आहे.",
+            "english_text": "From this, we are getting information that if the red light comes on, we have to stop, and if we get a green signal, we have to go forward.",
+            "language": "Marathi-English",
+            "text": "From this, we are getting information that if the red light comes on, we have to stop, and if we get a green signal, we have to go forward."
+        },
+        {
+            "start": 210.3,
+            "end": 219.4,
+            "original_text": "तसंच इन्फॉर्मेशन सिस्टिम मध्ये ॲन इन्फॉर्मेशन सिस्टिम एक्सटेंड द डेटाबेस विथ अ कपल ऑफ सॉफ्टवेअर टूल्स फॉर क्वेरींग, प्रेझेंटिंग, ट्रान्सफॉर्मिंग अँड ॲनलायझिंग द डेटा.",
+            "english_text": "Similarly, in an information system, an information system extends the database with a couple of software tools for querying, presenting, transforming, and analyzing the data.",
+            "language": "Marathi-English",
+            "text": "Similarly, in an information system, an information system extends the database with a couple of software tools for querying, presenting, transforming, and analyzing the data."
+        },
+        {
+            "start": 220.0,
+            "end": 226.7,
+            "original_text": "कॉम्पोनंट्स काय काय असेल? डेटा आणि डेटाबेस, डेटाबेस मॅनेजमेंट सिस्टिम, डेटाबेस सिस्टिम आणि इन्फॉर्मेशन सिस्टिम.",
+            "english_text": "What will be the components? Data and database, database management system, database system, and information system.",
+            "language": "Marathi-English",
+            "text": "What will be the components? Data and database, database management system, database system, and information system."
+        },
+        {
+            "start": 227.3,
+            "end": 238.7,
+            "original_text": "इन्फॉर्मेशन सिस्टिम काय असते जी एक्सटेंड करते डेटाबेसला विथ अ कपल ऑफ सॉफ्टवेअर म्हणजे काही सॉफ्टवेअरचा यूज करून आपण डेटा सोबत जे आहे डेटाला प्रेझेंट करू शकतो, त्याला ट्रान्सफॉर्म करू शकतो किंवा त्याला ॲनलायझ करू शकतो.",
+            "english_text": "What is an information system? It extends the database with a couple of software, meaning by using some software, we can present the data, transform it, or analyze it.",
+            "language": "Marathi-English",
+            "text": "What is an information system? It extends the database with a couple of software, meaning by using some software, we can present the data, transform it, or analyze it."
+        },
+        {
+            "start": 240.3,
+            "end": 248.9,
+            "original_text": "डेटा अँड डेटाबेस, व्हॉट इज डेटाबेस? डेटाबेस इज अ कलेक्शन ऑफ रिलेटेड डेटा अँड डेटा इज अ कलेक्शन ऑफ फॅक्ट्स अँड फिगर्स दॅट कॅन बी प्रोसेस टू प्रोड्यूस इन्फॉर्मेशन.",
+            "english_text": "Data and database, what is database? Database is a collection of related data and data is a collection of facts and figures that can be processed to produce information.",
+            "language": "English",
+            "text": "Data and database, what is database? Database is a collection of related data and data is a collection of facts and figures that can be processed to produce information."
+        },
+        {
+            "start": 249.3,
+            "end": 252.8,
+            "original_text": "सो व्हॉट इज मीन बाय डेटाबेस? डेटाबेस इज अ कलेक्शन ऑफ रिलेटेड डेटा.",
+            "english_text": "So what is meant by database? Database is a collection of related data.",
+            "language": "English",
+            "text": "So what is meant by database? Database is a collection of related data."
+        },
+        {
+            "start": 253.3,
+            "end": 259.8,
+            "original_text": "लक्षात ठेवा डेटाबेस म्हणजे काय आहे? रिलेटेड जो की डेटा आहे त्याचं जे कलेक्शन असतं त्याला आपण काय म्हणत असतो डेटाबेस.",
+            "english_text": "Remember, what is a database? It is the collection of related data, which we call a database.",
+            "language": "Marathi-English",
+            "text": "Remember, what is a database? It is the collection of related data, which we call a database."
+        },
+        {
+            "start": 259.8,
+            "end": 309.4,
+            "original_text": "अँड डेटा इज अ कलेक्शन ऑफ फॅक्ट्स अँड फिगर आणि डेटा मध्ये काय येईल? फॅक्ट्स, फिगर्स या सर्वांचं कलेक्शन म्हणजे डेटा दॅट कॅन बी प्रोसेस टू प्रोड्यूस इन्फॉर्मेशन.",
+            "english_text": "And data is a collection of facts and figures. What will come in data? Facts, figures, the collection of all these is data that can be processed to produce information.",
+            "language": "Marathi-English",
+            "text": "And data is a collection of facts and figures. What will come in data? Facts, figures, the collection of all these is data that can be processed to produce information."
+        },
+        {
+            "start": 309.4,
+            "end": 315.6,
+            "original_text": "याला सर्वाला आपण काय करू शकतो प्रोसेस करू शकतो या डेटाला आणि त्याच्या जवळून आपण इन्फॉर्मेशन जमा करू शकतो.",
+            "english_text": "We can process all this data and gather information from it.",
+            "language": "Marathi-English",
+            "text": "We can process all this data and gather information from it."
+        },
+        {
+            "start": 316.3,
+            "end": 326.4,
+            "original_text": "ओके जसं की मी तुम्हाला म्हटलं न्यूजपेपर आहे आणि त्याच्यामधली आजची ब्रेकिंग न्यूज कुठली आहे? तर तुम्ही मला लगेच सांगाल की ही आहे म्हणजे ती काय झाली पर्टिक्युलर इन्फॉर्मेशन झाली त्या डेटा मधली.",
+            "english_text": "Okay, for example, if I told you there's a newspaper and asked what today's breaking news is, you would immediately tell me, so that became particular information from that data.",
+            "language": "Marathi-English",
+            "text": "Okay, for example, if I told you there's a newspaper and asked what today's breaking news is, you would immediately tell me, so that became particular information from that data."
+        },
+        {
+            "start": 326.4,
+            "end": 332.4,
+            "original_text": "दिस इज अ डेटा अँड दिस इज द डेटाबेस. दिस इज डेटाबेस इनसाइड डेटाबेस देअर इज अ डेटा लोकेटेड.",
+            "english_text": "This is data and this is the database. This is a database, inside the database there is data located.",
+            "language": "English",
+            "text": "This is data and this is the database. This is a database, inside the database there is data located."
+        },
+        {
+            "start": 336.2,
+            "end": 347.9,
+            "original_text": "व्हॉट इज द डीबीएमएस? अ सॉफ्टवेअर प्रॉडक्ट फॉर द परसिस्टंट, कन्सिस्टंट अँड ॲप्लिकेशन इंडिपेंडंट स्टोरेज अँड मॅनेजमेंट ऑफ डेटा इज कॉल्ड डेटाबेस मॅनेजमेंट सिस्टिम.",
+            "english_text": "What is the DBMS? A software product for the persistent, consistent, and application-independent storage and management of data is called a database management system.",
+            "language": "English",
+            "text": "What is the DBMS? A software product for the persistent, consistent, and application-independent storage and management of data is called a database management system."
+        },
+        {
+            "start": 348.4,
+            "end": 359.9,
+            "original_text": "सो व्हॉट इज मीन बाय डेटाबेस? सॉफ्टवेअर प्रॉडक्ट फॉर द परसिस्टंट म्हणजे जो डेटा आहे तो परसिस्टंट म्हणजे नेहमी राहील जोपर्यंत आपण त्याला डिलीट करत नाही. कन्सिस्टंट म्हणजे ॲज इट इज राहील जसा आहे तसा.",
+            "english_text": "So what is meant by database? A software product for persistent, meaning the data will remain persistent, always, until we delete it. Consistent means it will remain as it is.",
+            "language": "Marathi-English",
+            "text": "So what is meant by database? A software product for persistent, meaning the data will remain persistent, always, until we delete it. Consistent means it will remain as it is."
+        },
+        {
+            "start": 359.9,
+            "end": 408.6,
+            "original_text": "त्याला कुठल्याही त्याच्यामध्ये एरर वगैरे किंवा त्याला व्हायरस वगैरे नसेल अँड ॲप्लिकेशन इंडिपेंडंट म्हणजे तो ॲप्लिकेशनवर डिपेंड राहणार नाही.",
+            "english_text": "It will not have any errors or viruses, and application independent means it will not depend on the application.",
+            "language": "Marathi-English",
+            "text": "It will not have any errors or viruses, and application independent means it will not depend on the application."
+        },
+        {
+            "start": 409.0,
+            "end": 416.9,
+            "original_text": "स्टोरेज अँड मॅनेजमेंट ऑफ डेटा असं जे सिस्टिम अशा टाईपच्या डेटाला स्टोअर करत आहे, मॅनेज करत आहे तिला आपण काय म्हणतो डेटाबेस मॅनेजमेंट सिस्टिम.",
+            "english_text": "A system that stores and manages such type of data, we call it a database management system.",
+            "language": "Marathi-English",
+            "text": "A system that stores and manages such type of data, we call it a database management system."
+        },
+        {
+            "start": 417.4,
+            "end": 429.4,
+            "original_text": "तुम्हाला हे पाठ करून घ्यायचं आहे, लक्षात ठेवायचं आहे अ सॉफ्टवेअर प्रॉडक्ट फॉर द परसिस्टंट, कन्सिस्टंट अँड ॲप्लिकेशन इंडिपेंडंट स्टोरेज अँड मॅनेजमेंट ऑफ डेटा इज कॉल्ड डेटाबेस मॅनेजमेंट सिस्टिम.",
+            "english_text": "You have to memorize this, remember: a software product for the persistent, consistent, and application-independent storage and management of data is called a database management system.",
+            "language": "Marathi-English",
+            "text": "You have to memorize this, remember: a software product for the persistent, consistent, and application-independent storage and management of data is called a database management system."
+        },
+        {
+            "start": 430.0,
+            "end": 434.2,
+            "original_text": "It stores data in such a way that it becomes easier to retrieve.",
+            "english_text": "It stores data in such a way that it becomes easier to retrieve.",
+            "language": "English",
+            "text": "It stores data in such a way that it becomes easier to retrieve."
+        },
+        {
+            "start": 434.5,
+            "end": 441.7,
+            "original_text": "डेटाबेस मॅनेजमेंट सिस्टिम अशा पद्धतीने डेटाला स्टोअर करतं की ते आपण इझिली त्याला रिट्राइव्ह म्हणजे आपण इझिली त्याला काढू शकतो.",
+            "english_text": "A database management system stores data in such a way that we can easily retrieve it, meaning we can easily extract it.",
+            "language": "Marathi-English",
+            "text": "A database management system stores data in such a way that we can easily retrieve it, meaning we can easily extract it."
+        },
+        {
+            "start": 442.2,
+            "end": 450.5,
+            "original_text": "त्याला मॅनिप्युलेट करू शकतो म्हणजे ॲडिशन, सबट्रॅक्शन, मल्टिप्लिकेशन जे काही ऑपरेशन्स करायचे असेल डेटाबेसवर ते सर्व आपण मॅनिप्युलेट करू शकतो त्याला.",
+            "english_text": "We can manipulate it, meaning perform addition, subtraction, multiplication, whatever operations need to be done on the database, we can manipulate all of them.",
+            "language": "Marathi-English",
+            "text": "We can manipulate it, meaning perform addition, subtraction, multiplication, whatever operations need to be done on the database, we can manipulate all of them."
+        },
+        {
+            "start": 450.5,
+            "end": 457.7,
+            "original_text": "ओके कट करायचं, कॉपी करायचं, पेस्ट करायचं जे काही असेल अँड प्रोड्यूस इन्फॉर्मेशन आणि त्याच्यातून आपण माहिती मिळवू शकतो.",
+            "english_text": "Okay, cut, copy, paste, whatever it may be, and produce information, and from that, we can obtain information.",
+            "language": "Marathi-English",
+            "text": "Okay, cut, copy, paste, whatever it may be, and produce information, and from that, we can obtain information."
+        },
+        {
+            "start": 458.5,
+            "end": 501.7,
+            "original_text": "इथे डेटाबेस मॅनेजमेंट सिस्टिम दिसत आहे आणि खाली काय डेटा.",
+            "english_text": "Here, the database management system is visible, and below is the data.",
+            "language": "Marathi-English",
+            "text": "Here, the database management system is visible, and below is the data."
+        },
+        {
+            "start": 503.6,
+            "end": 509.2,
+            "original_text": "तर डेटाबेस मॅनेजमेंट सिस्टिम कुठल्या कुठल्या वेला आहे हे वेल नोन सिस्टिम आहे एसक्यूएल सर्वर तुम्ही ऐकलं असेल.",
+            "english_text": "So, which database management systems are there? This is a well-known system, you might have heard of SQL Server.",
+            "language": "Marathi-English",
+            "text": "So, which database management systems are there? This is a well-known system, you might have heard of SQL Server."
+        },
+        {
+            "start": 509.2,
+            "end": 517.6,
+            "original_text": "ओरॅकल आहे, माय एसक्यूएल आहे, पोस्टग्री एसक्यूएल आहे, आयबीएम आहे, डीबीटू आहे असे बरेचशे मार्केटमध्ये तुम्हाला प्रॉडक्ट मिळतील.",
+            "english_text": "There's Oracle, MySQL, PostgreSQL, IBM, DB2; you will find many such products in the market.",
+            "language": "Marathi-English",
+            "text": "There's Oracle, MySQL, PostgreSQL, IBM, DB2; you will find many such products in the market."
+        },
+        {
+            "start": 520.4,
+            "end": 525.2,
+            "original_text": "डीबीएमएस कॅन बी इंटरऑपरेटेड बाय युझिंग स्टँडर्ड सच ॲज एसक्यूएल अँड ओडीबीसी.",
+            "english_text": "DBMS can be interoperated by using standards such as SQL and ODBC.",
+            "language": "English",
+            "text": "DBMS can be interoperated by using standards such as SQL and ODBC."
+        },
+        {
+            "start": 525.2,
+            "end": 533.6,
+            "original_text": "डीबीएमएस जे आहे ऑपरेट केलं जातं थ्रू द एसक्यूएल, एसक्यूएल इज नथिंग बट अ स्ट्रक्चर्ड क्वेरी लँग्वेज याला काय म्हणतात स्ट्रक्चर्ड क्वेरी लँग्वेज.",
+            "english_text": "DBMS is operated through SQL. SQL is nothing but a Structured Query Language. It is called Structured Query Language.",
+            "language": "Marathi-English",
+            "text": "DBMS is operated through SQL. SQL is nothing but a Structured Query Language. It is called Structured Query Language."
+        },
+        {
+            "start": 533.6,
+            "end": 542.6,
+            "original_text": "अँड ओडीबीसी ऑर जेडीबीसी हे ड्रायव्हर्स असतात त्याच्याने आपण काय करू शकतो डेटाबेस मधला डेटा आपण ॲप्लिकेशन प्रोग्रामिंग सोबत जे आहे जोडू शकतो म्हणजे त्याच्यामध्ये फेस करू शकतो.",
+            "english_text": "And ODBC or JDBC are drivers. With them, we can connect the data from the database with application programming, meaning we can interface with it.",
+            "language": "Marathi-English",
+            "text": "And ODBC or JDBC are drivers. With them, we can connect the data from the database with application programming, meaning we can interface with it."
+        },
+        {
+            "start": 542.6,
+            "end": 553.5,
+            "original_text": "ॲप्लिकेशन प्रोग्राम म्हणजे डॉट नेट असेल, जावा असेल याच्यामध्ये किंवा व्हीबी व्हिज्युअल बेसिक असेल तर याच्यामध्ये आपण हा डेटा रिट्राइव्ह करू शकतो फ्रॉम द डेटाबेस.",
+            "english_text": "Application programs like .NET, Java, or VB Visual Basic, we can retrieve this data from the database using them.",
+            "language": "Marathi-English",
+            "text": "Application programs like .NET, Java, or VB Visual Basic, we can retrieve this data from the database using them."
+        },
+        {
+            "start": 556.4,
+            "end": 559.7,
+            "original_text": "अ डेटाबेस सिस्टिम कन्सिस्ट ऑफ डीबीएमएस अँड वन ऑर मोअर डेटाबेस.",
+            "english_text": "A database system consists of DBMS and one or more databases.",
+            "language": "English",
+            "text": "A database system consists of DBMS and one or more databases."
+        },
+        {
+            "start": 559.7,
+            "end": 610.5,
+            "original_text": "ही आहे सिस्टिम डेटाबेसची बघू शकता डेटाबेस मॅनेजमेंट सिस्टिम आणि याच्यामध्ये वेगवेगळे काय असू शकतात? या सिस्टिम एकच आहे डीबीएमएस परंतु वेगवेगळे जे आहे डेटाबेस ला ती ॲक्सेस करते.",
+            "english_text": "This is the database system, you can see the database management system, and what different things can be in it? This system is a single DBMS, but it accesses different databases.",
+            "language": "Marathi-English",
+            "text": "This is the database system, you can see the database management system, and what different things can be in it? This system is a single DBMS, but it accesses different databases."
+        },
+        {
+            "start": 610.5,
+            "end": 618.5,
+            "original_text": "ओके दॅट इज द डेटाबेस मॅनेजमेंट सिस्टिम दॅट विल मॅनेज मोअर दॅन वन ऑर मोअर डेटाबेस, ओके.",
+            "english_text": "Okay, that is the database management system that will manage more than one or more databases, okay.",
+            "language": "English",
+            "text": "Okay, that is the database management system that will manage more than one or more databases, okay."
+        },
+        {
+            "start": 618.5,
+            "end": 627.8,
+            "original_text": "डेटाबेस सिस्टिम कन्सिस्ट ऑफ डीबीएमएस अँड वन ऑर मोअर डेटाबेस, वन ऑर मोअर डेटाबेस इट्स मोस्ट इम्पॉर्टंट.",
+            "english_text": "Database system consists of DBMS and one or more databases, one or more databases, it's most important.",
+            "language": "English",
+            "text": "Database system consists of DBMS and one or more databases, one or more databases, it's most important."
+        },
+        {
+            "start": 628.2,
+            "end": 637.2,
+            "original_text": "ते तुम्ही बघू शकता याच्यामध्ये डीबीएमएस आणि याला कनेक्ट कशाने केलेला आहे? वेगवेगळ्या डेटाबेस ला हे कनेक्ट होतं असे एन नंबर ऑफ डेटाबेस ला हे डीबीएमएस कनेक्ट असू शकतं.",
+            "english_text": "You can see in this that DBMS is connected to different databases. It can connect to N number of databases.",
+            "language": "Marathi-English",
+            "text": "You can see in this that DBMS is connected to different databases. It can connect to N number of databases."
+        },
+        {
+            "start": 639.0,
+            "end": 648.3,
+            "original_text": "इन्फॉर्मेशन सिस्टिम काय असतं? ॲन इन्फॉर्मेशन सिस्टिम एक्सटेंड द डेटाबेस विथ अ कपल ऑफ सॉफ्टवेअर टूल्स फॉर क्वेरींग, प्रेझेंटिंग, ट्रान्सफॉर्मिंग अँड ॲनलायझिंग द डेटा.",
+            "english_text": "What is an information system? An information system extends the database with a couple of software tools for querying, presenting, transforming, and analyzing the data.",
+            "language": "Marathi-English",
+            "text": "What is an information system? An information system extends the database with a couple of software tools for querying, presenting, transforming, and analyzing the data."
+        },
+        {
+            "start": 648.3,
+            "end": 652.5,
+            "original_text": "इन्फॉर्मेशन सिस्टिम काय असतं? कलेक्ट करतं, स्टोअर करतं, ॲनालिसिस, प्रेझेंटेशन.",
+            "english_text": "What is an information system? It collects, stores, analyzes, presents.",
+            "language": "Marathi-English",
+            "text": "What is an information system? It collects, stores, analyzes, presents."
+        },
+        {
+            "start": 653.0,
+            "end": 706.8,
+            "original_text": "जे की डेटाबेस मध्ये जो डेटा आहे त्याला आपल्याला काय करायचं आहे? ॲप्लिकेशन प्रोग्राम थ्रू आपल्याला ते प्रेझेंट करायचं आहे, स्टोअर करायचं आहे किंवा ॲनालाईज करायचं आहे, डिलीट करायचं आहे, काही डेटा काही कट करायचं आहे, कॉपी करायचं आहे, काही आपल्याला प्रेझेंट करायचं आहे.",
+            "english_text": "What we need to do with the data in the database is to present it through an application program, store it, analyze it, delete some data, cut some, copy some, or present some.",
+            "language": "Marathi-English",
+            "text": "What we need to do with the data in the database is to present it through an application program, store it, analyze it, delete some data, cut some, copy some, or present some."
+        },
+        {
+            "start": 706.8,
+            "end": 712.6,
+            "original_text": "ते सर्व करायचं काम कोणाचं आहे? इन्फॉर्मेशन सिस्टिम म्हणजे एपीआय म्हणतो आपण ज्याला ॲप्लिकेशन प्रोग्रामिंग इंटरफेस.",
+            "english_text": "Whose job is it to do all that? Information system, which we call API, Application Programming Interface.",
+            "language": "Marathi-English",
+            "text": "Whose job is it to do all that? Information system, which we call API, Application Programming Interface."
+        },
+        {
+            "start": 716.4,
+            "end": 719.2,
+            "original_text": "आता आपण बघूया फाईल आणि डेटाबेस मध्ये काय काय फरक आहे?",
+            "english_text": "Now let's see what are the differences between file and database.",
+            "language": "Marathi-English",
+            "text": "Now let's see what are the differences between file and database."
+        },
+        {
+            "start": 719.4,
+            "end": 720.4,
+            "original_text": "आयसोलेशन ऑफ डेटा.",
+            "english_text": "Isolation of data.",
+            "language": "English",
+            "text": "Isolation of data."
+        },
+        {
+            "start": 720.7,
+            "end": 722.0,
+            "original_text": "डेटाचं सेपरेशन.",
+            "english_text": "Separation of data.",
+            "language": "Marathi-English",
+            "text": "Separation of data."
+        },
+        {
+            "start": 722.4,
+            "end": 726.9,
+            "original_text": "ईच सॉफ्टवेअर अँड ईच ॲप्लिकेशन मॅनेज इट्स ओन डेटा.",
+            "english_text": "Each software and each application manage its own data.",
+            "language": "English",
+            "text": "Each software and each application manage its own data."
+        },
+        {
+            "start": 727.2,
+            "end": 735.6,
+            "original_text": "प्रत्येक सॉफ्टवेअर जी आहे ते स्वतःचा डेटा मॅनेज करतं. द युझर ऑफ वन ॲप्लिकेशन माईट नॉट नो दॅट डेटा मॅनेज इन द अदर सिस्टिम.",
+            "english_text": "Each software manages its own data. The user of one application might not know that data is managed in the other system.",
+            "language": "Marathi-English",
+            "text": "Each software manages its own data. The user of one application might not know that data is managed in the other system."
+        },
+        {
+            "start": 735.6,
+            "end": 748.5,
+            "original_text": "आता तुम्ही वर्ड वापरत असाल आणि वर्ड मधलं जर तुम्हाला दुसऱ्या कुठल्या याच्यामध्ये ओपन करायचं असेल ते फाईल तर मे बी ते होणार पण नाही ओपन. ओके बिकॉज द फाईल सिस्टिम इज डिफरंट ऑफ ईच ॲप्लिकेशन.",
+            "english_text": "Now, if you are using Word and you want to open that file in some other application, it might not even open. Okay, because the file system is different for each application.",
+            "language": "Marathi-English",
+            "text": "Now, if you are using Word and you want to open that file in some other application, it might not even open. Okay, because the file system is different for each application."
+        },
+        {
+            "start": 748.5,
+            "end": 752.2,
+            "original_text": "हे याठिकाणी इथे जे आहे डिफरंट डिफरंट ॲप्लिकेशन दिलेले आहे तुम्ही बघू शकता.",
+            "english_text": "Here, different applications are given, you can see.",
+            "language": "Marathi-English",
+            "text": "Here, different applications are given, you can see."
+        },
+        {
+            "start": 752.9,
+            "end": 800.0,
+            "original_text": "याच्यामध्ये वेगवेगळे नाव दिलेले आहे ॲप्लिकेशन सॉफ्टवेअरचे आणि प्रत्येक जो ॲप्लिकेशन आहे तो स्वतःचा डेटा जो आहे स्वतः मॅनेज करत आहे.",
+            "english_text": "Different names of application software are given here, and each application manages its own data.",
+            "language": "Marathi-English",
+            "text": "Different names of application software are given here, and each application manages its own data."
+        },
+        {
+            "start": 803.2,
+            "end": 807.5,
+            "original_text": "डेटा रिडंडन्सी सम डेटा इज मॅनेज्ड मोअर दॅन वन्स इन अ डिफरंट ॲप्लिकेशन.",
+            "english_text": "Data redundancy: Some data is managed more than once in a different application.",
+            "language": "English",
+            "text": "Data redundancy: Some data is managed more than once in a different application."
+        },
+        {
+            "start": 808.2,
+            "end": 819.9,
+            "original_text": "काही काही डेटा जो आहे जर ॲप्लिकेशन मध्ये जर पाहिलं तर प्रत्येक ॲप्लिकेशन वेगवेगळ्या डेटा यूज करतो आणि काही डेटा जो आहे प्रत्येक ॲप्लिकेशन मध्ये आपल्याला कॉमन दिसत आहे म्हणजे याच्यामध्ये काय होतं तुमच्या कॉम्प्युटरची मेमरी वेस्टेज जाते.",
+            "english_text": "Some data, if you look in applications, each application uses different data, and some data appears common in every application, meaning in this, your computer's memory goes to waste.",
+            "language": "Marathi-English",
+            "text": "Some data, if you look in applications, each application uses different data, and some data appears common in every application, meaning in this, your computer's memory goes to waste."
+        },
+        {
+            "start": 820.5,
+            "end": 823.5,
+            "original_text": "ओके हाच मेजर ड्रॉबॅक आहे फाईल सिस्टिमचा.",
+            "english_text": "Okay, this is the major drawback of the file system.",
+            "language": "Marathi-English",
+            "text": "Okay, this is the major drawback of the file system."
+        },
+        {
+            "start": 824.2,
+            "end": 830.8,
+            "original_text": "आणि तो जो ड्रॉबॅक आहे तो आपण हा जो ड्रॉबॅक आहे हा सॉल्व्ह केलेला आहे डीबीएमएसने.",
+            "english_text": "And that drawback, this drawback, has been solved by DBMS.",
+            "language": "Marathi-English",
+            "text": "And that drawback, this drawback, has been solved by DBMS."
+        },
+        {
+            "start": 831.3,
+            "end": 835.2,
+            "original_text": "Needs more data to store, difficult to find and correct inconsistent.",
+            "english_text": "Needs more data to store, difficult to find and correct inconsistent.",
+            "language": "English",
+            "text": "Needs more data to store, difficult to find and correct inconsistent."
+        },
+        {
+            "start": 835.2,
+            "end": 844.3,
+            "original_text": "आणि तुम्हाला कुठला डेटा जर सर्च करायचा असेल कॉम्प्युटर मध्ये तर तुम्ही डायरेक्टली जे डेटाबेस जर असेल तर तुम्ही डायरेक्टली त्याच्या कमांड देऊन तुम्ही सर्च करू शकता.",
+            "english_text": "And if you want to search for any data in the computer, if there is a database, you can directly search by giving its commands.",
+            "language": "Marathi-English",
+            "text": "And if you want to search for any data in the computer, if there is a database, you can directly search by giving its commands."
+        },
+        {
+            "start": 844.3,
+            "end": 850.9,
+            "original_text": "परंतु जर डेटाबेस नसेल तर मग तुम्हाला मॅन्युअली पूर्ण सर्च करावं लागेल इट्स व्हेरी टाईम कन्झ्युमिंग.",
+            "english_text": "But if there is no database, then you will have to manually search everything; it's very time-consuming.",
+            "language": "Marathi-English",
+            "text": "But if there is no database, then you will have to manually search everything; it's very time-consuming."
+        },
+        {
+            "start": 851.4,
+            "end": 856.7,
+            "original_text": "डिपेंडन्सी ऑफ डेटा अँड ॲप्लिकेशन फाईल फॉरमॅट्स ऑफ ईच ॲप्लिकेशन इज वेल अँड एक्झॅक्टली डिफाईन.",
+            "english_text": "Dependency of data and application: File formats of each application is well and exactly defined.",
+            "language": "English",
+            "text": "Dependency of data and application: File formats of each application is well and exactly defined."
+        },
+        {
+            "start": 857.1,
+            "end": 901.5,
+            "original_text": "प्रत्येक जे की ॲप्लिकेशन आहे त्याचं फाईल फॉरमॅट आपल्याला एक्झॅक्टली डिफाईन करावं लागेल. प्रत्येक ॲप्लिकेशनचं फाईल फॉरमॅट वेगळं राहणार आहे. इम्पॉसिबल टू चेंज एनीथिंग ऑन धिस फाईल फॉरमॅट.",
+            "english_text": "For each application, its file format needs to be exactly defined. Each application's file format will be different. It's impossible to change anything on this file format.",
+            "language": "Marathi-English",
+            "text": "For each application, its file format needs to be exactly defined. Each application's file format will be different. It's impossible to change anything on this file format."
+        },
+        {
+            "start": 901.5,
+            "end": 914.7,
+            "original_text": "जर एक ॲप्लिकेशनची फाईल दुसऱ्या ॲप्लिकेशन मध्ये ओपन करायची असेल तर ते कॉम्पॅटिबल असलं पाहिजे दॅट्स इज मेजर ड्रॉबॅक ऑफ फाईल सिस्टिम.",
+            "english_text": "If a file from one application needs to be opened in another application, it should be compatible. That is a major drawback of the file system.",
+            "language": "Marathi-English",
+            "text": "If a file from one application needs to be opened in another application, it should be compatible. That is a major drawback of the file system."
+        },
+        {
+            "start": 915.6,
+            "end": 920.2,
+            "original_text": "इनकम्पॅटिबल फाईल फॉरमॅट्स हे जे आहे या फाईल दुसऱ्या ॲप्लिकेशनला सपोर्ट करत नाही.",
+            "english_text": "Incompatible file formats: These files do not support other applications.",
+            "language": "Marathi-English",
+            "text": "Incompatible file formats: These files do not support other applications."
+        },
+        {
+            "start": 920.2,
+            "end": 926.0,
+            "original_text": "Each application has its own file formats therefore it is impossible to exchange file between the application.",
+            "english_text": "Each application has its own file formats, therefore it is impossible to exchange files between the applications.",
+            "language": "English",
+            "text": "Each application has its own file formats, therefore it is impossible to exchange files between the applications."
+        },
+        {
+            "start": 926.0,
+            "end": 929.5,
+            "original_text": "जर फाईलच एक्सचेंज होणार नाही तर मग तुमचं काम जे आहे थांबून जाईल.",
+            "english_text": "If files cannot be exchanged, then your work will stop.",
+            "language": "Marathi-English",
+            "text": "If files cannot be exchanged, then your work will stop."
+        },
+        {
+            "start": 931.1,
+            "end": 933.9,
+            "original_text": "आता आपण बघूया कॅरॅक्टरिस्टिक्स ऑफ डीबीएमएस डेटाबेस.",
+            "english_text": "Now let's look at the characteristics of a DBMS database.",
+            "language": "Marathi-English",
+            "text": "Now let's look at the characteristics of a DBMS database."
+        },
+        {
+            "start": 934.4,
+            "end": 938.9,
+            "original_text": "कॉन्करंट युज डेटाबेस सिस्टिम अलाऊज सेव्हरल युझर टू ॲक्सेस द डेटाबेस कॉन्करंटली.",
+            "english_text": "Concurrent use: Database system allows several users to access the database concurrently.",
+            "language": "English",
+            "text": "Concurrent use: Database system allows several users to access the database concurrently."
+        },
+        {
+            "start": 939.3,
+            "end": 941.9,
+            "original_text": "कॉन्करंटली जे की आहे अलाऊ करतं डेटाबेस.",
+            "english_text": "The database allows concurrently.",
+            "language": "Marathi-English",
+            "text": "The database allows concurrently."
+        },
+        {
+            "start": 942.4,
+            "end": 950.2,
+            "original_text": "डेटा कॅप्चरिंग अँड डेटा स्टोरेज इज नॉट रिडंडंट. द सिस्टिम कॅन बी ऑपरेटेड फ्रॉम अ सेंट्रल कंट्रोल. अ डेटा कॅन बी अपडेटेड मोअर एफिशिएंटली.",
+            "english_text": "Data capturing and data storage is not redundant. The system can be operated from a central control. Data can be updated more efficiently.",
+            "language": "English",
+            "text": "Data capturing and data storage is not redundant. The system can be operated from a central control. Data can be updated more efficiently."
+        },
+        {
+            "start": 951.0,
+            "end": 956.2,
+            "original_text": "डेटाबेस सिस्टिम काय करतं? अलाऊ करतं सेव्हरल युझर्स ॲट अ टाईम लॉगिन होऊ शकतं, सेव्हरल युझर्स डेटा ॲक्सेस करू शकतं.",
+            "english_text": "What does a database system do? It allows several users to log in at a time, several users can access data.",
+            "language": "Marathi-English",
+            "text": "What does a database system do? It allows several users to log in at a time, several users can access data."
+        },
+        {
+            "start": 956.2,
+            "end": 1002.5,
+            "original_text": "जसं गव्हर्नमेंटच्या तुम्ही साईट बघता सातबाराचा उतारा जर तुम्हाला काढायचा असेल तर एन नंबर ऑफ युझर्स त्याच्यावरून काढू शकतात. डेटा कॅप्चरिंग अँड डेटा स्टोरेज इज नॉट रिडंडंट. जो की डेटा असेल तो युनिक असेल, तो रिडंडंट राहणार नाही.",
+            "english_text": "Like when you look at government sites, if you want to extract a 7/12 extract, N number of users can extract it from there. Data capturing and data storage is not redundant. The data will be unique, it will not be redundant.",
+            "language": "Marathi-English",
+            "text": "Like when you look at government sites, if you want to extract a 7/12 extract, N number of users can extract it from there. Data capturing and data storage is not redundant. The data will be unique, it will not be redundant."
+        },
+        {
+            "start": 1002.5,
+            "end": 1018.9,
+            "original_text": "द सिस्टिम कॅन बी ऑपरेटेड फ्रॉम अ सेंट्रल कंट्रोल. एक सेंट्रल कंट्रोल असणार आहे आणि सेंट्रल कंट्रोल पूर्ण सिस्टिम ही ऑपरेट होणार आहे आणि डेटा कॅन बी अपडेटेड मोअर इफेक्ट एफिशिएंटली.",
+            "english_text": "The system can be operated from a central control. There will be a central control, and the entire system will be operated from the central control, and data can be updated more efficiently.",
+            "language": "Marathi-English",
+            "text": "The system can be operated from a central control. There will be a central control, and the entire system will be operated from the central control, and data can be updated more efficiently."
+        },
+        {
+            "start": 1018.9,
+            "end": 1023.3,
+            "original_text": "आणि जो की अपडेशन असेल डेटामध्ये तो करेक्टली जे आहे समोर अपडेट होणार आहे.",
+            "english_text": "And whatever updates are in the data, they will be correctly updated.",
+            "language": "Marathi-English",
+            "text": "And whatever updates are in the data, they will be correctly updated."
+        },
+        {
+            "start": 1024.4,
+            "end": 1025.8,
+            "original_text": "स्ट्रक्चर अँड डिस्क्राईब डेटा.",
+            "english_text": "Structure and describe data.",
+            "language": "English",
+            "text": "Structure and describe data."
+        },
+        {
+            "start": 1026.4,
+            "end": 1033.4,
+            "original_text": "डेटाबेसचं दुसरं जे महत्त्वाचं ॲडव्हान्टेज आहे ते म्हणजे कॅरॅक्टरिस्टिक म्हणू शकता किंवा ॲडव्हान्टेज स्ट्रक्चर फॉरमॅटमध्ये राहील आणि डिस्क्राईब राहील.",
+            "english_text": "Another important advantage of a database, you can call it a characteristic or advantage, is that it will be in a structured format and described.",
+            "language": "Marathi-English",
+            "text": "Another important advantage of a database, you can call it a characteristic or advantage, is that it will be in a structured format and described."
+        },
+        {
+            "start": 1033.4,
+            "end": 1038.6,
+            "original_text": "म्हणजे कॉलम नेम, कॉलमची वरती नाव दिसत आहे आणि इथे रोज मध्ये आपल्याला जी आहे व्हॅल्यू दिसत आहे.",
+            "english_text": "Meaning column name, the names of the columns are visible above, and here in the rows, we can see the values.",
+            "language": "Marathi-English",
+            "text": "Meaning column name, the names of the columns are visible above, and here in the rows, we can see the values."
+        },
+        {
+            "start": 1038.6,
+            "end": 1045.3,
+            "original_text": "डेटाबेस सिस्टिम डज नॉट ओन्ली कंटेन द डेटा बट ऑल्सो द कम्प्लीट डेफिनेशन अँड डिस्क्रिप्शन ऑफ द डेटा. डेटा इज कॉल्ड ॲज स्ट्रक्चर्ड डेटा.",
+            "english_text": "Database system does not only contain the data but also the complete definition and description of the data. Data is called as structured data.",
+            "language": "English",
+            "text": "Database system does not only contain the data but also the complete definition and description of the data. Data is called as structured data."
+        },
+        {
+            "start": 1045.3,
+            "end": 1054.5,
+            "original_text": "आपल्याला माहित आहे नाव हे स्ट्रिंग मध्ये राहील तर पोस्ट कोड जे राहील ते नंबर्स मध्ये राहील, सिटी हे स्ट्रिंग मध्ये राहील. अशा टाईपनं जे आहे स्ट्रक्चर्ड फॉरमॅटमध्ये डेटा असणार आहे.",
+            "english_text": "We know that the name will be in string, the postal code will be in numbers, and the city will be in string. In this way, the data will be in a structured format.",
+            "language": "Marathi-English",
+            "text": "We know that the name will be in string, the postal code will be in numbers, and the city will be in string. In this way, the data will be in a structured format."
+        },
+        {
+            "start": 1054.5,
+            "end": 1106.0,
+            "original_text": "कुठल्याही असा फॉरमॅटमध्ये नसणार फक्त स्ट्रक्चर्ड फॉरमॅट म्हणजे नाव असेल तर स्ट्रिंग मध्ये आणि नंबर असेल तर तो नंबर फॉरमॅटमध्ये किंवा इंटीजर फॉरमॅटमध्ये.",
+            "english_text": "It won't be in just any format, only structured format, meaning if it's a name, it will be in string, and if it's a number, it will be in number format or integer format.",
+            "language": "Marathi-English",
+            "text": "It won't be in just any format, only structured format, meaning if it's a name, it will be in string, and if it's a number, it will be in number format or integer format."
+        },
+        {
+            "start": 1106.4,
+            "end": 1107.8,
+            "original_text": "सेपरेशन ऑफ डेटा अँड ॲप्लिकेशन.",
+            "english_text": "Separation of data and application.",
+            "language": "English",
+            "text": "Separation of data and application."
+        },
+        {
+            "start": 1108.2,
+            "end": 1114.5,
+            "original_text": "डेटा आणि ॲप्लिकेशनचं सेपरेशन राहील डीबीएमएस मधात काम करणार आहे. या साईडला सर्व ॲप्लिकेशन असणार आहे आणि इथे डेटा असणार आहे.",
+            "english_text": "There will be separation of data and application. DBMS will work in the middle. All applications will be on this side, and data will be here.",
+            "language": "Marathi-English",
+            "text": "There will be separation of data and application. DBMS will work in the middle. All applications will be on this side, and data will be here."
+        },
+        {
+            "start": 1114.5,
+            "end": 1118.9,
+            "original_text": "डायरेक्टली जे आहे डेटा ॲप्लिकेशनला मिळू शकत नाही मधात काय असेल डीबीएमएस असणार आहे.",
+            "english_text": "Directly, data cannot be obtained by the application; DBMS will be in the middle.",
+            "language": "Marathi-English",
+            "text": "Directly, data cannot be obtained by the application; DBMS will be in the middle."
+        },
+        {
+            "start": 1119.4,
+            "end": 1122.2,
+            "original_text": "अ सॉफ्टवेअर ॲप्लिकेशन डज नॉट नीड एनी नॉलेज.",
+            "english_text": "A software application does not need any knowledge.",
+            "language": "English",
+            "text": "A software application does not need any knowledge."
+        },
+        {
+            "start": 1122.2,
+            "end": 1133.0,
+            "original_text": "सॉफ्टवेअरला कुठल्या वेगळ्या नॉलेजची गरज पडणार नाही अबाउट द फिजिकल डेटा स्टोरेज, एन्कोडिंग फॉरमॅट, स्टोरेज प्लेस, कुठे तो डेटा आहे, काय आहे, कुठल्या एन्कोडिंग मध्ये आहे याची कशाची गरज पडणार नाही.",
+            "english_text": "Software will not need any separate knowledge about physical data storage, encoding format, storage place, where the data is, what it is, or in what encoding it is.",
+            "language": "Marathi-English",
+            "text": "Software will not need any separate knowledge about physical data storage, encoding format, storage place, where the data is, what it is, or in what encoding it is."
+        },
+        {
+            "start": 1133.7,
+            "end": 1141.9,
+            "original_text": "कम्युनिकेशन कम्युनिकेट डीबीएमएस व्हाया स्टँडर्डाईज इंटरफेस विथ द हेल्प ऑफ स्टँडर्डाईज लँग्वेज लाईक एसक्यूएल. एसक्यूएल थ्रू जे आहे ॲप्लिकेशन प्रोग्राम डीबीएमएस सोबत बोलणार आहे.",
+            "english_text": "Communication: Communicate DBMS via standardized interface with the help of standardized language like SQL. Through SQL, the application program will communicate with DBMS.",
+            "language": "Marathi-English",
+            "text": "Communication: Communicate DBMS via standardized interface with the help of standardized language like SQL. Through SQL, the application program will communicate with DBMS."
+        },
+        {
+            "start": 1141.9,
+            "end": 1148.5,
+            "original_text": "डीबीएमएस काय करणार आहे? एसक्यूएल ची भाषा डीबीएमएसला कळते आणि त्याच्यामार्फत डेटा तो रिट्राइव्ह करणार आहे.",
+            "english_text": "What will DBMS do? DBMS understands the language of SQL, and through it, it will retrieve the data.",
+            "language": "Marathi-English",
+            "text": "What will DBMS do? DBMS understands the language of SQL, and through it, it will retrieve the data."
+        },
+        {
+            "start": 1150.0,
+            "end": 1151.3,
+            "original_text": "डेटा इंटिग्रिटी आणि परसिस्टंट.",
+            "english_text": "Data integrity and persistent.",
+            "language": "English",
+            "text": "Data integrity and persistent."
+        },
+        {
+            "start": 1151.6,
+            "end": 1152.6,
+            "original_text": "व्हॉट इज मीन बाय इंटिग्रिटी?",
+            "english_text": "What is meant by integrity?",
+            "language": "English",
+            "text": "What is meant by integrity?"
+        },
+        {
+            "start": 1153.2,
+            "end": 1201.9,
+            "original_text": "इंटिग्रिटी म्हणजे जर तुम्ही एक रुपया बँकेतून काढला तर तुमच्या खात्यातून एक रुपयाच कमी व्हायला पाहिजे. जर तुमच्या खात्यातून दोन रुपये कमी होत आहे तर मग ती इंटिग्रिटी म्हणणार नाही.",
+            "english_text": "Integrity means if you withdraw one rupee from the bank, only one rupee should be deducted from your account. If two rupees are deducted from your account, then it will not be called integrity.",
+            "language": "Marathi-English",
+            "text": "Integrity means if you withdraw one rupee from the bank, only one rupee should be deducted from your account. If two rupees are deducted from your account, then it will not be called integrity."
+        },
+        {
+            "start": 1202.6,
+            "end": 1204.4,
+            "original_text": "ओके दॅट इज अ लीकेज टू द डेटा.",
+            "english_text": "Okay, that is a leakage to the data.",
+            "language": "English",
+            "text": "Okay, that is a leakage to the data."
+        },
+        {
+            "start": 1205.1,
+            "end": 1211.4,
+            "original_text": "डेटा इंटिग्रिटी, डेटा इंटिग्रिटी इंक्लुड्स ऑल्सो द प्रोटेक्शन ऑफ द डेटाबेस फ्रॉम अनऑथोराईज्ड ॲक्सेस अँड अनऑथोराईज्ड चेंजेस.",
+            "english_text": "Data integrity: Data integrity includes also the protection of the database from unauthorized access and unauthorized changes.",
+            "language": "English",
+            "text": "Data integrity: Data integrity includes also the protection of the database from unauthorized access and unauthorized changes."
+        },
+        {
+            "start": 1212.0,
+            "end": 1218.8,
+            "original_text": "तर डेटा इंटिग्रिटी हेच आपल्याला ठरवते की जे की आहे आपला डेटा सुरक्षित आहे त्याला अनऑथोराईज्ड कोणी ॲक्सेस करत नाहीये.",
+            "english_text": "So data integrity determines that our data is secure and no unauthorized person is accessing it.",
+            "language": "Marathi-English",
+            "text": "So data integrity determines that our data is secure and no unauthorized person is accessing it."
+        },
+        {
+            "start": 1219.3,
+            "end": 1223.7,
+            "original_text": "जर आपल्या खात्यातून 50 रुपये निघाले तर 50 रुपये डेबिट व्हायला पाहिजे दॅट इज द इंटिग्रिटी.",
+            "english_text": "If 50 rupees are withdrawn from our account, then 50 rupees should be debited. That is integrity.",
+            "language": "Marathi-English",
+            "text": "If 50 rupees are withdrawn from our account, then 50 rupees should be debited. That is integrity."
+        },
+        {
+            "start": 1224.5,
+            "end": 1225.4,
+            "original_text": "डेटा परसिस्टंट.",
+            "english_text": "Data persistent.",
+            "language": "English",
+            "text": "Data persistent."
+        },
+        {
+            "start": 1225.7,
+            "end": 1232.2,
+            "original_text": "डेटा परसिस्टंट मीन्स दॅट इन अ डीबीएमएस ऑल डेटा इज मेंटेन ॲज लाँग ॲज इट इज नॉट डिलीट एक्सप्लिसिटली.",
+            "english_text": "Data persistent means that in a DBMS all data is maintained as long as it is not deleted explicitly.",
+            "language": "English",
+            "text": "Data persistent means that in a DBMS all data is maintained as long as it is not deleted explicitly."
+        },
+        {
+            "start": 1232.2,
+            "end": 1239.4,
+            "original_text": "जोपर्यंत डेटा डिलीट आपण करत नाही तोपर्यंत डेटा ॲज इट इज असला पाहिजे डेटाबेस मध्ये दॅट इज कॉल्ड डेटा परसिस्टंट.",
+            "english_text": "Until we delete the data, the data should remain as it is in the database. That is called data persistent.",
+            "language": "Marathi-English",
+            "text": "Until we delete the data, the data should remain as it is in the database. That is called data persistent."
+        },
+        {
+            "start": 1242.3,
+            "end": 1244.9,
+            "original_text": "त्याच्यानंतर व्ह्यूज आहे तर ते आपण नंतर बघणारच आहोत.",
+            "english_text": "After that, there are views, which we will see later.",
+            "language": "Marathi-English",
+            "text": "After that, there are views, which we will see later."
+        },
+        {
+            "start": 1245.4,
+            "end": 1259.6,
+            "original_text": "व्ह्यूज व्ह्यूज म्हणजे फक्त आपल्याला जे शो करायचा डेटा आहे जो की टेबल आहे त्याला फक्त शो करायचं त्याच्यामध्ये ऑपरेशन कुठलेही होणार नाहीत ते जे की राईट्स आहे ते आपण युझरला देऊ दॅट इज द वन ऑफ द कॅरॅक्टरिस्टिक ऑफ डेटाबेस.",
+            "english_text": "Views, views mean just showing the data that we want to show, which is a table, just showing it. No operations will happen on it. We will give those rights to the user. That is one of the characteristics of a database.",
+            "language": "Marathi-English",
+            "text": "Views, views mean just showing the data that we want to show, which is a table, just showing it. No operations will happen on it. We will give those rights to the user. That is one of the characteristics of a database."
+        },
+        {
+            "start": 1301.4,
+            "end": 1303.9,
+            "original_text": "अजून काही ॲडव्हान्टेजेस आहे डीबीएमएसचे जसं की स्केलेबल.",
+            "english_text": "There are some more advantages of DBMS, such as scalable.",
+            "language": "Marathi-English",
+            "text": "There are some more advantages of DBMS, such as scalable."
+        },
+        {
+            "start": 1304.3,
+            "end": 1314.4,
+            "original_text": "आपण याला समोर एक्सटेंड करू शकतो ॲबिलिटी ऑफ अ सिस्टिम टू ॲडॉप्ट टू डिफरंट अमाऊंट ऑफ डेटा अँड नंबर्स फॉर युझर्स व्हाईल मेंटेनिंग द सेम परफॉर्मन्स.",
+            "english_text": "We can extend it further. The ability of a system to adapt to different amounts of data and numbers for users while maintaining the same performance.",
+            "language": "Marathi-English",
+            "text": "We can extend it further. The ability of a system to adapt to different amounts of data and numbers for users while maintaining the same performance."
+        },
+        {
+            "start": 1315.0,
+            "end": 1322.9,
+            "original_text": "म्हणजेच याला स्केलेबिलिटी आहे आपला जसा आपल्याला वाटतं त्या पद्धतीने आपल्याला नंबर ऑफ युझर्स आपण वाढवू शकतो आणि सेम परफॉर्मन्स सुद्धा आपण मेंटेन करू शकतो.",
+            "english_text": "Meaning it has scalability. We can increase the number of users as we wish and also maintain the same performance.",
+            "language": "Marathi-English",
+            "text": "Meaning it has scalability. We can increase the number of users as we wish and also maintain the same performance."
+        },
+        {
+            "start": 1323.4,
+            "end": 1325.2,
+            "original_text": "एक्सपॅंडेबिलिटी सेम ॲज अ स्केलेबिलिटी.",
+            "english_text": "Expandability: Same as scalability.",
+            "language": "English",
+            "text": "Expandability: Same as scalability."
+        },
+        {
+            "start": 1325.2,
+            "end": 1332.6,
+            "original_text": "स्केलेबल मध्ये आपण नंबर ऑफ युझर वाढवलेले आहे. एक्सपॅंडेबिलिटी मध्ये नवीन ॲप्लिकेशन जे आहे ते याच्यामध्ये वाढवता येऊ शकतात.",
+            "english_text": "In scalable, we have increased the number of users. In expandability, new applications can be added.",
+            "language": "Marathi-English",
+            "text": "In scalable, we have increased the number of users. In expandability, new applications can be added."
+        },
+        {
+            "start": 1333.3,
+            "end": 1342.8,
+            "original_text": "New applications or other addition like new user interfaces can be realized without interfering with the already working application. नवीन ॲप्लिकेशन वाढवू शकता.",
+            "english_text": "New applications or other additions like new user interfaces can be realized without interfering with the already working application. You can add new applications.",
+            "language": "Marathi-English",
+            "text": "New applications or other additions like new user interfaces can be realized without interfering with the already working application. You can add new applications."
+        },
+        {
+            "start": 1344.3,
+            "end": 1345.2,
+            "original_text": "ॲक्सेस कंट्रोल.",
+            "english_text": "Access control.",
+            "language": "English",
+            "text": "Access control."
+        },
+        {
+            "start": 1345.2,
+            "end": 1355.9,
+            "original_text": "ॲक्सेस कंट्रोल तुम्ही देऊ शकता थ्रू द रिस्ट्रिक्शन्स, डिफरंट रिस्ट्रिक्शन्स तुम्ही टाकू शकता. ॲक्सेस टू डेटाबेस ऑर पार्ट ऑफ इट कॅन बी कंट्रोल ऑर रिस्ट्रिक्टेड फॉर ईच युझर बट ऑल्सो युझर ग्रुप्स.",
+            "english_text": "You can give access control through restrictions, you can put different restrictions. Access to the database or part of it can be controlled or restricted for each user but also user groups.",
+            "language": "Marathi-English",
+            "text": "You can give access control through restrictions, you can put different restrictions. Access to the database or part of it can be controlled or restricted for each user but also user groups."
+        },
+        {
+            "start": 1355.9,
+            "end": 1403.7,
+            "original_text": "आपण त्याला कंट्रोल करू शकतो, रीड करू शकतात, ते राईट करू शकतात, त्यांना लॉगिन आयडी देऊ शकतो, ईमेल ओटीपी वगैरे आपण प्रोवाइड करू शकतो.",
+            "english_text": "We can control it, they can read, they can write, we can give them login IDs, we can provide email OTPs, etc.",
+            "language": "Marathi-English",
+            "text": "We can control it, they can read, they can write, we can give them login IDs, we can provide email OTPs, etc."
+        },
+        {
+            "start": 1404.4,
+            "end": 1405.4,
+            "original_text": "रिकव्हरी अँड बॅकअप.",
+            "english_text": "Recovery and backup.",
+            "language": "English",
+            "text": "Recovery and backup."
+        },
+        {
+            "start": 1405.4,
+            "end": 1414.9,
+            "original_text": "अ डीबीएमएस हॅज अ फिचर विच अलाऊ टू रिकव्हर डेटा सेट्स फॉर एक्झाम्पल आफ्टर अ फेल ट्रान्झॅक्शन ऑर अ सिस्टिम क्रॅश अ डेटा कॅन बी रिकव्हर्ड.",
+            "english_text": "A DBMS has a feature which allows to recover data sets, for example, after a failed transaction or a system crash, data can be recovered.",
+            "language": "English",
+            "text": "A DBMS has a feature which allows to recover data sets, for example, after a failed transaction or a system crash, data can be recovered."
+        },
+        {
+            "start": 1415.3,
+            "end": 1419.7,
+            "original_text": "ॲडिशनली अ बॅकअप फ्रॉम द होल सिस्टिम कॅन बी मेड टू स्टोअर इन अ सेफ प्लेस.",
+            "english_text": "Additionally, a backup from the whole system can be made to store in a safe place.",
+            "language": "English",
+            "text": "Additionally, a backup from the whole system can be made to store in a safe place."
+        },
+        {
+            "start": 1420.2,
+            "end": 1429.9,
+            "original_text": "म्हणजे रिकव्हरी आणि बॅकअप जर आपण खात्यातून 5000 रुपये आपण कधी कधी विड्रॉल करतो परंतु पैसे येत नाही नंतर काय होतं थोड्या वेळाने आपल्याला मेसेज येतो की आपलं 5000 रुपये डिडक्ट झाले आहे.",
+            "english_text": "Meaning recovery and backup. If we sometimes withdraw 5000 rupees from an account but the money doesn't come, then after a while, we get a message that our 5000 rupees have been deducted.",
+            "language": "Marathi-English",
+            "text": "Meaning recovery and backup. If we sometimes withdraw 5000 rupees from an account but the money doesn't come, then after a while, we get a message that our 5000 rupees have been deducted."
+        },
+        {
+            "start": 1430.4,
+            "end": 1441.7,
+            "original_text": "परंतु नंतर मग परत आपल्याला 10 ते 15 मिनिटामध्ये किंवा एका तासामध्ये मेसेज येतो की तुमचं अकाउंट मध्ये परत तुमचे 5000 रुपये जे कटले होते ते तुमच्या खात्यामध्ये परत क्रेडिट झालेले आहे.",
+            "english_text": "But then later, after 10 to 15 minutes or an hour, we get a message that your 5000 rupees that were deducted have been credited back to your account.",
+            "language": "Marathi-English",
+            "text": "But then later, after 10 to 15 minutes or an hour, we get a message that your 5000 rupees that were deducted have been credited back to your account."
+        },
+        {
+            "start": 1442.3,
+            "end": 1447.6,
+            "original_text": "म्हणजेच काय आहे रिकव्हरी म्हणजे डेटा जर फेल झाला ट्रान्झॅक्शन तर ऑटोमॅटिकली ते रिकव्हर होऊन जातं.",
+            "english_text": "Meaning what is recovery? If a data transaction fails, it automatically recovers.",
+            "language": "Marathi-English",
+            "text": "Meaning what is recovery? If a data transaction fails, it automatically recovers."
+        },
+        {
+            "start": 1448.3,
+            "end": 1453.5,
+            "original_text": "आणि बॅकअप म्हणजे ऑटोमॅटिकली जे आहे बॅकअप होणं जो की डेटा असेल डेली सेव्ह होणं.",
+            "english_text": "And backup means automatically backing up, meaning the data will be saved daily.",
+            "language": "Marathi-English",
+            "text": "And backup means automatically backing up, meaning the data will be saved daily."
+        },
+        {
+            "start": 1454.4,
+            "end": 1456.3,
+            "original_text": "कुठल्या कुठल्या ॲप्लिकेशन्स आहे डेटाबेसचे?",
+            "english_text": "Which applications are there for databases?",
+            "language": "Marathi-English",
+            "text": "Which applications are there for databases?"
+        },
+        {
+            "start": 1457.3,
+            "end": 1504.3,
+            "original_text": "एक्झाम्पल ऑफ यूज ऑफ डेटाबेस सिस्टिम मॅनेजमेंट ऑफ बँक अकाउंट, टाईम टेबल इन्फॉर्मेशन सिस्टिम, लायब्ररी कॅटलॉग सिस्टिम.",
+            "english_text": "Example of use of database system: Management of bank account, time table information system, library catalog system.",
+            "language": "English",
+            "text": "Example of use of database system: Management of bank account, time table information system, library catalog system."
+        }
+    ]
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code-Mixed Pedagogical Flow Extractor</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --border: #e2e6ea;
+      --primary: #4e79a7;
+      --primary-light: #dae4f0;
+      --success: #2ea44f;
+      --success-bg: #e6f9ed;
+      --error: #d73a49;
+      --error-bg: #fce8ea;
+      --running: #f28e2b;
+      --running-bg: #fef3e0;
+      --text: #24292e;
+      --text-muted: #6a737d;
+      --radius: 10px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #4e79a7 0%, #3a5f8a 100%);
+      color: #fff;
+      padding: 28px 0 24px;
+      text-align: center;
+    }
+    .header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; }
+    .header p  { font-size: 0.92rem; opacity: 0.85; margin-top: 4px; }
+
+    .container { max-width: 820px; margin: 0 auto; padding: 24px 16px 60px; }
+
+    /* Upload card */
+    .upload-card {
+      background: var(--card);
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 40px 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+    .upload-card:hover, .upload-card.dragover {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+    .upload-card svg { width: 48px; height: 48px; color: var(--primary); margin-bottom: 12px; }
+    .upload-card h2 { font-size: 1.1rem; margin-bottom: 4px; }
+    .upload-card p  { font-size: 0.85rem; color: var(--text-muted); }
+    .upload-card input[type="file"] {
+      position: absolute; inset: 0; opacity: 0; cursor: pointer;
+    }
+    .file-name {
+      margin-top: 10px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--primary);
+      display: none;
+    }
+
+    /* Run button */
+    .run-btn {
+      display: none;
+      margin: 18px auto 0;
+      padding: 12px 36px;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .run-btn:hover { background: #3a5f8a; }
+    .run-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* Source tabs */
+    .source-tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 0;
+      border-bottom: 2px solid var(--border);
+    }
+    .source-tab {
+      flex: 1;
+      padding: 12px 0;
+      text-align: center;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .source-tab.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+    .source-tab:hover { color: var(--primary); }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* URL input */
+    .url-panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 var(--radius) var(--radius);
+      padding: 28px 24px;
+      text-align: center;
+    }
+    .url-panel p { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px; }
+    .url-input-row {
+      display: flex;
+      gap: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .url-input-row input[type="text"] {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.92rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .url-input-row input[type="text"]:focus { border-color: var(--primary); }
+
+    /* Progress section */
+    .progress-section { margin-top: 32px; display: none; }
+    .progress-section h3 {
+      font-size: 1.05rem;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stage {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .stage.running  { background: var(--running-bg); border-color: var(--running); }
+    .stage.done     { background: var(--success-bg); border-color: var(--success); }
+    .stage.error    { background: var(--error-bg);   border-color: var(--error); }
+
+    .stage-icon {
+      width: 28px; height: 28px;
+      flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 50%;
+      font-size: 14px;
+      background: var(--border);
+      color: var(--text-muted);
+    }
+    .stage.running .stage-icon  { background: var(--running); color: #fff; }
+    .stage.done    .stage-icon  { background: var(--success); color: #fff; }
+    .stage.error   .stage-icon  { background: var(--error);   color: #fff; }
+
+    .stage-info { flex: 1; }
+    .stage-label { font-weight: 600; font-size: 0.92rem; }
+    .stage-desc  { font-size: 0.8rem; color: var(--text-muted); }
+
+    .stage-outputs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .stage-outputs:empty { display: none; }
+    .stage-outputs a {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 10px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.78rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .stage-outputs a:hover { background: #c4d4ea; }
+
+    /* Spinner */
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner {
+      width: 16px; height: 16px;
+      border: 2.5px solid rgba(255,255,255,0.4);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    .error-banner {
+      background: var(--error-bg);
+      border: 1px solid var(--error);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 20px;
+      font-size: 0.88rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Code-Mixed Pedagogical Flow Extractor</h1>
+  <p>Upload an educational video &amp; generate concept dependency graphs</p>
+</div>
+
+<div class="container">
+
+  <!-- Source tabs -->
+  <div class="source-tabs">
+    <button class="source-tab active" onclick="switchTab('file')" id="tabFile">Upload Video File</button>
+    <button class="source-tab" onclick="switchTab('url')" id="tabUrl">YouTube URL</button>
+  </div>
+
+  <!-- Tab: File upload -->
+  <div class="tab-panel active" id="panelFile">
+    <div class="upload-card" id="uploadCard">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5"/>
+      </svg>
+      <h2>Drop a video file here</h2>
+      <p>or click to browse — MP4, MKV, WEBM supported</p>
+      <input type="file" id="fileInput" accept="video/*">
+      <div class="file-name" id="fileName"></div>
+    </div>
+    <button class="run-btn" id="runBtnFile" onclick="startFile()">▶ Run Pipeline</button>
+  </div>
+
+  <!-- Tab: YouTube URL -->
+  <div class="tab-panel" id="panelUrl">
+    <div class="url-panel">
+      <p>Paste a YouTube link to an educational video</p>
+      <div class="url-input-row">
+        <input type="text" id="urlInput" placeholder="https://www.youtube.com/watch?v=…">
+        <button class="run-btn" id="runBtnUrl" style="display:inline-block;margin:0" onclick="startUrl()">▶ Run</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-section" id="progressSection">
+    <h3>Pipeline Progress</h3>
+    {% for s in stages %}
+    <div class="stage" id="stage-{{ s.id }}">
+      <div class="stage-icon" id="icon-{{ s.id }}" data-idx="{{ loop.index }}">{{ loop.index }}</div>
+      <div class="stage-info">
+        <div class="stage-label">{{ s.label }}</div>
+        <div class="stage-desc">{{ s.description }}</div>
+        <div class="stage-outputs" id="outputs-{{ s.id }}"></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="error-banner" id="errorBanner"></div>
+
+</div>
+
+<script>
+const fileInput  = document.getElementById('fileInput');
+const fileName   = document.getElementById('fileName');
+const runBtnFile = document.getElementById('runBtnFile');
+const runBtnUrl  = document.getElementById('runBtnUrl');
+const uploadCard = document.getElementById('uploadCard');
+const urlInput   = document.getElementById('urlInput');
+
+let selectedFile = null;
+
+/* ── Tab switching ─────────────────────────────────────────── */
+function switchTab(tab) {
+  document.getElementById('panelFile').classList.toggle('active', tab === 'file');
+  document.getElementById('panelUrl').classList.toggle('active', tab === 'url');
+  document.getElementById('tabFile').classList.toggle('active', tab === 'file');
+  document.getElementById('tabUrl').classList.toggle('active', tab === 'url');
+}
+
+/* ── File selection ────────────────────────────────────────── */
+fileInput.addEventListener('change', (e) => {
+  selectedFile = e.target.files[0];
+  if (selectedFile) {
+    fileName.textContent = '📎 ' + selectedFile.name;
+    fileName.style.display = 'block';
+    runBtnFile.style.display = 'block';
+  }
+});
+
+uploadCard.addEventListener('dragover', (e) => { e.preventDefault(); uploadCard.classList.add('dragover'); });
+uploadCard.addEventListener('dragleave', () => uploadCard.classList.remove('dragover'));
+uploadCard.addEventListener('drop', (e) => {
+  e.preventDefault();
+  uploadCard.classList.remove('dragover');
+  if (e.dataTransfer.files.length) {
+    selectedFile = e.dataTransfer.files[0];
+    fileName.textContent = '📎 ' + selectedFile.name;
+    fileName.style.display = 'block';
+    runBtnFile.style.display = 'block';
+  }
+});
+
+const FRIENDLY_NAMES = {
+  audio:              '🔊 Audio (WAV)',
+  transcript_json:    '📝 Transcript',
+  cleaned_json:       '🧹 Cleaned Transcript',
+  concepts_json:      '💡 Concepts',
+  graph_json:         '🔗 Graph',
+  codemix_json:       '🌐 Code-Mix Analysis',
+  canonical_json:     '📐 Canonical Graph',
+  gexf:               '📊 GEXF (Gephi)',
+  interactive_html:   '🌐 Interactive Graph',
+  dependency_png:     '🖼️ Dependency Diagram',
+  roadmap_json:       '🗺️ Learning Roadmap',
+  roadmap_png:        '🖼️ Roadmap Flowchart',
+  codemix_profile_png:'🖼️ Code-Mix Profile',
+};
+
+/* Map each output key to the stage that produces it */
+const STAGE_FOR_OUTPUT = {
+  audio:              'audio',
+  transcript_json:    'transcription',
+  cleaned_json:       'standardisation',
+  concepts_json:      'concepts',
+  graph_json:         'graph',
+  codemix_json:       'codemix',
+  canonical_json:     'visualisation',
+  gexf:               'visualisation',
+  interactive_html:   'visualisation',
+  dependency_png:     'visualisation',
+  roadmap_json:       'roadmap',
+  roadmap_png:        'roadmap',
+  codemix_profile_png:'codemix_viz',
+};
+
+/* ── Reset UI for a new run ────────────────────────────────── */
+function prepareUI(btn) {
+  btn.disabled = true;
+  btn.textContent = '⏳ Processing…';
+  document.getElementById('progressSection').style.display = 'block';
+  document.getElementById('errorBanner').style.display = 'none';
+  // Reset all stage indicators and inline outputs
+  document.querySelectorAll('.stage').forEach(el => {
+    el.className = 'stage';
+    const icon = el.querySelector('.stage-icon');
+    if (icon) icon.innerHTML = icon.dataset.idx || '';
+  });
+  document.querySelectorAll('.stage-outputs').forEach(el => el.innerHTML = '');
+}
+
+/* ── Start pipeline from uploaded file ─────────────────────── */
+function startFile() {
+  if (!selectedFile) return;
+  prepareUI(runBtnFile);
+
+  const form = new FormData();
+  form.append('video', selectedFile);
+
+  fetch('/upload', { method: 'POST', body: form })
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) { showError(data.error, runBtnFile); return; }
+      listenEvents(data.job_id, runBtnFile);
+    })
+    .catch(err => showError(err.message, runBtnFile));
+}
+
+/* ── Start pipeline from YouTube URL ───────────────────────── */
+function startUrl() {
+  const url = urlInput.value.trim();
+  if (!url) { showError('Please enter a YouTube URL', runBtnUrl); return; }
+  prepareUI(runBtnUrl);
+
+  fetch('/start_url', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url }),
+  })
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) { showError(data.error, runBtnUrl); return; }
+      listenEvents(data.job_id, runBtnUrl);
+    })
+    .catch(err => showError(err.message, runBtnUrl));
+}
+
+/* ── SSE listener ──────────────────────────────────────────── */
+function listenEvents(jobId, btn) {
+  const es = new EventSource('/events/' + jobId);
+
+  es.addEventListener('stage', (e) => {
+    const d = JSON.parse(e.data);
+    const el = document.getElementById('stage-' + d.id);
+    const icon = document.getElementById('icon-' + d.id);
+    if (!el) return;
+    el.className = 'stage ' + d.status;
+    if (d.status === 'running') {
+      icon.innerHTML = '<div class="spinner"></div>';
+    } else if (d.status === 'done') {
+      icon.innerHTML = '✓';
+    } else if (d.status === 'error') {
+      icon.innerHTML = '✗';
+    }
+  });
+
+  /* New: incremental outputs after each stage */
+  es.addEventListener('outputs', (e) => {
+    const d = JSON.parse(e.data);
+    const files = d.files || {};
+    for (const [key, url] of Object.entries(files)) {
+      const stageId = STAGE_FOR_OUTPUT[key];
+      const container = document.getElementById('outputs-' + stageId);
+      if (!container) continue;
+      const name = FRIENDLY_NAMES[key] || key;
+      const a = document.createElement('a');
+      if (key === 'interactive_html') {
+        a.href = '/view/' + jobId + '/interactive';
+      } else {
+        a.href = url;
+      }
+      a.target = '_blank';
+      a.textContent = '⬇ ' + name;
+      container.appendChild(a);
+    }
+  });
+
+  es.addEventListener('log', (e) => {
+    const d = JSON.parse(e.data);
+    console.warn('[' + d.stage + ']', d.text);
+  });
+
+  es.addEventListener('pipeline', (e) => {
+    const d = JSON.parse(e.data);
+    if (d.status === 'done') {
+      if (btn) { btn.textContent = '✓ Done'; }
+    } else {
+      showError('Pipeline failed at stage: ' + (d.stage || 'unknown'), btn);
+    }
+  });
+
+  es.addEventListener('done', () => { es.close(); });
+  es.onerror = () => { es.close(); };
+}
+
+function showError(msg, btn) {
+  const el = document.getElementById('errorBanner');
+  el.textContent = '⚠ ' + msg;
+  el.style.display = 'block';
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = '▶ Run Pipeline';
+    if (btn === runBtnUrl) btn.textContent = '▶ Run';
+  }
+}
+</script>
+</body>
+</html>

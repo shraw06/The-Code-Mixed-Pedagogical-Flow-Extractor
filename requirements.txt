@@ -1,0 +1,10 @@
+yt-dlp
+google-genai
+python-dotenv
+spacy
+keybert
+networkx
+matplotlib
+pyvis
+numpy
+flask

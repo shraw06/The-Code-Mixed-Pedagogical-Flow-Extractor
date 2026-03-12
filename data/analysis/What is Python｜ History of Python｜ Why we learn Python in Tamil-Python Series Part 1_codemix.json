@@ -1,0 +1,1398 @@
+{
+  "video": "What is Python｜ History of Python｜ Why we learn Python in Tamil-Python Series Part 1",
+  "total_segments": 106,
+  "total_words": 1205,
+  "global_cmi": 0.0,
+  "switch_density_per_100_words": 0.0,
+  "matrix_script": "LATIN",
+  "matrix_language": "English/Romanised",
+  "embedded_scripts": {},
+  "is_mostly_romanised": true,
+  "romanised_segment_fraction": 1.0,
+  "language_label_distribution": {
+    "Tamil-English": 106
+  },
+  "script_distribution": {
+    "LATIN": 1186
+  },
+  "segment_analyses": [
+    {
+      "start": 12.23,
+      "end": 16.23,
+      "language": "Tamil-English",
+      "n_words": 13,
+      "script_counts": {
+        "LATIN": 13
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 17.03,
+      "end": 27.63,
+      "language": "Tamil-English",
+      "n_words": 25,
+      "script_counts": {
+        "LATIN": 25
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 28.43,
+      "end": 34.33,
+      "language": "Tamil-English",
+      "n_words": 20,
+      "script_counts": {
+        "LATIN": 20
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 35.03,
+      "end": 36.63,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 37.43,
+      "end": 42.73,
+      "language": "Tamil-English",
+      "n_words": 11,
+      "script_counts": {
+        "LATIN": 11
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 44.03,
+      "end": 50.03,
+      "language": "Tamil-English",
+      "n_words": 19,
+      "script_counts": {
+        "LATIN": 19
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 51.03,
+      "end": 52.13,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 53.03,
+      "end": 54.03,
+      "language": "Tamil-English",
+      "n_words": 3,
+      "script_counts": {
+        "LATIN": 3
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 54.43,
+      "end": 103.73,
+      "language": "Tamil-English",
+      "n_words": 24,
+      "script_counts": {
+        "LATIN": 24
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 107.73,
+      "end": 111.23,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 111.73,
+      "end": 112.63,
+      "language": "Tamil-English",
+      "n_words": 2,
+      "script_counts": {
+        "LATIN": 2
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 113.43,
+      "end": 115.63,
+      "language": "Tamil-English",
+      "n_words": 6,
+      "script_counts": {
+        "LATIN": 6
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 116.43,
+      "end": 124.03,
+      "language": "Tamil-English",
+      "n_words": 18,
+      "script_counts": {
+        "LATIN": 18
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 125.03,
+      "end": 127.33,
+      "language": "Tamil-English",
+      "n_words": 6,
+      "script_counts": {
+        "LATIN": 6
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 128.43,
+      "end": 134.93,
+      "language": "Tamil-English",
+      "n_words": 17,
+      "script_counts": {
+        "LATIN": 17
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 136.43,
+      "end": 146.63,
+      "language": "Tamil-English",
+      "n_words": 15,
+      "script_counts": {
+        "LATIN": 15
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 147.43,
+      "end": 151.43,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 153.03,
+      "end": 155.93,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 156.53,
+      "end": 166.73,
+      "language": "Tamil-English",
+      "n_words": 24,
+      "script_counts": {
+        "LATIN": 24
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 168.53,
+      "end": 177.53,
+      "language": "Tamil-English",
+      "n_words": 19,
+      "script_counts": {
+        "LATIN": 19
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 220.03,
+      "end": 221.63,
+      "language": "Tamil-English",
+      "n_words": 5,
+      "script_counts": {
+        "LATIN": 5
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 223.43,
+      "end": 234.43,
+      "language": "Tamil-English",
+      "n_words": 22,
+      "script_counts": {
+        "LATIN": 21
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 235.33,
+      "end": 241.83,
+      "language": "Tamil-English",
+      "n_words": 15,
+      "script_counts": {
+        "LATIN": 15
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 242.73,
+      "end": 248.23,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 248.93,
+      "end": 256.43,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 13
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 257.03,
+      "end": 261.83,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 263.63,
+      "end": 268.63,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 269.93,
+      "end": 276.73,
+      "language": "Tamil-English",
+      "n_words": 18,
+      "script_counts": {
+        "LATIN": 18
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 276.73,
+      "end": 280.63,
+      "language": "Tamil-English",
+      "n_words": 7,
+      "script_counts": {
+        "LATIN": 7
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 281.43,
+      "end": 286.03,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 287.43,
+      "end": 296.63,
+      "language": "Tamil-English",
+      "n_words": 27,
+      "script_counts": {
+        "LATIN": 27
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 298.63,
+      "end": 308.83,
+      "language": "Tamil-English",
+      "n_words": 35,
+      "script_counts": {
+        "LATIN": 28
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 308.83,
+      "end": 313.33,
+      "language": "Tamil-English",
+      "n_words": 20,
+      "script_counts": {
+        "LATIN": 17
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 313.33,
+      "end": 318.73,
+      "language": "Tamil-English",
+      "n_words": 11,
+      "script_counts": {
+        "LATIN": 7
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 318.73,
+      "end": 323.43,
+      "language": "Tamil-English",
+      "n_words": 12,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 325.43,
+      "end": 329.03,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 330.63,
+      "end": 335.63,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 335.93,
+      "end": 342.93,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 344.63,
+      "end": 347.63,
+      "language": "Tamil-English",
+      "n_words": 7,
+      "script_counts": {
+        "LATIN": 7
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 348.23,
+      "end": 353.93,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 354.33,
+      "end": 358.03,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 358.83,
+      "end": 363.03,
+      "language": "Tamil-English",
+      "n_words": 12,
+      "script_counts": {
+        "LATIN": 12
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 364.03,
+      "end": 365.03,
+      "language": "Tamil-English",
+      "n_words": 6,
+      "script_counts": {
+        "LATIN": 6
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 366.63,
+      "end": 369.03,
+      "language": "Tamil-English",
+      "n_words": 7,
+      "script_counts": {
+        "LATIN": 7
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 369.83,
+      "end": 374.73,
+      "language": "Tamil-English",
+      "n_words": 16,
+      "script_counts": {
+        "LATIN": 16
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 375.43,
+      "end": 382.43,
+      "language": "Tamil-English",
+      "n_words": 17,
+      "script_counts": {
+        "LATIN": 17
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 386.33,
+      "end": 387.93,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 388.93,
+      "end": 396.03,
+      "language": "Tamil-English",
+      "n_words": 18,
+      "script_counts": {
+        "LATIN": 18
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 397.03,
+      "end": 398.33,
+      "language": "Tamil-English",
+      "n_words": 3,
+      "script_counts": {
+        "LATIN": 3
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 399.03,
+      "end": 405.93,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 407.43,
+      "end": 408.63,
+      "language": "Tamil-English",
+      "n_words": 3,
+      "script_counts": {
+        "LATIN": 3
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 409.53,
+      "end": 412.03,
+      "language": "Tamil-English",
+      "n_words": 5,
+      "script_counts": {
+        "LATIN": 5
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 412.63,
+      "end": 416.73,
+      "language": "Tamil-English",
+      "n_words": 12,
+      "script_counts": {
+        "LATIN": 12
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 416.73,
+      "end": 421.43,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 421.83,
+      "end": 426.33,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 427.23,
+      "end": 431.43,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 435.33,
+      "end": 437.03,
+      "language": "Tamil-English",
+      "n_words": 5,
+      "script_counts": {
+        "LATIN": 5
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 438.53,
+      "end": 441.03,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 441.83,
+      "end": 443.33,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 443.73,
+      "end": 448.03,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 448.03,
+      "end": 450.43,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 451.03,
+      "end": 459.03,
+      "language": "Tamil-English",
+      "n_words": 17,
+      "script_counts": {
+        "LATIN": 17
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 459.73,
+      "end": 462.93,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 463.33,
+      "end": 465.93,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 468.23,
+      "end": 474.63,
+      "language": "Tamil-English",
+      "n_words": 16,
+      "script_counts": {
+        "LATIN": 16
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 474.63,
+      "end": 477.03,
+      "language": "Tamil-English",
+      "n_words": 7,
+      "script_counts": {
+        "LATIN": 7
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 478.33,
+      "end": 481.93,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 485.93,
+      "end": 486.93,
+      "language": "Tamil-English",
+      "n_words": 2,
+      "script_counts": {
+        "LATIN": 2
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 487.63,
+      "end": 493.93,
+      "language": "Tamil-English",
+      "n_words": 15,
+      "script_counts": {
+        "LATIN": 15
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 494.23,
+      "end": 496.73,
+      "language": "Tamil-English",
+      "n_words": 7,
+      "script_counts": {
+        "LATIN": 7
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 498.03,
+      "end": 503.63,
+      "language": "Tamil-English",
+      "n_words": 13,
+      "script_counts": {
+        "LATIN": 13
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 504.23,
+      "end": 509.93,
+      "language": "Tamil-English",
+      "n_words": 16,
+      "script_counts": {
+        "LATIN": 16
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 512.43,
+      "end": 515.03,
+      "language": "Tamil-English",
+      "n_words": 5,
+      "script_counts": {
+        "LATIN": 5
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 515.83,
+      "end": 519.63,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 520.63,
+      "end": 524.73,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 525.63,
+      "end": 535.03,
+      "language": "Tamil-English",
+      "n_words": 29,
+      "script_counts": {
+        "LATIN": 29
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 537.33,
+      "end": 539.03,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 540.03,
+      "end": 541.33,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 541.93,
+      "end": 545.33,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 546.03,
+      "end": 551.93,
+      "language": "Tamil-English",
+      "n_words": 12,
+      "script_counts": {
+        "LATIN": 12
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 552.73,
+      "end": 563.23,
+      "language": "Tamil-English",
+      "n_words": 18,
+      "script_counts": {
+        "LATIN": 18
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 564.43,
+      "end": 565.43,
+      "language": "Tamil-English",
+      "n_words": 2,
+      "script_counts": {
+        "LATIN": 2
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 566.73,
+      "end": 573.93,
+      "language": "Tamil-English",
+      "n_words": 18,
+      "script_counts": {
+        "LATIN": 18
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 575.03,
+      "end": 584.63,
+      "language": "Tamil-English",
+      "n_words": 20,
+      "script_counts": {
+        "LATIN": 20
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 585.33,
+      "end": 586.83,
+      "language": "Tamil-English",
+      "n_words": 6,
+      "script_counts": {
+        "LATIN": 6
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 587.53,
+      "end": 591.33,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 592.23,
+      "end": 595.63,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 596.23,
+      "end": 597.63,
+      "language": "Tamil-English",
+      "n_words": 4,
+      "script_counts": {
+        "LATIN": 4
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 598.43,
+      "end": 603.43,
+      "language": "Tamil-English",
+      "n_words": 14,
+      "script_counts": {
+        "LATIN": 14
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 604.33,
+      "end": 609.93,
+      "language": "Tamil-English",
+      "n_words": 12,
+      "script_counts": {
+        "LATIN": 12
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 610.73,
+      "end": 618.03,
+      "language": "Tamil-English",
+      "n_words": 16,
+      "script_counts": {
+        "LATIN": 16
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 618.03,
+      "end": 621.23,
+      "language": "Tamil-English",
+      "n_words": 11,
+      "script_counts": {
+        "LATIN": 11
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 622.03,
+      "end": 628.73,
+      "language": "Tamil-English",
+      "n_words": 17,
+      "script_counts": {
+        "LATIN": 17
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 629.03,
+      "end": 632.23,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 634.43,
+      "end": 638.33,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 639.03,
+      "end": 643.73,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 644.03,
+      "end": 648.73,
+      "language": "Tamil-English",
+      "n_words": 11,
+      "script_counts": {
+        "LATIN": 11
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 649.03,
+      "end": 653.73,
+      "language": "Tamil-English",
+      "n_words": 10,
+      "script_counts": {
+        "LATIN": 10
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 654.33,
+      "end": 658.33,
+      "language": "Tamil-English",
+      "n_words": 9,
+      "script_counts": {
+        "LATIN": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 659.23,
+      "end": 660.33,
+      "language": "Tamil-English",
+      "n_words": 3,
+      "script_counts": {
+        "LATIN": 3
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 660.73,
+      "end": 667.33,
+      "language": "Tamil-English",
+      "n_words": 12,
+      "script_counts": {
+        "LATIN": 12
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 668.63,
+      "end": 670.63,
+      "language": "Tamil-English",
+      "n_words": 6,
+      "script_counts": {
+        "LATIN": 6
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 671.43,
+      "end": 673.93,
+      "language": "Tamil-English",
+      "n_words": 5,
+      "script_counts": {
+        "LATIN": 5
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 675.23,
+      "end": 678.23,
+      "language": "Tamil-English",
+      "n_words": 8,
+      "script_counts": {
+        "LATIN": 8
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 678.73,
+      "end": 683.03,
+      "language": "Tamil-English",
+      "n_words": 11,
+      "script_counts": {
+        "LATIN": 11
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    },
+    {
+      "start": 683.43,
+      "end": 685.03,
+      "language": "Tamil-English",
+      "n_words": 5,
+      "script_counts": {
+        "LATIN": 5
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "LATIN",
+      "is_romanised_mix": true
+    }
+  ]
+}

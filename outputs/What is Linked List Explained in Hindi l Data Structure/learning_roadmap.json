@@ -1,0 +1,210 @@
+{
+  "video": "What is Linked List Explained in Hindi l Data Structure",
+  "total_concepts": 16,
+  "levels": [
+    {
+      "level": 1,
+      "concepts": [
+        {
+          "concept": "Data Structure",
+          "prerequisites": [],
+          "first_mentioned": 0.0,
+          "frequency": 4,
+          "explanation": "Foundational concept — no prerequisites."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "concepts": [
+        {
+          "concept": "Linked List",
+          "prerequisites": [
+            "Data Structure"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 4,
+          "explanation": "Linked List is a type of Data Structure."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "concepts": [
+        {
+          "concept": "Important Terminology",
+          "prerequisites": [
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Important terminology is introduced for Linked Lists."
+        },
+        {
+          "concept": "Array",
+          "prerequisites": [
+            "Data Structure",
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Array is another type of Data Structure. | Linked Lists are often contrasted with Arrays."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "concepts": [
+        {
+          "concept": "Node",
+          "prerequisites": [
+            "Important Terminology",
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Node is an important term related to Linked Lists. | A Linked List is composed of Nodes."
+        },
+        {
+          "concept": "Head Pointer",
+          "prerequisites": [
+            "Important Terminology",
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Head Pointer is an important term related to Linked Lists. | The Head Pointer points to the first Node of a Linked List."
+        },
+        {
+          "concept": "Access",
+          "prerequisites": [
+            "Array",
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Accessing elements is a key aspect of Arrays. | Accessing elements is a key aspect of Linked Lists."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "concepts": [
+        {
+          "concept": "Data Element",
+          "prerequisites": [
+            "Important Terminology",
+            "Node"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 4,
+          "explanation": "Data Element is an important term related to Nodes. | A Node contains a Data Element."
+        },
+        {
+          "concept": "Link Field",
+          "prerequisites": [
+            "Important Terminology",
+            "Node"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 4,
+          "explanation": "Link Field is an important term related to Nodes. | A Node contains a Link Field."
+        },
+        {
+          "concept": "Operations",
+          "prerequisites": [
+            "Access",
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Access is a fundamental operation on data structures. | Various operations can be performed on Linked Lists."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "concepts": [
+        {
+          "concept": "Address",
+          "prerequisites": [
+            "Link Field"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "A Link Field stores the Address of the next node."
+        },
+        {
+          "concept": "Null",
+          "prerequisites": [
+            "Important Terminology",
+            "Link Field"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Null is an important term in Linked Lists. | Null indicates the end of a Linked List, often stored in a Link Field."
+        },
+        {
+          "concept": "Basic Representation",
+          "prerequisites": [
+            "Link Field",
+            "Linked List",
+            "Node"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Basic Representation helps visualize Link Fields. | Basic Representation helps visualize a Linked List. | Basic Representation helps visualize Nodes."
+        },
+        {
+          "concept": "Sequence",
+          "prerequisites": [
+            "Link Field",
+            "Linked List"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Link Fields define the sequence of elements in a Linked List. | A Linked List maintains a sequence of elements."
+        },
+        {
+          "concept": "Implementation",
+          "prerequisites": [
+            "Linked List",
+            "Operations"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Implementation details are crucial for Linked Lists. | Implementing a Linked List involves implementing its operations."
+        },
+        {
+          "concept": "Circular Linked List",
+          "prerequisites": [
+            "Link Field",
+            "Linked List",
+            "Node"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 1,
+          "explanation": "Link Fields are used to create the circularity in Circular Linked Lists. | Circular Linked List is a variation of Linked List. | Nodes are fundamental components of Circular Linked Lists."
+        }
+      ]
+    }
+  ],
+  "linear_order": [
+    "Data Structure",
+    "Linked List",
+    "Important Terminology",
+    "Node",
+    "Data Element",
+    "Link Field",
+    "Address",
+    "Head Pointer",
+    "Null",
+    "Basic Representation",
+    "Sequence",
+    "Array",
+    "Access",
+    "Operations",
+    "Implementation",
+    "Circular Linked List"
+  ]
+}

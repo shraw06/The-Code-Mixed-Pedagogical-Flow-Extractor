@@ -1,0 +1,429 @@
+{
+  "video": "What is Python｜ History of Python｜ Why we learn Python in Tamil-Python Series Part 1",
+  "total_concepts": 39,
+  "levels": [
+    {
+      "level": 1,
+      "concepts": [
+        {
+          "concept": "Python",
+          "prerequisites": [],
+          "first_mentioned": 17.03,
+          "frequency": 46,
+          "explanation": "Foundational concept — no prerequisites."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "concepts": [
+        {
+          "concept": "History of Python",
+          "prerequisites": [
+            "Python"
+          ],
+          "first_mentioned": 17.03,
+          "frequency": 2,
+          "explanation": "The video discusses the history of Python."
+        },
+        {
+          "concept": "Programmer",
+          "prerequisites": [
+            "Python"
+          ],
+          "first_mentioned": 54.43,
+          "frequency": 4,
+          "explanation": "Python is a tool used by programmers."
+        },
+        {
+          "concept": "Programming Language",
+          "prerequisites": [
+            "Python"
+          ],
+          "first_mentioned": 17.03,
+          "frequency": 36,
+          "explanation": "Python is introduced as a type of programming language."
+        },
+        {
+          "concept": "Software Development",
+          "prerequisites": [
+            "Python"
+          ],
+          "first_mentioned": 156.53,
+          "frequency": 2,
+          "explanation": "Python is used for various types of software development."
+        },
+        {
+          "concept": "Why Learn Python",
+          "prerequisites": [
+            "Python"
+          ],
+          "first_mentioned": 17.03,
+          "frequency": 7,
+          "explanation": "The video explains the reasons to learn Python."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "concepts": [
+        {
+          "concept": "Guido van Rossum",
+          "prerequisites": [
+            "History of Python"
+          ],
+          "first_mentioned": 223.43,
+          "frequency": 3,
+          "explanation": "Guido van Rossum is the creator of Python."
+        },
+        {
+          "concept": "Python 2",
+          "prerequisites": [
+            "History of Python"
+          ],
+          "first_mentioned": 298.63,
+          "frequency": 1,
+          "explanation": "Python 2 is an important version in Python's history."
+        },
+        {
+          "concept": "Interpreted Language",
+          "prerequisites": [
+            "Programming Language"
+          ],
+          "first_mentioned": 37.43,
+          "frequency": 3,
+          "explanation": "Interpreted language is a characteristic of Python as a programming language."
+        },
+        {
+          "concept": "Programming Paradigms",
+          "prerequisites": [
+            "Programming Language"
+          ],
+          "first_mentioned": 168.53,
+          "frequency": 1,
+          "explanation": "Python supports various programming paradigms."
+        },
+        {
+          "concept": "Object-Oriented Programming (OOP)",
+          "prerequisites": [
+            "Programming Language"
+          ],
+          "first_mentioned": 37.43,
+          "frequency": 5,
+          "explanation": "OOP is a paradigm supported by Python."
+        },
+        {
+          "concept": "Web Development",
+          "prerequisites": [
+            "Software Development"
+          ],
+          "first_mentioned": 156.53,
+          "frequency": 1,
+          "explanation": "Web development is a specific application of Python in software development."
+        },
+        {
+          "concept": "Game Development",
+          "prerequisites": [
+            "Software Development"
+          ],
+          "first_mentioned": 156.53,
+          "frequency": 1,
+          "explanation": "Game development is a specific application of Python in software development."
+        },
+        {
+          "concept": "Mobile Application Development",
+          "prerequisites": [
+            "Software Development"
+          ],
+          "first_mentioned": 156.53,
+          "frequency": 1,
+          "explanation": "Mobile application development is a specific application of Python in software development."
+        },
+        {
+          "concept": "Data Types",
+          "prerequisites": [
+            "Programming Language"
+          ],
+          "first_mentioned": 344.63,
+          "frequency": 2,
+          "explanation": "Data types are fundamental concepts in any programming language."
+        },
+        {
+          "concept": "High-Level Language",
+          "prerequisites": [
+            "Programming Language"
+          ],
+          "first_mentioned": 369.83,
+          "frequency": 2,
+          "explanation": "Python is characterized as a high-level programming language."
+        },
+        {
+          "concept": "Cross-Platform",
+          "prerequisites": [
+            "Why Learn Python"
+          ],
+          "first_mentioned": 407.43,
+          "frequency": 6,
+          "explanation": "Cross-platform compatibility is a benefit of Python."
+        },
+        {
+          "concept": "Syntax",
+          "prerequisites": [
+            "Programming Language"
+          ],
+          "first_mentioned": 335.93,
+          "frequency": 4,
+          "explanation": "Every programming language has its own syntax."
+        },
+        {
+          "concept": "Open-Source",
+          "prerequisites": [
+            "Why Learn Python"
+          ],
+          "first_mentioned": 435.33,
+          "frequency": 4,
+          "explanation": "Python being open-source is an advantage."
+        },
+        {
+          "concept": "Installation",
+          "prerequisites": [
+            "Programmer"
+          ],
+          "first_mentioned": 441.83,
+          "frequency": 6,
+          "explanation": "Programmers need to install Python to use it."
+        },
+        {
+          "concept": "Extensive Libraries",
+          "prerequisites": [
+            "Why Learn Python"
+          ],
+          "first_mentioned": 358.83,
+          "frequency": 7,
+          "explanation": "Extensive libraries are a major advantage of Python."
+        },
+        {
+          "concept": "Extensibility",
+          "prerequisites": [
+            "Why Learn Python"
+          ],
+          "first_mentioned": 487.63,
+          "frequency": 1,
+          "explanation": "Python's extensibility is a reason to learn it."
+        },
+        {
+          "concept": "GUI Development",
+          "prerequisites": [
+            "Software Development"
+          ],
+          "first_mentioned": 537.33,
+          "frequency": 5,
+          "explanation": "GUI development is a specific application of Python in software development."
+        },
+        {
+          "concept": "Widespread Use",
+          "prerequisites": [
+            "Why Learn Python"
+          ],
+          "first_mentioned": 575.03,
+          "frequency": 1,
+          "explanation": "Python's widespread use makes it valuable to learn."
+        },
+        {
+          "concept": "Search Techniques",
+          "prerequisites": [
+            "Programmer"
+          ],
+          "first_mentioned": 587.53,
+          "frequency": 16,
+          "explanation": "Programmers use search techniques for learning and problem-solving."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "concepts": [
+        {
+          "concept": "ABC Language",
+          "prerequisites": [
+            "Guido van Rossum"
+          ],
+          "first_mentioned": 235.33,
+          "frequency": 2,
+          "explanation": "ABC Language was a predecessor that influenced Guido van Rossum."
+        },
+        {
+          "concept": "List Comprehension",
+          "prerequisites": [
+            "Python 2"
+          ],
+          "first_mentioned": 308.83,
+          "frequency": 1,
+          "explanation": "List comprehension was a feature in Python 2 (and 3)."
+        },
+        {
+          "concept": "Garbage Collection",
+          "prerequisites": [
+            "Python 2"
+          ],
+          "first_mentioned": 308.83,
+          "frequency": 1,
+          "explanation": "Garbage collection is a feature in Python 2 (and 3)."
+        },
+        {
+          "concept": "Python 3",
+          "prerequisites": [
+            "Python 2"
+          ],
+          "first_mentioned": 313.33,
+          "frequency": 2,
+          "explanation": "Python 3 is the successor to Python 2."
+        },
+        {
+          "concept": "Interpreter",
+          "prerequisites": [
+            "Interpreted Language"
+          ],
+          "first_mentioned": 44.03,
+          "frequency": 4,
+          "explanation": "Interpreted languages use an interpreter for execution."
+        },
+        {
+          "concept": "Dynamic Typing",
+          "prerequisites": [
+            "Data Types"
+          ],
+          "first_mentioned": 354.33,
+          "frequency": 1,
+          "explanation": "Python uses dynamic typing for its data types."
+        },
+        {
+          "concept": "Easy to Learn",
+          "prerequisites": [
+            "High-Level Language",
+            "Syntax",
+            "Why Learn Python"
+          ],
+          "first_mentioned": 330.63,
+          "frequency": 7,
+          "explanation": "Being a high-level language contributes to Python's ease of learning. | Simple syntax makes Python easy to learn. | Python is easy to learn, which is a reason to learn it."
+        },
+        {
+          "concept": "Integration with other languages",
+          "prerequisites": [
+            "Widespread Use"
+          ],
+          "first_mentioned": 566.73,
+          "frequency": 1,
+          "explanation": "Python's ability to integrate with other languages contributes to its widespread use."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "concepts": [
+        {
+          "concept": "Code Execution",
+          "prerequisites": [
+            "Interpreter"
+          ],
+          "first_mentioned": 44.03,
+          "frequency": 4,
+          "explanation": "The interpreter is responsible for code execution."
+        },
+        {
+          "concept": "Readability",
+          "prerequisites": [
+            "Easy to Learn"
+          ],
+          "first_mentioned": 388.93,
+          "frequency": 1,
+          "explanation": "Python's readability makes it easy to learn."
+        },
+        {
+          "concept": "Developer Friendly",
+          "prerequisites": [
+            "Easy to Learn"
+          ],
+          "first_mentioned": 375.43,
+          "frequency": 2,
+          "explanation": "Python's ease of use makes it developer friendly."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "concepts": [
+        {
+          "concept": "Output",
+          "prerequisites": [
+            "Code Execution"
+          ],
+          "first_mentioned": 116.43,
+          "frequency": 2,
+          "explanation": "Code execution produces an output."
+        },
+        {
+          "concept": "IDE/Editor",
+          "prerequisites": [
+            "Code Execution"
+          ],
+          "first_mentioned": 128.43,
+          "frequency": 1,
+          "explanation": "Code is written and executed in an IDE or editor."
+        },
+        {
+          "concept": "Debugging",
+          "prerequisites": [
+            "Developer Friendly",
+            "Interpreter"
+          ],
+          "first_mentioned": 399.03,
+          "frequency": 1,
+          "explanation": "Python's developer-friendly nature aids in debugging. | Interpreters can provide immediate feedback, aiding debugging."
+        }
+      ]
+    }
+  ],
+  "linear_order": [
+    "Python",
+    "History of Python",
+    "Guido van Rossum",
+    "ABC Language",
+    "Programmer",
+    "Python 2",
+    "List Comprehension",
+    "Garbage Collection",
+    "Python 3",
+    "Programming Language",
+    "Interpreted Language",
+    "Interpreter",
+    "Programming Paradigms",
+    "Object-Oriented Programming (OOP)",
+    "Software Development",
+    "Web Development",
+    "Game Development",
+    "Mobile Application Development",
+    "Code Execution",
+    "Output",
+    "IDE/Editor",
+    "Why Learn Python",
+    "Data Types",
+    "Dynamic Typing",
+    "High-Level Language",
+    "Cross-Platform",
+    "Syntax",
+    "Easy to Learn",
+    "Readability",
+    "Developer Friendly",
+    "Debugging",
+    "Open-Source",
+    "Installation",
+    "Extensive Libraries",
+    "Extensibility",
+    "GUI Development",
+    "Widespread Use",
+    "Integration with other languages",
+    "Search Techniques"
+  ]
+}

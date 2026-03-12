@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-12">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="explanation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="freq" type="long" />
+      <attribute id="1" title="avg_t" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Data Structure" label="Data Structure">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="20.3" />
+        </attvalues>
+      </node>
+      <node id="Linked List" label="Linked List">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="20.3" />
+        </attvalues>
+      </node>
+      <node id="Important Terminology" label="Important Terminology">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Node" label="Node">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Data Element" label="Data Element">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="20.3" />
+        </attvalues>
+      </node>
+      <node id="Link Field" label="Link Field">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="20.3" />
+        </attvalues>
+      </node>
+      <node id="Address" label="Address">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Head Pointer" label="Head Pointer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Null" label="Null">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Basic Representation" label="Basic Representation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Sequence" label="Sequence">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Array" label="Array">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Access" label="Access">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Operations" label="Operations">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Implementation" label="Implementation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+      <node id="Circular Linked List" label="Circular Linked List">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="48.7" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Data Structure" target="Linked List" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Linked List is a type of Data Structure." />
+        </attvalues>
+      </edge>
+      <edge source="Linked List" target="Array" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Linked Lists are often contrasted with Arrays." />
+        </attvalues>
+      </edge>
+      <edge source="Linked List" target="Important Terminology" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Important terminology is introduced for Linked Lists." />
+        </attvalues>
+      </edge>
+      <edge source="Important Terminology" target="Node" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Node is an important term related to Linked Lists." />
+        </attvalues>
+      </edge>
+      <edge source="Important Terminology" target="Head Pointer" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Head Pointer is an important term related to Linked Lists." />
+        </attvalues>
+      </edge>
+      <edge source="Node" target="Data Element" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="A Node contains a Data Element." />
+        </attvalues>
+      </edge>
+      <edge source="Node" target="Link Field" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="A Node contains a Link Field." />
+        </attvalues>
+      </edge>
+      <edge source="Link Field" target="Sequence" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Link Fields define the sequence of elements in a Linked List." />
+        </attvalues>
+      </edge>
+      <edge source="Link Field" target="Address" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="A Link Field stores the Address of the next node." />
+        </attvalues>
+      </edge>
+      <edge source="Link Field" target="Basic Representation" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Basic Representation helps visualize Link Fields." />
+        </attvalues>
+      </edge>
+      <edge source="Link Field" target="Null" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Null indicates the end of a Linked List, often stored in a Link Field." />
+        </attvalues>
+      </edge>
+      <edge source="Link Field" target="Circular Linked List" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Link Fields are used to create the circularity in Circular Linked Lists." />
+        </attvalues>
+      </edge>
+      <edge source="Array" target="Access" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Accessing elements is a key aspect of Arrays." />
+        </attvalues>
+      </edge>
+      <edge source="Access" target="Operations" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Access is a fundamental operation on data structures." />
+        </attvalues>
+      </edge>
+      <edge source="Operations" target="Implementation" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Implementing a Linked List involves implementing its operations." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

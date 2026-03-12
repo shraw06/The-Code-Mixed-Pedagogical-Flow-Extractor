@@ -1,0 +1,413 @@
+{
+    "language": "Hindi-English",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 5.3,
+            "original_text": "Hello students, aaj hum padhenge eigen values and eigen vectors ke bare mein.",
+            "english_text": "Hello students, today we will study about eigen values and eigen vectors.",
+            "language": "Hindi-English",
+            "text": "Hello students, today we will study about eigen values and eigen vectors."
+        },
+        {
+            "start": 5.3,
+            "end": 12.7,
+            "original_text": "Jisme hum ye dekhenge ki kaise hum diye gaye matrix ki eigen value aur uska eigen vector find kar sakte hain.",
+            "english_text": "In which we will see how we can find the eigen value and its eigen vector of a given matrix.",
+            "language": "Hindi-English",
+            "text": "In which we will see how we can find the eigen value and its eigen vector of a given matrix."
+        },
+        {
+            "start": 12.7,
+            "end": 18.3,
+            "original_text": "So I hope you are ready with your pen and paper, so without wasting much time, let us start this video.",
+            "english_text": "So I hope you are ready with your pen and paper, so without wasting much time, let us start this video.",
+            "language": "Hindi-English",
+            "text": "So I hope you are ready with your pen and paper, so without wasting much time, let us start this video."
+        },
+        {
+            "start": 18.9,
+            "end": 30.3,
+            "original_text": "To ye eigen vector eigen value samajhne ke liye ek numerical likh ke rakha hai yahan pe. Ye hamara ho gaya 2x2 ka matrix, jiska hume eigen value aur eigen vector find karna hai.",
+            "english_text": "So to understand this eigen vector eigen value, I have written a numerical here. This is our 2x2 matrix, for which we need to find the eigen value and eigen vector.",
+            "language": "Hindi-English",
+            "text": "So to understand this eigen vector eigen value, I have written a numerical here. This is our 2x2 matrix, for which we need to find the eigen value and eigen vector."
+        },
+        {
+            "start": 30.7,
+            "end": 38.8,
+            "original_text": "To kaise start karenge? To hamesha sabse pehle to eigen values dhundhi jaati hai aur usme se eigen vectors hum find kar sakte hain.",
+            "english_text": "So how will we start? So always, first, eigen values are found, and from those, we can find eigen vectors.",
+            "language": "Hindi-English",
+            "text": "So how will we start? So always, first, eigen values are found, and from those, we can find eigen vectors."
+        },
+        {
+            "start": 39.4,
+            "end": 48.7,
+            "original_text": "To eigen values agar hume dhundhni hai, to uska ye characteristic equation ho gaya, jo ke hai matrix mein A minus lambda I is equals to zero.",
+            "english_text": "So if we need to find eigen values, then this is its characteristic equation, which is in the matrix A minus lambda I equals to zero.",
+            "language": "Hindi-English",
+            "text": "So if we need to find eigen values, then this is its characteristic equation, which is in the matrix A minus lambda I equals to zero."
+        },
+        {
+            "start": 48.7,
+            "end": 58.3,
+            "original_text": "Jahan pe A jo hai, wo hamara diya hua matrix hai. Lambda jo hai, wo hai eigen value aur I jo hai, wo identity matrix hai.",
+            "english_text": "Where A is our given matrix. Lambda is the eigen value, and I is the identity matrix.",
+            "language": "Hindi-English",
+            "text": "Where A is our given matrix. Lambda is the eigen value, and I is the identity matrix."
+        },
+        {
+            "start": 58.3,
+            "end": 112.5,
+            "original_text": "Theek hai? Ya fir unit matrix hai. Ab A ki value kya hai? Ye wali value 380-1 rakh di. Minus lambda eigen value rakh diya. I 2x2 ke liye kaun sa hota hai identity matrix? 1001 wo rakh diya, which is equals to zero.",
+            "english_text": "Okay? Or unit matrix. Now what is the value of A? This value 380-1 is placed. Minus lambda eigen value is placed. Which identity matrix is for 2x2? 1001 is placed, which is equals to zero.",
+            "language": "Hindi-English",
+            "text": "Okay? Or unit matrix. Now what is the value of A? This value 380-1 is placed. Minus lambda eigen value is placed. Which identity matrix is for 2x2? 1001 is placed, which is equals to zero."
+        },
+        {
+            "start": 112.5,
+            "end": 131.2,
+            "original_text": "Ab ye lambda ko andar le gaye, to ye lambda idhar aa jayega, ye lambda idhar aa jayega. Ab dono matrix ka hume minus subtraction karna hai, to kaise karenge? Ye 3 minus lambda to aa gaya, 0 minus 0, 0, 8 minus 0, 8 aa gaya, minus 1 minus lambda is equals to zero.",
+            "english_text": "Now, if we take this lambda inside, this lambda will come here, this lambda will come here. Now we need to do subtraction of both matrices, so how will we do it? This 3 minus lambda came, 0 minus 0, 0, 8 minus 0, 8 came, minus 1 minus lambda is equals to zero.",
+            "language": "Hindi-English",
+            "text": "Now, if we take this lambda inside, this lambda will come here, this lambda will come here. Now we need to do subtraction of both matrices, so how will we do it? This 3 minus lambda came, 0 minus 0, 0, 8 minus 0, 8 came, minus 1 minus lambda is equals to zero."
+        },
+        {
+            "start": 131.6,
+            "end": 148.7,
+            "original_text": "Ab iska hum determinant nikalenge. Kaise? Ye aise ye wali diagonal ko multiply karte the to kya hota tha? 3 minus lambda into the bracket multiply kar rahe hain minus 1 minus lambda. Theek hai? Fir minus karke ye wala diagonal 8 into 0 to 0 reh jayega is equals to zero.",
+            "english_text": "Now we will find its determinant. How? If we multiply this diagonal like this, what would happen? 3 minus lambda into the bracket, we are multiplying minus 1 minus lambda. Okay? Then after subtracting, this diagonal 8 into 0 will remain 0, equals to zero.",
+            "language": "Hindi-English",
+            "text": "Now we will find its determinant. How? If we multiply this diagonal like this, what would happen? 3 minus lambda into the bracket, we are multiplying minus 1 minus lambda. Okay? Then after subtracting, this diagonal 8 into 0 will remain 0, equals to zero."
+        },
+        {
+            "start": 149.0,
+            "end": 203.9,
+            "original_text": "Ab yahan pe kya milega? 3 minus lambda is equals to zero, hume do equation milne wale hain. Yahan pe kaun si? Ye wala jo likha hai 3 minus lambda equals to zero aur dusra kaun sa mila? Minus 1 minus lambda equals to zero.",
+            "english_text": "Now what will we get here? 3 minus lambda is equals to zero, we are going to get two equations. Which one here? This one written 3 minus lambda equals to zero and what was the other one? Minus 1 minus lambda equals to zero.",
+            "language": "Hindi-English",
+            "text": "Now what will we get here? 3 minus lambda is equals to zero, we are going to get two equations. Which one here? This one written 3 minus lambda equals to zero and what was the other one? Minus 1 minus lambda equals to zero."
+        },
+        {
+            "start": 204.2,
+            "end": 220.3,
+            "original_text": "To yahan se lambda ki value aa jayegi kaun si? Lambda ko wo side le gaye to lambda is equals to 3 aur minus 1 lambda ko wo side le gaye to lambda is equals to minus 1. To hume do kya mil gaye hain? Eigen values diye gaye matrix ke. To ye ek answer hamara ho gaya.",
+            "english_text": "So from here, what will be the value of lambda? If we take lambda to that side, then lambda is equals to 3, and if we take minus 1 lambda to that side, then lambda is equals to minus 1. So what two things have we got? Eigen values of the given matrix. So this is one of our answers.",
+            "language": "Hindi-English",
+            "text": "So from here, what will be the value of lambda? If we take lambda to that side, then lambda is equals to 3, and if we take minus 1 lambda to that side, then lambda is equals to minus 1. So what two things have we got? Eigen values of the given matrix. So this is one of our answers."
+        },
+        {
+            "start": 221.0,
+            "end": 233.7,
+            "original_text": "Achha, ab hume do eigen values mili hai, to hum kya bol denge ke do alag alag eigen values ke liye ab alag alag eigen vectors milenge. Yani do eigen values mili to do eigen vectors milenge.",
+            "english_text": "Okay, now we have got two eigen values, so what will we say that for two different eigen values, we will now get different eigen vectors. That means if we got two eigen values, we will get two eigen vectors.",
+            "language": "Hindi-English",
+            "text": "Okay, now we have got two eigen values, so what will we say that for two different eigen values, we will now get different eigen vectors. That means if we got two eigen values, we will get two eigen vectors."
+        },
+        {
+            "start": 233.7,
+            "end": 246.4,
+            "original_text": "To ab eigen vector find karte hain kiske liye? Ye wali eigen value ke liye. To yahan pe likh liya eigen vector ab dhundhenge lambda equals to 3 ke liye, fir baad mein lambda equals to minus 1 ke liye dhundh lenge, to do eigen vectors mil jayenge. Theek hai?",
+            "english_text": "So now let's find the eigen vector for what? For this eigen value. So here it is written, we will now find the eigen vector for lambda equals to 3, then later we will find it for lambda equals to minus 1, so we will get two eigen vectors. Okay?",
+            "language": "Hindi-English",
+            "text": "So now let's find the eigen vector for what? For this eigen value. So here it is written, we will now find the eigen vector for lambda equals to 3, then later we will find it for lambda equals to minus 1, so we will get two eigen vectors. Okay?"
+        },
+        {
+            "start": 246.8,
+            "end": 259.7,
+            "original_text": "To kaise dhundhe? To wapas se ye jo hamara equation hai, characteristic equation eigen value ka, wo likh denge. A to as it is hai, is baar lambda ki value hum likh denge 3 ke liye hum eigen vector dhundh rahe hain, to 3i ho gaya.",
+            "english_text": "So how to find it? So again, we will write this equation of ours, the characteristic equation of eigen value. A is as it is, this time we will write the value of lambda as 3, we are looking for the eigen vector, so it became 3i.",
+            "language": "Hindi-English",
+            "text": "So how to find it? So again, we will write this equation of ours, the characteristic equation of eigen value. A is as it is, this time we will write the value of lambda as 3, we are looking for the eigen vector, so it became 3i."
+        },
+        {
+            "start": 259.7,
+            "end": 318.8,
+            "original_text": "Theek hai? Ab A kaun sa hamara diya gaya matrix wo likh liya, minus 3 identity matrix 01 ye likh diya. Ab ye 3 ko multiply kar diya to yahan 3, yahan 3 aa jayega. Ye 3 aa gaya. Ab dono ko subtract kar diya to ye 3 minus 3, 0 aa gaya, 0 minus 0, 0, 8 minus 0, 8, minus 1 minus 3, 4 is equals to zero.",
+            "english_text": "Okay? Now, which matrix A was given, that is written, minus 3 identity matrix 01 is written. Now, if we multiply this 3, then 3 will come here, 3 will come here. This 3 came. Now, if we subtract both, then 3 minus 3, 0 came, 0 minus 0, 0, 8 minus 0, 8, minus 1 minus 3, 4 is equals to zero.",
+            "language": "Hindi-English",
+            "text": "Okay? Now, which matrix A was given, that is written, minus 3 identity matrix 01 is written. Now, if we multiply this 3, then 3 will come here, 3 will come here. This 3 came. Now, if we subtract both, then 3 minus 3, 0 came, 0 minus 0, 0, 8 minus 0, 8, minus 1 minus 3, 4 is equals to zero."
+        },
+        {
+            "start": 318.8,
+            "end": 341.8,
+            "original_text": "Theek hai? To ye kiski value hume mili? Ye value hume mili A minus 3i ki. Ye rahi A minus 3i ki. Hume to kya dhundhna hai? Hume to dhundhna hai eigen vector. To eigen vector ka ek characteristic equation hai, wo hume yaad rakhna hai. Wo kuch aisa hi hai, lekin yahan pe ek extra X multiply kiya hai. A minus lambda I aisa hi hai, lekin extra kya multiply kiya hai? X multiply kiya hai, which is equals to zero.",
+            "english_text": "Okay? So whose value did we get? We got the value of A minus 3i. This is A minus 3i. What do we need to find? We need to find the eigen vector. So there is a characteristic equation for eigen vector, which we need to remember. It is similar to this, but an extra X is multiplied here. A minus lambda I is similar, but what extra is multiplied? X is multiplied, which is equals to zero.",
+            "language": "Hindi-English",
+            "text": "Okay? So whose value did we get? We got the value of A minus 3i. This is A minus 3i. What do we need to find? We need to find the eigen vector. So there is a characteristic equation for eigen vector, which we need to remember. It is similar to this, but an extra X is multiplied here. A minus lambda I is similar, but what extra is multiplied? X is multiplied, which is equals to zero."
+        },
+        {
+            "start": 342.2,
+            "end": 356.7,
+            "original_text": "Ab A minus lambda I to ye raha, to ye likh diya 008 minus 4. Achha, ab X kya bolenge hum? X1 X2 bolenge. Kyun X1 X2 liya? Kyunki ye kitna by kitna ka matrix hai? 2x2 ka hai. Agar 3x3 ka hota to X1 X2 X3 lete. Theek hai?",
+            "english_text": "Now A minus lambda I is this, so it is written 008 minus 4. Okay, now what will we call X? We will call it X1 X2. Why did we take X1 X2? Because what by what matrix is this? It's a 2x2. If it were 3x3, we would take X1 X2 X3. Okay?",
+            "language": "Hindi-English",
+            "text": "Now A minus lambda I is this, so it is written 008 minus 4. Okay, now what will we call X? We will call it X1 X2. Why did we take X1 X2? Because what by what matrix is this? It's a 2x2. If it were 3x3, we would take X1 X2 X3. Okay?"
+        },
+        {
+            "start": 357.0,
+            "end": 403.2,
+            "original_text": "To X ki jagah humne kya liya hai? Ye X ki jagah hum le rahe hain X1 X2. Theek hai?",
+            "english_text": "So what have we taken in place of X? In place of this X, we are taking X1 X2. Okay?",
+            "language": "Hindi-English",
+            "text": "So what have we taken in place of X? In place of this X, we are taking X1 X2. Okay?"
+        },
+        {
+            "start": 404.0,
+            "end": 420.7,
+            "original_text": "Achha, ab isko solve karenge. Kaise? Ye ho gayi hamari first row. First row ko X ye wala 0X1 to nahi aayega plus 0X2 to nahi aayega. Second row le lo. Kya? 8X1 minus 4X2 equals to zero.",
+            "english_text": "Okay, now we will solve this. How? This is our first row. For the first row, X, this 0X1 will not come, plus 0X2 will not come. Take the second row. What? 8X1 minus 4X2 equals to zero.",
+            "language": "Hindi-English",
+            "text": "Okay, now we will solve this. How? This is our first row. For the first row, X, this 0X1 will not come, plus 0X2 will not come. Take the second row. What? 8X1 minus 4X2 equals to zero."
+        },
+        {
+            "start": 420.7,
+            "end": 434.9,
+            "original_text": "Theek hai? Ab kya karenge? Equation ko 4 se divide kar denge easiness ke liye. To yahan kya aa jayega? 2X1 minus X2. To ye X2 ko wahan bhej denge to yahan aa jayega. Yani hume kya mila? 2X1 is equals to X2 mila. Yani X1 aur X2 ki value mili nahi.",
+            "english_text": "Okay? Now what will we do? We will divide the equation by 4 for easiness. So what will come here? 2X1 minus X2. So we will send this X2 there, and it will come here. That means what did we get? We got 2X1 is equals to X2. That means we didn't get the value of X1 and X2.",
+            "language": "Hindi-English",
+            "text": "Okay? Now what will we do? We will divide the equation by 4 for easiness. So what will come here? 2X1 minus X2. So we will send this X2 there, and it will come here. That means what did we get? We got 2X1 is equals to X2. That means we didn't get the value of X1 and X2."
+        },
+        {
+            "start": 435.3,
+            "end": 448.5,
+            "original_text": "To hum assume kar lenge ke suppose karte hain X1 ki value kitni hai? K1 hai, assume kar rahe hain. Kyun assume kar rahe hain? Kyunki X1 aur X2 ki value hume nahi mili, relationship mila hai. Theek hai? Dono ke beech ka. To assume kar lenge ke X1 ki value kitni hai? K1 hai.",
+            "english_text": "So we will assume that suppose the value of X1 is K1, we are assuming. Why are we assuming? Because we didn't get the value of X1 and X2, we got a relationship. Okay? Between both. So we will assume that the value of X1 is K1.",
+            "language": "Hindi-English",
+            "text": "So we will assume that suppose the value of X1 is K1, we are assuming. Why are we assuming? Because we didn't get the value of X1 and X2, we got a relationship. Okay? Between both. So we will assume that the value of X1 is K1."
+        },
+        {
+            "start": 448.5,
+            "end": 503.2,
+            "original_text": "Agar X1 ki value K1 hai, to yahan pe K1 rakho X1 ki jagah pe. To kya ho jayega? X2 ki value, X2 ki value 2K1 ho jayegi. Theek hai? Yani ke X1 aur X2 ki value hume mil chuki hai. Relation mila to K1 assume kiya isko, to X2 ki 2K2 ho gaya.",
+            "english_text": "If the value of X1 is K1, then put K1 in place of X1 here. So what will happen? The value of X2, the value of X2 will become 2K1. Okay? That means we have got the values of X1 and X2. We got the relation, so we assumed K1 for this, so X2 became 2K2.",
+            "language": "Hindi-English",
+            "text": "If the value of X1 is K1, then put K1 in place of X1 here. So what will happen? The value of X2, the value of X2 will become 2K1. Okay? That means we have got the values of X1 and X2. We got the relation, so we assumed K1 for this, so X2 became 2K2."
+        },
+        {
+            "start": 503.6,
+            "end": 513.9,
+            "original_text": "Ab ye value hum ye equation mein rakh denge. Humne kya bola tha? X kya hai? X1 X2 hai. X kya hai? X1 X2 hai. X1 kitna hai? K1 hai. X2 kitna hai? Relation pe se 2K1 hai. Theek hai?",
+            "english_text": "Now we will put this value in this equation. What did we say? What is X? It is X1 X2. What is X? It is X1 X2. How much is X1? It is K1. How much is X2? From the relation, it is 2K1. Okay?",
+            "language": "Hindi-English",
+            "text": "Now we will put this value in this equation. What did we say? What is X? It is X1 X2. What is X? It is X1 X2. How much is X1? It is K1. How much is X2? From the relation, it is 2K1. Okay?"
+        },
+        {
+            "start": 514.4,
+            "end": 534.9,
+            "original_text": "Achha, ab hume eigen vector hamesha constant form mein chaiyega. To uske liye ye to constant form hai nahi, to kya karenge? Sirf ye K1 jo hai, wo bahar nikal denge. To yahan pe X ka value K1 kya kiya? Bahar nikal diya. To yahan kya bacha? 1 bacha. Yahan kya bacha? 2 bacha. To ye kya ho gaya? Koi constant form mein hume value mili.",
+            "english_text": "Okay, now we always need the eigen vector in constant form. So for that, this is not in constant form, so what will we do? We will just take this K1 out. So what did we do with the value of X, K1? We took it out. So what remained here? 1 remained. What remained here? 2 remained. So what did this become? We got a value in some constant form.",
+            "language": "Hindi-English",
+            "text": "Okay, now we always need the eigen vector in constant form. So for that, this is not in constant form, so what will we do? We will just take this K1 out. So what did we do with the value of X, K1? We took it out. So what remained here? 1 remained. What remained here? 2 remained. So what did this become? We got a value in some constant form."
+        },
+        {
+            "start": 535.4,
+            "end": 548.7,
+            "original_text": "Theek hai? To yahan pe eigen vector kaun se ho gaye? 1, 2. To ye ho gaya hamara answer eigen vector kiske liye? Eigen value lambda equals to 3 ke liye. Usi tarike se hum eigen vector dhundhenge kiske liye? Lambda equals to minus 1 ke liye.",
+            "english_text": "Okay? So which are the eigen vectors here? 1, 2. So this is our answer, eigen vector for what? For eigen value lambda equals to 3. In the same way, we will find the eigen vector for what? For lambda equals to minus 1.",
+            "language": "Hindi-English",
+            "text": "Okay? So which are the eigen vectors here? 1, 2. So this is our answer, eigen vector for what? For eigen value lambda equals to 3. In the same way, we will find the eigen vector for what? For lambda equals to minus 1."
+        },
+        {
+            "start": 549.0,
+            "end": 604.7,
+            "original_text": "To yahan pe likha hai eigen vector lambda is equals to minus 1. Kya karenge? Wapas se characteristic equation likhenge kiska? Ye eigen value ka. To A minus lambda I equals to zero. Ab lambda yani eigen value ki value rakhenge. Kitni hai? Minus 1 hai. To minus minus plus 1 ho jayega aur ye I to as it is.",
+            "english_text": "So here it is written eigen vector lambda is equals to minus 1. What will we do? Again, we will write the characteristic equation of what? Of this eigen value. So A minus lambda I equals to zero. Now we will put the value of lambda, which is eigen value. How much is it? It is minus 1. So minus minus will become plus 1, and this I is as it is.",
+            "language": "Hindi-English",
+            "text": "So here it is written eigen vector lambda is equals to minus 1. What will we do? Again, we will write the characteristic equation of what? Of this eigen value. So A minus lambda I equals to zero. Now we will put the value of lambda, which is eigen value. How much is it? It is minus 1. So minus minus will become plus 1, and this I is as it is."
+        },
+        {
+            "start": 605.0,
+            "end": 615.6,
+            "original_text": "A ka value de de ke rakha hai, ye likh diya plus I 1001. Ab addition karenge simply. To ye 4 ho jayega, 0, ye 8, minus plus 1, 0. Theek hai?",
+            "english_text": "The value of A is given, it is written plus I 1001. Now we will simply do addition. So this will be 4, 0, this 8, minus plus 1, 0. Okay?",
+            "language": "Hindi-English",
+            "text": "The value of A is given, it is written plus I 1001. Now we will simply do addition. So this will be 4, 0, this 8, minus plus 1, 0. Okay?"
+        },
+        {
+            "start": 616.2,
+            "end": 627.8,
+            "original_text": "Achha, ab hume ye kiski value mil gayi? Ye value hume mil gayi A minus lambda I ki. Hume to kya chahiye? Eigen vector chahiye. Eigen vector mein kya hoga? Yahan pe X multiply ho jayega. To A minus lambda I multiply mein X ho gaya. Theek hai?",
+            "english_text": "Okay, now whose value did we get? We got the value of A minus lambda I. What do we need? We need the eigen vector. What will happen in eigen vector? X will be multiplied here. So A minus lambda I multiplied by X. Okay?",
+            "language": "Hindi-English",
+            "text": "Okay, now whose value did we get? We got the value of A minus lambda I. What do we need? We need the eigen vector. What will happen in eigen vector? X will be multiplied here. So A minus lambda I multiplied by X. Okay?"
+        },
+        {
+            "start": 628.3,
+            "end": 636.2,
+            "original_text": "Achha, A minus lambda I ki to ye rahi value 4080 likh diya. X kya lenge? X1 X2 lenge. 2x2 matrix hai isliye, which is equals to zero.",
+            "english_text": "Okay, the value of A minus lambda I is this, 4080 is written. What will we take for X? We will take X1 X2. Because it's a 2x2 matrix, which is equals to zero.",
+            "language": "Hindi-English",
+            "text": "Okay, the value of A minus lambda I is this, 4080 is written. What will we take for X? We will take X1 X2. Because it's a 2x2 matrix, which is equals to zero."
+        },
+        {
+            "start": 636.6,
+            "end": 645.9,
+            "original_text": "Is ko solve karenge. Kaise? Ye 4X1 plus 0X2. Theek hai? Aur ye ho gaya 8X1 plus 0X2, 8X1 plus 0X2. Theek hai?",
+            "english_text": "We will solve this. How? This 4X1 plus 0X2. Okay? And this became 8X1 plus 0X2, 8X1 plus 0X2. Okay?",
+            "language": "Hindi-English",
+            "text": "We will solve this. How? This 4X1 plus 0X2. Okay? And this became 8X1 plus 0X2, 8X1 plus 0X2. Okay?"
+        },
+        {
+            "start": 646.3,
+            "end": 656.7,
+            "original_text": "To ispe se hum kya likhenge? 4X1 barabar 0, kyunki ye 0 ho gaya. Ye X1 4 niche chala jayega to 0 ke barabar. Usi tarike se yahan se kya likhenge? 8X1 equals to 0 aur X1 equals to 0.",
+            "english_text": "So from this, what will we write? 4X1 equals to 0, because this became 0. This X1, 4 will go down, so it will be equal to 0. In the same way, what will we write from here? 8X1 equals to 0 and X1 equals to 0.",
+            "language": "Hindi-English",
+            "text": "So from this, what will we write? 4X1 equals to 0, because this became 0. This X1, 4 will go down, so it will be equal to 0. In the same way, what will we write from here? 8X1 equals to 0 and X1 equals to 0."
+        },
+        {
+            "start": 657.0,
+            "end": 709.2,
+            "original_text": "Theek hai? X1 0 mil gaya hume. Ab X1 agar 0 yahan pe rakhenge, koi bhi ek equation mein 0, to X2 bhi kitna milne wala hai? 0 milne wala hai. Ab ye to possible nahi hai ke X1 aur X2 dono 0 ho ek hi equation mein.",
+            "english_text": "Okay? We got X1 as 0. Now if we put X1 as 0 here, in any one equation as 0, then how much will X2 be? It will be 0. Now this is not possible that both X1 and X2 are 0 in the same equation.",
+            "language": "Hindi-English",
+            "text": "Okay? We got X1 as 0. Now if we put X1 as 0 here, in any one equation as 0, then how much will X2 be? It will be 0. Now this is not possible that both X1 and X2 are 0 in the same equation."
+        },
+        {
+            "start": 709.2,
+            "end": 726.6,
+            "original_text": "To hum bol denge ke haan, X1 equals to 0 hai. Theek hai. Lekin X2 ko hum koi non-zero value lenge. Kyun? Kyunki X1 aur X2 dono 0 hue to equation banega hi nahi. To X1 ko bol denge theek hai, 0 hai, lekin X2 kya hai? Koi K2 constant hai. Theek hai? Assume kar rahe hain X2 ko.",
+            "english_text": "So we will say that yes, X1 equals to 0. Okay. But for X2, we will take some non-zero value. Why? Because if both X1 and X2 are 0, then no equation will be formed. So we will say X1 is okay, it's 0, but what is X2? It's some K2 constant. Okay? We are assuming X2.",
+            "language": "Hindi-English",
+            "text": "So we will say that yes, X1 equals to 0. Okay. But for X2, we will take some non-zero value. Why? Because if both X1 and X2 are 0, then no equation will be formed. So we will say X1 is okay, it's 0, but what is X2? It's some K2 constant. Okay? We are assuming X2."
+        },
+        {
+            "start": 727.0,
+            "end": 737.2,
+            "original_text": "Ab X1 aur X2 mil gaye. X humne kya bola tha? X humne kya bola tha? X1 X2 ke barabar bola tha. Theek hai? X1 kitna liya? 0. Aur X2 kitna liya? K2.",
+            "english_text": "Now X1 and X2 are found. What did we say X was? What did we say X was? We said it was equal to X1 X2. Okay? How much X1 did we take? 0. And how much X2 did we take? K2.",
+            "language": "Hindi-English",
+            "text": "Now X1 and X2 are found. What did we say X was? What did we say X was? We said it was equal to X1 X2. Okay? How much X1 did we take? 0. And how much X2 did we take? K2."
+        },
+        {
+            "start": 737.6,
+            "end": 758.8,
+            "original_text": "Hume to koi constant form mein chahiye, yani kuch bahar nikalna hai constant. Usse hi hum eigen vector bol denge. To kya karenge? 0 X K2 hai, to yahan se K2 bahar nikal dete hain to kya hoga? K2 bahar nikala to yahan to 0 ka 0 hi hai. Aap bologe sir yahan pe 0 K2 to hai nahi, fir kaise bahar nikala? To main bolunga K2 into 0 karo to kitna hoga? 0 hi aane wala hai. Theek hai?",
+            "english_text": "We need it in some constant form, meaning we need to take out some constant. That's what we will call the eigen vector. So what will we do? It's 0 X K2, so if we take K2 out from here, what will happen? If K2 is taken out, then here it's 0. You will say, sir, there is no 0 K2 here, then how did you take it out? So I will say, if you do K2 into 0, how much will it be? It will be 0. Okay?",
+            "language": "Hindi-English",
+            "text": "We need it in some constant form, meaning we need to take out some constant. That's what we will call the eigen vector. So what will we do? It's 0 X K2, so if we take K2 out from here, what will happen? If K2 is taken out, then here it's 0. You will say, sir, there is no 0 K2 here, then how did you take it out? So I will say, if you do K2 into 0, how much will it be? It will be 0. Okay?"
+        },
+        {
+            "start": 759.0,
+            "end": 815.7,
+            "original_text": "Aur yahan se K2 bahar nikala, ye K2 bahar nikala to yahan pe 1 aayega. Ya fir aap aise bhi soch lo, K2 ko andar multiply karo. Theek hai? To K2 into 0, 0 aa gaya. Yahan multiply karo K2 aa gaya. Yani hum ye step kar sakte hain aur ye kya ho gaya hamara eigen vector ho gaya. Theek hai?",
+            "english_text": "And if K2 is taken out from here, if this K2 is taken out, then 1 will come here. Or you can also think like this, multiply K2 inside. Okay? So K2 into 0, 0 came. Multiply here, K2 came. That means we can do this step, and this became our eigen vector. Okay?",
+            "language": "Hindi-English",
+            "text": "And if K2 is taken out from here, if this K2 is taken out, then 1 will come here. Or you can also think like this, multiply K2 inside. Okay? So K2 into 0, 0 came. Multiply here, K2 came. That means we can do this step, and this became our eigen vector. Okay?"
+        },
+        {
+            "start": 816.0,
+            "end": 818.3,
+            "original_text": "To jaldi se screenshot le lo, aage badhte hain.",
+            "english_text": "So quickly take a screenshot, let's move forward.",
+            "language": "Hindi-English",
+            "text": "So quickly take a screenshot, let's move forward."
+        },
+        {
+            "start": 818.9,
+            "end": 823.9,
+            "original_text": "Ab tak humne eigen value aur eigen vector find karne ki method ke bare mein dekha.",
+            "english_text": "Until now, we have seen about the method of finding eigen value and eigen vector.",
+            "language": "Hindi-English",
+            "text": "Until now, we have seen about the method of finding eigen value and eigen vector."
+        },
+        {
+            "start": 824.4,
+            "end": 830.9,
+            "original_text": "Wo method kafi lambi thi. To ab hum eigen values ko ek shortcut tarike se find karenge.",
+            "english_text": "That method was quite long. So now we will find eigen values using a shortcut method.",
+            "language": "Hindi-English",
+            "text": "That method was quite long. So now we will find eigen values using a shortcut method."
+        },
+        {
+            "start": 831.6,
+            "end": 846.6,
+            "original_text": "Aur ye shortcut lagane ke kuch do conditions hai. Pehli condition kya hai? Ye shortcut tab applicable hai jab diye gaye matrix mein upper triangle ya fir lower triangle zero ho aur second condition hai dono triangle zero ho.",
+            "english_text": "And there are two conditions for applying this shortcut. What is the first condition? This shortcut is applicable when in the given matrix, the upper triangle or the lower triangle is zero, and the second condition is when both triangles are zero.",
+            "language": "Hindi-English",
+            "text": "And there are two conditions for applying this shortcut. What is the first condition? This shortcut is applicable when in the given matrix, the upper triangle or the lower triangle is zero, and the second condition is when both triangles are zero."
+        },
+        {
+            "start": 846.6,
+            "end": 855.9,
+            "original_text": "Upper mein zero ho tab lagega, lower mein zero ho tab bhi shortcut lagega. Ya fir second condition kya? Dono upper aur lower triangle zero ho tab hum ye shortcut laga sakte hain.",
+            "english_text": "If it's zero in the upper, it will apply, if it's zero in the lower, the shortcut will still apply. Or what is the second condition? If both upper and lower triangles are zero, then we can apply this shortcut.",
+            "language": "Hindi-English",
+            "text": "If it's zero in the upper, it will apply, if it's zero in the lower, the shortcut will still apply. Or what is the second condition? If both upper and lower triangles are zero, then we can apply this shortcut."
+        },
+        {
+            "start": 856.4,
+            "end": 902.7,
+            "original_text": "Dekh lete hain kaise. To iski hume eigen value find karne ki hai. Ye hi numerical same humne dekha tha abhi abhi. Theek hai?",
+            "english_text": "Let's see how. So we need to find its eigen value. We just saw this same numerical. Okay?",
+            "language": "Hindi-English",
+            "text": "Let's see how. So we need to find its eigen value. We just saw this same numerical. Okay?"
+        },
+        {
+            "start": 903.3,
+            "end": 926.7,
+            "original_text": "Achha, to yahan pe condition lagayenge. Kaise? Upper triangle, lower triangle, dono mein se ek zero hai. Main bolunga upper triangle zero hai, to ab shortcut lagega. Shortcut kya hai? Ke upper ya lower triangle ya dono triangle zero hai, to seedha hum bol denge ye jo diagonal hai, ye kiski value represent karega? Ye eigen ki value represent karega. To lambda kitna aa jayega? Ye 3 aur ye lambda kitna aa jayega? Minus 1. To yehi hamara answer tha. Theek hai?",
+            "english_text": "Okay, so we will apply the condition here. How? Upper triangle, lower triangle, one of them is zero. I will say the upper triangle is zero, so now the shortcut will apply. What is the shortcut? If the upper or lower triangle or both triangles are zero, then we will directly say that this diagonal, whose value will it represent? It will represent the eigen value. So what will lambda be? This 3 and what will lambda be? Minus 1. So this was our answer. Okay?",
+            "language": "Hindi-English",
+            "text": "Okay, so we will apply the condition here. How? Upper triangle, lower triangle, one of them is zero. I will say the upper triangle is zero, so now the shortcut will apply. What is the shortcut? If the upper or lower triangle or both triangles are zero, then we will directly say that this diagonal, whose value will it represent? It will represent the eigen value. So what will lambda be? This 3 and what will lambda be? Minus 1. So this was our answer. Okay?"
+        },
+        {
+            "start": 927.3,
+            "end": 938.6,
+            "original_text": "Achha, ab ye 3x3 ka hai, iska hume kya find karna hai? Eigen value. Wapas se shortcut lagayenge. Shortcut kya tha? Koi ek triangle zero hona chahiye ya dono triangle zero hone chahiye. To yahan pe dekh sakte hain lower triangle zero hai.",
+            "english_text": "Okay, now this is a 3x3, what do we need to find for this? Eigen value. Again, we will apply the shortcut. What was the shortcut? Either one triangle should be zero or both triangles should be zero. So here we can see the lower triangle is zero.",
+            "language": "Hindi-English",
+            "text": "Okay, now this is a 3x3, what do we need to find for this? Eigen value. Again, we will apply the shortcut. What was the shortcut? Either one triangle should be zero or both triangles should be zero. So here we can see the lower triangle is zero."
+        },
+        {
+            "start": 938.6,
+            "end": 954.7,
+            "original_text": "Lower triangle zero hai, to diagonal jo hai, wo hamesha kiski value batayega? Wo batayega eigen ki value. So isme diagonal kaun sa hai? Eigen value minus 5 aayegi, eigen value 0 aayegi, eigen value 4 aayegi. To ye ho gaya hamara answer. Iske corresponding mein eigen vectors bhi teen aayenge.",
+            "english_text": "If the lower triangle is zero, then the diagonal will always tell whose value? It will tell the eigen value. So which is the diagonal in this? Eigen value will be minus 5, eigen value will be 0, eigen value will be 4. So this is our answer. Corresponding to this, there will also be three eigen vectors.",
+            "language": "Hindi-English",
+            "text": "If the lower triangle is zero, then the diagonal will always tell whose value? It will tell the eigen value. So which is the diagonal in this? Eigen value will be minus 5, eigen value will be 0, eigen value will be 4. So this is our answer. Corresponding to this, there will also be three eigen vectors."
+        },
+        {
+            "start": 955.3,
+            "end": 1008.7,
+            "original_text": "Achha, next lete hain, iski eigen value dhundhni hai. Wapas se condition apply karenge. Upper triangle zero hai, lower triangle bhi zero hai. To ye jo diagonal hai, wo kya batayega? Ye batayega eigen value. So lambda equals to 1 aayega, lambda equals to 2 aa jayega. Theek hai?",
+            "english_text": "Okay, let's take the next one, we need to find its eigen value. Again, we will apply the condition. The upper triangle is zero, the lower triangle is also zero. So what will this diagonal tell? It will tell the eigen value. So lambda equals to 1 will come, lambda equals to 2 will come. Okay?",
+            "language": "Hindi-English",
+            "text": "Okay, let's take the next one, we need to find its eigen value. Again, we will apply the condition. The upper triangle is zero, the lower triangle is also zero. So what will this diagonal tell? It will tell the eigen value. So lambda equals to 1 will come, lambda equals to 2 will come. Okay?"
+        },
+        {
+            "start": 1009.4,
+            "end": 1029.9,
+            "original_text": "Aage badhte hain. Ye wala matrix le lete hain hamara. Theek hai? Ab yahan pe bhi condition lagayenge upper lower triangle wali. To yahan pe dekh sakte hain ye kya ho gaya hamara? Ye ho gaya lower triangle. Lower triangle zero. To ye jo diagonal hai, ye diagonal kya batayega? Eigen value. So eigen value kitni hogi? 1, 1/2, 0, 2.",
+            "english_text": "Let's move forward. Let's take this matrix of ours. Okay? Now here too, we will apply the upper lower triangle condition. So here we can see what this became for us? This became the lower triangle. Lower triangle is zero. So what will this diagonal tell? Eigen value. So what will the eigen value be? 1, 1/2, 0, 2.",
+            "language": "Hindi-English",
+            "text": "Let's move forward. Let's take this matrix of ours. Okay? Now here too, we will apply the upper lower triangle condition. So here we can see what this became for us? This became the lower triangle. Lower triangle is zero. So what will this diagonal tell? Eigen value. So what will the eigen value be? 1, 1/2, 0, 2."
+        },
+        {
+            "start": 1030.3,
+            "end": 1053.4,
+            "original_text": "Theek hai? Poocha kya hai? Hume to find the eigen value of A raise to 9 poocha hai. Yani iska 9 power karna padega. To ye 1 raise to 9, 1 by 2 whole raise to 9, 0 raise to 9, 2 raise to 9. To ye ho jayega 1, 2 raise to 9, 512, ye 0, ye 512. To ye ho gaya hamara answer eigen value A raise to 9 ka.",
+            "english_text": "Okay? What is asked? We are asked to find the eigen value of A raise to 9. That means we will have to do its 9th power. So this 1 raise to 9, 1 by 2 whole raise to 9, 0 raise to 9, 2 raise to 9. So this will be 1, 2 raise to 9, 512, this 0, this 512. So this is our answer for eigen value of A raise to 9.",
+            "language": "Hindi-English",
+            "text": "Okay? What is asked? We are asked to find the eigen value of A raise to 9. That means we will have to do its 9th power. So this 1 raise to 9, 1 by 2 whole raise to 9, 0 raise to 9, 2 raise to 9. So this will be 1, 2 raise to 9, 512, this 0, this 512. So this is our answer for eigen value of A raise to 9."
+        },
+        {
+            "start": 1053.7,
+            "end": 1120.9,
+            "original_text": "Aakhri dekh lete hain. Find the eigen value pehle to dhundh lete hain. Ye kya ho gaya? Upper triangle zero ho gaya. To ye diagonal eigen value batayegi. So lambda is equals to 1, 2 aur 3 ho gaya. Hume kya chahiye? A raise to 5 ka eigen value chahiye. So 1 raise to 5, ye ho gaya 2 raise to 5, ye ho gaya 3 raise to 5. Ye 1 ho jayega, ye 32 ho jayega aur ye 3 raise to 5 shayad 243 ho jayega. Ye A raise to 5. Theek hai?",
+            "english_text": "Let's see the last one. First, let's find the eigen value. What happened here? The upper triangle became zero. So this diagonal will tell the eigen value. So lambda is equals to 1, 2 and 3. What do we need? We need the eigen value of A raise to 5. So 1 raise to 5, this became 2 raise to 5, this became 3 raise to 5. This will be 1, this will be 32, and this 3 raise to 5 will probably be 243. This is A raise to 5. Okay?",
+            "language": "Hindi-English",
+            "text": "Let's see the last one. First, let's find the eigen value. What happened here? The upper triangle became zero. So this diagonal will tell the eigen value. So lambda is equals to 1, 2 and 3. What do we need? We need the eigen value of A raise to 5. So 1 raise to 5, this became 2 raise to 5, this became 3 raise to 5. This will be 1, this will be 32, and this 3 raise to 5 will probably be 243. This is A raise to 5. Okay?"
+        },
+        {
+            "start": 1121.3,
+            "end": 1127.9,
+            "original_text": "To zyada se zyada ye eigen value eigen vector ke numerical practice karna. To is video mein bas itna ही. So till then, do hard work, hard. Thank you very much.",
+            "english_text": "So practice as many numericals of eigen value and eigen vector as possible. So that's all for this video. So till then, do hard work, hard. Thank you very much.",
+            "language": "Hindi-English",
+            "text": "So practice as many numericals of eigen value and eigen vector as possible. So that's all for this video. So till then, do hard work, hard. Thank you very much."
+        }
+    ]
+}

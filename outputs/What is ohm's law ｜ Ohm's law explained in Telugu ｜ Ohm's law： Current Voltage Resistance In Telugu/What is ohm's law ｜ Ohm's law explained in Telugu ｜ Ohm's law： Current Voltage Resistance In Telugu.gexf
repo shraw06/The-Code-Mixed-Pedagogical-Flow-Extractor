@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-12">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="explanation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="freq" type="long" />
+      <attribute id="1" title="avg_t" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Device" label="Device">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="19.7" />
+        </attvalues>
+      </node>
+      <node id="Circuit Breaker" label="Circuit Breaker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Heater" label="Heater">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Stove" label="Stove">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Charger" label="Charger">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="24.35" />
+        </attvalues>
+      </node>
+      <node id="Electric Motor" label="Electric Motor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Problem" label="Problem">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="144.45" />
+        </attvalues>
+      </node>
+      <node id="Solve" label="Solve">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="169.66666666666666" />
+        </attvalues>
+      </node>
+      <node id="Current" label="Current">
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="228.990625" />
+        </attvalues>
+      </node>
+      <node id="Voltage" label="Voltage">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="277.4" />
+        </attvalues>
+      </node>
+      <node id="Power" label="Power">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="130.3" />
+        </attvalues>
+      </node>
+      <node id="MCB" label="MCB">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="31.05" />
+        </attvalues>
+      </node>
+      <node id="Equation" label="Equation">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="245.625" />
+        </attvalues>
+      </node>
+      <node id="Ohm's Law" label="Ohm's Law">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="309.7875" />
+        </attvalues>
+      </node>
+      <node id="Resistance" label="Resistance">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="267.9625" />
+        </attvalues>
+      </node>
+      <node id="Battery" label="Battery">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="105.45" />
+        </attvalues>
+      </node>
+      <node id="Wire" label="Wire">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="255.94736842105257" />
+        </attvalues>
+      </node>
+      <node id="Terminal" label="Terminal">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="120.9" />
+        </attvalues>
+      </node>
+      <node id="Electron" label="Electron">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="201.01" />
+        </attvalues>
+      </node>
+      <node id="Water Analogy" label="Water Analogy">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="212.34" />
+        </attvalues>
+      </node>
+      <node id="Force" label="Force">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="192.52499999999998" />
+        </attvalues>
+      </node>
+      <node id="Pressure" label="Pressure">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="221.4" />
+        </attvalues>
+      </node>
+      <node id="Atom" label="Atom">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="276.85" />
+        </attvalues>
+      </node>
+      <node id="Length" label="Length">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="274.0" />
+        </attvalues>
+      </node>
+      <node id="Temperature" label="Temperature">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="350.3" />
+        </attvalues>
+      </node>
+      <node id="Vibrate" label="Vibrate">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="295.5" />
+        </attvalues>
+      </node>
+      <node id="Proportionality" label="Proportionality">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="391.1" />
+        </attvalues>
+      </node>
+      <node id="Constant" label="Constant">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="395.23999999999995" />
+        </attvalues>
+      </node>
+      <node id="Statement" label="Statement">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="415.5" />
+        </attvalues>
+      </node>
+      <node id="Symbol" label="Symbol">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="415.5" />
+        </attvalues>
+      </node>
+      <node id="Inversely Proportional" label="Inversely Proportional">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="444.5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Device" target="Charger" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Charger is an example of a device." />
+        </attvalues>
+      </edge>
+      <edge source="Device" target="Stove" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Stove is an example of a device." />
+        </attvalues>
+      </edge>
+      <edge source="Device" target="Heater" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Heater is an example of a device." />
+        </attvalues>
+      </edge>
+      <edge source="Device" target="Electric Motor" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Electric Motor is an example of a device." />
+        </attvalues>
+      </edge>
+      <edge source="Circuit Breaker" target="MCB" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="MCB is a type of circuit breaker." />
+        </attvalues>
+      </edge>
+      <edge source="Problem" target="Solve" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Problems are meant to be solved." />
+        </attvalues>
+      </edge>
+      <edge source="Solve" target="Equation" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Equations are used to solve problems." />
+        </attvalues>
+      </edge>
+      <edge source="Current" target="Water Analogy" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Water analogy helps explain current flow." />
+        </attvalues>
+      </edge>
+      <edge source="Current" target="Wire" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Current flows through a wire." />
+        </attvalues>
+      </edge>
+      <edge source="Current" target="Proportionality" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Current is directly proportional to voltage (Ohm's Law)." />
+        </attvalues>
+      </edge>
+      <edge source="Current" target="Electron" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Current is the flow of electrons." />
+        </attvalues>
+      </edge>
+      <edge source="Current" target="Inversely Proportional" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Current is inversely proportional to resistance (Ohm's Law)." />
+        </attvalues>
+      </edge>
+      <edge source="Current" target="Battery" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Battery is a source of current." />
+        </attvalues>
+      </edge>
+      <edge source="Voltage" target="Water Analogy" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Water analogy helps explain voltage (as pressure)." />
+        </attvalues>
+      </edge>
+      <edge source="Voltage" target="Battery" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Battery provides voltage." />
+        </attvalues>
+      </edge>
+      <edge source="Voltage" target="Force" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Voltage is the electrical force that drives current." />
+        </attvalues>
+      </edge>
+      <edge source="Voltage" target="Proportionality" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Voltage is directly proportional to current (Ohm's Law)." />
+        </attvalues>
+      </edge>
+      <edge source="MCB" target="Current" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="MCB protects against excessive current." />
+        </attvalues>
+      </edge>
+      <edge source="Equation" target="Symbol" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Symbols are used in the Ohm's Law equation." />
+        </attvalues>
+      </edge>
+      <edge source="Equation" target="Ohm's Law" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Ohm's Law is a fundamental electrical equation." />
+        </attvalues>
+      </edge>
+      <edge source="Ohm's Law" target="Current" id="20" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Ohm's Law defines the relationship involving current." />
+        </attvalues>
+      </edge>
+      <edge source="Ohm's Law" target="Resistance" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Ohm's Law defines the relationship involving resistance." />
+        </attvalues>
+      </edge>
+      <edge source="Ohm's Law" target="Statement" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="The formal definition of Ohm's Law." />
+        </attvalues>
+      </edge>
+      <edge source="Ohm's Law" target="Voltage" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Ohm's Law defines the relationship involving voltage." />
+        </attvalues>
+      </edge>
+      <edge source="Resistance" target="Water Analogy" id="24" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Water analogy helps explain resistance (as obstacles)." />
+        </attvalues>
+      </edge>
+      <edge source="Resistance" target="Atom" id="25" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Resistance arises from electrons colliding with atoms." />
+        </attvalues>
+      </edge>
+      <edge source="Resistance" target="Temperature" id="26" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Temperature affects resistance." />
+        </attvalues>
+      </edge>
+      <edge source="Resistance" target="Inversely Proportional" id="27" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Resistance is inversely proportional to current (Ohm's Law)." />
+        </attvalues>
+      </edge>
+      <edge source="Resistance" target="Length" id="28" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Length of the wire affects resistance." />
+        </attvalues>
+      </edge>
+      <edge source="Wire" target="Terminal" id="29" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Terminals are connection points on a wire/circuit." />
+        </attvalues>
+      </edge>
+      <edge source="Electron" target="Atom" id="30" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Electrons interact with atoms in a conductor." />
+        </attvalues>
+      </edge>
+      <edge source="Water Analogy" target="Pressure" id="31" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Pressure in the water analogy represents voltage." />
+        </attvalues>
+      </edge>
+      <edge source="Atom" target="Vibrate" id="32" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Atoms vibrate, especially with increased temperature." />
+        </attvalues>
+      </edge>
+      <edge source="Temperature" target="Constant" id="33" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Temperature must be constant for Ohm's Law to hold." />
+        </attvalues>
+      </edge>
+      <edge source="Temperature" target="Vibrate" id="34" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="Increased temperature causes atoms to vibrate more." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

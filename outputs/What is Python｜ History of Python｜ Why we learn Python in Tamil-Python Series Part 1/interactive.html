@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1>What is Python｜ History of Python｜ Why we learn Python in Tamil-Python Series Part 1</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #fdfdfd;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#94ea52", "font": {"color": "#333"}, "id": "Python", "label": "Python", "shape": "dot", "title": "\u003cb\u003ePython\u003c/b\u003e\u003cbr\u003eMentions: 46\u003cbr\u003eAvg time: 353.9s\u003cbr\u003eSegments: 17-28s, 35-37s, 44-50s, 54-104s, 108-111s, 116-124s, 136-147s, 147-151s \u2026 (+38 more)"}, {"color": "#77ea52", "font": {"color": "#333"}, "id": "Programming Language", "label": "Programming Language", "shape": "dot", "title": "\u003cb\u003eProgramming Language\u003c/b\u003e\u003cbr\u003eMentions: 36\u003cbr\u003eAvg time: 320.5s\u003cbr\u003eSegments: 17-28s, 35-37s, 37-43s, 44-50s, 54-104s, 108-111s, 147-151s, 153-156s \u2026 (+28 more)"}, {"color": "#52c6ea", "font": {"color": "#333"}, "id": "Interpreted Language", "label": "Interpreted Language", "shape": "dot", "title": "\u003cb\u003eInterpreted Language\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 63.1s\u003cbr\u003eSegments: 37-43s, 44-50s, 108-111s"}, {"color": "#52eacd", "font": {"color": "#333"}, "id": "Interpreter", "label": "Interpreter", "shape": "dot", "title": "\u003cb\u003eInterpreter\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 137.1s\u003cbr\u003eSegments: 44-50s, 51-52s, 54-104s, 399-406s"}, {"color": "#8dea52", "font": {"color": "#333"}, "id": "Code Execution", "label": "Code Execution", "shape": "dot", "title": "\u003cb\u003eCode Execution\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 345.7s\u003cbr\u003eSegments: 44-50s, 413-417s, 422-426s, 504-510s"}, {"color": "#52eada", "font": {"color": "#333"}, "id": "Output", "label": "Output", "shape": "dot", "title": "\u003cb\u003eOutput\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 122.4s\u003cbr\u003eSegments: 116-124s, 128-135s"}, {"color": "#52ead5", "font": {"color": "#333"}, "id": "IDE/Editor", "label": "IDE/Editor", "shape": "dot", "title": "\u003cb\u003eIDE/Editor\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 128.4s\u003cbr\u003eSegments: 128-135s"}, {"color": "#52ea9c", "font": {"color": "#333"}, "id": "Object-Oriented Programming (OOP)", "label": "Object-Oriented Programming (OOP)", "shape": "dot", "title": "\u003cb\u003eObject-Oriented Programming (OOP)\u003c/b\u003e\u003cbr\u003eMentions: 5\u003cbr\u003eAvg time: 193.6s\u003cbr\u003eSegments: 37-43s, 136-147s, 147-151s, 169-178s, 478-482s"}, {"color": "#52eab2", "font": {"color": "#333"}, "id": "Programming Paradigms", "label": "Programming Paradigms", "shape": "dot", "title": "\u003cb\u003eProgramming Paradigms\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 168.5s\u003cbr\u003eSegments: 169-178s"}, {"color": "#abea52", "font": {"color": "#333"}, "id": "High-Level Language", "label": "High-Level Language", "shape": "dot", "title": "\u003cb\u003eHigh-Level Language\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 379.4s\u003cbr\u003eSegments: 370-375s, 389-396s"}, {"color": "#8eea52", "font": {"color": "#333"}, "id": "Data Types", "label": "Data Types", "shape": "dot", "title": "\u003cb\u003eData Types\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 346.4s\u003cbr\u003eSegments: 345-348s, 348-354s"}, {"color": "#95ea52", "font": {"color": "#333"}, "id": "Dynamic Typing", "label": "Dynamic Typing", "shape": "dot", "title": "\u003cb\u003eDynamic Typing\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 354.3s\u003cbr\u003eSegments: 354-358s"}, {"color": "#d4ea52", "font": {"color": "#333"}, "id": "Syntax", "label": "Syntax", "shape": "dot", "title": "\u003cb\u003eSyntax\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 426.7s\u003cbr\u003eSegments: 336-343s, 389-396s, 488-494s, 494-497s"}, {"color": "#52eadd", "font": {"color": "#333"}, "id": "History of Python", "label": "History of Python", "shape": "dot", "title": "\u003cb\u003eHistory of Python\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 118.5s\u003cbr\u003eSegments: 17-28s, 220-222s"}, {"color": "#52ea5a", "font": {"color": "#333"}, "id": "Guido van Rossum", "label": "Guido van Rossum", "shape": "dot", "title": "\u003cb\u003eGuido van Rossum\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 267.8s\u003cbr\u003eSegments: 223-234s, 281-286s, 299-309s"}, {"color": "#52ea6d", "font": {"color": "#333"}, "id": "ABC Language", "label": "ABC Language", "shape": "dot", "title": "\u003cb\u003eABC Language\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 246.2s\u003cbr\u003eSegments: 235-242s, 257-262s"}, {"color": "#64ea52", "font": {"color": "#333"}, "id": "Python 2", "label": "Python 2", "shape": "dot", "title": "\u003cb\u003ePython 2\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 298.6s\u003cbr\u003eSegments: 299-309s"}, {"color": "#6dea52", "font": {"color": "#333"}, "id": "List Comprehension", "label": "List Comprehension", "shape": "dot", "title": "\u003cb\u003eList Comprehension\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 308.8s\u003cbr\u003eSegments: 309-313s"}, {"color": "#6dea52", "font": {"color": "#333"}, "id": "Garbage Collection", "label": "Garbage Collection", "shape": "dot", "title": "\u003cb\u003eGarbage Collection\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 308.8s\u003cbr\u003eSegments: 309-313s"}, {"color": "#73ea52", "font": {"color": "#333"}, "id": "Python 3", "label": "Python 3", "shape": "dot", "title": "\u003cb\u003ePython 3\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 316.0s\u003cbr\u003eSegments: 313-319s, 319-323s"}, {"color": "#8eea52", "font": {"color": "#333"}, "id": "Why Learn Python", "label": "Why Learn Python", "shape": "dot", "title": "\u003cb\u003eWhy Learn Python\u003c/b\u003e\u003cbr\u003eMentions: 7\u003cbr\u003eAvg time: 346.3s\u003cbr\u003eSegments: 17-28s, 325-329s, 331-336s, 336-343s, 367-369s, 370-375s, 679-683s"}, {"color": "#b3ea52", "font": {"color": "#333"}, "id": "Easy to Learn", "label": "Easy to Learn", "shape": "dot", "title": "\u003cb\u003eEasy to Learn\u003c/b\u003e\u003cbr\u003eMentions: 7\u003cbr\u003eAvg time: 388.1s\u003cbr\u003eSegments: 331-336s, 336-343s, 367-369s, 370-375s, 389-396s, 399-406s, 526-535s"}, {"color": "#b3ea52", "font": {"color": "#333"}, "id": "Readability", "label": "Readability", "shape": "dot", "title": "\u003cb\u003eReadability\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 388.9s\u003cbr\u003eSegments: 389-396s"}, {"color": "#e9ea52", "font": {"color": "#333"}, "id": "Developer Friendly", "label": "Developer Friendly", "shape": "dot", "title": "\u003cb\u003eDeveloper Friendly\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 450.5s\u003cbr\u003eSegments: 375-382s, 526-535s"}, {"color": "#bcea52", "font": {"color": "#333"}, "id": "Debugging", "label": "Debugging", "shape": "dot", "title": "\u003cb\u003eDebugging\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 399.0s\u003cbr\u003eSegments: 399-406s"}, {"color": "#cbea52", "font": {"color": "#333"}, "id": "Cross-Platform", "label": "Cross-Platform", "shape": "dot", "title": "\u003cb\u003eCross-Platform\u003c/b\u003e\u003cbr\u003eMentions: 6\u003cbr\u003eAvg time: 415.9s\u003cbr\u003eSegments: 407-409s, 410-412s, 413-417s, 417-421s, 422-426s, 427-431s"}, {"color": "#eae852", "font": {"color": "#333"}, "id": "Open-Source", "label": "Open-Source", "shape": "dot", "title": "\u003cb\u003eOpen-Source\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 454.2s\u003cbr\u003eSegments: 435-437s, 439-441s, 468-475s, 475-477s"}, {"color": "#eaca52", "font": {"color": "#333"}, "id": "Extensibility", "label": "Extensibility", "shape": "dot", "title": "\u003cb\u003eExtensibility\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 487.6s\u003cbr\u003eSegments: 488-494s"}, {"color": "#ead752", "font": {"color": "#333"}, "id": "Extensive Libraries", "label": "Extensive Libraries", "shape": "dot", "title": "\u003cb\u003eExtensive Libraries\u003c/b\u003e\u003cbr\u003eMentions: 7\u003cbr\u003eAvg time: 472.7s\u003cbr\u003eSegments: 359-363s, 375-382s, 468-475s, 512-515s, 516-520s, 526-535s, 553-563s"}, {"color": "#ea7d52", "font": {"color": "#333"}, "id": "Widespread Use", "label": "Widespread Use", "shape": "dot", "title": "\u003cb\u003eWidespread Use\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 575.0s\u003cbr\u003eSegments: 575-585s"}, {"color": "#ea8552", "font": {"color": "#333"}, "id": "Integration with other languages", "label": "Integration with other languages", "shape": "dot", "title": "\u003cb\u003eIntegration with other languages\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 566.7s\u003cbr\u003eSegments: 567-574s"}, {"color": "#89ea52", "font": {"color": "#333"}, "id": "Software Development", "label": "Software Development", "shape": "dot", "title": "\u003cb\u003eSoftware Development\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 341.1s\u003cbr\u003eSegments: 157-167s, 526-535s"}, {"color": "#52eabc", "font": {"color": "#333"}, "id": "Web Development", "label": "Web Development", "shape": "dot", "title": "\u003cb\u003eWeb Development\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 156.5s\u003cbr\u003eSegments: 157-167s"}, {"color": "#52eabc", "font": {"color": "#333"}, "id": "Game Development", "label": "Game Development", "shape": "dot", "title": "\u003cb\u003eGame Development\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 156.5s\u003cbr\u003eSegments: 157-167s"}, {"color": "#52eabc", "font": {"color": "#333"}, "id": "Mobile Application Development", "label": "Mobile Application Development", "shape": "dot", "title": "\u003cb\u003eMobile Application Development\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 156.5s\u003cbr\u003eSegments: 157-167s"}, {"color": "#ea9952", "font": {"color": "#333"}, "id": "GUI Development", "label": "GUI Development", "shape": "dot", "title": "\u003cb\u003eGUI Development\u003c/b\u003e\u003cbr\u003eMentions: 5\u003cbr\u003eAvg time: 543.6s\u003cbr\u003eSegments: 537-539s, 540-541s, 542-545s, 546-552s, 553-563s"}, {"color": "#52ea54", "font": {"color": "#333"}, "id": "Programmer", "label": "Programmer", "shape": "dot", "title": "\u003cb\u003eProgrammer\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 275.4s\u003cbr\u003eSegments: 54-104s, 223-234s, 336-343s, 488-494s"}, {"color": "#eae652", "font": {"color": "#333"}, "id": "Installation", "label": "Installation", "shape": "dot", "title": "\u003cb\u003eInstallation\u003c/b\u003e\u003cbr\u003eMentions: 6\u003cbr\u003eAvg time: 455.7s\u003cbr\u003eSegments: 442-443s, 444-448s, 451-459s, 460-463s, 463-466s, 475-477s"}, {"color": "#ea5252", "font": {"color": "#333"}, "id": "Search Techniques", "label": "Search Techniques", "shape": "dot", "title": "\u003cb\u003eSearch Techniques\u003c/b\u003e\u003cbr\u003eMentions: 16\u003cbr\u003eAvg time: 625.0s\u003cbr\u003eSegments: 588-591s, 592-596s, 596-598s, 598-603s, 604-610s, 611-618s, 618-621s, 622-629s \u2026 (+8 more)"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python", "title": "The video discusses the history of Python.", "to": "History of Python", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python", "title": "Python is a tool used by programmers.", "to": "Programmer", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python", "title": "Python is introduced as a type of programming language.", "to": "Programming Language", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python", "title": "The video explains the reasons to learn Python.", "to": "Why Learn Python", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python", "title": "Python is used for various types of software development.", "to": "Software Development", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programming Language", "title": "Interpreted language is a characteristic of Python as a\u003cbr\u003eprogramming language.", "to": "Interpreted Language", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programming Language", "title": "Data types are fundamental concepts in any programming\u003cbr\u003elanguage.", "to": "Data Types", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programming Language", "title": "Python supports various programming paradigms.", "to": "Programming Paradigms", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programming Language", "title": "Python is characterized as a high-level programming\u003cbr\u003elanguage.", "to": "High-Level Language", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programming Language", "title": "OOP is a paradigm supported by Python.", "to": "Object-Oriented Programming (OOP)", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programming Language", "title": "Every programming language has its own syntax.", "to": "Syntax", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Interpreted Language", "title": "Interpreted languages use an interpreter for execution.", "to": "Interpreter", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Interpreter", "title": "The interpreter is responsible for code execution.", "to": "Code Execution", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Interpreter", "title": "Interpreters can provide immediate feedback, aiding\u003cbr\u003edebugging.", "to": "Debugging", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Code Execution", "title": "Code execution produces an output.", "to": "Output", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Code Execution", "title": "Code is written and executed in an IDE or editor.", "to": "IDE/Editor", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "High-Level Language", "title": "Being a high-level language contributes to Python\u0027s ease of\u003cbr\u003elearning.", "to": "Easy to Learn", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Data Types", "title": "Python uses dynamic typing for its data types.", "to": "Dynamic Typing", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Syntax", "title": "Simple syntax makes Python easy to learn.", "to": "Easy to Learn", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "History of Python", "title": "Guido van Rossum is the creator of Python.", "to": "Guido van Rossum", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "History of Python", "title": "Python 2 is an important version in Python\u0027s history.", "to": "Python 2", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Guido van Rossum", "title": "ABC Language was a predecessor that influenced Guido van\u003cbr\u003eRossum.", "to": "ABC Language", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python 2", "title": "Python 3 is the successor to Python 2.", "to": "Python 3", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python 2", "title": "Garbage collection is a feature in Python 2 (and 3).", "to": "Garbage Collection", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Python 2", "title": "List comprehension was a feature in Python 2 (and 3).", "to": "List Comprehension", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Why Learn Python", "title": "Python\u0027s widespread use makes it valuable to learn.", "to": "Widespread Use", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Why Learn Python", "title": "Python is easy to learn, which is a reason to learn it.", "to": "Easy to Learn", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Why Learn Python", "title": "Python\u0027s extensibility is a reason to learn it.", "to": "Extensibility", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Why Learn Python", "title": "Cross-platform compatibility is a benefit of Python.", "to": "Cross-Platform", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Why Learn Python", "title": "Extensive libraries are a major advantage of Python.", "to": "Extensive Libraries", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Why Learn Python", "title": "Python being open-source is an advantage.", "to": "Open-Source", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Easy to Learn", "title": "Python\u0027s readability makes it easy to learn.", "to": "Readability", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Easy to Learn", "title": "Python\u0027s ease of use makes it developer friendly.", "to": "Developer Friendly", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Developer Friendly", "title": "Python\u0027s developer-friendly nature aids in debugging.", "to": "Debugging", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Widespread Use", "title": "Python\u0027s ability to integrate with other languages\u003cbr\u003econtributes to its widespread use.", "to": "Integration with other languages", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Software Development", "title": "Game development is a specific application of Python in\u003cbr\u003esoftware development.", "to": "Game Development", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Software Development", "title": "Mobile application development is a specific application of\u003cbr\u003ePython in software development.", "to": "Mobile Application Development", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Software Development", "title": "GUI development is a specific application of Python in\u003cbr\u003esoftware development.", "to": "GUI Development", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Software Development", "title": "Web development is a specific application of Python in\u003cbr\u003esoftware development.", "to": "Web Development", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programmer", "title": "Programmers use search techniques for learning and problem-\u003cbr\u003esolving.", "to": "Search Techniques", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Programmer", "title": "Programmers need to install Python to use it.", "to": "Installation", "value": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"layout": {"hierarchical": {"enabled": true, "levelSeparation": 180, "nodeSpacing": 120, "treeSpacing": 200, "blockShifting": true, "edgeMinimization": true, "parentCentralization": false, "direction": "LR"}}, "interaction": {"hover": true, "tooltipDelay": 100}, "physics": {"enabled": false}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

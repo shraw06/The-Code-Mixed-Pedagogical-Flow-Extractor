@@ -1,0 +1,359 @@
+{
+  "video": "What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu",
+  "total_concepts": 31,
+  "levels": [
+    {
+      "level": 1,
+      "concepts": [
+        {
+          "concept": "Circuit Breaker",
+          "prerequisites": [],
+          "first_mentioned": 0.0,
+          "frequency": 1,
+          "explanation": "Foundational concept — no prerequisites."
+        },
+        {
+          "concept": "Device",
+          "prerequisites": [],
+          "first_mentioned": 0.0,
+          "frequency": 3,
+          "explanation": "Foundational concept — no prerequisites."
+        },
+        {
+          "concept": "Power",
+          "prerequisites": [],
+          "first_mentioned": 10.4,
+          "frequency": 5,
+          "explanation": "Foundational concept — no prerequisites."
+        },
+        {
+          "concept": "Problem",
+          "prerequisites": [],
+          "first_mentioned": 10.4,
+          "frequency": 4,
+          "explanation": "Foundational concept — no prerequisites."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "concepts": [
+        {
+          "concept": "Heater",
+          "prerequisites": [
+            "Device"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 1,
+          "explanation": "Heater is an example of a device."
+        },
+        {
+          "concept": "Stove",
+          "prerequisites": [
+            "Device"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 1,
+          "explanation": "Stove is an example of a device."
+        },
+        {
+          "concept": "Electric Motor",
+          "prerequisites": [
+            "Device"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 1,
+          "explanation": "Electric Motor is an example of a device."
+        },
+        {
+          "concept": "Charger",
+          "prerequisites": [
+            "Device"
+          ],
+          "first_mentioned": 0.0,
+          "frequency": 2,
+          "explanation": "Charger is an example of a device."
+        },
+        {
+          "concept": "MCB",
+          "prerequisites": [
+            "Circuit Breaker"
+          ],
+          "first_mentioned": 26.6,
+          "frequency": 2,
+          "explanation": "MCB is a type of circuit breaker."
+        },
+        {
+          "concept": "Solve",
+          "prerequisites": [
+            "Problem"
+          ],
+          "first_mentioned": 10.4,
+          "frequency": 3,
+          "explanation": "Problems are meant to be solved."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "concepts": [
+        {
+          "concept": "Equation",
+          "prerequisites": [
+            "Solve"
+          ],
+          "first_mentioned": 48.7,
+          "frequency": 4,
+          "explanation": "Equations are used to solve problems."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "concepts": [
+        {
+          "concept": "Ohm's Law",
+          "prerequisites": [
+            "Equation",
+            "Problem"
+          ],
+          "first_mentioned": 59.5,
+          "frequency": 8,
+          "explanation": "Ohm's Law is a fundamental electrical equation. | Ohm's Law helps solve electrical problems."
+        },
+        {
+          "concept": "Symbol",
+          "prerequisites": [
+            "Equation"
+          ],
+          "first_mentioned": 415.5,
+          "frequency": 1,
+          "explanation": "Symbols are used in the Ohm's Law equation."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "concepts": [
+        {
+          "concept": "Current",
+          "prerequisites": [
+            "MCB",
+            "Ohm's Law"
+          ],
+          "first_mentioned": 10.4,
+          "frequency": 32,
+          "explanation": "MCB protects against excessive current. | Ohm's Law defines the relationship involving current."
+        },
+        {
+          "concept": "Resistance",
+          "prerequisites": [
+            "Ohm's Law"
+          ],
+          "first_mentioned": 10.4,
+          "frequency": 16,
+          "explanation": "Ohm's Law defines the relationship involving resistance."
+        },
+        {
+          "concept": "Voltage",
+          "prerequisites": [
+            "Ohm's Law"
+          ],
+          "first_mentioned": 10.4,
+          "frequency": 16,
+          "explanation": "Ohm's Law defines the relationship involving voltage."
+        },
+        {
+          "concept": "Statement",
+          "prerequisites": [
+            "Ohm's Law"
+          ],
+          "first_mentioned": 415.5,
+          "frequency": 1,
+          "explanation": "The formal definition of Ohm's Law."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "concepts": [
+        {
+          "concept": "Electron",
+          "prerequisites": [
+            "Current"
+          ],
+          "first_mentioned": 134.2,
+          "frequency": 10,
+          "explanation": "Current is the flow of electrons."
+        },
+        {
+          "concept": "Wire",
+          "prerequisites": [
+            "Current"
+          ],
+          "first_mentioned": 112.9,
+          "frequency": 19,
+          "explanation": "Current flows through a wire."
+        },
+        {
+          "concept": "Length",
+          "prerequisites": [
+            "Resistance"
+          ],
+          "first_mentioned": 274.0,
+          "frequency": 1,
+          "explanation": "Length of the wire affects resistance."
+        },
+        {
+          "concept": "Battery",
+          "prerequisites": [
+            "Current",
+            "Voltage"
+          ],
+          "first_mentioned": 90.0,
+          "frequency": 2,
+          "explanation": "Battery is a source of current. | Battery provides voltage."
+        },
+        {
+          "concept": "Force",
+          "prerequisites": [
+            "Voltage"
+          ],
+          "first_mentioned": 173.9,
+          "frequency": 4,
+          "explanation": "Voltage is the electrical force that drives current."
+        },
+        {
+          "concept": "Water Analogy",
+          "prerequisites": [
+            "Current",
+            "Resistance",
+            "Voltage"
+          ],
+          "first_mentioned": 134.2,
+          "frequency": 5,
+          "explanation": "Water analogy helps explain current flow. | Water analogy helps explain resistance (as obstacles). | Water analogy helps explain voltage (as pressure)."
+        },
+        {
+          "concept": "Temperature",
+          "prerequisites": [
+            "Resistance"
+          ],
+          "first_mentioned": 288.8,
+          "frequency": 4,
+          "explanation": "Temperature affects resistance."
+        },
+        {
+          "concept": "Proportionality",
+          "prerequisites": [
+            "Current",
+            "Voltage"
+          ],
+          "first_mentioned": 316.7,
+          "frequency": 4,
+          "explanation": "Current is directly proportional to voltage (Ohm's Law). | Voltage is directly proportional to current (Ohm's Law)."
+        },
+        {
+          "concept": "Inversely Proportional",
+          "prerequisites": [
+            "Current",
+            "Resistance"
+          ],
+          "first_mentioned": 444.5,
+          "frequency": 1,
+          "explanation": "Current is inversely proportional to resistance (Ohm's Law). | Resistance is inversely proportional to current (Ohm's Law)."
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "concepts": [
+        {
+          "concept": "Terminal",
+          "prerequisites": [
+            "Wire"
+          ],
+          "first_mentioned": 120.9,
+          "frequency": 1,
+          "explanation": "Terminals are connection points on a wire/circuit."
+        },
+        {
+          "concept": "Atom",
+          "prerequisites": [
+            "Electron",
+            "Resistance"
+          ],
+          "first_mentioned": 256.0,
+          "frequency": 4,
+          "explanation": "Electrons interact with atoms in a conductor. | Resistance arises from electrons colliding with atoms."
+        },
+        {
+          "concept": "Pressure",
+          "prerequisites": [
+            "Water Analogy"
+          ],
+          "first_mentioned": 217.9,
+          "frequency": 2,
+          "explanation": "Pressure in the water analogy represents voltage."
+        },
+        {
+          "concept": "Constant",
+          "prerequisites": [
+            "Temperature"
+          ],
+          "first_mentioned": 340.8,
+          "frequency": 5,
+          "explanation": "Temperature must be constant for Ohm's Law to hold."
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "concepts": [
+        {
+          "concept": "Vibrate",
+          "prerequisites": [
+            "Atom",
+            "Temperature"
+          ],
+          "first_mentioned": 295.5,
+          "frequency": 1,
+          "explanation": "Atoms vibrate, especially with increased temperature. | Increased temperature causes atoms to vibrate more."
+        }
+      ]
+    }
+  ],
+  "linear_order": [
+    "Circuit Breaker",
+    "Device",
+    "Heater",
+    "Stove",
+    "Electric Motor",
+    "Charger",
+    "MCB",
+    "Power",
+    "Problem",
+    "Solve",
+    "Equation",
+    "Ohm's Law",
+    "Current",
+    "Electron",
+    "Wire",
+    "Terminal",
+    "Resistance",
+    "Length",
+    "Atom",
+    "Voltage",
+    "Battery",
+    "Force",
+    "Water Analogy",
+    "Pressure",
+    "Temperature",
+    "Vibrate",
+    "Proportionality",
+    "Constant",
+    "Statement",
+    "Symbol",
+    "Inversely Proportional"
+  ]
+}

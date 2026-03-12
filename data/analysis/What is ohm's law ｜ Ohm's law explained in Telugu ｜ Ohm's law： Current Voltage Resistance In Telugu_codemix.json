@@ -1,0 +1,675 @@
+{
+  "video": "What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu",
+  "total_segments": 50,
+  "total_words": 3105,
+  "global_cmi": 0.0016,
+  "switch_density_per_100_words": 0.19,
+  "matrix_script": "TELUGU",
+  "matrix_language": "Telugu",
+  "embedded_scripts": {
+    "LATIN": 5
+  },
+  "is_mostly_romanised": false,
+  "romanised_segment_fraction": 0.0,
+  "language_label_distribution": {
+    "Telugu-English": 50
+  },
+  "script_distribution": {
+    "TELUGU": 3085,
+    "LATIN": 5
+  },
+  "segment_analyses": [
+    {
+      "start": 0.0,
+      "end": 10.4,
+      "language": "Telugu-English",
+      "n_words": 78,
+      "script_counts": {
+        "TELUGU": 78
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 10.4,
+      "end": 26.6,
+      "language": "Telugu-English",
+      "n_words": 105,
+      "script_counts": {
+        "TELUGU": 105
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 26.6,
+      "end": 35.5,
+      "language": "Telugu-English",
+      "n_words": 59,
+      "script_counts": {
+        "TELUGU": 59
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 35.5,
+      "end": 48.7,
+      "language": "Telugu-English",
+      "n_words": 90,
+      "script_counts": {
+        "TELUGU": 89
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 48.7,
+      "end": 59.5,
+      "language": "Telugu-English",
+      "n_words": 73,
+      "script_counts": {
+        "TELUGU": 73
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 59.5,
+      "end": 68.8,
+      "language": "Telugu-English",
+      "n_words": 48,
+      "script_counts": {
+        "TELUGU": 48
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 68.8,
+      "end": 74.9,
+      "language": "Telugu-English",
+      "n_words": 48,
+      "script_counts": {
+        "TELUGU": 48
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 74.9,
+      "end": 84.9,
+      "language": "Telugu-English",
+      "n_words": 71,
+      "script_counts": {
+        "TELUGU": 71
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 84.9,
+      "end": 90.0,
+      "language": "Telugu-English",
+      "n_words": 26,
+      "script_counts": {
+        "TELUGU": 26
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 90.0,
+      "end": 112.9,
+      "language": "Telugu-English",
+      "n_words": 92,
+      "script_counts": {
+        "TELUGU": 92
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 112.9,
+      "end": 120.9,
+      "language": "Telugu-English",
+      "n_words": 55,
+      "script_counts": {
+        "TELUGU": 55
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 120.9,
+      "end": 134.2,
+      "language": "Telugu-English",
+      "n_words": 98,
+      "script_counts": {
+        "TELUGU": 98
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 134.2,
+      "end": 146.7,
+      "language": "Telugu-English",
+      "n_words": 87,
+      "script_counts": {
+        "TELUGU": 87
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 146.7,
+      "end": 158.8,
+      "language": "Telugu-English",
+      "n_words": 82,
+      "script_counts": {
+        "TELUGU": 82
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 158.8,
+      "end": 168.8,
+      "language": "Telugu-English",
+      "n_words": 71,
+      "script_counts": {
+        "TELUGU": 69
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 168.8,
+      "end": 173.9,
+      "language": "Telugu-English",
+      "n_words": 36,
+      "script_counts": {
+        "TELUGU": 36
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 173.9,
+      "end": 189.0,
+      "language": "Telugu-English",
+      "n_words": 104,
+      "script_counts": {
+        "TELUGU": 100
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 189.0,
+      "end": 198.4,
+      "language": "Telugu-English",
+      "n_words": 71,
+      "script_counts": {
+        "TELUGU": 69
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 198.4,
+      "end": 208.8,
+      "language": "Telugu-English",
+      "n_words": 77,
+      "script_counts": {
+        "TELUGU": 73
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 208.8,
+      "end": 217.9,
+      "language": "Telugu-English",
+      "n_words": 60,
+      "script_counts": {
+        "TELUGU": 60
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 217.9,
+      "end": 224.9,
+      "language": "Telugu-English",
+      "n_words": 50,
+      "script_counts": {
+        "TELUGU": 50
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 224.9,
+      "end": 231.7,
+      "language": "Telugu-English",
+      "n_words": 48,
+      "script_counts": {
+        "TELUGU": 48
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 231.7,
+      "end": 238.9,
+      "language": "Telugu-English",
+      "n_words": 46,
+      "script_counts": {
+        "TELUGU": 46
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 238.9,
+      "end": 245.8,
+      "language": "Telugu-English",
+      "n_words": 40,
+      "script_counts": {
+        "TELUGU": 39
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 245.8,
+      "end": 256.0,
+      "language": "Telugu-English",
+      "n_words": 67,
+      "script_counts": {
+        "TELUGU": 67
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 256.0,
+      "end": 274.0,
+      "language": "Telugu-English",
+      "n_words": 121,
+      "script_counts": {
+        "TELUGU": 121
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 274.0,
+      "end": 281.9,
+      "language": "Telugu-English",
+      "n_words": 49,
+      "script_counts": {
+        "TELUGU": 49
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 281.9,
+      "end": 288.8,
+      "language": "Telugu-English",
+      "n_words": 41,
+      "script_counts": {
+        "TELUGU": 41
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 288.8,
+      "end": 295.5,
+      "language": "Telugu-English",
+      "n_words": 50,
+      "script_counts": {
+        "TELUGU": 50
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 295.5,
+      "end": 305.5,
+      "language": "Telugu-English",
+      "n_words": 81,
+      "script_counts": {
+        "TELUGU": 81
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 305.5,
+      "end": 316.7,
+      "language": "Telugu-English",
+      "n_words": 74,
+      "script_counts": {
+        "TELUGU": 74
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 316.7,
+      "end": 329.6,
+      "language": "Telugu-English",
+      "n_words": 80,
+      "script_counts": {
+        "TELUGU": 80
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 329.6,
+      "end": 335.5,
+      "language": "Telugu-English",
+      "n_words": 41,
+      "script_counts": {
+        "TELUGU": 41
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 335.5,
+      "end": 340.8,
+      "language": "Telugu-English",
+      "n_words": 38,
+      "script_counts": {
+        "TELUGU": 38
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 340.8,
+      "end": 348.9,
+      "language": "Telugu-English",
+      "n_words": 59,
+      "script_counts": {
+        "TELUGU": 59
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 348.9,
+      "end": 357.3,
+      "language": "Telugu-English",
+      "n_words": 54,
+      "script_counts": {
+        "TELUGU": 54
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 357.3,
+      "end": 359.2,
+      "language": "Telugu-English",
+      "n_words": 9,
+      "script_counts": {
+        "TELUGU": 9
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 359.2,
+      "end": 369.9,
+      "language": "Telugu-English",
+      "n_words": 75,
+      "script_counts": {
+        "TELUGU": 75
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 369.9,
+      "end": 380.6,
+      "language": "Telugu-English",
+      "n_words": 75,
+      "script_counts": {
+        "TELUGU": 75
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 380.6,
+      "end": 391.0,
+      "language": "Telugu-English",
+      "n_words": 76,
+      "script_counts": {
+        "TELUGU": 76
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 391.0,
+      "end": 398.8,
+      "language": "Telugu-English",
+      "n_words": 59,
+      "script_counts": {
+        "TELUGU": 59
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 398.8,
+      "end": 407.8,
+      "language": "Telugu-English",
+      "n_words": 68,
+      "script_counts": {
+        "TELUGU": 68
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 407.8,
+      "end": 415.5,
+      "language": "Telugu-English",
+      "n_words": 46,
+      "script_counts": {
+        "TELUGU": 46
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 415.5,
+      "end": 424.4,
+      "language": "Telugu-English",
+      "n_words": 54,
+      "script_counts": {
+        "TELUGU": 52,
+        "LATIN": 2
+      },
+      "n_switches": 4,
+      "cmi": 0.037,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 424.4,
+      "end": 431.6,
+      "language": "Telugu-English",
+      "n_words": 55,
+      "script_counts": {
+        "TELUGU": 55
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 431.6,
+      "end": 437.9,
+      "language": "Telugu-English",
+      "n_words": 38,
+      "script_counts": {
+        "TELUGU": 38
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 437.9,
+      "end": 444.5,
+      "language": "Telugu-English",
+      "n_words": 41,
+      "script_counts": {
+        "TELUGU": 41
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 444.5,
+      "end": 449.9,
+      "language": "Telugu-English",
+      "n_words": 28,
+      "script_counts": {
+        "TELUGU": 27
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 449.9,
+      "end": 459.6,
+      "language": "Telugu-English",
+      "n_words": 55,
+      "script_counts": {
+        "TELUGU": 52,
+        "LATIN": 3
+      },
+      "n_switches": 2,
+      "cmi": 0.0545,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    },
+    {
+      "start": 459.6,
+      "end": 468.4,
+      "language": "Telugu-English",
+      "n_words": 56,
+      "script_counts": {
+        "TELUGU": 56
+      },
+      "n_switches": 0,
+      "cmi": 0.0,
+      "matrix_script": "TELUGU",
+      "is_romanised_mix": false
+    }
+  ]
+}

@@ -1,0 +1,1183 @@
+{
+  "video": "What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu",
+  "nodes": [
+    {
+      "id": "Circuit Breaker",
+      "concept": "Circuit Breaker",
+      "start": 0.0,
+      "end": 10.4,
+      "avg_t": 0.0,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.4
+        }
+      ]
+    },
+    {
+      "id": "Heater",
+      "concept": "Heater",
+      "start": 0.0,
+      "end": 10.4,
+      "avg_t": 0.0,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.4
+        }
+      ]
+    },
+    {
+      "id": "Stove",
+      "concept": "Stove",
+      "start": 0.0,
+      "end": 10.4,
+      "avg_t": 0.0,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.4
+        }
+      ]
+    },
+    {
+      "id": "Electric Motor",
+      "concept": "Electric Motor",
+      "start": 0.0,
+      "end": 10.4,
+      "avg_t": 0.0,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.4
+        }
+      ]
+    },
+    {
+      "id": "Device",
+      "concept": "Device",
+      "start": 0.0,
+      "end": 59.5,
+      "avg_t": 19.7,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.4
+        },
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 48.7,
+          "end": 59.5
+        }
+      ]
+    },
+    {
+      "id": "Charger",
+      "concept": "Charger",
+      "start": 0.0,
+      "end": 59.5,
+      "avg_t": 24.35,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 10.4
+        },
+        {
+          "start": 48.7,
+          "end": 59.5
+        }
+      ]
+    },
+    {
+      "id": "MCB",
+      "concept": "MCB",
+      "start": 26.6,
+      "end": 48.7,
+      "avg_t": 31.05,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 26.6,
+          "end": 35.5
+        },
+        {
+          "start": 35.5,
+          "end": 48.7
+        }
+      ]
+    },
+    {
+      "id": "Battery",
+      "concept": "Battery",
+      "start": 90.0,
+      "end": 134.2,
+      "avg_t": 105.45,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 90.0,
+          "end": 112.9
+        },
+        {
+          "start": 120.9,
+          "end": 134.2
+        }
+      ]
+    },
+    {
+      "id": "Terminal",
+      "concept": "Terminal",
+      "start": 120.9,
+      "end": 134.2,
+      "avg_t": 120.9,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 120.9,
+          "end": 134.2
+        }
+      ]
+    },
+    {
+      "id": "Power",
+      "concept": "Power",
+      "start": 10.4,
+      "end": 391.0,
+      "avg_t": 130.3,
+      "freq": 5,
+      "time_references": [
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 26.6,
+          "end": 35.5
+        },
+        {
+          "start": 35.5,
+          "end": 48.7
+        },
+        {
+          "start": 198.4,
+          "end": 208.8
+        },
+        {
+          "start": 380.6,
+          "end": 391.0
+        }
+      ]
+    },
+    {
+      "id": "Problem",
+      "concept": "Problem",
+      "start": 10.4,
+      "end": 459.6,
+      "avg_t": 144.45,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 48.7,
+          "end": 59.5
+        },
+        {
+          "start": 68.8,
+          "end": 74.9
+        },
+        {
+          "start": 449.9,
+          "end": 459.6
+        }
+      ]
+    },
+    {
+      "id": "Solve",
+      "concept": "Solve",
+      "start": 10.4,
+      "end": 459.6,
+      "avg_t": 169.667,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 48.7,
+          "end": 59.5
+        },
+        {
+          "start": 449.9,
+          "end": 459.6
+        }
+      ]
+    },
+    {
+      "id": "Force",
+      "concept": "Force",
+      "start": 173.9,
+      "end": 217.9,
+      "avg_t": 192.525,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 173.9,
+          "end": 189.0
+        },
+        {
+          "start": 189.0,
+          "end": 198.4
+        },
+        {
+          "start": 198.4,
+          "end": 208.8
+        },
+        {
+          "start": 208.8,
+          "end": 217.9
+        }
+      ]
+    },
+    {
+      "id": "Electron",
+      "concept": "Electron",
+      "start": 134.2,
+      "end": 305.5,
+      "avg_t": 201.01,
+      "freq": 10,
+      "time_references": [
+        {
+          "start": 134.2,
+          "end": 146.7
+        },
+        {
+          "start": 146.7,
+          "end": 158.8
+        },
+        {
+          "start": 158.8,
+          "end": 168.8
+        },
+        {
+          "start": 168.8,
+          "end": 173.9
+        },
+        {
+          "start": 173.9,
+          "end": 189.0
+        },
+        {
+          "start": 189.0,
+          "end": 198.4
+        },
+        {
+          "start": 198.4,
+          "end": 208.8
+        },
+        {
+          "start": 256.0,
+          "end": 274.0
+        },
+        {
+          "start": 288.8,
+          "end": 295.5
+        },
+        {
+          "start": 295.5,
+          "end": 305.5
+        }
+      ]
+    },
+    {
+      "id": "Water Analogy",
+      "concept": "Water Analogy",
+      "start": 134.2,
+      "end": 256.0,
+      "avg_t": 212.34,
+      "freq": 5,
+      "time_references": [
+        {
+          "start": 134.2,
+          "end": 146.7
+        },
+        {
+          "start": 217.9,
+          "end": 224.9
+        },
+        {
+          "start": 224.9,
+          "end": 231.7
+        },
+        {
+          "start": 238.9,
+          "end": 245.8
+        },
+        {
+          "start": 245.8,
+          "end": 256.0
+        }
+      ]
+    },
+    {
+      "id": "Pressure",
+      "concept": "Pressure",
+      "start": 217.9,
+      "end": 231.7,
+      "avg_t": 221.4,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 217.9,
+          "end": 224.9
+        },
+        {
+          "start": 224.9,
+          "end": 231.7
+        }
+      ]
+    },
+    {
+      "id": "Current",
+      "concept": "Current",
+      "start": 10.4,
+      "end": 449.9,
+      "avg_t": 228.991,
+      "freq": 32,
+      "time_references": [
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 35.5,
+          "end": 48.7
+        },
+        {
+          "start": 48.7,
+          "end": 59.5
+        },
+        {
+          "start": 74.9,
+          "end": 84.9
+        },
+        {
+          "start": 84.9,
+          "end": 90.0
+        },
+        {
+          "start": 90.0,
+          "end": 112.9
+        },
+        {
+          "start": 112.9,
+          "end": 120.9
+        },
+        {
+          "start": 120.9,
+          "end": 134.2
+        },
+        {
+          "start": 134.2,
+          "end": 146.7
+        },
+        {
+          "start": 146.7,
+          "end": 158.8
+        },
+        {
+          "start": 158.8,
+          "end": 168.8
+        },
+        {
+          "start": 168.8,
+          "end": 173.9
+        },
+        {
+          "start": 173.9,
+          "end": 189.0
+        },
+        {
+          "start": 208.8,
+          "end": 217.9
+        },
+        {
+          "start": 217.9,
+          "end": 224.9
+        },
+        {
+          "start": 224.9,
+          "end": 231.7
+        },
+        {
+          "start": 231.7,
+          "end": 238.9
+        },
+        {
+          "start": 238.9,
+          "end": 245.8
+        },
+        {
+          "start": 245.8,
+          "end": 256.0
+        },
+        {
+          "start": 256.0,
+          "end": 274.0
+        },
+        {
+          "start": 288.8,
+          "end": 295.5
+        },
+        {
+          "start": 305.5,
+          "end": 316.7
+        },
+        {
+          "start": 316.7,
+          "end": 329.6
+        },
+        {
+          "start": 329.6,
+          "end": 335.5
+        },
+        {
+          "start": 335.5,
+          "end": 340.8
+        },
+        {
+          "start": 348.9,
+          "end": 357.3
+        },
+        {
+          "start": 359.2,
+          "end": 369.9
+        },
+        {
+          "start": 369.9,
+          "end": 380.6
+        },
+        {
+          "start": 398.8,
+          "end": 407.8
+        },
+        {
+          "start": 407.8,
+          "end": 415.5
+        },
+        {
+          "start": 437.9,
+          "end": 444.5
+        },
+        {
+          "start": 444.5,
+          "end": 449.9
+        }
+      ]
+    },
+    {
+      "id": "Equation",
+      "concept": "Equation",
+      "start": 48.7,
+      "end": 459.6,
+      "avg_t": 245.625,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 59.5
+        },
+        {
+          "start": 59.5,
+          "end": 68.8
+        },
+        {
+          "start": 424.4,
+          "end": 431.6
+        },
+        {
+          "start": 449.9,
+          "end": 459.6
+        }
+      ]
+    },
+    {
+      "id": "Wire",
+      "concept": "Wire",
+      "start": 112.9,
+      "end": 380.6,
+      "avg_t": 255.947,
+      "freq": 19,
+      "time_references": [
+        {
+          "start": 112.9,
+          "end": 120.9
+        },
+        {
+          "start": 120.9,
+          "end": 134.2
+        },
+        {
+          "start": 134.2,
+          "end": 146.7
+        },
+        {
+          "start": 146.7,
+          "end": 158.8
+        },
+        {
+          "start": 168.8,
+          "end": 173.9
+        },
+        {
+          "start": 173.9,
+          "end": 189.0
+        },
+        {
+          "start": 208.8,
+          "end": 217.9
+        },
+        {
+          "start": 256.0,
+          "end": 274.0
+        },
+        {
+          "start": 274.0,
+          "end": 281.9
+        },
+        {
+          "start": 281.9,
+          "end": 288.8
+        },
+        {
+          "start": 288.8,
+          "end": 295.5
+        },
+        {
+          "start": 295.5,
+          "end": 305.5
+        },
+        {
+          "start": 316.7,
+          "end": 329.6
+        },
+        {
+          "start": 329.6,
+          "end": 335.5
+        },
+        {
+          "start": 335.5,
+          "end": 340.8
+        },
+        {
+          "start": 340.8,
+          "end": 348.9
+        },
+        {
+          "start": 348.9,
+          "end": 357.3
+        },
+        {
+          "start": 359.2,
+          "end": 369.9
+        },
+        {
+          "start": 369.9,
+          "end": 380.6
+        }
+      ]
+    },
+    {
+      "id": "Resistance",
+      "concept": "Resistance",
+      "start": 10.4,
+      "end": 444.5,
+      "avg_t": 267.962,
+      "freq": 16,
+      "time_references": [
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 48.7,
+          "end": 59.5
+        },
+        {
+          "start": 74.9,
+          "end": 84.9
+        },
+        {
+          "start": 84.9,
+          "end": 90.0
+        },
+        {
+          "start": 245.8,
+          "end": 256.0
+        },
+        {
+          "start": 256.0,
+          "end": 274.0
+        },
+        {
+          "start": 274.0,
+          "end": 281.9
+        },
+        {
+          "start": 281.9,
+          "end": 288.8
+        },
+        {
+          "start": 295.5,
+          "end": 305.5
+        },
+        {
+          "start": 305.5,
+          "end": 316.7
+        },
+        {
+          "start": 369.9,
+          "end": 380.6
+        },
+        {
+          "start": 380.6,
+          "end": 391.0
+        },
+        {
+          "start": 391.0,
+          "end": 398.8
+        },
+        {
+          "start": 398.8,
+          "end": 407.8
+        },
+        {
+          "start": 431.6,
+          "end": 437.9
+        },
+        {
+          "start": 437.9,
+          "end": 444.5
+        }
+      ]
+    },
+    {
+      "id": "Length",
+      "concept": "Length",
+      "start": 274.0,
+      "end": 281.9,
+      "avg_t": 274.0,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 274.0,
+          "end": 281.9
+        }
+      ]
+    },
+    {
+      "id": "Atom",
+      "concept": "Atom",
+      "start": 256.0,
+      "end": 305.5,
+      "avg_t": 276.85,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 256.0,
+          "end": 274.0
+        },
+        {
+          "start": 274.0,
+          "end": 281.9
+        },
+        {
+          "start": 281.9,
+          "end": 288.8
+        },
+        {
+          "start": 295.5,
+          "end": 305.5
+        }
+      ]
+    },
+    {
+      "id": "Voltage",
+      "concept": "Voltage",
+      "start": 10.4,
+      "end": 444.5,
+      "avg_t": 277.4,
+      "freq": 16,
+      "time_references": [
+        {
+          "start": 10.4,
+          "end": 26.6
+        },
+        {
+          "start": 74.9,
+          "end": 84.9
+        },
+        {
+          "start": 84.9,
+          "end": 90.0
+        },
+        {
+          "start": 208.8,
+          "end": 217.9
+        },
+        {
+          "start": 217.9,
+          "end": 224.9
+        },
+        {
+          "start": 231.7,
+          "end": 238.9
+        },
+        {
+          "start": 305.5,
+          "end": 316.7
+        },
+        {
+          "start": 316.7,
+          "end": 329.6
+        },
+        {
+          "start": 329.6,
+          "end": 335.5
+        },
+        {
+          "start": 335.5,
+          "end": 340.8
+        },
+        {
+          "start": 348.9,
+          "end": 357.3
+        },
+        {
+          "start": 359.2,
+          "end": 369.9
+        },
+        {
+          "start": 369.9,
+          "end": 380.6
+        },
+        {
+          "start": 398.8,
+          "end": 407.8
+        },
+        {
+          "start": 407.8,
+          "end": 415.5
+        },
+        {
+          "start": 437.9,
+          "end": 444.5
+        }
+      ]
+    },
+    {
+      "id": "Vibrate",
+      "concept": "Vibrate",
+      "start": 295.5,
+      "end": 305.5,
+      "avg_t": 295.5,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 295.5,
+          "end": 305.5
+        }
+      ]
+    },
+    {
+      "id": "Ohm's Law",
+      "concept": "Ohm's Law",
+      "start": 59.5,
+      "end": 459.6,
+      "avg_t": 309.788,
+      "freq": 8,
+      "time_references": [
+        {
+          "start": 59.5,
+          "end": 68.8
+        },
+        {
+          "start": 74.9,
+          "end": 84.9
+        },
+        {
+          "start": 316.7,
+          "end": 329.6
+        },
+        {
+          "start": 357.3,
+          "end": 359.2
+        },
+        {
+          "start": 380.6,
+          "end": 391.0
+        },
+        {
+          "start": 407.8,
+          "end": 415.5
+        },
+        {
+          "start": 431.6,
+          "end": 437.9
+        },
+        {
+          "start": 449.9,
+          "end": 459.6
+        }
+      ]
+    },
+    {
+      "id": "Temperature",
+      "concept": "Temperature",
+      "start": 288.8,
+      "end": 398.8,
+      "avg_t": 350.3,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 288.8,
+          "end": 295.5
+        },
+        {
+          "start": 340.8,
+          "end": 348.9
+        },
+        {
+          "start": 380.6,
+          "end": 391.0
+        },
+        {
+          "start": 391.0,
+          "end": 398.8
+        }
+      ]
+    },
+    {
+      "id": "Proportionality",
+      "concept": "Proportionality",
+      "start": 316.7,
+      "end": 431.6,
+      "avg_t": 391.1,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 316.7,
+          "end": 329.6
+        },
+        {
+          "start": 407.8,
+          "end": 415.5
+        },
+        {
+          "start": 415.5,
+          "end": 424.4
+        },
+        {
+          "start": 424.4,
+          "end": 431.6
+        }
+      ]
+    },
+    {
+      "id": "Constant",
+      "concept": "Constant",
+      "start": 340.8,
+      "end": 437.9,
+      "avg_t": 395.24,
+      "freq": 5,
+      "time_references": [
+        {
+          "start": 340.8,
+          "end": 348.9
+        },
+        {
+          "start": 380.6,
+          "end": 391.0
+        },
+        {
+          "start": 398.8,
+          "end": 407.8
+        },
+        {
+          "start": 424.4,
+          "end": 431.6
+        },
+        {
+          "start": 431.6,
+          "end": 437.9
+        }
+      ]
+    },
+    {
+      "id": "Statement",
+      "concept": "Statement",
+      "start": 415.5,
+      "end": 424.4,
+      "avg_t": 415.5,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 415.5,
+          "end": 424.4
+        }
+      ]
+    },
+    {
+      "id": "Symbol",
+      "concept": "Symbol",
+      "start": 415.5,
+      "end": 424.4,
+      "avg_t": 415.5,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 415.5,
+          "end": 424.4
+        }
+      ]
+    },
+    {
+      "id": "Inversely Proportional",
+      "concept": "Inversely Proportional",
+      "start": 444.5,
+      "end": 449.9,
+      "avg_t": 444.5,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 444.5,
+          "end": 449.9
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Device",
+      "target": "Charger",
+      "weight": 1,
+      "explanation": "Charger is an example of a device."
+    },
+    {
+      "source": "Device",
+      "target": "Stove",
+      "weight": 1,
+      "explanation": "Stove is an example of a device."
+    },
+    {
+      "source": "Device",
+      "target": "Heater",
+      "weight": 1,
+      "explanation": "Heater is an example of a device."
+    },
+    {
+      "source": "Device",
+      "target": "Electric Motor",
+      "weight": 1,
+      "explanation": "Electric Motor is an example of a device."
+    },
+    {
+      "source": "Circuit Breaker",
+      "target": "MCB",
+      "weight": 1,
+      "explanation": "MCB is a type of circuit breaker."
+    },
+    {
+      "source": "Problem",
+      "target": "Solve",
+      "weight": 1,
+      "explanation": "Problems are meant to be solved."
+    },
+    {
+      "source": "Solve",
+      "target": "Equation",
+      "weight": 1,
+      "explanation": "Equations are used to solve problems."
+    },
+    {
+      "source": "Current",
+      "target": "Water Analogy",
+      "weight": 1,
+      "explanation": "Water analogy helps explain current flow."
+    },
+    {
+      "source": "Current",
+      "target": "Wire",
+      "weight": 1,
+      "explanation": "Current flows through a wire."
+    },
+    {
+      "source": "Current",
+      "target": "Proportionality",
+      "weight": 1,
+      "explanation": "Current is directly proportional to voltage (Ohm's Law)."
+    },
+    {
+      "source": "Current",
+      "target": "Electron",
+      "weight": 1,
+      "explanation": "Current is the flow of electrons."
+    },
+    {
+      "source": "Current",
+      "target": "Inversely Proportional",
+      "weight": 1,
+      "explanation": "Current is inversely proportional to resistance (Ohm's Law)."
+    },
+    {
+      "source": "Current",
+      "target": "Battery",
+      "weight": 1,
+      "explanation": "Battery is a source of current."
+    },
+    {
+      "source": "Voltage",
+      "target": "Water Analogy",
+      "weight": 1,
+      "explanation": "Water analogy helps explain voltage (as pressure)."
+    },
+    {
+      "source": "Voltage",
+      "target": "Battery",
+      "weight": 1,
+      "explanation": "Battery provides voltage."
+    },
+    {
+      "source": "Voltage",
+      "target": "Force",
+      "weight": 1,
+      "explanation": "Voltage is the electrical force that drives current."
+    },
+    {
+      "source": "Voltage",
+      "target": "Proportionality",
+      "weight": 1,
+      "explanation": "Voltage is directly proportional to current (Ohm's Law)."
+    },
+    {
+      "source": "MCB",
+      "target": "Current",
+      "weight": 1,
+      "explanation": "MCB protects against excessive current."
+    },
+    {
+      "source": "Equation",
+      "target": "Symbol",
+      "weight": 1,
+      "explanation": "Symbols are used in the Ohm's Law equation."
+    },
+    {
+      "source": "Equation",
+      "target": "Ohm's Law",
+      "weight": 1,
+      "explanation": "Ohm's Law is a fundamental electrical equation."
+    },
+    {
+      "source": "Ohm's Law",
+      "target": "Current",
+      "weight": 1,
+      "explanation": "Ohm's Law defines the relationship involving current."
+    },
+    {
+      "source": "Ohm's Law",
+      "target": "Resistance",
+      "weight": 1,
+      "explanation": "Ohm's Law defines the relationship involving resistance."
+    },
+    {
+      "source": "Ohm's Law",
+      "target": "Statement",
+      "weight": 1,
+      "explanation": "The formal definition of Ohm's Law."
+    },
+    {
+      "source": "Ohm's Law",
+      "target": "Voltage",
+      "weight": 1,
+      "explanation": "Ohm's Law defines the relationship involving voltage."
+    },
+    {
+      "source": "Resistance",
+      "target": "Water Analogy",
+      "weight": 1,
+      "explanation": "Water analogy helps explain resistance (as obstacles)."
+    },
+    {
+      "source": "Resistance",
+      "target": "Atom",
+      "weight": 1,
+      "explanation": "Resistance arises from electrons colliding with atoms."
+    },
+    {
+      "source": "Resistance",
+      "target": "Temperature",
+      "weight": 1,
+      "explanation": "Temperature affects resistance."
+    },
+    {
+      "source": "Resistance",
+      "target": "Inversely Proportional",
+      "weight": 1,
+      "explanation": "Resistance is inversely proportional to current (Ohm's Law)."
+    },
+    {
+      "source": "Resistance",
+      "target": "Length",
+      "weight": 1,
+      "explanation": "Length of the wire affects resistance."
+    },
+    {
+      "source": "Wire",
+      "target": "Terminal",
+      "weight": 1,
+      "explanation": "Terminals are connection points on a wire/circuit."
+    },
+    {
+      "source": "Electron",
+      "target": "Atom",
+      "weight": 1,
+      "explanation": "Electrons interact with atoms in a conductor."
+    },
+    {
+      "source": "Water Analogy",
+      "target": "Pressure",
+      "weight": 1,
+      "explanation": "Pressure in the water analogy represents voltage."
+    },
+    {
+      "source": "Atom",
+      "target": "Vibrate",
+      "weight": 1,
+      "explanation": "Atoms vibrate, especially with increased temperature."
+    },
+    {
+      "source": "Temperature",
+      "target": "Constant",
+      "weight": 1,
+      "explanation": "Temperature must be constant for Ohm's Law to hold."
+    },
+    {
+      "source": "Temperature",
+      "target": "Vibrate",
+      "weight": 1,
+      "explanation": "Increased temperature causes atoms to vibrate more."
+    }
+  ]
+}

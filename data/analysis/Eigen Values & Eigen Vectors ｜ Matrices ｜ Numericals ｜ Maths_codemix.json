@@ -1,0 +1,687 @@
+{
+    "video": "Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths",
+    "total_segments": 51,
+    "total_words": 2263,
+    "global_cmi": 0.0005,
+    "switch_density_per_100_words": 0.09,
+    "matrix_script": "LATIN",
+    "matrix_language": "English/Romanised",
+    "embedded_scripts": {
+        "DEVANAGARI": 1
+    },
+    "is_mostly_romanised": true,
+    "romanised_segment_fraction": 0.9804,
+    "language_label_distribution": {
+        "Hindi-English": 51
+    },
+    "script_distribution": {
+        "LATIN": 2130,
+        "DEVANAGARI": 1
+    },
+    "segment_analyses": [
+        {
+            "start": 0.0,
+            "end": 5.3,
+            "language": "Hindi-English",
+            "n_words": 13,
+            "script_counts": {
+                "LATIN": 13
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 5.3,
+            "end": 12.7,
+            "language": "Hindi-English",
+            "n_words": 21,
+            "script_counts": {
+                "LATIN": 21
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 12.7,
+            "end": 18.3,
+            "language": "Hindi-English",
+            "n_words": 21,
+            "script_counts": {
+                "LATIN": 21
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 18.9,
+            "end": 30.3,
+            "language": "Hindi-English",
+            "n_words": 34,
+            "script_counts": {
+                "LATIN": 34
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 30.7,
+            "end": 38.8,
+            "language": "Hindi-English",
+            "n_words": 24,
+            "script_counts": {
+                "LATIN": 24
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 39.4,
+            "end": 48.7,
+            "language": "Hindi-English",
+            "n_words": 27,
+            "script_counts": {
+                "LATIN": 27
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 48.7,
+            "end": 58.3,
+            "language": "Hindi-English",
+            "n_words": 26,
+            "script_counts": {
+                "LATIN": 26
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 58.3,
+            "end": 112.5,
+            "language": "Hindi-English",
+            "n_words": 45,
+            "script_counts": {
+                "LATIN": 42
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 112.5,
+            "end": 131.2,
+            "language": "Hindi-English",
+            "n_words": 55,
+            "script_counts": {
+                "LATIN": 47
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 131.6,
+            "end": 148.7,
+            "language": "Hindi-English",
+            "n_words": 52,
+            "script_counts": {
+                "LATIN": 47
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 149.0,
+            "end": 203.9,
+            "language": "Hindi-English",
+            "n_words": 45,
+            "script_counts": {
+                "LATIN": 42
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 204.2,
+            "end": 220.3,
+            "language": "Hindi-English",
+            "n_words": 58,
+            "script_counts": {
+                "LATIN": 55
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 221.0,
+            "end": 233.7,
+            "language": "Hindi-English",
+            "n_words": 37,
+            "script_counts": {
+                "LATIN": 37
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 233.7,
+            "end": 246.4,
+            "language": "Hindi-English",
+            "n_words": 50,
+            "script_counts": {
+                "LATIN": 48
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 246.8,
+            "end": 259.7,
+            "language": "Hindi-English",
+            "n_words": 46,
+            "script_counts": {
+                "LATIN": 45
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 259.7,
+            "end": 318.8,
+            "language": "Hindi-English",
+            "n_words": 70,
+            "script_counts": {
+                "LATIN": 52
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 318.8,
+            "end": 341.8,
+            "language": "Hindi-English",
+            "n_words": 82,
+            "script_counts": {
+                "LATIN": 82
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 342.2,
+            "end": 356.7,
+            "language": "Hindi-English",
+            "n_words": 50,
+            "script_counts": {
+                "LATIN": 48
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 357.0,
+            "end": 403.2,
+            "language": "Hindi-English",
+            "n_words": 20,
+            "script_counts": {
+                "LATIN": 20
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 404.0,
+            "end": 420.7,
+            "language": "Hindi-English",
+            "n_words": 38,
+            "script_counts": {
+                "LATIN": 38
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 420.7,
+            "end": 434.9,
+            "language": "Hindi-English",
+            "n_words": 52,
+            "script_counts": {
+                "LATIN": 51
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 435.3,
+            "end": 448.5,
+            "language": "Hindi-English",
+            "n_words": 55,
+            "script_counts": {
+                "LATIN": 55
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 448.5,
+            "end": 503.2,
+            "language": "Hindi-English",
+            "n_words": 54,
+            "script_counts": {
+                "LATIN": 54
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 503.6,
+            "end": 513.9,
+            "language": "Hindi-English",
+            "n_words": 40,
+            "script_counts": {
+                "LATIN": 40
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 514.4,
+            "end": 534.9,
+            "language": "Hindi-English",
+            "n_words": 66,
+            "script_counts": {
+                "LATIN": 64
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 535.4,
+            "end": 548.7,
+            "language": "Hindi-English",
+            "n_words": 47,
+            "script_counts": {
+                "LATIN": 43
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 549.0,
+            "end": 604.7,
+            "language": "Hindi-English",
+            "n_words": 60,
+            "script_counts": {
+                "LATIN": 57
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 605.0,
+            "end": 615.6,
+            "language": "Hindi-English",
+            "n_words": 32,
+            "script_counts": {
+                "LATIN": 26
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 616.2,
+            "end": 627.8,
+            "language": "Hindi-English",
+            "n_words": 48,
+            "script_counts": {
+                "LATIN": 48
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 628.3,
+            "end": 636.2,
+            "language": "Hindi-English",
+            "n_words": 28,
+            "script_counts": {
+                "LATIN": 27
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 636.6,
+            "end": 645.9,
+            "language": "Hindi-English",
+            "n_words": 23,
+            "script_counts": {
+                "LATIN": 23
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 646.3,
+            "end": 656.7,
+            "language": "Hindi-English",
+            "n_words": 40,
+            "script_counts": {
+                "LATIN": 34
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 657.0,
+            "end": 709.2,
+            "language": "Hindi-English",
+            "n_words": 48,
+            "script_counts": {
+                "LATIN": 43
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 709.2,
+            "end": 726.6,
+            "language": "Hindi-English",
+            "n_words": 60,
+            "script_counts": {
+                "LATIN": 57
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 727.0,
+            "end": 737.2,
+            "language": "Hindi-English",
+            "n_words": 33,
+            "script_counts": {
+                "LATIN": 32
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 737.6,
+            "end": 758.8,
+            "language": "Hindi-English",
+            "n_words": 80,
+            "script_counts": {
+                "LATIN": 74
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 759.0,
+            "end": 815.7,
+            "language": "Hindi-English",
+            "n_words": 61,
+            "script_counts": {
+                "LATIN": 58
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 816.0,
+            "end": 818.3,
+            "language": "Hindi-English",
+            "n_words": 9,
+            "script_counts": {
+                "LATIN": 9
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 818.9,
+            "end": 823.9,
+            "language": "Hindi-English",
+            "n_words": 16,
+            "script_counts": {
+                "LATIN": 16
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 824.4,
+            "end": 830.9,
+            "language": "Hindi-English",
+            "n_words": 17,
+            "script_counts": {
+                "LATIN": 17
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 831.6,
+            "end": 846.6,
+            "language": "Hindi-English",
+            "n_words": 39,
+            "script_counts": {
+                "LATIN": 39
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 846.6,
+            "end": 855.9,
+            "language": "Hindi-English",
+            "n_words": 33,
+            "script_counts": {
+                "LATIN": 33
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 856.4,
+            "end": 902.7,
+            "language": "Hindi-English",
+            "n_words": 24,
+            "script_counts": {
+                "LATIN": 24
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 903.3,
+            "end": 926.7,
+            "language": "Hindi-English",
+            "n_words": 82,
+            "script_counts": {
+                "LATIN": 80
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 927.3,
+            "end": 938.6,
+            "language": "Hindi-English",
+            "n_words": 43,
+            "script_counts": {
+                "LATIN": 43
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 938.6,
+            "end": 954.7,
+            "language": "Hindi-English",
+            "n_words": 51,
+            "script_counts": {
+                "LATIN": 48
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 955.3,
+            "end": 1008.7,
+            "language": "Hindi-English",
+            "n_words": 49,
+            "script_counts": {
+                "LATIN": 47
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 1009.4,
+            "end": 1029.9,
+            "language": "Hindi-English",
+            "n_words": 62,
+            "script_counts": {
+                "LATIN": 57
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 1030.3,
+            "end": 1053.4,
+            "language": "Hindi-English",
+            "n_words": 72,
+            "script_counts": {
+                "LATIN": 54
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 1053.7,
+            "end": 1120.9,
+            "language": "Hindi-English",
+            "n_words": 94,
+            "script_counts": {
+                "LATIN": 78
+            },
+            "n_switches": 0,
+            "cmi": 0.0,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": true
+        },
+        {
+            "start": 1121.3,
+            "end": 1127.9,
+            "language": "Hindi-English",
+            "n_words": 31,
+            "script_counts": {
+                "LATIN": 30,
+                "DEVANAGARI": 1
+            },
+            "n_switches": 2,
+            "cmi": 0.0323,
+            "matrix_script": "LATIN",
+            "is_romanised_mix": false
+        }
+    ]
+}

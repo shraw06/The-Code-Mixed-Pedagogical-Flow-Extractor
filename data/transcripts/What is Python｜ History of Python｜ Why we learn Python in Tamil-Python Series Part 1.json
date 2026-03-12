@@ -1,0 +1,853 @@
+{
+    "language": "Tamil-English",
+    "segments": [
+        {
+            "start": 12.23,
+            "end": 16.23,
+            "original_text": "Hello friends, naan ungal Divya Bharathi. Idhu unga channel Basic to Pro Tamil.",
+            "english_text": "Hello friends, I am Divya Bharathi. This is your channel Basic to Pro Tamil.",
+            "language": "Tamil-English",
+            "text": "Hello friends, I am Divya Bharathi. This is your channel Basic to Pro Tamil."
+        },
+        {
+            "start": 17.03,
+            "end": 27.63,
+            "original_text": "Indha video la nama paaka porathu introduction to Python language. Adhavadhu Python language na enna, history of Python language and edhukkaga Python padikkanum angaradha paakalam.",
+            "english_text": "In this video, what we are going to see is the introduction to Python language. That is, what is Python language, history of Python language, and why we should learn Python, let's see that.",
+            "language": "Tamil-English",
+            "text": "In this video, what we are going to see is the introduction to Python language. That is, what is Python language, history of Python language, and why we should learn Python, let's see that."
+        },
+        {
+            "start": 28.43,
+            "end": 34.33,
+            "original_text": "Indha video voda end la ungalukkana tips sollirukken. So video va kadaisi varaikum skip pannama paaringa. Vaanga video kulla polam.",
+            "english_text": "At the end of this video, I have given tips for you. So watch the video till the end without skipping. Let's go into the video.",
+            "language": "Tamil-English",
+            "text": "At the end of this video, I have given tips for you. So watch the video till the end without skipping. Let's go into the video."
+        },
+        {
+            "start": 35.03,
+            "end": 36.63,
+            "original_text": "Python oru programming language.",
+            "english_text": "Python is a programming language.",
+            "language": "Tamil-English",
+            "text": "Python is a programming language."
+        },
+        {
+            "start": 37.43,
+            "end": 42.73,
+            "original_text": "Indha language ah interpreted, interactive and object-oriented language nu solluvanga.",
+            "english_text": "This language is called interpreted, interactive and object-oriented language.",
+            "language": "Tamil-English",
+            "text": "This language is called interpreted, interactive and object-oriented language."
+        },
+        {
+            "start": 44.03,
+            "end": 50.03,
+            "original_text": "Yen Python language ah interpreter nu sollrom nu paatheengana, Python language interpreter use panni dhaan programs ah run pannum.",
+            "english_text": "If you ask why we call Python language interpreted, it's because Python language runs programs using an interpreter.",
+            "language": "Tamil-English",
+            "text": "If you ask why we call Python language interpreted, it's because Python language runs programs using an interpreter."
+        },
+        {
+            "start": 51.03,
+            "end": 52.13,
+            "original_text": "Appo interpreter na enna?",
+            "english_text": "So what is an interpreter?",
+            "language": "Tamil-English",
+            "text": "So what is an interpreter?"
+        },
+        {
+            "start": 53.03,
+            "end": 54.03,
+            "original_text": "Adhu oru translator.",
+            "english_text": "It is a translator.",
+            "language": "Tamil-English",
+            "text": "It is a translator."
+        },
+        {
+            "start": 54.43,
+            "end": 103.73,
+            "original_text": "Oru programmer kudukka koodiya Python coding ah computer la irukka Python interpreter line by line ah computer ku puriyura machine language ah convert pannum.",
+            "english_text": "A Python interpreter in the computer will convert the Python coding given by a programmer, line by line, into machine language that the computer understands.",
+            "language": "Tamil-English",
+            "text": "A Python interpreter in the computer will convert the Python coding given by a programmer, line by line, into machine language that the computer understands."
+        },
+        {
+            "start": 107.73,
+            "end": 111.23,
+            "original_text": "Adhanala dhaan Python language ah nama interpreted language nu sollrom.",
+            "english_text": "That's why we call Python language an interpreted language.",
+            "language": "Tamil-English",
+            "text": "That's why we call Python language an interpreted language."
+        },
+        {
+            "start": 111.73,
+            "end": 112.63,
+            "original_text": "Next interactive.",
+            "english_text": "Next, interactive.",
+            "language": "Tamil-English",
+            "text": "Next, interactive."
+        },
+        {
+            "start": 113.43,
+            "end": 115.63,
+            "original_text": "Appadina rendu per communicate panra maari.",
+            "english_text": "That means like two people communicating.",
+            "language": "Tamil-English",
+            "text": "That means like two people communicating."
+        },
+        {
+            "start": 116.43,
+            "end": 124.03,
+            "original_text": "Adhavadhu neenga Python coding ah podum bodhu neenga kudukura oru oru line of coding kum output appavey kidaikkum.",
+            "english_text": "That is, when you write Python coding, you will get the output for each line of coding you provide immediately.",
+            "language": "Tamil-English",
+            "text": "That is, when you write Python coding, you will get the output for each line of coding you provide immediately."
+        },
+        {
+            "start": 125.03,
+            "end": 127.33,
+            "original_text": "Just questions ku answer panra maari.",
+            "english_text": "Just like answering questions.",
+            "language": "Tamil-English",
+            "text": "Just like answering questions."
+        },
+        {
+            "start": 128.43,
+            "end": 134.93,
+            "original_text": "And also IDE use panneengana at a time la neenga editor and output screen rendulayumey work pannalam.",
+            "english_text": "And also, if you use an IDE, you can work on both the editor and output screen at the same time.",
+            "language": "Tamil-English",
+            "text": "And also, if you use an IDE, you can work on both the editor and output screen at the same time."
+        },
+        {
+            "start": 136.43,
+            "end": 146.63,
+            "original_text": "Next Python object-oriented programming concepts like polymorphism, inheritance, encapsulation, objects, classes, abstraction support pannum.",
+            "english_text": "Next, Python supports object-oriented programming concepts like polymorphism, inheritance, encapsulation, objects, classes, abstraction.",
+            "language": "Tamil-English",
+            "text": "Next, Python supports object-oriented programming concepts like polymorphism, inheritance, encapsulation, objects, classes, abstraction."
+        },
+        {
+            "start": 147.43,
+            "end": 151.43,
+            "original_text": "Adhanala dhaan Python language ah object-oriented programming nu sollrom.",
+            "english_text": "That's why we call Python language object-oriented programming.",
+            "language": "Tamil-English",
+            "text": "That's why we call Python language object-oriented programming."
+        },
+        {
+            "start": 153.03,
+            "end": 155.93,
+            "original_text": "Also Python ah general purpose language nu solluvanga.",
+            "english_text": "Also, Python is called a general-purpose language.",
+            "language": "Tamil-English",
+            "text": "Also, Python is called a general-purpose language."
+        },
+        {
+            "start": 156.53,
+            "end": 166.73,
+            "original_text": "Yenna Python ah nama endha field la venalum use pannalam. Adhavadhu different types of softwares develop pannalam like web application, mobile application, gaming, etc.",
+            "english_text": "Because we can use Python in any field. That is, we can develop different types of software like web application, mobile application, gaming, etc.",
+            "language": "Tamil-English",
+            "text": "Because we can use Python in any field. That is, we can develop different types of software like web application, mobile application, gaming, etc."
+        },
+        {
+            "start": 168.53,
+            "end": 177.53,
+            "original_text": "Python multiple programming features kum support pannum. Like procedural language, object-oriented programming and functional programming um support pannum.",
+            "english_text": "Python also supports multiple programming features. Like procedural language, object-oriented programming and functional programming are also supported.",
+            "language": "Tamil-English",
+            "text": "Python also supports multiple programming features. Like procedural language, object-oriented programming and functional programming are also supported."
+        },
+        {
+            "start": 220.03,
+            "end": 221.63,
+            "original_text": "Next Python oda history paakalam.",
+            "english_text": "Next, let's look at Python's history.",
+            "language": "Tamil-English",
+            "text": "Next, let's look at Python's history."
+        },
+        {
+            "start": 223.43,
+            "end": 234.43,
+            "original_text": "Netherlands ah serndha Dutch computer programmer Mr. Guido van Rossum 1989 la Centrum Wiskunde & Informatica ngra oru company la work pannitu irundharu.",
+            "english_text": "Mr. Guido van Rossum, a Dutch computer programmer from the Netherlands, was working at a company called Centrum Wiskunde & Informatica in 1989.",
+            "language": "Tamil-English",
+            "text": "Mr. Guido van Rossum, a Dutch computer programmer from the Netherlands, was working at a company called Centrum Wiskunde & Informatica in 1989."
+        },
+        {
+            "start": 235.33,
+            "end": 241.83,
+            "original_text": "Appa avar work panna project ABC programming language ah develop panradhu. Successfully develop um pannitanga.",
+            "english_text": "Then, the project he was working on was to develop the ABC programming language. They successfully developed it.",
+            "language": "Tamil-English",
+            "text": "Then, the project he was working on was to develop the ABC programming language. They successfully developed it."
+        },
+        {
+            "start": 242.73,
+            "end": 248.23,
+            "original_text": "But andha language la neraya drawbacks irundhanala avara oru language develop pannanum nu yocharu.",
+            "english_text": "But because that language had many drawbacks, he thought of developing a new language.",
+            "language": "Tamil-English",
+            "text": "But because that language had many drawbacks, he thought of developing a new language."
+        },
+        {
+            "start": 248.93,
+            "end": 256.43,
+            "original_text": "Appo 1989 la avaroda Christmas holidays la oru pudhu programming language ah develop pannaru.",
+            "english_text": "Then, in 1989, during his Christmas holidays, he developed a new programming language.",
+            "language": "Tamil-English",
+            "text": "Then, in 1989, during his Christmas holidays, he developed a new programming language."
+        },
+        {
+            "start": 257.03,
+            "end": 261.83,
+            "original_text": "Adhula ABC language oda best features aiyum include pannaru.",
+            "english_text": "In that, he also included the best features of the ABC language.",
+            "language": "Tamil-English",
+            "text": "In that, he also included the best features of the ABC language."
+        },
+        {
+            "start": 263.63,
+            "end": 268.63,
+            "original_text": "And language develop panna appuram adhukku name vekkanum nu yochappo Python nu name vecharu.",
+            "english_text": "And after developing the language, when he thought of naming it, he named it Python.",
+            "language": "Tamil-English",
+            "text": "And after developing the language, when he thought of naming it, he named it Python."
+        },
+        {
+            "start": 269.93,
+            "end": 276.73,
+            "original_text": "Andha name avarukku eppadi thonuchu na 1970s la oru famous comedy series BBC channel la telecast pannitu irundhanga.",
+            "english_text": "How that name occurred to him was that in the 1970s, a famous comedy series was being telecast on the BBC channel.",
+            "language": "Tamil-English",
+            "text": "How that name occurred to him was that in the 1970s, a famous comedy series was being telecast on the BBC channel."
+        },
+        {
+            "start": 276.73,
+            "end": 280.63,
+            "original_text": "Adhoda name Monty Python's Flying Circus.",
+            "english_text": "Its name was Monty Python's Flying Circus.",
+            "language": "Tamil-English",
+            "text": "Its name was Monty Python's Flying Circus."
+        },
+        {
+            "start": 281.43,
+            "end": 286.03,
+            "original_text": "Namma Guido van Rossum andha show voda periya fan.",
+            "english_text": "Our Guido van Rossum was a big fan of that show.",
+            "language": "Tamil-English",
+            "text": "Our Guido van Rossum was a big fan of that show."
+        },
+        {
+            "start": 287.43,
+            "end": 296.63,
+            "original_text": "So avar develop panna language ku name vekkanum nu yochappo, unique ah, short ah, adhe samayam konjam mysterious ah irukkanum nu yochichu Python ngra name ah vecharu.",
+            "english_text": "So when he thought of naming the language he developed, he wanted it to be unique, short, and at the same time a bit mysterious, so he chose the name Python.",
+            "language": "Tamil-English",
+            "text": "So when he thought of naming the language he developed, he wanted it to be unique, short, and at the same time a bit mysterious, so he chose the name Python."
+        },
+        {
+            "start": 298.63,
+            "end": 308.83,
+            "original_text": "Sariya one year kalichu 1991 la Guido van Rossum Python language oda official version 0.9.0 va release pannaru. Adhukku appuram 1994 la Python 1.0 version innum sila new features oda release pannanga.",
+            "english_text": "Exactly one year later, in 1991, Guido van Rossum released the official version 0.9.0 of the Python language. After that, in 1994, Python 1.0 version was released with some new features.",
+            "language": "Tamil-English",
+            "text": "Exactly one year later, in 1991, Guido van Rossum released the official version 0.9.0 of the Python language. After that, in 1994, Python 1.0 version was released with some new features."
+        },
+        {
+            "start": 308.83,
+            "end": 313.33,
+            "original_text": "On to October 2000 la Python 2.0 version list comprehension, garbage collection, Unicode support panra maari language release pannanga.",
+            "english_text": "Then in October 2000, Python 2.0 version was released with features like list comprehension, garbage collection, and Unicode support.",
+            "language": "Tamil-English",
+            "text": "Then in October 2000, Python 2.0 version was released with features like list comprehension, garbage collection, and Unicode support."
+        },
+        {
+            "start": 313.33,
+            "end": 318.73,
+            "original_text": "Then December 3, 2008 la Python 3.0 version release pannanga.",
+            "english_text": "Then on December 3, 2008, Python 3.0 version was released.",
+            "language": "Tamil-English",
+            "text": "Then on December 3, 2008, Python 3.0 version was released."
+        },
+        {
+            "start": 318.73,
+            "end": 323.43,
+            "original_text": "Python 3.0 version ah Python 3K or Python 3000 nu sollalam.",
+            "english_text": "Python 3.0 version can be called Python 3K or Python 3000.",
+            "language": "Tamil-English",
+            "text": "Python 3.0 version can be called Python 3K or Python 3000."
+        },
+        {
+            "start": 325.43,
+            "end": 329.03,
+            "original_text": "Next idhukkaga nama Python language ah padikkanum nu paakalam.",
+            "english_text": "Next, let's see why we should learn Python language.",
+            "language": "Tamil-English",
+            "text": "Next, let's see why we should learn Python language."
+        },
+        {
+            "start": 330.63,
+            "end": 335.63,
+            "original_text": "Python matha languages maari illama kathukaradhu rombavey easyana language.",
+            "english_text": "Unlike other languages, Python is a very easy language to learn.",
+            "language": "Tamil-English",
+            "text": "Unlike other languages, Python is a very easy language to learn."
+        },
+        {
+            "start": 335.93,
+            "end": 342.93,
+            "original_text": "Adhoda syntax rombavey simple ah design pannirukkaradunala oru programmer beginner ah kathukaradhu romba easy.",
+            "english_text": "Because its syntax is designed very simply, it's very easy for a programmer beginner to learn.",
+            "language": "Tamil-English",
+            "text": "Because its syntax is designed very simply, it's very easy for a programmer beginner to learn."
+        },
+        {
+            "start": 344.63,
+            "end": 347.63,
+            "original_text": "Python la complexana data types ellam kidaiyadhu.",
+            "english_text": "In Python, there are no complex data types.",
+            "language": "Tamil-English",
+            "text": "In Python, there are no complex data types."
+        },
+        {
+            "start": 348.23,
+            "end": 353.93,
+            "original_text": "And nama use panra data automatically adhukkana type ku convert aagara maari design pannirukkanga.",
+            "english_text": "And the data we use is designed to automatically convert to its respective type.",
+            "language": "Tamil-English",
+            "text": "And the data we use is designed to automatically convert to its respective type."
+        },
+        {
+            "start": 354.33,
+            "end": 358.03,
+            "original_text": "Adhanala dhaan indha language ah dynamically typed language nu sollranga.",
+            "english_text": "That's why this language is called a dynamically typed language.",
+            "language": "Tamil-English",
+            "text": "That's why this language is called a dynamically typed language."
+        },
+        {
+            "start": 358.83,
+            "end": 363.03,
+            "original_text": "Idhu mattum illama innum neraya features Python language la available ah irukku.",
+            "english_text": "Not only this, but many more features are available in Python language.",
+            "language": "Tamil-English",
+            "text": "Not only this, but many more features are available in Python language."
+        },
+        {
+            "start": 364.03,
+            "end": 365.03,
+            "original_text": "Vaanga one by one ah paakalam.",
+            "english_text": "Let's see them one by one.",
+            "language": "Tamil-English",
+            "text": "Let's see them one by one."
+        },
+        {
+            "start": 366.63,
+            "end": 369.03,
+            "original_text": "First one, easy to learn and use.",
+            "english_text": "First one, easy to learn and use.",
+            "language": "Tamil-English",
+            "text": "First one, easy to learn and use."
+        },
+        {
+            "start": 369.83,
+            "end": 374.73,
+            "original_text": "Python oru high-level language adhavadhu English like language ah irukkaradunala kathukaradhu and use panradhu easy.",
+            "english_text": "Python is a high-level language, meaning it's an English-like language, so it's easy to learn and use.",
+            "language": "Tamil-English",
+            "text": "Python is a high-level language, meaning it's an English-like language, so it's easy to learn and use."
+        },
+        {
+            "start": 375.43,
+            "end": 382.43,
+            "original_text": "Also indha language developer friendly ah irukkum because neraya built-in libraries and functions available ah irukkaradunala.",
+            "english_text": "Also, this language will be developer-friendly because many built-in libraries and functions are available.",
+            "language": "Tamil-English",
+            "text": "Also, this language will be developer-friendly because many built-in libraries and functions are available."
+        },
+        {
+            "start": 386.33,
+            "end": 387.93,
+            "original_text": "Next one, expressive language.",
+            "english_text": "Next one, expressive language.",
+            "language": "Tamil-English",
+            "text": "Next one, expressive language."
+        },
+        {
+            "start": 388.93,
+            "end": 396.03,
+            "original_text": "Python high-level language ah irukkaradunala and simple syntax use panradunala code ah padichu purinjukaradhu easy ah irukkum.",
+            "english_text": "Because Python is a high-level language and uses simple syntax, it will be easy to read and understand the code.",
+            "language": "Tamil-English",
+            "text": "Because Python is a high-level language and uses simple syntax, it will be easy to read and understand the code."
+        },
+        {
+            "start": 397.03,
+            "end": 398.33,
+            "original_text": "Next unique styles.",
+            "english_text": "Next, unique styles.",
+            "language": "Tamil-English",
+            "text": "Next, unique styles."
+        },
+        {
+            "start": 399.03,
+            "end": 405.93,
+            "original_text": "Python oru interpreter language. So debugging adhavadhu errors find panradhu very simple and easy.",
+            "english_text": "Python is an interpreter language. So debugging, that is, finding errors, is very simple and easy.",
+            "language": "Tamil-English",
+            "text": "Python is an interpreter language. So debugging, that is, finding errors, is very simple and easy."
+        },
+        {
+            "start": 407.43,
+            "end": 408.63,
+            "original_text": "Next cross-platform.",
+            "english_text": "Next, cross-platform.",
+            "language": "Tamil-English",
+            "text": "Next, cross-platform."
+        },
+        {
+            "start": 409.53,
+            "end": 412.03,
+            "original_text": "Python multiple platform support pannum.",
+            "english_text": "Python supports multiple platforms.",
+            "language": "Tamil-English",
+            "text": "Python supports multiple platforms."
+        },
+        {
+            "start": 412.63,
+            "end": 416.73,
+            "original_text": "Adhavadhu Python program ah neenga endha operating system la venalum run pannalam.",
+            "english_text": "That is, you can run Python programs on any operating system.",
+            "language": "Tamil-English",
+            "text": "That is, you can run Python programs on any operating system."
+        },
+        {
+            "start": 416.73,
+            "end": 421.43,
+            "original_text": "Like Windows OS, Linux, Mac OS, Unix, indha maari.",
+            "english_text": "Like Windows OS, Linux, Mac OS, Unix, and so on.",
+            "language": "Tamil-English",
+            "text": "Like Windows OS, Linux, Mac OS, Unix, and so on."
+        },
+        {
+            "start": 421.83,
+            "end": 426.33,
+            "original_text": "Windows OS la neenga oru program ezhudhuna adha Unix OS la kooda run pannikalam.",
+            "english_text": "If you write a program on Windows OS, you can even run it on Unix OS.",
+            "language": "Tamil-English",
+            "text": "If you write a program on Windows OS, you can even run it on Unix OS."
+        },
+        {
+            "start": 427.23,
+            "end": 431.43,
+            "original_text": "Adhanala dhaan Python language ah portable language nu sollranga.",
+            "english_text": "That's why Python language is called a portable language.",
+            "language": "Tamil-English",
+            "text": "That's why Python language is called a portable language."
+        },
+        {
+            "start": 435.33,
+            "end": 437.03,
+            "original_text": "Next free and open source.",
+            "english_text": "Next, free and open source.",
+            "language": "Tamil-English",
+            "text": "Next, free and open source."
+        },
+        {
+            "start": 438.53,
+            "end": 441.03,
+            "original_text": "Python language free ah internet la available ah irukkum.",
+            "english_text": "Python language will be available for free on the internet.",
+            "language": "Tamil-English",
+            "text": "Python language will be available for free on the internet."
+        },
+        {
+            "start": 441.83,
+            "end": 443.33,
+            "original_text": "Yaar venalum download pannikalam.",
+            "english_text": "Anyone can download it.",
+            "language": "Tamil-English",
+            "text": "Anyone can download it."
+        },
+        {
+            "start": 443.73,
+            "end": 448.03,
+            "original_text": "Neenga Python compiler ah download panna endha restriction um illa.",
+            "english_text": "If you download the Python compiler, there are no restrictions.",
+            "language": "Tamil-English",
+            "text": "If you download the Python compiler, there are no restrictions."
+        },
+        {
+            "start": 448.03,
+            "end": 450.43,
+            "original_text": "License ellam pay panni vaanganum nu avasiyame illa.",
+            "english_text": "There is no need to pay for a license or anything.",
+            "language": "Tamil-English",
+            "text": "There is no need to pay for a license or anything."
+        },
+        {
+            "start": 451.03,
+            "end": 459.03,
+            "original_text": "Python.org ngra website ku poi latest version ah neenga download pannale unga system la download aagum.",
+            "english_text": "If you go to the Python.org website and download the latest version, it will be downloaded to your system.",
+            "language": "Tamil-English",
+            "text": "If you go to the Python.org website and download the latest version, it will be downloaded to your system."
+        },
+        {
+            "start": 459.73,
+            "end": 462.93,
+            "original_text": "Andha file ah click panneengana install panna solli kekkum.",
+            "english_text": "If you click on that file, it will ask you to install.",
+            "language": "Tamil-English",
+            "text": "If you click on that file, it will ask you to install."
+        },
+        {
+            "start": 463.33,
+            "end": 465.93,
+            "original_text": "Install now option ah click panneengnale install aayirum.",
+            "english_text": "If you click the 'Install Now' option, it will be installed.",
+            "language": "Tamil-English",
+            "text": "If you click the 'Install Now' option, it will be installed."
+        },
+        {
+            "start": 468.23,
+            "end": 474.63,
+            "original_text": "Next open source appadina language oda original source code, libraries, functions internet la available ah irukkum.",
+            "english_text": "Next, open source means the original source code of the language, libraries, functions will be available on the internet.",
+            "language": "Tamil-English",
+            "text": "Next, open source means the original source code of the language, libraries, functions will be available on the internet."
+        },
+        {
+            "start": 474.63,
+            "end": 477.03,
+            "original_text": "Adha neenga download panni modify kooda pannikalam.",
+            "english_text": "You can download and even modify it.",
+            "language": "Tamil-English",
+            "text": "You can download and even modify it."
+        },
+        {
+            "start": 478.33,
+            "end": 481.93,
+            "original_text": "Next Python object-oriented programming concepts um support pannum.",
+            "english_text": "Next, Python also supports object-oriented programming concepts.",
+            "language": "Tamil-English",
+            "text": "Next, Python also supports object-oriented programming concepts."
+        },
+        {
+            "start": 485.93,
+            "end": 486.93,
+            "original_text": "Next extensible.",
+            "english_text": "Next, extensible.",
+            "language": "Tamil-English",
+            "text": "Next, extensible."
+        },
+        {
+            "start": 487.63,
+            "end": 493.93,
+            "original_text": "Python oda extensible feature nala oru programmer andha language oda syntax ah kooda modify pannikalam.",
+            "english_text": "Due to Python's extensible feature, a programmer can even modify the syntax of that language.",
+            "language": "Tamil-English",
+            "text": "Due to Python's extensible feature, a programmer can even modify the syntax of that language."
+        },
+        {
+            "start": 494.23,
+            "end": 496.73,
+            "original_text": "Additionally new syntax kooda avanga introduce pannalam.",
+            "english_text": "Additionally, they can even introduce new syntax.",
+            "language": "Tamil-English",
+            "text": "Additionally, they can even introduce new syntax."
+        },
+        {
+            "start": 498.03,
+            "end": 503.63,
+            "original_text": "Also unga Python code ah neenga matha language oda code kooda use pannikalam.",
+            "english_text": "Also, you can use your Python code with code from other languages.",
+            "language": "Tamil-English",
+            "text": "Also, you can use your Python code with code from other languages."
+        },
+        {
+            "start": 504.23,
+            "end": 509.93,
+            "original_text": "For example ku Python code la C illana C++ language codes kooda use panni program podalam.",
+            "english_text": "For example, in Python code, you can even use C or C++ language codes to write programs.",
+            "language": "Tamil-English",
+            "text": "For example, in Python code, you can even use C or C++ language codes to write programs."
+        },
+        {
+            "start": 512.43,
+            "end": 515.03,
+            "original_text": "Next one, large standard libraries.",
+            "english_text": "Next one, large standard libraries.",
+            "language": "Tamil-English",
+            "text": "Next one, large standard libraries."
+        },
+        {
+            "start": 515.83,
+            "end": 519.63,
+            "original_text": "Python language la ekkachakkamana libraries and functions available ah irukku.",
+            "english_text": "In Python language, countless libraries and functions are available.",
+            "language": "Tamil-English",
+            "text": "In Python language, countless libraries and functions are available."
+        },
+        {
+            "start": 520.63,
+            "end": 524.73,
+            "original_text": "For example ku print function eduthukitteengana oru sentence or word print panna use panrom.",
+            "english_text": "For example, if you take the print function, we use it to print a sentence or a word.",
+            "language": "Tamil-English",
+            "text": "For example, if you take the print function, we use it to print a sentence or a word."
+        },
+        {
+            "start": 525.63,
+            "end": 535.03,
+            "original_text": "Several set of functions and libraries irukkaradunala developers ku Python language use panni software develop panradhu romba easy ah irukkum. Indha feature naladha dhaan Python language romba popular aachu.",
+            "english_text": "Because there are several sets of functions and libraries, it will be very easy for developers to develop software using Python language. It is because of this feature that Python language became very popular.",
+            "language": "Tamil-English",
+            "text": "Because there are several sets of functions and libraries, it will be very easy for developers to develop software using Python language. It is because of this feature that Python language became very popular."
+        },
+        {
+            "start": 537.33,
+            "end": 539.03,
+            "original_text": "Next graphical user interface.",
+            "english_text": "Next, graphical user interface.",
+            "language": "Tamil-English",
+            "text": "Next, graphical user interface."
+        },
+        {
+            "start": 540.03,
+            "end": 541.33,
+            "original_text": "Adhavadhu GUI nu solluvanga.",
+            "english_text": "That is, it's called GUI.",
+            "language": "Tamil-English",
+            "text": "That is, it's called GUI."
+        },
+        {
+            "start": 541.93,
+            "end": 545.33,
+            "original_text": "Python GUI applications develop panradhukku romba use aagum.",
+            "english_text": "Python is very useful for developing GUI applications.",
+            "language": "Tamil-English",
+            "text": "Python is very useful for developing GUI applications."
+        },
+        {
+            "start": 546.03,
+            "end": 551.93,
+            "original_text": "GUI applications appadina Windows la irukkura applications maari buttons, icons ellam irukkum.",
+            "english_text": "GUI applications mean they will have buttons, icons, and everything, just like applications in Windows.",
+            "language": "Tamil-English",
+            "text": "GUI applications mean they will have buttons, icons, and everything, just like applications in Windows."
+        },
+        {
+            "start": 552.73,
+            "end": 563.23,
+            "original_text": "GUI applications develop panna Python la irukkakoodiya GUI libraries like PyQt, Tkinter and Pygame idhellam dhaan use pannuvanga.",
+            "english_text": "To develop GUI applications, they will use GUI libraries available in Python like PyQt, Tkinter, and Pygame.",
+            "language": "Tamil-English",
+            "text": "To develop GUI applications, they will use GUI libraries available in Python like PyQt, Tkinter, and Pygame."
+        },
+        {
+            "start": 564.43,
+            "end": 565.43,
+            "original_text": "Next integrated.",
+            "english_text": "Next, integrated.",
+            "language": "Tamil-English",
+            "text": "Next, integrated."
+        },
+        {
+            "start": 566.73,
+            "end": 573.93,
+            "original_text": "Python language ah C, C++, Java indha maari matha languages kooda integrate panni adhavadhu combine panni work pannalam.",
+            "english_text": "Python language can be integrated, that is, combined with other languages like C, C++, Java, and worked with.",
+            "language": "Tamil-English",
+            "text": "Python language can be integrated, that is, combined with other languages like C, C++, Java, and worked with."
+        },
+        {
+            "start": 575.03,
+            "end": 584.63,
+            "original_text": "Indha maari neraya features Python language la irukkaradunala dhaan Python language romba popular aagavum adhigama use panra language aagavum irukku.",
+            "english_text": "Because Python language has many features like this, Python language is very popular and is a widely used language.",
+            "language": "Tamil-English",
+            "text": "Because Python language has many features like this, Python language is very popular and is a widely used language."
+        },
+        {
+            "start": 585.33,
+            "end": 586.83,
+            "original_text": "And ungalukkana tip section ku polam.",
+            "english_text": "And let's go to the tip section for you.",
+            "language": "Tamil-English",
+            "text": "And let's go to the tip section for you."
+        },
+        {
+            "start": 587.53,
+            "end": 591.33,
+            "original_text": "Nama ellarume Google la namakku vendiyadha search panrom.",
+            "english_text": "All of us search for what we need on Google.",
+            "language": "Tamil-English",
+            "text": "All of us search for what we need on Google."
+        },
+        {
+            "start": 592.23,
+            "end": 595.63,
+            "original_text": "But sila time la namakku sariyana results kidaikkaradhilla illaiya?",
+            "english_text": "But sometimes we don't get the right results, right?",
+            "language": "Tamil-English",
+            "text": "But sometimes we don't get the right results, right?"
+        },
+        {
+            "start": 596.23,
+            "end": 597.63,
+            "original_text": "Idhukku oru solution irukku.",
+            "english_text": "There is a solution for this.",
+            "language": "Tamil-English",
+            "text": "There is a solution for this."
+        },
+        {
+            "start": 598.43,
+            "end": 603.43,
+            "original_text": "Adhu enna na neenga Google la enna type pannalum adha double quotes kulla kudunga.",
+            "english_text": "What is that? Whatever you type in Google, put it inside double quotes.",
+            "language": "Tamil-English",
+            "text": "What is that? Whatever you type in Google, put it inside double quotes."
+        },
+        {
+            "start": 604.33,
+            "end": 609.93,
+            "original_text": "For example ku suppose Python tutorial appadingra query ah neenga type panneengana",
+            "english_text": "For example, suppose if you type the query 'Python tutorial'",
+            "language": "Tamil-English",
+            "text": "For example, suppose if you type the query 'Python tutorial'"
+        },
+        {
+            "start": 610.73,
+            "end": 618.03,
+            "original_text": "Google oda search engine indha sentence ah separate words adhavadhu Python, tutorial nu pirichu search pannum.",
+            "english_text": "Google's search engine will separate this sentence into individual words, that is, Python, tutorial, and search.",
+            "language": "Tamil-English",
+            "text": "Google's search engine will separate this sentence into individual words, that is, Python, tutorial, and search."
+        },
+        {
+            "start": 618.03,
+            "end": 621.23,
+            "original_text": "So result websites um separate list ah, separate ah list aagum.",
+            "english_text": "So the result websites will also be listed separately.",
+            "language": "Tamil-English",
+            "text": "So the result websites will also be listed separately."
+        },
+        {
+            "start": 622.03,
+            "end": 628.73,
+            "original_text": "But neenga unga question ah double quotes kulla kudukkum bodhu exactly andha sentence match panni search pannum.",
+            "english_text": "But when you put your question inside double quotes, it will search by exactly matching that sentence.",
+            "language": "Tamil-English",
+            "text": "But when you put your question inside double quotes, it will search by exactly matching that sentence."
+        },
+        {
+            "start": 629.03,
+            "end": 632.23,
+            "original_text": "So ungalukku resultant websites um accurate ah kidaikkum.",
+            "english_text": "So you will get accurate resultant websites.",
+            "language": "Tamil-English",
+            "text": "So you will get accurate resultant websites."
+        },
+        {
+            "start": 634.43,
+            "end": 638.33,
+            "original_text": "Next one, neenga Google la PDF search pannanum na",
+            "english_text": "Next one, if you want to search for a PDF on Google,",
+            "language": "Tamil-English",
+            "text": "Next one, if you want to search for a PDF on Google,"
+        },
+        {
+            "start": 639.03,
+            "end": 643.73,
+            "original_text": "search term space file type colon PDF ippadi use pannalam.",
+            "english_text": "you can use 'search term space file type colon PDF' like this.",
+            "language": "Tamil-English",
+            "text": "you can use 'search term space file type colon PDF' like this."
+        },
+        {
+            "start": 644.03,
+            "end": 648.73,
+            "original_text": "For example, suppose Python language kkana PDF edhavadhu search pannanum na",
+            "english_text": "For example, suppose if you want to search for any PDF for Python language,",
+            "language": "Tamil-English",
+            "text": "For example, suppose if you want to search for any PDF for Python language,"
+        },
+        {
+            "start": 649.03,
+            "end": 653.73,
+            "original_text": "Python tutorial space file type colon PDF ippadi specify panneengana",
+            "english_text": "if you specify 'Python tutorial space file type colon PDF' like this,",
+            "language": "Tamil-English",
+            "text": "if you specify 'Python tutorial space file type colon PDF' like this,"
+        },
+        {
+            "start": 654.33,
+            "end": 658.33,
+            "original_text": "unga search term kkana PDF files mattumey list aagum.",
+            "english_text": "only PDF files for your search term will be listed.",
+            "language": "Tamil-English",
+            "text": "only PDF files for your search term will be listed."
+        },
+        {
+            "start": 659.23,
+            "end": 660.33,
+            "original_text": "PDF mattum illenga.",
+            "english_text": "Not just PDF.",
+            "language": "Tamil-English",
+            "text": "Not just PDF."
+        },
+        {
+            "start": 660.73,
+            "end": 667.33,
+            "original_text": "Neenga PPT, Word file indha maari endha type file venunalum search pannalam.",
+            "english_text": "You can search for any type of file like PPT, Word file, etc.",
+            "language": "Tamil-English",
+            "text": "You can search for any type of file like PPT, Word file, etc."
+        },
+        {
+            "start": 668.63,
+            "end": 670.63,
+            "original_text": "Indha video ungalukku pudichirukkum nu namburen.",
+            "english_text": "I hope you liked this video.",
+            "language": "Tamil-English",
+            "text": "I hope you liked this video."
+        },
+        {
+            "start": 671.43,
+            "end": 673.93,
+            "original_text": "Pudichirundha like pannunga, share pannunga.",
+            "english_text": "If you liked it, like it, share it.",
+            "language": "Tamil-English",
+            "text": "If you liked it, like it, share it."
+        },
+        {
+            "start": 675.23,
+            "end": 678.23,
+            "original_text": "Edhavadhu suggestions and feedback irundha comment la sollunga.",
+            "english_text": "If you have any suggestions and feedback, tell us in the comments.",
+            "language": "Tamil-English",
+            "text": "If you have any suggestions and feedback, tell us in the comments."
+        },
+        {
+            "start": 678.73,
+            "end": 683.03,
+            "original_text": "Innum neraya kathukka, easy ah kathukka namma channel ah subscribe pannunga.",
+            "english_text": "To learn more, to learn easily, subscribe to our channel.",
+            "language": "Tamil-English",
+            "text": "To learn more, to learn easily, subscribe to our channel."
+        },
+        {
+            "start": 683.43,
+            "end": 685.03,
+            "original_text": "Thanks for watching, see you.",
+            "english_text": "Thanks for watching, see you.",
+            "language": "Tamil-English",
+            "text": "Thanks for watching, see you."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+Video: Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths
+  Segments: 51
+  Total words (tokenised): 2263
+  Global CMI (Code-Mixing Index): 0.0005
+  Switch-point density: 0.09 per 100 words
+  Matrix script: LATIN (English/Romanised)
+  Embedded scripts: {'DEVANAGARI': 1}
+  Mostly romanised code-mixing: Yes
+    Romanised segment fraction: 0.9804
+  Language labels (from Gemini): {'Hindi-English': 51}
+  Script distribution: {'LATIN': 2130, 'DEVANAGARI': 1}
+  Avg segment CMI: 0.0006
+  Highly code-mixed segments (CMI > 0.3): 0/51

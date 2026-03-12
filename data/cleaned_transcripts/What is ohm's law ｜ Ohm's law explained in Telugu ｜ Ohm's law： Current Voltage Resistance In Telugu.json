@@ -1,0 +1,402 @@
+[
+    {
+        "start": 0.0,
+        "end": 10.4,
+        "original_text": "హాయ్ ఫ్రెండ్స్. మన డైలీ లైఫ్ లో కొన్ని ఎలక్ట్రానిక్ డివైసెస్ ని యూస్ చేస్తూ ఉంటాం. లైట్స్, హీటర్స్, ఎలక్ట్రికల్ స్టవ్స్, సర్క్యూట్ బ్రేకర్స్, ఎలక్ట్రిక్ మోటార్స్, చార్జర్స్ ఇలా చాలా వాటిని యూస్ చేస్తూ ఉంటాం.",
+        "english_text": "Hi friends. In our daily life, we use some electronic devices. Lights, heaters, electrical stoves, circuit breakers, electric motors, chargers, we use many such things.",
+        "text": "hi friend daily life use electronic device light heater electrical stove circuit breaker electric motor charger use thing",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 10.4,
+        "end": 26.6,
+        "original_text": "అయితే వీటిని తయారు చేసే వాళ్ళు కొన్ని ప్రాబ్లమ్స్ ని సాల్వ్ చేస్తూ ఉంటారు. అదేంటంటే ఒక డివైస్ లోనికి ఎన్ని ఆమ్స్ కరెంట్ ని పంపించాలి. అలాగే ఆ డివైస్ అనేది ఆ కరెంట్ ని ఎంతవరకు అడ్డుకోవాలి. అలాగే ఆ డివైస్ లోనికి ఎంత వోల్టేజ్ పవర్ ని పంపించాలి. ఇలాంటి వాటిని సాల్వ్ చేస్తూ ఉంటారు.",
+        "english_text": "However, those who manufacture these solve some problems. That is, how many amps of current should be sent into a device. Also, how much should that device block that current. Also, how much voltage power should be sent into that device. They solve such problems.",
+        "text": "manufacture solve problem amp current send device device block current voltage power send device solve problem",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 26.6,
+        "end": 35.5,
+        "original_text": "ఫర్ ఎగ్జాంపుల్ ఒక ఎంసిబి ని డిజైన్ చేస్తున్నారు అనుకుందాం. ఎంసిబి యొక్క పని ఏంటంటే మన ఇంట్లోనికి ఎక్కువ పవర్ గనక వచ్చిందంటే వెంటనే ఎంసిబి అనేది ఆఫ్ అయిపోవాలి.",
+        "english_text": "For example, let's say they are designing an MCB. The job of an MCB is that if too much power comes into our house, the MCB should immediately turn off.",
+        "text": "example let design mcb job mcb power come house mcb immediately turn",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 35.5,
+        "end": 48.7,
+        "original_text": "సో వాటిని ఎలా డిజైన్ చేస్తారంటే ఒక 20 ఆమ్స్ కరెంట్ మాత్రమే ఈ ఎంసిబి నుండి పాస్ అవ్వాలి. అంతకంటే ఎక్కువ పవర్ వచ్చిందంటే మాత్రం ఎంసిబి వెంటనే ఆఫ్ అయిపోవాలి అనే విధంగా డిజైన్ చేస్తారు. సో వాటి వల్ల మన ఇంట్లో ఉన్న వస్తువులన్నీ సేఫ్ గా ఉంటాయి.",
+        "english_text": "So, they design them in such a way that only 20 amps of current should pass through this MCB. If more power than that comes, the MCB should immediately turn off. Because of that, all the items in our house will be safe.",
+        "text": "design way amp current pass mcb power come mcb immediately turn item house safe",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 48.7,
+        "end": 59.5,
+        "original_text": "సో ఇలాంటి ప్రాబ్లమ్స్ ని చేసేటప్పుడు వాళ్ళు ఒక ఈక్వేషన్ యూస్ చేసుకొని ఒక డివైస్ లోనికి ఎంత కరెంట్ ని అలో చేయాలి. అలాగే ఆ కరెంట్ ని ఎంతవరకు అడ్డుకోవాలి. ఇలాంటి ప్రాబ్లమ్స్ ని సాల్వ్ చేస్తూ ఉంటారు.",
+        "english_text": "So, when solving such problems, they use an equation to determine how much current to allow into a device. And how much to block that current. They solve such problems.",
+        "text": "solve problem use equation determine current allow device block current solve problem",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 59.5,
+        "end": 68.8,
+        "original_text": "ఆ ఈక్వేషన్ ఓమ్స్ లా ఈక్వేషన్. చాలా మందికి ఈ ఓమ్స్ లా అర్థమైనట్టు ఉంటుంది కానీ అర్థం కాదు. అలాగే కొంతమంది ఈ ఓమ్స్ లని బట్టి పడుతూ ఉంటారు.",
+        "english_text": "That equation is Ohm's Law equation. Many people feel like they understand Ohm's Law, but they don't. Also, some people just memorize Ohm's Law.",
+        "text": "equation ohm law equation people feel like understand ohm law people memorize ohm law",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 68.8,
+        "end": 74.9,
+        "original_text": "సో ఈ వీడియోని మీరు కంప్లీట్ గా చూసినట్లయితే అలాంటి ప్రాబ్లమ్స్ ఏమి లేకుండా మీరు ఈజీగా అర్థం చేసుకొని గుర్తుపెట్టుకుంటారు.",
+        "english_text": "So, if you watch this video completely, you will easily understand and remember it without any such problems.",
+        "text": "watch video completely easily understand remember problem",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 74.9,
+        "end": 84.9,
+        "original_text": "ఈరోజు వీడియోలో మనం ఓమ్స్ లా గురించి తెలుసుకుందాం. అలాగే ఎలక్ట్రిక్ కరెంట్ అంటే ఏంటి? అలాగే వోల్టేజ్ అంటే ఏంటి? అలాగే రెసిస్టెన్స్ అంటే ఏంటి? ఇవన్నీ కూడా ఈ వీడియోలో ఎక్స్ప్లెయిన్ చేస్తాను.",
+        "english_text": "In today's video, let's learn about Ohm's Law. Also, what is electric current? Also, what is voltage? Also, what is resistance? I will explain all of these in this video.",
+        "text": "today video let learn ohm law electric current voltage resistance explain video",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 84.9,
+        "end": 90.0,
+        "original_text": "ముందుగా మనం కరెంట్, వోల్టేజ్, రెసిస్టెన్స్ వీటి గురించి తెలుసుకుందాం.",
+        "english_text": "First, let's learn about current, voltage, and resistance.",
+        "text": "let learn current voltage resistance",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 90.0,
+        "end": 112.9,
+        "original_text": "కరెంట్ అనేది రెండు రకాలుగా ఉంటుంది. ఒకటి స్టాటిక్ కరెంట్. అలాగే మరొకటి ఎలక్ట్రిక్ కరెంట్. స్టాటిక్ కరెంట్ అంటే ఆ కరెంట్ అనేది ఒకే దగ్గర స్టోర్ అయి ఉంటుంది. ఫర్ ఎగ్జాంపుల్ బ్యాటరీస్ లో ఉన్న కరెంట్ అనేది బ్యాటరీలో స్టోర్ అయి ఉంటుంది. అలాంటి కరెంట్ ని స్టాటిక్ కరెంట్ అంటాం.",
+        "english_text": "Current is of two types. One is static current. And another is electric current. Static current means that current is stored in one place. For example, the current in batteries is stored in the battery. Such current is called static current.",
+        "text": "current type static current electric current static current mean current store place example current battery store battery current call static current",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 112.9,
+        "end": 120.9,
+        "original_text": "ఈ స్టాటిక్ కరెంట్ ని ఫ్యూచర్ లో అవసరాల కోసం యూస్ చేస్తూ ఉంటారు. అలాగే ఎలక్ట్రిక్ కరెంట్ అంటే ఒక వైర్ లో ఫ్లో అవుతున్న కరెంట్ ని ఎలక్ట్రిక్ కరెంట్ అంటాం.",
+        "english_text": "This static current is used for future needs. Also, electric current means the current flowing in a wire is called electric current.",
+        "text": "static current future need electric current mean current flow wire call electric current",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 120.9,
+        "end": 134.2,
+        "original_text": "స్టాటిక్ కరెంట్ అనేది ఎలక్ట్రిక్ కరెంట్ లా కూడా కన్వర్ట్ అవుతుంది. అది ఎప్పుడంటే ఒక బ్యాటరీ ఒక టర్మినల్స్ కి మనం వైర్ ని కనెక్ట్ చేసామంటే అప్పుడు బ్యాటరీ లో ఉన్న స్టాటిక్ కరెంట్ అనేది ఎలక్ట్రిక్ కరెంట్ లా కన్వర్ట్ అవుతుంది. ఇలా వైర్ లో ఫ్లో అయ్యే కరెంట్ ని ఎలక్ట్రిక్ కరెంట్ అంటాం.",
+        "english_text": "Static current also converts into electric current. That is, when we connect a wire to the terminals of a battery, then the static current in the battery converts into electric current. The current flowing in the wire like this is called electric current.",
+        "text": "static current convert electric current connect wire terminal battery static current battery convert electric current current flow wire like call electric current",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 134.2,
+        "end": 146.7,
+        "original_text": "ఈ ఎలక్ట్రిక్ కరెంట్ కి బెస్ట్ ఎగ్జాంపుల్ చెప్పాలంటే వాటర్. ఒక పైప్ ని వైర్ అనుకుంటే ఆ పైప్ లో ఫ్లో అవుతున్న వాటర్ అనేది ఎలక్ట్రిక్ కరెంట్ అవుతుంది. సో ఎలక్ట్రిక్ కరెంట్ అంటే ఒక వైర్ లో ఫ్లో అవుతున్న ఎలక్ట్రాన్స్ ని ఎలక్ట్రిక్ కరెంట్ అంటాం.",
+        "english_text": "To give the best example for electric current, it's water. If we consider a pipe as a wire, then the water flowing in that pipe becomes electric current. So, electric current means the electrons flowing in a wire are called electric current.",
+        "text": "good example electric current water consider pipe wire water flow pipe electric current electric current mean electron flow wire call electric current",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 146.7,
+        "end": 158.8,
+        "original_text": "సరే నేను ఒక వైర్ ని తీసుకుంటాను. ఈ వైర్ లో స్టార్టింగ్ పాయింట్ నుండి ఎండింగ్ పాయింట్ వరకు ఎలక్ట్రిక్ కరెంట్ అనేది ఫ్లో అవుతుంది అనుకుందాం. అంటే ఎలక్ట్రాన్స్ అనేవి స్టార్టింగ్ పాయింట్ నుండి ఎండింగ్ పాయింట్ కి ఫ్లో అవుతున్నాయి.",
+        "english_text": "Okay, I will take a wire. Let's assume electric current flows from the starting point to the ending point in this wire. That means electrons are flowing from the starting point to the ending point.",
+        "text": "okay wire let assume electric current flow starting point end point wire mean electron flow starting point end point",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 158.8,
+        "end": 168.8,
+        "original_text": "ఇలా ఒక సెకండ్ కి సమ్ ఎన్నోకని ఎలక్ట్రాన్స్ అనేవి ఫ్లో అవుతున్నాయి అనుకుందాం. ఫర్ ఎగ్జాంపుల్ ఒక 10,000 ఎలక్ట్రాన్స్ అనేవి ఫ్లో అవుతున్నాయి అనుకుందాం. ఈ నెంబర్ నేను ఒక ఎగ్జాంపుల్ కోసం మాత్రమే చెప్పాను.",
+        "english_text": "Let's assume that some number of electrons are flowing per second. For example, let's assume 10,000 electrons are flowing. I mentioned this number only for an example.",
+        "text": "let assume number electron flow second example let assume electron flow mention number example",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 168.8,
+        "end": 173.9,
+        "original_text": "నార్మల్ గా అయితే కొన్ని కోట్ల ఎలక్ట్రాన్స్ అనేవి ఒక వైర్ లో ఫ్లో అవుతాయి. అది కూడా ఒక సెకండ్ కి.",
+        "english_text": "Normally, billions of electrons flow in a wire. That too, per second.",
+        "text": "normally billion electron flow wire second",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 173.9,
+        "end": 189.0,
+        "original_text": "సరే మనం ఒక 10,000 ఎలక్ట్రాన్స్ అనుకుందాం. అయితే ఇప్పుడు నేను ఏం చేస్తానంటే ఏదో ఒక ఫోర్స్ ని యూస్ చేసుకొని ఈ వైర్ లో ఫ్లో అవుతున్న ఎలక్ట్రాన్స్ ని నేను పుష్ చేస్తాను. అలా పుష్ చేయడం వల్ల 10,000 కంటే కొంచెం ఎక్కువ ఎలక్ట్రాన్స్ అనేవి ఈ ఎండింగ్ పాయింట్ కి వస్తాయి. అది కూడా ఒక సెకండ్ లో.",
+        "english_text": "Okay, let's assume 10,000 electrons. So now what I will do is, using some force, I will push the electrons flowing in this wire. By pushing like that, slightly more than 10,000 electrons will reach this ending point. That too, in one second.",
+        "text": "okay let assume electron force push electron flow wire push like slightly electron reach ending point second",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 189.0,
+        "end": 198.4,
+        "original_text": "ఇప్పుడు మరి కొంచెం ఎక్కువ ఫోర్స్ ని యూస్ చేసి ఎలక్ట్రాన్స్ ని పుష్ చేస్తే అప్పుడు ఈ ఎండింగ్ పాయింట్ కి మరి కొన్ని ఎక్కువ ఎలక్ట్రాన్స్ అనేవి వస్తాయి. ఫర్ ఎగ్జాంపుల్ 30,000 ఎలక్ట్రాన్స్ అనుకుందాం.",
+        "english_text": "Now, if I use a little more force to push the electrons, then some more electrons will reach this ending point. For example, let's assume 30,000 electrons.",
+        "text": "use little force push electron electron reach ending point example let assume electron",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 198.4,
+        "end": 208.8,
+        "original_text": "ఫస్ట్ టైం చెప్పిన ఎగ్జాంపుల్ లో ఒక సెకండ్ కి 10,000 ఎలక్ట్రాన్స్ వచ్చాయి. అలాగే సెకండ్ చెప్పిన ఎగ్జాంపుల్ లో ఒక సెకండ్ కి 30,000 ఎలక్ట్రాన్స్ వచ్చాయి. అంటే ఇక్కడ ఫోర్స్ కారణంగా ఎక్కువ ఎలక్ట్రాన్స్ వచ్చాయి.",
+        "english_text": "In the first example I mentioned, 10,000 electrons came per second. And in the second example I mentioned, 30,000 electrons came per second. That means here, more electrons came due to force.",
+        "text": "example mention electron come second second example mention electron come second mean electron come force",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 208.8,
+        "end": 217.9,
+        "original_text": "అయితే ఇక్కడ ఫోర్స్ అంటే వోల్టేజ్. వోల్టేజ్ ఎక్కువగా ఉంటే వైర్ లో కరెంట్ అనేది ఎక్కువగా పాస్ అవుతుంది. అలాగే వోల్టేజ్ తక్కువగా ఉంటే కరెంట్ అనేది తక్కువగా పాస్ అవుతుంది.",
+        "english_text": "However, here force means voltage. If the voltage is high, more current will pass through the wire. And if the voltage is low, less current will pass.",
+        "text": "force mean voltage voltage high current pass wire voltage low current pass",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 217.9,
+        "end": 224.9,
+        "original_text": "దీనికి కూడా ఒక బెస్ట్ ఎగ్జాంపుల్ చెప్తా. ఒక పైప్ లో ఫ్లో అవుతున్న వాటర్ ని కరెంట్ అనుకుంటే ఆ వాటర్ యొక్క ప్రెజర్ ని వోల్టేజ్ అంటాం.",
+        "english_text": "I'll give a best example for this too. If we consider the water flowing in a pipe as current, then the pressure of that water is called voltage.",
+        "text": "good example consider water flow pipe current pressure water call voltage",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 224.9,
+        "end": 231.7,
+        "original_text": "ప్రెజర్ ఎక్కువగా ఉంటే పైప్ లో వాటర్ అనేది ఎక్కువగా ఫ్లో అవుతుంది. అలాగే ప్రెజర్ తక్కువగా ఉంటే వాటర్ అనేది పైప్ లో తక్కువగా ఫ్లో అవుతుంది.",
+        "english_text": "If the pressure is high, more water will flow in the pipe. And if the pressure is low, less water will flow in the pipe.",
+        "text": "pressure high water flow pipe pressure low water flow pipe",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 231.7,
+        "end": 238.9,
+        "original_text": "అలాగే ఇక్కడ కూడా వోల్టేజ్ ఎక్కువగా ఉంటే కరెంట్ అనేది ఎక్కువగా పాస్ అవుతుంది. వోల్టేజ్ తక్కువ అయితే కరెంట్ కూడా తక్కువగా ఉంటుంది.",
+        "english_text": "Similarly here too, if the voltage is high, more current will pass. If the voltage is low, the current will also be low.",
+        "text": "similarly voltage high current pass voltage low current low",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 238.9,
+        "end": 245.8,
+        "original_text": "సరే ఒక పైప్ లో వాటర్ ఫ్లో అవుతుంది అనుకుందాం. ఒక నిమిషానికి 5 లీటర్స్ వాటర్ అనేది డిస్చార్జ్ అవుతుంది అనుకుందాం.",
+        "english_text": "Okay, let's assume water is flowing in a pipe. Let's assume 5 liters of water is discharged per minute.",
+        "text": "okay let assume water flow pipe let assume liter water discharge minute",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 245.8,
+        "end": 256.0,
+        "original_text": "ఇప్పుడు నేను ఆ పైప్ లో ఇలాంటి అడ్డంకుల్ని క్రియేట్ చేస్తాను. దాని వల్ల ఏమవుతుందంటే ఇవన్నీ కూడా వాటర్ యొక్క ఫ్లో ని అడ్డుకుంటాయి. వీటి వల్ల వాటర్ అనేది ఎక్కువగా డిస్చార్జ్ కాదు.",
+        "english_text": "Now I will create such obstacles in that pipe. What happens because of that is all these will block the flow of water. Because of these, water will not discharge much.",
+        "text": "create obstacle pipe happen block flow water water discharge",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 256.0,
+        "end": 274.0,
+        "original_text": "సేమ్ ఇదే విధంగా ఒక వైర్ లో చాలా ఆటమ్స్ ఉంటాయి. ఎలక్ట్రాన్స్ అనేవి వైర్ లో ఫ్లో అవుతున్నప్పుడు ఆ ఎలక్ట్రాన్స్ అనేవి ఆటమ్స్ కి తగులుకుంటూ తగులుకుంటూ ఫ్లో అవుతూ ఉంటాయి. వాటి వల్ల పర్ సెకండ్ కి ఎంత కరెంట్ అయితే ఫ్లో అవ్వాలో అంత కరెంట్ అనేది ఫ్లో అవ్వదు. సో ఈ విధంగా ఎలక్ట్రాన్స్ యొక్క ఫ్లో ని అడ్డుకోవటాన్ని రెసిస్టెన్స్ అంటాం.",
+        "english_text": "In the same way, there are many atoms in a wire. When electrons flow in the wire, those electrons flow by hitting the atoms. Because of that, the current that should flow per second does not flow as much. So, blocking the flow of electrons in this way is called resistance.",
+        "text": "way atom wire electron flow wire electron flow hit atom current flow second flow block flow electron way call resistance",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 274.0,
+        "end": 281.9,
+        "original_text": "వైర్ లెంత్ ఎక్కువగా ఉంటే అప్పుడు ఆ వైర్ లో ఆటమ్స్ అనేవి ఎక్కువగా ఉంటాయి. ఆటమ్స్ ఎక్కువగా ఉన్నాయంటే రెసిస్టెన్స్ కూడా ఎక్కువగా ఉంటుంది.",
+        "english_text": "If the wire length is high, then there will be more atoms in that wire. If there are more atoms, the resistance will also be high.",
+        "text": "wire length high atom wire atom resistance high",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 281.9,
+        "end": 288.8,
+        "original_text": "అలాగే వైర్ అనేది లావుగా ఉన్నా సరే ఆటమ్స్ ఎక్కువగా ఉంటాయి. సో అలాంటి టైం లో కూడా రెసిస్టెన్స్ అనేది ఎక్కువగా ఉంటుంది.",
+        "english_text": "Also, even if the wire is thick, there will be more atoms. So, even at such times, the resistance will be high.",
+        "text": "wire thick atom time resistance high",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 288.8,
+        "end": 295.5,
+        "original_text": "అలాగే ఎలక్ట్రాన్స్ ఒక వైర్ లో ఫ్లో అవుతున్నప్పుడు ఆ వైర్ యొక్క టెంపరేచర్ అనేది పెరుగుతూ ఉంటుంది. అంటే వైర్ అనేది వేడిగా తయారవుతుంది.",
+        "english_text": "Also, when electrons flow in a wire, the temperature of that wire increases. That means the wire becomes hot.",
+        "text": "electron flow wire temperature wire increase mean wire hot",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 295.5,
+        "end": 305.5,
+        "original_text": "అలా వేడిగా ఉన్నప్పుడు వైర్ లో ఉన్న ఆటమ్స్ అనేవి వైబ్రేట్ అవుతూ ఉంటాయి. అలా వైబ్రేట్ అవుతున్నప్పుడు ఎలక్ట్రాన్స్ యొక్క మూవ్మెంట్ ని మరి కొంచెం అడ్డుకుంటాయి. సో ఇలాంటి కండిషన్ లో కూడా రెసిస్టెన్స్ అనేది ఎక్కువగా ఉంటుంది.",
+        "english_text": "When it is hot like that, the atoms in the wire vibrate. When they vibrate like that, they further obstruct the movement of electrons. So, even in such conditions, the resistance will be high.",
+        "text": "hot like atom wire vibrate vibrate like obstruct movement electron condition resistance high",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 305.5,
+        "end": 316.7,
+        "original_text": "సరే ఎలక్ట్రిక్ కరెంట్, వోల్టేజ్ అలాగే రెసిస్టెన్స్ వీటి గురించి అర్థమైందని అనుకుంటున్నాను. ఒకవేళ అర్థమై ఉంటే వీడియోని ఒక లైక్ చేసి ఛానల్ ని సబ్స్క్రైబ్ చేసుకొని ఎక్స్ప్లనేషన్ నచ్చిందని కామెంట్ చేయండి.",
+        "english_text": "Okay, I hope you understood about electric current, voltage, and resistance. If you understood, please like the video, subscribe to the channel, and comment that you liked the explanation.",
+        "text": "okay hope understand electric current voltage resistance understand like video subscribe channel comment like explanation",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 316.7,
+        "end": 329.6,
+        "original_text": "సరే ఓమ్స్ లా గురించి తెలుసుకుందాం. ఓమ్స్ లా ఏం చెప్తుందంటే ఒక వైర్ లో ఫ్లో అవుతున్న కరెంట్ అనేది వోల్టేజ్ కి అనులోమానుపాతంలో ఉంటుంది అని చెప్తుంది. అంటే కరెంట్ అనేది వోల్టేజ్ కి ప్రొపోర్షనల్ గా ఉంటుంది అని చెప్తుంది.",
+        "english_text": "Okay, let's learn about Ohm's Law. Ohm's Law states that the current flowing in a wire is directly proportional to the voltage. That means current is proportional to voltage.",
+        "text": "okay let learn ohm law ohm law state current flow wire directly proportional voltage mean current proportional voltage",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 329.6,
+        "end": 335.5,
+        "original_text": "దీని అర్థం ఏంటంటే ఒక వైర్ లో ఫ్లో అవుతున్న కరెంట్ అనేది పెరుగుతూ ఉందంటే అక్కడ వోల్టేజ్ కూడా పెరుగుతుంది.",
+        "english_text": "What this means is that if the current flowing in a wire is increasing, then the voltage there also increases.",
+        "text": "mean current flow wire increase voltage increase",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 335.5,
+        "end": 340.8,
+        "original_text": "అలాగే ఒక వైర్ లో పాస్ అవుతున్న కరెంట్ అనేది తగ్గిపోతూ ఉందంటే అక్కడ వోల్టేజ్ కూడా తగ్గిపోతూ ఉంటుంది.",
+        "english_text": "Similarly, if the current passing through a wire is decreasing, then the voltage there also decreases.",
+        "text": "similarly current pass wire decrease voltage decrease",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 340.8,
+        "end": 348.9,
+        "original_text": "అది ఎలాంటి కండిషన్ లో అంటే ఆ వైర్ యొక్క టెంపరేచర్ అనేది స్థిరంగా ఉండాలి. అంటే కాన్స్టెంట్ గా ఉండాలి. అంటే వైర్ యొక్క టెంపరేచర్ అనేది పెరగకుండా తగ్గకుండా ఉండాలి.",
+        "english_text": "Under what condition? The temperature of that wire should be stable. That means it should be constant. That means the wire's temperature should not increase or decrease.",
+        "text": "condition temperature wire stable mean constant mean wire temperature increase decrease",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 348.9,
+        "end": 357.3,
+        "original_text": "అలాంటప్పుడు ఆ వైర్ లో పాస్ అయ్యే కరెంట్ అనేది ఎక్కువగా ఉంటే వోల్టేజ్ కూడా ఎక్కువగా ఉంటుంది. అలాగే కరెంట్ తక్కువగా ఉంటే వోల్టేజ్ కూడా తక్కువగా ఉంటుంది.",
+        "english_text": "In such a case, if the current passing through that wire is high, the voltage will also be high. And if the current is low, the voltage will also be low.",
+        "text": "case current passing wire high voltage high current low voltage low",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 357.3,
+        "end": 359.2,
+        "original_text": "దీన్నే మనం ఓమ్స్ లా అంటాం.",
+        "english_text": "This is what we call Ohm's Law.",
+        "text": "ohm law",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 359.2,
+        "end": 369.9,
+        "original_text": "అయితే ఇప్పటివరకు చెప్పిన ఈ వీడియో మొత్తాన్ని బాగా అర్థం చేసుకుంటే కొన్ని పాయింట్స్ అర్థమవుతాయి. అవేంటంటే ఒక వైర్ లో పాస్ అవుతున్న కరెంట్ అనేది ఎక్కువగా ఉంటే వోల్టేజ్ కూడా ఎక్కువగా ఉంటుందని చెప్పాను.",
+        "english_text": "However, if you understand this entire video explained so far, some points will become clear. Those are, I said that if the current passing through a wire is high, the voltage will also be high.",
+        "text": "understand entire video explain far point clear say current pass wire high voltage high",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 369.9,
+        "end": 380.6,
+        "original_text": "కరెంట్ అలాగే వోల్టేజ్ ఈ రెండు పెరుగుతున్నాయి అంటే అక్కడ ఆ వైర్ యొక్క రెసిస్టెన్స్ అనేది తక్కువగా ఉంటుంది. ఎందుకంటే రెసిస్టెన్స్ తక్కువగా ఉంటేనే కదా ఆ వైర్ లో కరెంట్ అనేది ఎక్కువగా ఫ్లో అవుతుంది.",
+        "english_text": "If both current and voltage are increasing, then the resistance of that wire will be low. Because only if the resistance is low, will more current flow in that wire, right?",
+        "text": "current voltage increase resistance wire low resistance low current flow wire right",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 380.6,
+        "end": 391.0,
+        "original_text": "అలాగే ఓమ్స్ లా డెఫినిషన్ లో టెంపరేచర్ అనేది స్థిరంగా ఉండాలి అని చెప్పాను. టెంపరేచర్ అనే మాట ఎందుకు వచ్చిందంటే టెంపరేచర్ కాన్స్టెంట్ గా ఉందంటే ఆటోమేటిక్ గా అక్కడ రెసిస్టెన్స్ కూడా కాన్స్టెంట్ గా ఉంటుంది.",
+        "english_text": "Also, in Ohm's Law definition, I said that the temperature should be stable. Why did the word temperature come up? Because if the temperature is constant, then automatically the resistance there will also be constant.",
+        "text": "ohm law definition say temperature stable word temperature come temperature constant automatically resistance constant",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 391.0,
+        "end": 398.8,
+        "original_text": "ఎందుకంటే టెంపరేచర్ పెరిగితేనే రెసిస్టెన్స్ అనేది పెరుగుతుందని చెప్పాను. అసలు టెంపరేచర్ లో మార్పు లేనప్పుడు ఇంకా రెసిస్టెన్స్ లో కూడా ఎలాంటి మార్పు ఉండదు.",
+        "english_text": "Because I said that resistance increases only if the temperature increases. When there is no change in temperature, there will be no change in resistance either.",
+        "text": "say resistance increase temperature increase change temperature change resistance",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 398.8,
+        "end": 407.8,
+        "original_text": "అంటే రెసిస్టెన్స్ కాన్స్టెంట్ గా ఉంటే ఎక్కువ వోల్టేజ్ ని సప్లై చేస్తే ఎక్కువ కరెంట్ అనేది ఫ్లో అవుతుంది. అలాగే తక్కువ వోల్టేజ్ ని సప్లై చేస్తే తక్కువ కరెంట్ అనేది ఫ్లో అవుతుంది.",
+        "english_text": "That means if resistance is constant, supplying more voltage will result in more current flowing. And supplying less voltage will result in less current flowing.",
+        "text": "mean resistance constant supply voltage result current flowing supply voltage result current flowing",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 407.8,
+        "end": 415.5,
+        "original_text": "సరే ఓమ్స్ లా ప్రకారం కరెంట్ ఇస్ డైరెక్ట్లీ ప్రొపోర్షనల్ టు వోల్టేజ్. అంటే కరెంట్ అనేది వోల్టేజ్ కి అనులోమానుపాతంలో ఉంటుంది.",
+        "english_text": "Okay, according to Ohm's Law, current is directly proportional to voltage. That means current is directly proportional to voltage.",
+        "text": "okay accord ohm law current directly proportional voltage mean current directly proportional voltage",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 415.5,
+        "end": 424.4,
+        "original_text": "ఇప్పుడు చెప్పిన ఈ మాటని ఇలా రాస్తారు. అంటే I ఇస్ డైరెక్ట్లీ ప్రొపోర్షనల్ టు V. ఇక్కడ ఈ సింబల్ ని ప్రొపోర్షనాలిటీ అంటాం. అంటే అనులోమానుపాతం.",
+        "english_text": "This statement just made is written like this. That is, I is directly proportional to V. Here, this symbol is called proportionality. That is, direct proportionality.",
+        "text": "statement write like directly proportional symbol call proportionality direct proportionality",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 424.4,
+        "end": 431.6,
+        "original_text": "ఈ మొత్తాన్ని ఒక ఈక్వేషన్ లో చేంజ్ చేయాలంటే ఈ ప్రొపోర్షనాలిటీ ని రిమూవ్ చేయాలి. దీన్ని రిమూవ్ చేయాలంటే ఏదైనా కాన్స్టెంట్ ని యాడ్ చేయాలి.",
+        "english_text": "To change this whole thing into an equation, this proportionality needs to be removed. To remove it, some constant needs to be added.",
+        "text": "change thing equation proportionality need remove remove constant need add",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 431.6,
+        "end": 437.9,
+        "original_text": "మన ఓమ్స్ లలో స్థిరంగా ఉండేది రెసిస్టెన్స్. ఆ విషయం ఇందాకే చెప్పాను. సో ఇక్కడ ఆర్ ని యాడ్ చేస్తాను.",
+        "english_text": "In our Ohm's Law, what remains constant is resistance. I just mentioned that. So here I will add R.",
+        "text": "ohm law remain constant resistance mention add",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 437.9,
+        "end": 444.5,
+        "original_text": "కరెంట్ పెరిగిందంటే వోల్టేజ్ కూడా పెరుగుతుంది. అలాగే కరెంట్ పెరిగిందంటే అక్కడ రెసిస్టెన్స్ అనేది తగ్గుతుంది.",
+        "english_text": "If current increases, voltage also increases. And if current increases, the resistance there decreases.",
+        "text": "current increase voltage increase current increase resistance decrease",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 444.5,
+        "end": 449.9,
+        "original_text": "కాబట్టి దీన్ని మనం ఇన్వర్సల్ వేద్దాం. అంటే ఆర్ ఇన్వర్స్. ఆర్ ఇన్వర్స్ అంటే 1/ఆర్ అని.",
+        "english_text": "Therefore, let's put this inversely. That is, R inverse. R inverse means 1/R.",
+        "text": "let inversely r inverse r inverse mean",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 449.9,
+        "end": 459.6,
+        "original_text": "సో ఫైనల్ గా ఈ ఈక్వేషన్ I = V/R వస్తుంది. సో దీన్నే మనం ఓమ్స్ లా ఈక్వేషన్ అంటాం. ఈ ఈక్వేషన్ ని యూస్ చేసుకొని చాలా ప్రాబ్లమ్స్ ని సాల్వ్ చేస్తూ ఉంటారు.",
+        "english_text": "So finally, this equation becomes I = V/R. So this is what we call Ohm's Law equation. Using this equation, many problems are solved.",
+        "text": "finally equation v ohm law equation equation problem solve",
+        "language": "Telugu-English"
+    },
+    {
+        "start": 459.6,
+        "end": 468.4,
+        "original_text": "ఇది ఫ్రెండ్స్ ఇవాల్టి వీడియో. ఈ వీడియో మీకు ఏ మాత్రం నచ్చినా ఒక లైక్ చేసి ఛానల్ ని సబ్స్క్రైబ్ చేసుకొని ఎక్స్ప్లనేషన్ నచ్చిందని ఒక కామెంట్ చేయండి.",
+        "english_text": "This is today's video, friends. If you liked this video even a little, please like it, subscribe to the channel, and leave a comment saying you liked the explanation.",
+        "text": "today video friend like video little like subscribe channel leave comment say like explanation",
+        "language": "Telugu-English"
+    }
+]

@@ -1,0 +1,793 @@
+{
+  "video": "Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths",
+  "nodes": [
+    {
+      "id": "Identity Matrix",
+      "concept": "Identity Matrix",
+      "start": 48.7,
+      "end": 318.8,
+      "avg_t": 122.233,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 48.7,
+          "end": 58.3
+        },
+        {
+          "start": 58.3,
+          "end": 112.5
+        },
+        {
+          "start": 259.7,
+          "end": 318.8
+        }
+      ]
+    },
+    {
+      "id": "Determinant",
+      "concept": "Determinant",
+      "start": 131.6,
+      "end": 148.7,
+      "avg_t": 131.6,
+      "freq": 1,
+      "time_references": [
+        {
+          "start": 131.6,
+          "end": 148.7
+        }
+      ]
+    },
+    {
+      "id": "Matrix",
+      "concept": "Matrix",
+      "start": 5.3,
+      "end": 1029.9,
+      "avg_t": 296.542,
+      "freq": 12,
+      "time_references": [
+        {
+          "start": 5.3,
+          "end": 12.7
+        },
+        {
+          "start": 18.9,
+          "end": 30.3
+        },
+        {
+          "start": 39.4,
+          "end": 48.7
+        },
+        {
+          "start": 48.7,
+          "end": 58.3
+        },
+        {
+          "start": 58.3,
+          "end": 112.5
+        },
+        {
+          "start": 112.5,
+          "end": 131.2
+        },
+        {
+          "start": 204.2,
+          "end": 220.3
+        },
+        {
+          "start": 259.7,
+          "end": 318.8
+        },
+        {
+          "start": 342.2,
+          "end": 356.7
+        },
+        {
+          "start": 628.3,
+          "end": 636.2
+        },
+        {
+          "start": 831.6,
+          "end": 846.6
+        },
+        {
+          "start": 1009.4,
+          "end": 1029.9
+        }
+      ]
+    },
+    {
+      "id": "Lambda (λ)",
+      "concept": "Lambda (λ)",
+      "start": 39.4,
+      "end": 1120.9,
+      "avg_t": 395.911,
+      "freq": 18,
+      "time_references": [
+        {
+          "start": 39.4,
+          "end": 48.7
+        },
+        {
+          "start": 48.7,
+          "end": 58.3
+        },
+        {
+          "start": 58.3,
+          "end": 112.5
+        },
+        {
+          "start": 112.5,
+          "end": 131.2
+        },
+        {
+          "start": 131.6,
+          "end": 148.7
+        },
+        {
+          "start": 149.0,
+          "end": 203.9
+        },
+        {
+          "start": 204.2,
+          "end": 220.3
+        },
+        {
+          "start": 233.7,
+          "end": 246.4
+        },
+        {
+          "start": 246.8,
+          "end": 259.7
+        },
+        {
+          "start": 318.8,
+          "end": 341.8
+        },
+        {
+          "start": 342.2,
+          "end": 356.7
+        },
+        {
+          "start": 535.4,
+          "end": 548.7
+        },
+        {
+          "start": 549.0,
+          "end": 604.7
+        },
+        {
+          "start": 616.2,
+          "end": 627.8
+        },
+        {
+          "start": 628.3,
+          "end": 636.2
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 955.3,
+          "end": 1008.7
+        },
+        {
+          "start": 1053.7,
+          "end": 1120.9
+        }
+      ]
+    },
+    {
+      "id": "Characteristic Equation",
+      "concept": "Characteristic Equation",
+      "start": 39.4,
+      "end": 726.6,
+      "avg_t": 399.278,
+      "freq": 9,
+      "time_references": [
+        {
+          "start": 39.4,
+          "end": 48.7
+        },
+        {
+          "start": 149.0,
+          "end": 203.9
+        },
+        {
+          "start": 246.8,
+          "end": 259.7
+        },
+        {
+          "start": 318.8,
+          "end": 341.8
+        },
+        {
+          "start": 420.7,
+          "end": 434.9
+        },
+        {
+          "start": 503.6,
+          "end": 513.9
+        },
+        {
+          "start": 549.0,
+          "end": 604.7
+        },
+        {
+          "start": 657.0,
+          "end": 709.2
+        },
+        {
+          "start": 709.2,
+          "end": 726.6
+        }
+      ]
+    },
+    {
+      "id": "Eigenvector Components (X)",
+      "concept": "Eigenvector Components (X)",
+      "start": 318.8,
+      "end": 758.8,
+      "avg_t": 491.344,
+      "freq": 9,
+      "time_references": [
+        {
+          "start": 318.8,
+          "end": 341.8
+        },
+        {
+          "start": 342.2,
+          "end": 356.7
+        },
+        {
+          "start": 357.0,
+          "end": 403.2
+        },
+        {
+          "start": 404.0,
+          "end": 420.7
+        },
+        {
+          "start": 503.6,
+          "end": 513.9
+        },
+        {
+          "start": 514.4,
+          "end": 534.9
+        },
+        {
+          "start": 616.2,
+          "end": 627.8
+        },
+        {
+          "start": 628.3,
+          "end": 636.2
+        },
+        {
+          "start": 737.6,
+          "end": 758.8
+        }
+      ]
+    },
+    {
+      "id": "Solving Characteristic Equation",
+      "concept": "Solving Characteristic Equation",
+      "start": 39.4,
+      "end": 1120.9,
+      "avg_t": 510.025,
+      "freq": 24,
+      "time_references": [
+        {
+          "start": 39.4,
+          "end": 48.7
+        },
+        {
+          "start": 58.3,
+          "end": 112.5
+        },
+        {
+          "start": 112.5,
+          "end": 131.2
+        },
+        {
+          "start": 131.6,
+          "end": 148.7
+        },
+        {
+          "start": 149.0,
+          "end": 203.9
+        },
+        {
+          "start": 204.2,
+          "end": 220.3
+        },
+        {
+          "start": 233.7,
+          "end": 246.4
+        },
+        {
+          "start": 259.7,
+          "end": 318.8
+        },
+        {
+          "start": 318.8,
+          "end": 341.8
+        },
+        {
+          "start": 404.0,
+          "end": 420.7
+        },
+        {
+          "start": 420.7,
+          "end": 434.9
+        },
+        {
+          "start": 535.4,
+          "end": 548.7
+        },
+        {
+          "start": 549.0,
+          "end": 604.7
+        },
+        {
+          "start": 605.0,
+          "end": 615.6
+        },
+        {
+          "start": 616.2,
+          "end": 627.8
+        },
+        {
+          "start": 628.3,
+          "end": 636.2
+        },
+        {
+          "start": 646.3,
+          "end": 656.7
+        },
+        {
+          "start": 709.2,
+          "end": 726.6
+        },
+        {
+          "start": 759.0,
+          "end": 815.7
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 938.6,
+          "end": 954.7
+        },
+        {
+          "start": 955.3,
+          "end": 1008.7
+        },
+        {
+          "start": 1009.4,
+          "end": 1029.9
+        },
+        {
+          "start": 1053.7,
+          "end": 1120.9
+        }
+      ]
+    },
+    {
+      "id": "Eigenvalues & Eigenvectors",
+      "concept": "Eigenvalues & Eigenvectors",
+      "start": 0.0,
+      "end": 1127.9,
+      "avg_t": 609.028,
+      "freq": 25,
+      "time_references": [
+        {
+          "start": 0.0,
+          "end": 5.3
+        },
+        {
+          "start": 5.3,
+          "end": 12.7
+        },
+        {
+          "start": 18.9,
+          "end": 30.3
+        },
+        {
+          "start": 30.7,
+          "end": 38.8
+        },
+        {
+          "start": 221.0,
+          "end": 233.7
+        },
+        {
+          "start": 233.7,
+          "end": 246.4
+        },
+        {
+          "start": 246.8,
+          "end": 259.7
+        },
+        {
+          "start": 318.8,
+          "end": 341.8
+        },
+        {
+          "start": 514.4,
+          "end": 534.9
+        },
+        {
+          "start": 535.4,
+          "end": 548.7
+        },
+        {
+          "start": 549.0,
+          "end": 604.7
+        },
+        {
+          "start": 616.2,
+          "end": 627.8
+        },
+        {
+          "start": 737.6,
+          "end": 758.8
+        },
+        {
+          "start": 759.0,
+          "end": 815.7
+        },
+        {
+          "start": 818.9,
+          "end": 823.9
+        },
+        {
+          "start": 824.4,
+          "end": 830.9
+        },
+        {
+          "start": 856.4,
+          "end": 902.7
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 927.3,
+          "end": 938.6
+        },
+        {
+          "start": 938.6,
+          "end": 954.7
+        },
+        {
+          "start": 955.3,
+          "end": 1008.7
+        },
+        {
+          "start": 1009.4,
+          "end": 1029.9
+        },
+        {
+          "start": 1030.3,
+          "end": 1053.4
+        },
+        {
+          "start": 1053.7,
+          "end": 1120.9
+        },
+        {
+          "start": 1121.3,
+          "end": 1127.9
+        }
+      ]
+    },
+    {
+      "id": "Constant (k)",
+      "concept": "Constant (k)",
+      "start": 514.4,
+      "end": 758.8,
+      "avg_t": 653.733,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 514.4,
+          "end": 534.9
+        },
+        {
+          "start": 709.2,
+          "end": 726.6
+        },
+        {
+          "start": 737.6,
+          "end": 758.8
+        }
+      ]
+    },
+    {
+      "id": "Numerical Problems",
+      "concept": "Numerical Problems",
+      "start": 18.9,
+      "end": 1127.9,
+      "avg_t": 665.533,
+      "freq": 3,
+      "time_references": [
+        {
+          "start": 18.9,
+          "end": 30.3
+        },
+        {
+          "start": 856.4,
+          "end": 902.7
+        },
+        {
+          "start": 1121.3,
+          "end": 1127.9
+        }
+      ]
+    },
+    {
+      "id": "General Method for Eigenvalues",
+      "concept": "General Method for Eigenvalues",
+      "start": 818.9,
+      "end": 830.9,
+      "avg_t": 821.65,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 818.9,
+          "end": 823.9
+        },
+        {
+          "start": 824.4,
+          "end": 830.9
+        }
+      ]
+    },
+    {
+      "id": "Diagonal Elements",
+      "concept": "Diagonal Elements",
+      "start": 131.6,
+      "end": 1120.9,
+      "avg_t": 831.983,
+      "freq": 6,
+      "time_references": [
+        {
+          "start": 131.6,
+          "end": 148.7
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 938.6,
+          "end": 954.7
+        },
+        {
+          "start": 955.3,
+          "end": 1008.7
+        },
+        {
+          "start": 1009.4,
+          "end": 1029.9
+        },
+        {
+          "start": 1053.7,
+          "end": 1120.9
+        }
+      ]
+    },
+    {
+      "id": "Shortcut Method for Eigenvalues",
+      "concept": "Shortcut Method for Eigenvalues",
+      "start": 824.4,
+      "end": 938.6,
+      "avg_t": 866.64,
+      "freq": 5,
+      "time_references": [
+        {
+          "start": 824.4,
+          "end": 830.9
+        },
+        {
+          "start": 831.6,
+          "end": 846.6
+        },
+        {
+          "start": 846.6,
+          "end": 855.9
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 927.3,
+          "end": 938.6
+        }
+      ]
+    },
+    {
+      "id": "Conditions for Shortcut",
+      "concept": "Conditions for Shortcut",
+      "start": 831.6,
+      "end": 1029.9,
+      "avg_t": 924.9,
+      "freq": 4,
+      "time_references": [
+        {
+          "start": 831.6,
+          "end": 846.6
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 955.3,
+          "end": 1008.7
+        },
+        {
+          "start": 1009.4,
+          "end": 1029.9
+        }
+      ]
+    },
+    {
+      "id": "Triangular Matrix",
+      "concept": "Triangular Matrix",
+      "start": 831.6,
+      "end": 1120.9,
+      "avg_t": 933.225,
+      "freq": 8,
+      "time_references": [
+        {
+          "start": 831.6,
+          "end": 846.6
+        },
+        {
+          "start": 846.6,
+          "end": 855.9
+        },
+        {
+          "start": 903.3,
+          "end": 926.7
+        },
+        {
+          "start": 927.3,
+          "end": 938.6
+        },
+        {
+          "start": 938.6,
+          "end": 954.7
+        },
+        {
+          "start": 955.3,
+          "end": 1008.7
+        },
+        {
+          "start": 1009.4,
+          "end": 1029.9
+        },
+        {
+          "start": 1053.7,
+          "end": 1120.9
+        }
+      ]
+    },
+    {
+      "id": "Power of Matrix",
+      "concept": "Power of Matrix",
+      "start": 1030.3,
+      "end": 1120.9,
+      "avg_t": 1042.0,
+      "freq": 2,
+      "time_references": [
+        {
+          "start": 1030.3,
+          "end": 1053.4
+        },
+        {
+          "start": 1053.7,
+          "end": 1120.9
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Matrix",
+      "target": "Identity Matrix",
+      "weight": 1,
+      "explanation": "The Identity Matrix is a special type of Matrix used in eigenvalue calculations."
+    },
+    {
+      "source": "Matrix",
+      "target": "Triangular Matrix",
+      "weight": 1,
+      "explanation": "A Triangular Matrix is a specific type of Matrix."
+    },
+    {
+      "source": "Matrix",
+      "target": "Eigenvalues & Eigenvectors",
+      "weight": 1,
+      "explanation": "Eigenvalues and Eigenvectors are properties derived from a Matrix."
+    },
+    {
+      "source": "Eigenvalues & Eigenvectors",
+      "target": "General Method for Eigenvalues",
+      "weight": 1,
+      "explanation": "The General Method is a standard approach to find Eigenvalues."
+    },
+    {
+      "source": "Eigenvalues & Eigenvectors",
+      "target": "Power of Matrix",
+      "weight": 1,
+      "explanation": "Eigenvalues are used in calculations involving the Power of a Matrix."
+    },
+    {
+      "source": "Identity Matrix",
+      "target": "Characteristic Equation",
+      "weight": 1,
+      "explanation": "The Characteristic Equation is formulated using the Identity Matrix (A - λI)."
+    },
+    {
+      "source": "Lambda (λ)",
+      "target": "Characteristic Equation",
+      "weight": 1,
+      "explanation": "Lambda (λ) represents the unknown eigenvalue in the Characteristic Equation."
+    },
+    {
+      "source": "Characteristic Equation",
+      "target": "Determinant",
+      "weight": 1,
+      "explanation": "The Characteristic Equation involves setting the Determinant of (A - λI) to zero."
+    },
+    {
+      "source": "Determinant",
+      "target": "Solving Characteristic Equation",
+      "weight": 1,
+      "explanation": "Solving the Determinant of (A - λI) = 0 leads to finding the eigenvalues."
+    },
+    {
+      "source": "Solving Characteristic Equation",
+      "target": "Eigenvector Components (X)",
+      "weight": 1,
+      "explanation": "Once eigenvalues are found, they are used to solve for the Eigenvector Components (X)."
+    },
+    {
+      "source": "Eigenvector Components (X)",
+      "target": "Constant (k)",
+      "weight": 1,
+      "explanation": "Eigenvectors are often expressed with a scalar Constant (k)."
+    },
+    {
+      "source": "General Method for Eigenvalues",
+      "target": "Numerical Problems",
+      "weight": 1,
+      "explanation": "Numerical Problems are solved by applying the General Method for Eigenvalues."
+    },
+    {
+      "source": "Triangular Matrix",
+      "target": "Diagonal Elements",
+      "weight": 1,
+      "explanation": "Diagonal Elements are key features of a Triangular Matrix."
+    },
+    {
+      "source": "Diagonal Elements",
+      "target": "Conditions for Shortcut",
+      "weight": 1,
+      "explanation": "The Conditions for Shortcut methods often depend on the Diagonal Elements of a matrix."
+    },
+    {
+      "source": "Conditions for Shortcut",
+      "target": "Shortcut Method for Eigenvalues",
+      "weight": 1,
+      "explanation": "The Shortcut Method for Eigenvalues can be applied if certain Conditions are met."
+    }
+  ]
+}

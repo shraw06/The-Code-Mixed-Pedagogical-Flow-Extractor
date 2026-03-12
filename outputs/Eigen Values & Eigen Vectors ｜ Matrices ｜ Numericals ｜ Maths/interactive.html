@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1>Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #fdfdfd;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#52eaa9", "font": {"color": "#333"}, "id": "Matrix", "label": "Matrix", "shape": "dot", "title": "\u003cb\u003eMatrix\u003c/b\u003e\u003cbr\u003eMentions: 12\u003cbr\u003eAvg time: 296.5s\u003cbr\u003eSegments: 5-13s, 19-30s, 39-49s, 49-58s, 58-112s, 112-131s, 204-220s, 260-319s \u2026 (+4 more)"}, {"color": "#9eea52", "font": {"color": "#333"}, "id": "Eigenvalues \u0026 Eigenvectors", "label": "Eigenvalues \u0026 Eigenvectors", "shape": "dot", "title": "\u003cb\u003eEigenvalues \u0026 Eigenvectors\u003c/b\u003e\u003cbr\u003eMentions: 25\u003cbr\u003eAvg time: 609.0s\u003cbr\u003eSegments: 0-5s, 5-13s, 19-30s, 31-39s, 221-234s, 234-246s, 247-260s, 319-342s \u2026 (+17 more)"}, {"color": "#52cfea", "font": {"color": "#333"}, "id": "Identity Matrix", "label": "Identity Matrix", "shape": "dot", "title": "\u003cb\u003eIdentity Matrix\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 122.2s\u003cbr\u003eSegments: 49-58s, 58-112s, 260-319s"}, {"color": "#52ea75", "font": {"color": "#333"}, "id": "Lambda (\u03bb)", "label": "Lambda (\u03bb)", "shape": "dot", "title": "\u003cb\u003eLambda (\u03bb)\u003c/b\u003e\u003cbr\u003eMentions: 18\u003cbr\u003eAvg time: 395.9s\u003cbr\u003eSegments: 39-49s, 49-58s, 58-112s, 112-131s, 132-149s, 149-204s, 204-220s, 234-246s \u2026 (+10 more)"}, {"color": "#52ea73", "font": {"color": "#333"}, "id": "Characteristic Equation", "label": "Characteristic Equation", "shape": "dot", "title": "\u003cb\u003eCharacteristic Equation\u003c/b\u003e\u003cbr\u003eMentions: 9\u003cbr\u003eAvg time: 399.3s\u003cbr\u003eSegments: 39-49s, 149-204s, 247-260s, 319-342s, 421-435s, 504-514s, 549-605s, 657-709s \u2026 (+1 more)"}, {"color": "#52d4ea", "font": {"color": "#333"}, "id": "Determinant", "label": "Determinant", "shape": "dot", "title": "\u003cb\u003eDeterminant\u003c/b\u003e\u003cbr\u003eMentions: 1\u003cbr\u003eAvg time: 131.6s\u003cbr\u003eSegments: 132-149s"}, {"color": "#6aea52", "font": {"color": "#333"}, "id": "Solving Characteristic Equation", "label": "Solving Characteristic Equation", "shape": "dot", "title": "\u003cb\u003eSolving Characteristic Equation\u003c/b\u003e\u003cbr\u003eMentions: 24\u003cbr\u003eAvg time: 510.0s\u003cbr\u003eSegments: 39-49s, 58-112s, 112-131s, 132-149s, 149-204s, 204-220s, 234-246s, 260-319s \u2026 (+16 more)"}, {"color": "#60ea52", "font": {"color": "#333"}, "id": "Eigenvector Components (X)", "label": "Eigenvector Components (X)", "shape": "dot", "title": "\u003cb\u003eEigenvector Components (X)\u003c/b\u003e\u003cbr\u003eMentions: 9\u003cbr\u003eAvg time: 491.3s\u003cbr\u003eSegments: 319-342s, 342-357s, 357-403s, 404-421s, 504-514s, 514-535s, 616-628s, 628-636s \u2026 (+1 more)"}, {"color": "#b6ea52", "font": {"color": "#333"}, "id": "Constant (k)", "label": "Constant (k)", "shape": "dot", "title": "\u003cb\u003eConstant (k)\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 653.7s\u003cbr\u003eSegments: 514-535s, 709-727s, 738-759s"}, {"color": "#eac652", "font": {"color": "#333"}, "id": "General Method for Eigenvalues", "label": "General Method for Eigenvalues", "shape": "dot", "title": "\u003cb\u003eGeneral Method for Eigenvalues\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 821.6s\u003cbr\u003eSegments: 819-824s, 824-831s"}, {"color": "#bcea52", "font": {"color": "#333"}, "id": "Numerical Problems", "label": "Numerical Problems", "shape": "dot", "title": "\u003cb\u003eNumerical Problems\u003c/b\u003e\u003cbr\u003eMentions: 3\u003cbr\u003eAvg time: 665.5s\u003cbr\u003eSegments: 19-30s, 856-903s, 1121-1128s"}, {"color": "#ea8b52", "font": {"color": "#333"}, "id": "Triangular Matrix", "label": "Triangular Matrix", "shape": "dot", "title": "\u003cb\u003eTriangular Matrix\u003c/b\u003e\u003cbr\u003eMentions: 8\u003cbr\u003eAvg time: 933.2s\u003cbr\u003eSegments: 832-847s, 847-856s, 903-927s, 927-939s, 939-955s, 955-1009s, 1009-1030s, 1054-1121s"}, {"color": "#eac052", "font": {"color": "#333"}, "id": "Diagonal Elements", "label": "Diagonal Elements", "shape": "dot", "title": "\u003cb\u003eDiagonal Elements\u003c/b\u003e\u003cbr\u003eMentions: 6\u003cbr\u003eAvg time: 832.0s\u003cbr\u003eSegments: 132-149s, 903-927s, 939-955s, 955-1009s, 1009-1030s, 1054-1121s"}, {"color": "#ea8f52", "font": {"color": "#333"}, "id": "Conditions for Shortcut", "label": "Conditions for Shortcut", "shape": "dot", "title": "\u003cb\u003eConditions for Shortcut\u003c/b\u003e\u003cbr\u003eMentions: 4\u003cbr\u003eAvg time: 924.9s\u003cbr\u003eSegments: 832-847s, 903-927s, 955-1009s, 1009-1030s"}, {"color": "#eaae52", "font": {"color": "#333"}, "id": "Shortcut Method for Eigenvalues", "label": "Shortcut Method for Eigenvalues", "shape": "dot", "title": "\u003cb\u003eShortcut Method for Eigenvalues\u003c/b\u003e\u003cbr\u003eMentions: 5\u003cbr\u003eAvg time: 866.6s\u003cbr\u003eSegments: 824-831s, 832-847s, 847-856s, 903-927s, 927-939s"}, {"color": "#ea5252", "font": {"color": "#333"}, "id": "Power of Matrix", "label": "Power of Matrix", "shape": "dot", "title": "\u003cb\u003ePower of Matrix\u003c/b\u003e\u003cbr\u003eMentions: 2\u003cbr\u003eAvg time: 1042.0s\u003cbr\u003eSegments: 1030-1053s, 1054-1121s"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Matrix", "title": "The Identity Matrix is a special type of Matrix used in\u003cbr\u003eeigenvalue calculations.", "to": "Identity Matrix", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Matrix", "title": "A Triangular Matrix is a specific type of Matrix.", "to": "Triangular Matrix", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Matrix", "title": "Eigenvalues and Eigenvectors are properties derived from a\u003cbr\u003eMatrix.", "to": "Eigenvalues \u0026 Eigenvectors", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Eigenvalues \u0026 Eigenvectors", "title": "The General Method is a standard approach to find\u003cbr\u003eEigenvalues.", "to": "General Method for Eigenvalues", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Eigenvalues \u0026 Eigenvectors", "title": "Eigenvalues are used in calculations involving the Power of\u003cbr\u003ea Matrix.", "to": "Power of Matrix", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Identity Matrix", "title": "The Characteristic Equation is formulated using the Identity\u003cbr\u003eMatrix (A - \u03bbI).", "to": "Characteristic Equation", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Lambda (\u03bb)", "title": "Lambda (\u03bb) represents the unknown eigenvalue in the\u003cbr\u003eCharacteristic Equation.", "to": "Characteristic Equation", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Characteristic Equation", "title": "The Characteristic Equation involves setting the Determinant\u003cbr\u003eof (A - \u03bbI) to zero.", "to": "Determinant", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Determinant", "title": "Solving the Determinant of (A - \u03bbI) = 0 leads to finding the\u003cbr\u003eeigenvalues.", "to": "Solving Characteristic Equation", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Solving Characteristic Equation", "title": "Once eigenvalues are found, they are used to solve for the\u003cbr\u003eEigenvector Components (X).", "to": "Eigenvector Components (X)", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Eigenvector Components (X)", "title": "Eigenvectors are often expressed with a scalar Constant (k).", "to": "Constant (k)", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "General Method for Eigenvalues", "title": "Numerical Problems are solved by applying the General Method\u003cbr\u003efor Eigenvalues.", "to": "Numerical Problems", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Triangular Matrix", "title": "Diagonal Elements are key features of a Triangular Matrix.", "to": "Diagonal Elements", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Diagonal Elements", "title": "The Conditions for Shortcut methods often depend on the\u003cbr\u003eDiagonal Elements of a matrix.", "to": "Conditions for Shortcut", "value": 1}, {"arrows": "to", "color": {"color": "#888", "opacity": 0.6}, "from": "Conditions for Shortcut", "title": "The Shortcut Method for Eigenvalues can be applied if\u003cbr\u003ecertain Conditions are met.", "to": "Shortcut Method for Eigenvalues", "value": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"layout": {"hierarchical": {"enabled": true, "levelSeparation": 180, "nodeSpacing": 120, "treeSpacing": 200, "blockShifting": true, "edgeMinimization": true, "parentCentralization": false, "direction": "LR"}}, "interaction": {"hover": true, "tooltipDelay": 100}, "physics": {"enabled": false}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

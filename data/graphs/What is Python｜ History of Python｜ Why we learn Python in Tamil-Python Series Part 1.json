@@ -1,0 +1,1313 @@
+{
+    "nodes": [
+        {
+            "concept": "Python",
+            "time_references": [
+                [
+                    17.03,
+                    27.63
+                ],
+                [
+                    35.03,
+                    36.63
+                ],
+                [
+                    44.03,
+                    50.03
+                ],
+                [
+                    54.43,
+                    103.73
+                ],
+                [
+                    107.73,
+                    111.23
+                ],
+                [
+                    116.43,
+                    124.03
+                ],
+                [
+                    136.43,
+                    146.63
+                ],
+                [
+                    147.43,
+                    151.43
+                ],
+                [
+                    153.03,
+                    155.93
+                ],
+                [
+                    156.53,
+                    166.73
+                ],
+                [
+                    168.53,
+                    177.53
+                ],
+                [
+                    220.03,
+                    221.63
+                ],
+                [
+                    263.63,
+                    268.63
+                ],
+                [
+                    276.73,
+                    280.63
+                ],
+                [
+                    287.43,
+                    296.63
+                ],
+                [
+                    298.63,
+                    308.83
+                ],
+                [
+                    308.83,
+                    313.33
+                ],
+                [
+                    313.33,
+                    318.73
+                ],
+                [
+                    318.73,
+                    323.43
+                ],
+                [
+                    325.43,
+                    329.03
+                ],
+                [
+                    330.63,
+                    335.63
+                ],
+                [
+                    344.63,
+                    347.63
+                ],
+                [
+                    358.83,
+                    363.03
+                ],
+                [
+                    369.83,
+                    374.73
+                ],
+                [
+                    388.93,
+                    396.03
+                ],
+                [
+                    399.03,
+                    405.93
+                ],
+                [
+                    409.53,
+                    412.03
+                ],
+                [
+                    412.63,
+                    416.73
+                ],
+                [
+                    427.23,
+                    431.43
+                ],
+                [
+                    438.53,
+                    441.03
+                ],
+                [
+                    443.73,
+                    448.03
+                ],
+                [
+                    451.03,
+                    459.03
+                ],
+                [
+                    478.33,
+                    481.93
+                ],
+                [
+                    487.63,
+                    493.93
+                ],
+                [
+                    498.03,
+                    503.63
+                ],
+                [
+                    504.23,
+                    509.93
+                ],
+                [
+                    515.83,
+                    519.63
+                ],
+                [
+                    525.63,
+                    535.03
+                ],
+                [
+                    541.93,
+                    545.33
+                ],
+                [
+                    552.73,
+                    563.23
+                ],
+                [
+                    566.73,
+                    573.93
+                ],
+                [
+                    575.03,
+                    584.63
+                ],
+                [
+                    604.33,
+                    609.93
+                ],
+                [
+                    610.73,
+                    618.03
+                ],
+                [
+                    644.03,
+                    648.73
+                ],
+                [
+                    649.03,
+                    653.73
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 0
+        },
+        {
+            "concept": "Programming Language",
+            "time_references": [
+                [
+                    17.03,
+                    27.63
+                ],
+                [
+                    35.03,
+                    36.63
+                ],
+                [
+                    37.43,
+                    42.73
+                ],
+                [
+                    44.03,
+                    50.03
+                ],
+                [
+                    54.43,
+                    103.73
+                ],
+                [
+                    107.73,
+                    111.23
+                ],
+                [
+                    147.43,
+                    151.43
+                ],
+                [
+                    153.03,
+                    155.93
+                ],
+                [
+                    168.53,
+                    177.53
+                ],
+                [
+                    235.33,
+                    241.83
+                ],
+                [
+                    242.73,
+                    248.23
+                ],
+                [
+                    248.93,
+                    256.43
+                ],
+                [
+                    257.03,
+                    261.83
+                ],
+                [
+                    263.63,
+                    268.63
+                ],
+                [
+                    287.43,
+                    296.63
+                ],
+                [
+                    298.63,
+                    308.83
+                ],
+                [
+                    325.43,
+                    329.03
+                ],
+                [
+                    330.63,
+                    335.63
+                ],
+                [
+                    354.33,
+                    358.03
+                ],
+                [
+                    358.83,
+                    363.03
+                ],
+                [
+                    369.83,
+                    374.73
+                ],
+                [
+                    375.43,
+                    382.43
+                ],
+                [
+                    386.33,
+                    387.93
+                ],
+                [
+                    388.93,
+                    396.03
+                ],
+                [
+                    399.03,
+                    405.93
+                ],
+                [
+                    427.23,
+                    431.43
+                ],
+                [
+                    438.53,
+                    441.03
+                ],
+                [
+                    468.23,
+                    474.63
+                ],
+                [
+                    487.63,
+                    493.93
+                ],
+                [
+                    498.03,
+                    503.63
+                ],
+                [
+                    504.23,
+                    509.93
+                ],
+                [
+                    515.83,
+                    519.63
+                ],
+                [
+                    525.63,
+                    535.03
+                ],
+                [
+                    566.73,
+                    573.93
+                ],
+                [
+                    575.03,
+                    584.63
+                ],
+                [
+                    644.03,
+                    648.73
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 1
+        },
+        {
+            "concept": "Interpreted Language",
+            "time_references": [
+                [
+                    37.43,
+                    42.73
+                ],
+                [
+                    44.03,
+                    50.03
+                ],
+                [
+                    107.73,
+                    111.23
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 2
+        },
+        {
+            "concept": "Interpreter",
+            "time_references": [
+                [
+                    44.03,
+                    50.03
+                ],
+                [
+                    51.03,
+                    52.13
+                ],
+                [
+                    54.43,
+                    103.73
+                ],
+                [
+                    399.03,
+                    405.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 3
+        },
+        {
+            "concept": "Code Execution",
+            "time_references": [
+                [
+                    44.03,
+                    50.03
+                ],
+                [
+                    412.63,
+                    416.73
+                ],
+                [
+                    421.83,
+                    426.33
+                ],
+                [
+                    504.23,
+                    509.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 4
+        },
+        {
+            "concept": "Output",
+            "time_references": [
+                [
+                    116.43,
+                    124.03
+                ],
+                [
+                    128.43,
+                    134.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 5
+        },
+        {
+            "concept": "IDE/Editor",
+            "time_references": [
+                [
+                    128.43,
+                    134.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 6
+        },
+        {
+            "concept": "Object-Oriented Programming (OOP)",
+            "time_references": [
+                [
+                    37.43,
+                    42.73
+                ],
+                [
+                    136.43,
+                    146.63
+                ],
+                [
+                    147.43,
+                    151.43
+                ],
+                [
+                    168.53,
+                    177.53
+                ],
+                [
+                    478.33,
+                    481.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 7
+        },
+        {
+            "concept": "Programming Paradigms",
+            "time_references": [
+                [
+                    168.53,
+                    177.53
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 8
+        },
+        {
+            "concept": "High-Level Language",
+            "time_references": [
+                [
+                    369.83,
+                    374.73
+                ],
+                [
+                    388.93,
+                    396.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 9
+        },
+        {
+            "concept": "Data Types",
+            "time_references": [
+                [
+                    344.63,
+                    347.63
+                ],
+                [
+                    348.23,
+                    353.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 10
+        },
+        {
+            "concept": "Dynamic Typing",
+            "time_references": [
+                [
+                    354.33,
+                    358.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 11
+        },
+        {
+            "concept": "Syntax",
+            "time_references": [
+                [
+                    335.93,
+                    342.93
+                ],
+                [
+                    388.93,
+                    396.03
+                ],
+                [
+                    487.63,
+                    493.93
+                ],
+                [
+                    494.23,
+                    496.73
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 12
+        },
+        {
+            "concept": "History of Python",
+            "time_references": [
+                [
+                    17.03,
+                    27.63
+                ],
+                [
+                    220.03,
+                    221.63
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 13
+        },
+        {
+            "concept": "Guido van Rossum",
+            "time_references": [
+                [
+                    223.43,
+                    234.43
+                ],
+                [
+                    281.43,
+                    286.03
+                ],
+                [
+                    298.63,
+                    308.83
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 14
+        },
+        {
+            "concept": "ABC Language",
+            "time_references": [
+                [
+                    235.33,
+                    241.83
+                ],
+                [
+                    257.03,
+                    261.83
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 15
+        },
+        {
+            "concept": "Python 2",
+            "time_references": [
+                [
+                    298.63,
+                    308.83
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 16
+        },
+        {
+            "concept": "List Comprehension",
+            "time_references": [
+                [
+                    308.83,
+                    313.33
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 17
+        },
+        {
+            "concept": "Garbage Collection",
+            "time_references": [
+                [
+                    308.83,
+                    313.33
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 18
+        },
+        {
+            "concept": "Python 3",
+            "time_references": [
+                [
+                    313.33,
+                    318.73
+                ],
+                [
+                    318.73,
+                    323.43
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 19
+        },
+        {
+            "concept": "Why Learn Python",
+            "time_references": [
+                [
+                    17.03,
+                    27.63
+                ],
+                [
+                    325.43,
+                    329.03
+                ],
+                [
+                    330.63,
+                    335.63
+                ],
+                [
+                    335.93,
+                    342.93
+                ],
+                [
+                    366.63,
+                    369.03
+                ],
+                [
+                    369.83,
+                    374.73
+                ],
+                [
+                    678.73,
+                    683.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 20
+        },
+        {
+            "concept": "Easy to Learn",
+            "time_references": [
+                [
+                    330.63,
+                    335.63
+                ],
+                [
+                    335.93,
+                    342.93
+                ],
+                [
+                    366.63,
+                    369.03
+                ],
+                [
+                    369.83,
+                    374.73
+                ],
+                [
+                    388.93,
+                    396.03
+                ],
+                [
+                    399.03,
+                    405.93
+                ],
+                [
+                    525.63,
+                    535.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 21
+        },
+        {
+            "concept": "Readability",
+            "time_references": [
+                [
+                    388.93,
+                    396.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 22
+        },
+        {
+            "concept": "Developer Friendly",
+            "time_references": [
+                [
+                    375.43,
+                    382.43
+                ],
+                [
+                    525.63,
+                    535.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 23
+        },
+        {
+            "concept": "Debugging",
+            "time_references": [
+                [
+                    399.03,
+                    405.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 24
+        },
+        {
+            "concept": "Cross-Platform",
+            "time_references": [
+                [
+                    407.43,
+                    408.63
+                ],
+                [
+                    409.53,
+                    412.03
+                ],
+                [
+                    412.63,
+                    416.73
+                ],
+                [
+                    416.73,
+                    421.43
+                ],
+                [
+                    421.83,
+                    426.33
+                ],
+                [
+                    427.23,
+                    431.43
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 25
+        },
+        {
+            "concept": "Open-Source",
+            "time_references": [
+                [
+                    435.33,
+                    437.03
+                ],
+                [
+                    438.53,
+                    441.03
+                ],
+                [
+                    468.23,
+                    474.63
+                ],
+                [
+                    474.63,
+                    477.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 26
+        },
+        {
+            "concept": "Extensibility",
+            "time_references": [
+                [
+                    487.63,
+                    493.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 27
+        },
+        {
+            "concept": "Extensive Libraries",
+            "time_references": [
+                [
+                    358.83,
+                    363.03
+                ],
+                [
+                    375.43,
+                    382.43
+                ],
+                [
+                    468.23,
+                    474.63
+                ],
+                [
+                    512.43,
+                    515.03
+                ],
+                [
+                    515.83,
+                    519.63
+                ],
+                [
+                    525.63,
+                    535.03
+                ],
+                [
+                    552.73,
+                    563.23
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 28
+        },
+        {
+            "concept": "Widespread Use",
+            "time_references": [
+                [
+                    575.03,
+                    584.63
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 29
+        },
+        {
+            "concept": "Integration with other languages",
+            "time_references": [
+                [
+                    566.73,
+                    573.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 30
+        },
+        {
+            "concept": "Software Development",
+            "time_references": [
+                [
+                    156.53,
+                    166.73
+                ],
+                [
+                    525.63,
+                    535.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 31
+        },
+        {
+            "concept": "Web Development",
+            "time_references": [
+                [
+                    156.53,
+                    166.73
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 32
+        },
+        {
+            "concept": "Game Development",
+            "time_references": [
+                [
+                    156.53,
+                    166.73
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 33
+        },
+        {
+            "concept": "Mobile Application Development",
+            "time_references": [
+                [
+                    156.53,
+                    166.73
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 34
+        },
+        {
+            "concept": "GUI Development",
+            "time_references": [
+                [
+                    537.33,
+                    539.03
+                ],
+                [
+                    540.03,
+                    541.33
+                ],
+                [
+                    541.93,
+                    545.33
+                ],
+                [
+                    546.03,
+                    551.93
+                ],
+                [
+                    552.73,
+                    563.23
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 35
+        },
+        {
+            "concept": "Programmer",
+            "time_references": [
+                [
+                    54.43,
+                    103.73
+                ],
+                [
+                    223.43,
+                    234.43
+                ],
+                [
+                    335.93,
+                    342.93
+                ],
+                [
+                    487.63,
+                    493.93
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 36
+        },
+        {
+            "concept": "Installation",
+            "time_references": [
+                [
+                    441.83,
+                    443.33
+                ],
+                [
+                    443.73,
+                    448.03
+                ],
+                [
+                    451.03,
+                    459.03
+                ],
+                [
+                    459.73,
+                    462.93
+                ],
+                [
+                    463.33,
+                    465.93
+                ],
+                [
+                    474.63,
+                    477.03
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 37
+        },
+        {
+            "concept": "Search Techniques",
+            "time_references": [
+                [
+                    587.53,
+                    591.33
+                ],
+                [
+                    592.23,
+                    595.63
+                ],
+                [
+                    596.23,
+                    597.63
+                ],
+                [
+                    598.43,
+                    603.43
+                ],
+                [
+                    604.33,
+                    609.93
+                ],
+                [
+                    610.73,
+                    618.03
+                ],
+                [
+                    618.03,
+                    621.23
+                ],
+                [
+                    622.03,
+                    628.73
+                ],
+                [
+                    629.03,
+                    632.23
+                ],
+                [
+                    634.43,
+                    638.33
+                ],
+                [
+                    639.03,
+                    643.73
+                ],
+                [
+                    644.03,
+                    648.73
+                ],
+                [
+                    649.03,
+                    653.73
+                ],
+                [
+                    654.33,
+                    658.33
+                ],
+                [
+                    659.23,
+                    660.33
+                ],
+                [
+                    660.73,
+                    667.33
+                ]
+            ],
+            "confidence": 1.0,
+            "order": 38
+        }
+    ],
+    "edges": [
+        {
+            "source": "Python",
+            "target": "Programming Language",
+            "explanation": "Python is introduced as a type of programming language.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programming Language",
+            "target": "Interpreted Language",
+            "explanation": "Interpreted language is a characteristic of Python as a programming language.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Interpreted Language",
+            "target": "Interpreter",
+            "explanation": "Interpreted languages use an interpreter for execution.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Interpreter",
+            "target": "Code Execution",
+            "explanation": "The interpreter is responsible for code execution.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Code Execution",
+            "target": "Output",
+            "explanation": "Code execution produces an output.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Code Execution",
+            "target": "IDE/Editor",
+            "explanation": "Code is written and executed in an IDE or editor.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programming Language",
+            "target": "Object-Oriented Programming (OOP)",
+            "explanation": "OOP is a paradigm supported by Python.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programming Language",
+            "target": "Programming Paradigms",
+            "explanation": "Python supports various programming paradigms.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programming Language",
+            "target": "High-Level Language",
+            "explanation": "Python is characterized as a high-level programming language.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programming Language",
+            "target": "Data Types",
+            "explanation": "Data types are fundamental concepts in any programming language.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Data Types",
+            "target": "Dynamic Typing",
+            "explanation": "Python uses dynamic typing for its data types.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programming Language",
+            "target": "Syntax",
+            "explanation": "Every programming language has its own syntax.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python",
+            "target": "History of Python",
+            "explanation": "The video discusses the history of Python.",
+            "confidence": 1.0
+        },
+        {
+            "source": "History of Python",
+            "target": "Guido van Rossum",
+            "explanation": "Guido van Rossum is the creator of Python.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Guido van Rossum",
+            "target": "ABC Language",
+            "explanation": "ABC Language was a predecessor that influenced Guido van Rossum.",
+            "confidence": 1.0
+        },
+        {
+            "source": "History of Python",
+            "target": "Python 2",
+            "explanation": "Python 2 is an important version in Python's history.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python 2",
+            "target": "List Comprehension",
+            "explanation": "List comprehension was a feature in Python 2 (and 3).",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python 2",
+            "target": "Garbage Collection",
+            "explanation": "Garbage collection is a feature in Python 2 (and 3).",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python 2",
+            "target": "Python 3",
+            "explanation": "Python 3 is the successor to Python 2.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python",
+            "target": "Why Learn Python",
+            "explanation": "The video explains the reasons to learn Python.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Why Learn Python",
+            "target": "Easy to Learn",
+            "explanation": "Python is easy to learn, which is a reason to learn it.",
+            "confidence": 1.0
+        },
+        {
+            "source": "High-Level Language",
+            "target": "Easy to Learn",
+            "explanation": "Being a high-level language contributes to Python's ease of learning.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Syntax",
+            "target": "Easy to Learn",
+            "explanation": "Simple syntax makes Python easy to learn.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Easy to Learn",
+            "target": "Readability",
+            "explanation": "Python's readability makes it easy to learn.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Easy to Learn",
+            "target": "Developer Friendly",
+            "explanation": "Python's ease of use makes it developer friendly.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Developer Friendly",
+            "target": "Debugging",
+            "explanation": "Python's developer-friendly nature aids in debugging.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Interpreter",
+            "target": "Debugging",
+            "explanation": "Interpreters can provide immediate feedback, aiding debugging.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Why Learn Python",
+            "target": "Cross-Platform",
+            "explanation": "Cross-platform compatibility is a benefit of Python.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Why Learn Python",
+            "target": "Open-Source",
+            "explanation": "Python being open-source is an advantage.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Why Learn Python",
+            "target": "Extensibility",
+            "explanation": "Python's extensibility is a reason to learn it.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Why Learn Python",
+            "target": "Extensive Libraries",
+            "explanation": "Extensive libraries are a major advantage of Python.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Why Learn Python",
+            "target": "Widespread Use",
+            "explanation": "Python's widespread use makes it valuable to learn.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Widespread Use",
+            "target": "Integration with other languages",
+            "explanation": "Python's ability to integrate with other languages contributes to its widespread use.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python",
+            "target": "Software Development",
+            "explanation": "Python is used for various types of software development.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Software Development",
+            "target": "Web Development",
+            "explanation": "Web development is a specific application of Python in software development.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Software Development",
+            "target": "Game Development",
+            "explanation": "Game development is a specific application of Python in software development.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Software Development",
+            "target": "Mobile Application Development",
+            "explanation": "Mobile application development is a specific application of Python in software development.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Software Development",
+            "target": "GUI Development",
+            "explanation": "GUI development is a specific application of Python in software development.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Python",
+            "target": "Programmer",
+            "explanation": "Python is a tool used by programmers.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programmer",
+            "target": "Installation",
+            "explanation": "Programmers need to install Python to use it.",
+            "confidence": 1.0
+        },
+        {
+            "source": "Programmer",
+            "target": "Search Techniques",
+            "explanation": "Programmers use search techniques for learning and problem-solving.",
+            "confidence": 1.0
+        }
+    ]
+}
