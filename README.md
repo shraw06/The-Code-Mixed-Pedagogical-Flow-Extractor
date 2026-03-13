@@ -2,7 +2,7 @@
 
 > **iREL Recruitment Task 2026**  
 > A robust NLP pipeline that processes raw, noisy code-mixed educational video content and extracts a formal, structured representation of pedagogical flow and concept dependencies.
-
+Video demo link - https://drive.google.com/file/d/1eyDkCg3DyG8B3Qus3-uKUO56vX6JCY82/view?usp=sharing
 ---
 
 ## Table of Contents
@@ -203,11 +203,11 @@ The pipeline was tested on **5 educational videos** spanning **4 Indic languages
 
 | # | Video Title | Language Pair | Script | Domain | YouTube Link |
 |---|------------|---------------|--------|--------|--------------|
-| 1 | Eigen Values & Eigen Vectors \| Matrices \| Numericals \| Maths | **Hindi–English** | Devanagari + Latin | Linear Algebra | [youtube.com/watch?v=BdRPgPfLAUQ](https://www.youtube.com/watch?v=BdRPgPfLAUQ) |
-| 2 | What is Ohm's Law \| Explained in Telugu | **Telugu–English** | Telugu + Latin | Physics (Circuits) | [youtube.com/watch?v=XrfsQrTJ8Vo](https://www.youtube.com/watch?v=XrfsQrTJ8Vo) |
-| 3 | What is Linked List \| Data Structure (Hindi) | **Hindi–English** | Romanised Latin | Data Structures | [youtube.com/watch?v=ESQfsAKQrJ4](https://www.youtube.com/watch?v=ESQfsAKQrJ4) |
-| 4 | What is Python \| History of Python (Tamil) | **Tamil–English** | Romanised Latin | Programming | [youtube.com/watch?v=dgZECmAqE7w](https://www.youtube.com/watch?v=dgZECmAqE7w) |
-| 5 | Introduction to DBMS in Marathi | **Marathi–English** | Devanagari + Latin | Databases | [youtube.com/watch?v=PurIKzKlUso](https://www.youtube.com/watch?v=PurIKzKlUso) |
+| 1 | Eigen Values & Eigen Vectors \| Matrices \| Numericals \| Maths | **Hindi–English** | Devanagari + Latin | Linear Algebra | [https://www.youtube.com/watch?v=PurIKzKlUso](https://www.youtube.com/watch?v=PurIKzKlUso) |
+| 2 | What is Ohm's Law \| Explained in Telugu | **Telugu–English** | Telugu + Latin | Physics (Circuits) | [https://www.youtube.com/watch?v=XrfsQrTJ8Vo](https://www.youtube.com/watch?v=XrfsQrTJ8Vo) |
+| 3 | What is Linked List \| Data Structure (Hindi) | **Hindi–English** | Romanised Latin | Data Structures | [https://www.youtube.com/watch?v=BdRPgPfLAUQ](https://www.youtube.com/watch?v=BdRPgPfLAUQ) |
+| 4 | What is Python \| History of Python (Tamil) | **Tamil–English** | Romanised Latin | Programming | [https://www.youtube.com/watch?v=ESQfsAKQrJ4](https://www.youtube.com/watch?v=ESQfsAKQrJ4) |
+| 5 | Introduction to DBMS in Marathi | **Marathi–English** | Devanagari + Latin | Databases | [https://www.youtube.com/watch?v=dgZECmAqE7w](https://www.youtube.com/watch?v=dgZECmAqE7w) |
 
 ### Language & Script Diversity
 
