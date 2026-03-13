@@ -14,8 +14,9 @@
 5. [Video Sources & Languages](#video-sources--languages)  
 6. [Output Structure & Rationale](#output-structure--rationale)  
 7. [Code-Mixing Analysis](#code-mixing-analysis)  
-8. [Setup & Reproduction](#setup--reproduction)  
-9. [Project Structure](#project-structure)
+8. [Terminology Mapping](#terminology-mapping)
+9. [Setup & Reproduction](#setup--reproduction)  
+10. [Project Structure](#project-structure)
 
 ---
 
@@ -357,7 +358,67 @@ We use a multi-layered approach to quantify code-mixing:
 
 ---
 
-## Setup & Reproduction
+## Terminology Mapping
+
+This project also includes an explicit terminology-mapping stage which aligns colloquial Indic phrases and code-mixed analogies to standardized English academic terminology. Terminology mapping is important because teachers often use regional words, metaphors or shorthand that do not directly match textbook terms - mapping preserves traceability from the original lecture wording to canonical concepts used in the graphs and learning roadmap.
+
+### What it does
+
+- Identifies phrase-level correspondences between `original_text` (verbatim code-mixed transcription) and `english_text` (faithful English translation).  
+- Produces a per-segment list of mappings: original phrase, literal translation, standardized English term, category ("technical" or "conversational"), and short context.  
+- Outputs are written to `data/terminology_mappings/<video_stem>.json` and copied to `outputs/<video_stem>/terminology_mapping.json` so they are bundled with other per-video artifacts.
+
+### Files & format
+
+- Script: `pipeline/terminology_mapper.py` — runs the mapping stage (batching segments and calling Gemini).  
+- Input: `data/transcripts/<video_stem>.json` (timestamped segments with `original_text` and `english_text`).  
+- Primary outputs:
+  - `data/terminology_mappings/<video_stem>.json` — authoritative mapping used by downstream stages.  
+  - `outputs/<video_stem>/terminology_mapping.json` — a copy included in the per-video output bundle.
+
+Example mapping (extract):
+
+```json
+{
+  "mappings": [
+    {
+      "segment_index": 3,
+      "start": 12.5,
+      "end": 22.0,
+      "entries": [
+        {
+          "original_phrase": "diye gaye matrix",
+          "language": "Hindi",
+          "literal_translation": "given matrix",
+          "standard_term": "Given Matrix",
+          "category": "technical",
+          "context": "...in the original segment surrounding text..."
+        }
+      ]
+    }
+  ]
+}
+```
+
+### How it works
+
+- `terminology_mapper.py` filters to segments that appear code-mixed and batches them (≈15 segments per LLM call).  
+- It prompts Gemini to produce a JSON array of mappings (the module robustly extracts JSON from the LLM response and performs validation + deduplication).  
+- The module marks mappings as `technical` vs `conversational` and normalises entries to a compact, machine-readable schema.
+
+### How to run
+
+Run the mapping stage independently (recommended when adding or reviewing mappings):
+
+```bash
+python pipeline/terminology_mapper.py            # process all transcripts (requires GEMINI_API_KEY)
+python pipeline/terminology_mapper.py data/transcripts/<video_stem>.json  # process one transcript
+```
+
+Notes:
+- The stage requires a valid `GEMINI_API_KEY` in environment or `.env`.  
+- If a valid mapping already exists for a video (non-empty mappings list) the script will skip regeneration.
+
 
 ### Prerequisites
 
@@ -441,8 +502,8 @@ flask                # Web UI server
 ## Project Structure
 
 ```
-irel_task/
-├── main.py                          # CLI pipeline orchestrator (runs all 10 stages)
+The-Code-Mixed-Pedagogical-Flow-Extractor/      # project root (repo)
+├── main.py                          # CLI pipeline orchestrator (runs all stages)
 ├── app.py                           # Flask web UI (single-video processing with SSE)
 ├── requirements.txt                 # Python dependencies
 ├── .env                             # GEMINI_API_KEY (not committed)
@@ -457,6 +518,7 @@ irel_task/
 │   ├── speech_to_text.py            # Stage 3: Gemini transcription
 │   ├── linguistic_standardizer.py   # Stage 4: Text cleaning & normalisation
 │   ├── codemix_analyzer.py          # Stage 4b: Code-mixing quantification
+│   ├── terminology_mapper.py        # Stage 4c: Terminology mapping (colloquial → standard)
 │   ├── concept_extract.py           # Stage 5: spaCy + KeyBERT concepts
 │   ├── build_graph.py               # Stage 6: LLM prerequisite graph
 │   ├── visualize_graph.py           # Stage 7: Per-video visualisations
@@ -469,19 +531,21 @@ irel_task/
 │   ├── audios/                      # Extracted 16 kHz mono WAV audio
 │   ├── transcripts/                 # Gemini transcriptions (code-mixed + English)
 │   ├── cleaned_transcripts/         # Standardised segments (JSON)
+│   ├── terminology_mappings/        # Per-video terminology mapping (JSON)
 │   ├── concepts/                    # Extracted concepts with timestamps (JSON)
 │   ├── graphs/                      # LLM-generated prerequisite graphs (JSON)
 │   └── analysis/                    # Code-mixing analysis results (JSON)
 │
 └── outputs/
-    └── <video>/                     # One directory per video
-        ├── canonical.json           # Machine-readable graph
-        ├── <video>.gexf             # GEXF graph export
-        ├── interactive.html         # Interactive HTML graph
-        ├── dependency.png           # Static dependency diagram
-        ├── learning_roadmap.json    # Topologically sorted study plan
-        ├── learning_roadmap.png     # Layered flowchart visualisation
-        └── codemix_profile.png      # Code-mix profile chart
+  └── <video>/                     # One directory per video
+    ├── canonical.json           # Machine-readable graph
+    ├── <video>.gexf             # GEXF graph export
+    ├── interactive.html         # Interactive HTML graph
+    ├── dependency.png           # Static dependency diagram
+    ├── learning_roadmap.json    # Topologically sorted study plan
+    ├── learning_roadmap.png     # Layered flowchart visualisation
+    ├── codemix_profile.png      # Code-mix profile chart
+    └── terminology_mapping.json # Terminology mapping copy for the video
 ```
 
 ---
