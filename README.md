@@ -467,7 +467,7 @@ python pipeline/visualize_graph.py      # Just graph visualisation
 python pipeline/topological_sort.py     # Just learning roadmap generation
 ```
 
-### Running the Web UI
+### Running the Web UI (RECOMMENDED)
 
 A Flask-based web interface is also available for single-video processing with real-time progress updates:
 
