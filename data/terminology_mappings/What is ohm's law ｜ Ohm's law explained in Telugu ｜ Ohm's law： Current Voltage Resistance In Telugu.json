@@ -1,0 +1,755 @@
+{
+  "video": "What is ohm's law ｜ Ohm's law explained in Telugu ｜ Ohm's law： Current Voltage Resistance In Telugu",
+  "language": "Telugu-English",
+  "total_segments": 83,
+  "mapped_segments": 24,
+  "total_mappings": 28,
+  "mappings": [
+    {
+      "segment_index": 0,
+      "start": 0.0,
+      "end": 10.68,
+      "entries": []
+    },
+    {
+      "segment_index": 1,
+      "start": 10.68,
+      "end": 26.88,
+      "entries": [
+        {
+          "original_phrase": "ఆ కరెంట్ ని ఎంతవరకు అడ్డుకోవాలి",
+          "language": "Telugu",
+          "literal_translation": "how much to block that current",
+          "standard_term": "Resistance",
+          "category": "technical",
+          "context": "అలాగే ఆ డివైస్ అనేది ఆ కరెంట్ ని ఎంతవరకు అడ్డుకోవాలి."
+        }
+      ]
+    },
+    {
+      "segment_index": 2,
+      "start": 26.88,
+      "end": 35.78,
+      "entries": [
+        {
+          "original_phrase": "MCB యొక్క పని",
+          "language": "Telugu",
+          "literal_translation": "MCB's work/function",
+          "standard_term": "Function of MCB",
+          "category": "technical",
+          "context": "MCB యొక్క పని ఏంటంటే మన ఇంట్లోనికి ఎక్కువ పవర్ గనక వచ్చిందంటే"
+        },
+        {
+          "original_phrase": "ఎక్కువ పవర్",
+          "language": "Telugu",
+          "literal_translation": "more power",
+          "standard_term": "Overcurrent",
+          "category": "technical",
+          "context": "మన ఇంట్లోనికి ఎక్కువ పవర్ గనక వచ్చిందంటే వెంటనే MCB అనేది ఆఫ్ అయిపోవాలి."
+        }
+      ]
+    },
+    {
+      "segment_index": 3,
+      "start": 35.78,
+      "end": 48.88,
+      "entries": []
+    },
+    {
+      "segment_index": 4,
+      "start": 48.88,
+      "end": 59.68,
+      "entries": []
+    },
+    {
+      "segment_index": 5,
+      "start": 59.68,
+      "end": 62.08,
+      "entries": []
+    },
+    {
+      "segment_index": 6,
+      "start": 62.08,
+      "end": 68.68,
+      "entries": [
+        {
+          "original_phrase": "బట్టి పడుతూ ఉంటారు",
+          "language": "Telugu",
+          "literal_translation": "keep falling by rote / memorize by rote",
+          "standard_term": "Rote Learning",
+          "category": "conversational",
+          "context": "అలాగే కొంతమంది ఈ ఓమ్స్ లని బట్టి పడుతూ ఉంటారు."
+        }
+      ]
+    },
+    {
+      "segment_index": 7,
+      "start": 68.68,
+      "end": 74.98,
+      "entries": []
+    },
+    {
+      "segment_index": 8,
+      "start": 74.98,
+      "end": 105.48,
+      "entries": []
+    },
+    {
+      "segment_index": 9,
+      "start": 105.48,
+      "end": 114.98,
+      "entries": []
+    },
+    {
+      "segment_index": 10,
+      "start": 114.98,
+      "end": 124.98,
+      "entries": []
+    },
+    {
+      "segment_index": 11,
+      "start": 133.98,
+      "end": 137.68,
+      "entries": []
+    },
+    {
+      "segment_index": 12,
+      "start": 137.68,
+      "end": 143.28,
+      "entries": []
+    },
+    {
+      "segment_index": 13,
+      "start": 143.28,
+      "end": 152.68,
+      "entries": [
+        {
+          "original_phrase": "ఒకే దగ్గర స్టోర్ అయి ఉంటుంది",
+          "language": "Telugu",
+          "literal_translation": "is stored in one place",
+          "standard_term": "Localized Charge",
+          "category": "technical",
+          "context": "ఆ కరెంట్ అనేది ఒకే దగ్గర స్టోర్ అయి ఉంటుంది."
+        }
+      ]
+    },
+    {
+      "segment_index": 14,
+      "start": 152.68,
+      "end": 156.28,
+      "entries": []
+    },
+    {
+      "segment_index": 15,
+      "start": 156.28,
+      "end": 161.08,
+      "entries": []
+    },
+    {
+      "segment_index": 16,
+      "start": 161.08,
+      "end": 163.88,
+      "entries": []
+    },
+    {
+      "segment_index": 17,
+      "start": 163.88,
+      "end": 170.98,
+      "entries": []
+    },
+    {
+      "segment_index": 18,
+      "start": 170.98,
+      "end": 174.28,
+      "entries": []
+    },
+    {
+      "segment_index": 19,
+      "start": 174.28,
+      "end": 177.68,
+      "entries": []
+    },
+    {
+      "segment_index": 20,
+      "start": 177.68,
+      "end": 182.48,
+      "entries": [
+        {
+          "original_phrase": "ఒక పైప్ ని వైర్ అనుకుంటే",
+          "language": "Telugu",
+          "literal_translation": "if we consider a pipe as a wire",
+          "standard_term": "Analogy: Pipe as Wire",
+          "category": "conversational",
+          "context": "ఒక పైప్ ని వైర్ అనుకుంటే ఆ పైప్ లో ఫ్లో అవుతున్న వాటర్ అనేది ఎలక్ట్రిక్ కరెంట్ అవుతుంది."
+        },
+        {
+          "original_phrase": "ఫ్లో అవుతున్న వాటర్",
+          "language": "Telugu-English",
+          "literal_translation": "flowing water",
+          "standard_term": "Analogous Water Flow",
+          "category": "conversational",
+          "context": "...ఆ పైప్ లో ఫ్లో అవుతున్న వాటర్ అనేది ఎలక్ట్రిక్ కరెంట్ అవుతుంది."
+        }
+      ]
+    },
+    {
+      "segment_index": 21,
+      "start": 182.48,
+      "end": 186.68,
+      "entries": []
+    },
+    {
+      "segment_index": 22,
+      "start": 186.68,
+      "end": 193.98,
+      "entries": []
+    },
+    {
+      "segment_index": 23,
+      "start": 193.98,
+      "end": 198.48,
+      "entries": []
+    },
+    {
+      "segment_index": 24,
+      "start": 198.48,
+      "end": 205.68,
+      "entries": [
+        {
+          "original_phrase": "సమ్ ఎన్నోకని",
+          "language": "Telugu-English",
+          "literal_translation": "some how many / some unknown number",
+          "standard_term": "An Unspecified Number",
+          "category": "conversational",
+          "context": "ఇలా ఒక సెకండ్ కి సమ్ ఎన్నోకని ఎలక్ట్రాన్స్ అనేవి ఫ్లో అవుతున్నాయి అనుకుందాం."
+        }
+      ]
+    },
+    {
+      "segment_index": 25,
+      "start": 205.68,
+      "end": 213.98,
+      "entries": [
+        {
+          "original_phrase": "కోట్ల ఎలక్ట్రాన్స్",
+          "language": "Telugu-English",
+          "literal_translation": "crores of electrons",
+          "standard_term": "A Very Large Number of Electrons",
+          "category": "conversational",
+          "context": "నార్మల్ గా అయితే కొన్ని కోట్ల ఎలక్ట్రాన్స్ అనేవి ఒక వైర్ లో ఫ్లో అవుతాయి."
+        }
+      ]
+    },
+    {
+      "segment_index": 26,
+      "start": 213.98,
+      "end": 222.48,
+      "entries": []
+    },
+    {
+      "segment_index": 27,
+      "start": 222.48,
+      "end": 229.08,
+      "entries": []
+    },
+    {
+      "segment_index": 28,
+      "start": 229.08,
+      "end": 238.08,
+      "entries": []
+    },
+    {
+      "segment_index": 29,
+      "start": 238.08,
+      "end": 245.78,
+      "entries": []
+    },
+    {
+      "segment_index": 30,
+      "start": 245.78,
+      "end": 248.58,
+      "entries": []
+    },
+    {
+      "segment_index": 31,
+      "start": 248.58,
+      "end": 253.98,
+      "entries": [
+        {
+          "original_phrase": "ఫోర్స్ అంటే వోల్టేజ్",
+          "language": "Telugu",
+          "literal_translation": "force means voltage",
+          "standard_term": "Voltage (as electrical force/potential difference)",
+          "category": "technical",
+          "context": "అయితే ఇక్కడ ఫోర్స్ అంటే వోల్టేజ్."
+        }
+      ]
+    },
+    {
+      "segment_index": 32,
+      "start": 253.98,
+      "end": 257.78,
+      "entries": []
+    },
+    {
+      "segment_index": 33,
+      "start": 257.78,
+      "end": 264.58,
+      "entries": [
+        {
+          "original_phrase": "పైప్ లో ఫ్లో అవుతున్న వాటర్ ని కరెంట్ అనుకుంటే",
+          "language": "Telugu",
+          "literal_translation": "if we consider water flowing in a pipe as current",
+          "standard_term": "Hydraulic Analogy (for Electric Current)",
+          "category": "conversational",
+          "context": "ఒక పైప్ లో ఫ్లో అవుతున్న వాటర్ ని కరెంట్ అనుకుంటే ఆ వాటర్ యొక్క ప్రెజర్ ని వోల్టేజ్ అంటాం."
+        },
+        {
+          "original_phrase": "వాటర్ యొక్క ప్రెజర్ ని వోల్టేజ్ అంటాం",
+          "language": "Telugu",
+          "literal_translation": "we call the pressure of water voltage",
+          "standard_term": "Hydraulic Analogy (for Voltage/Potential Difference)",
+          "category": "conversational",
+          "context": "ఆ వాటర్ యొక్క ప్రెజర్ ని వోల్టేజ్ అంటాం."
+        }
+      ]
+    },
+    {
+      "segment_index": 34,
+      "start": 264.58,
+      "end": 271.38,
+      "entries": []
+    },
+    {
+      "segment_index": 35,
+      "start": 271.38,
+      "end": 278.78,
+      "entries": []
+    },
+    {
+      "segment_index": 36,
+      "start": 278.78,
+      "end": 285.78,
+      "entries": []
+    },
+    {
+      "segment_index": 37,
+      "start": 285.78,
+      "end": 290.28,
+      "entries": [
+        {
+          "original_phrase": "అడ్డంకుల్ని",
+          "language": "Telugu",
+          "literal_translation": "obstacles",
+          "standard_term": "Obstruction (in flow analogy)",
+          "category": "conversational",
+          "context": "ఇప్పుడు నేను ఆ పైప్ లో ఇలాంటి అడ్డంకుల్ని క్రియేట్ చేస్తాను."
+        }
+      ]
+    },
+    {
+      "segment_index": 38,
+      "start": 290.28,
+      "end": 296.28,
+      "entries": [
+        {
+          "original_phrase": "అడ్డుకుంటాయి",
+          "language": "Telugu",
+          "literal_translation": "obstruct",
+          "standard_term": "Obstruction (in flow analogy)",
+          "category": "conversational",
+          "context": "ఇవన్నీ కూడా వాటర్ యొక్క ఫ్లో ని అడ్డుకుంటాయి."
+        }
+      ]
+    },
+    {
+      "segment_index": 39,
+      "start": 296.28,
+      "end": 302.58,
+      "entries": [
+        {
+          "original_phrase": "తగులుకుంటూ తగులుకుంటూ ఫ్లో అవుతూ ఉంటాయి",
+          "language": "Telugu",
+          "literal_translation": "flow by hitting repeatedly",
+          "standard_term": "Electron-Atom Collisions (causing resistance)",
+          "category": "technical",
+          "context": "ఆ ఎలక్ట్రాన్స్ అనేవి ఆటమ్స్ కి తగులుకుంటూ తగులుకుంటూ ఫ్లో అవుతూ ఉంటాయి."
+        }
+      ]
+    },
+    {
+      "segment_index": 40,
+      "start": 302.58,
+      "end": 310.08,
+      "entries": [
+        {
+          "original_phrase": "ఎలక్ట్రాన్స్ యొక్క ఫ్లో ని అడ్డుకోవటాన్ని",
+          "language": "Telugu",
+          "literal_translation": "obstructing the flow of electrons",
+          "standard_term": "Resistance (as obstruction to electron flow)",
+          "category": "technical",
+          "context": "సో ఈ విధంగా ఎలక్ట్రాన్స్ యొక్క ఫ్లో ని అడ్డుకోవటాన్ని రెసిస్టెన్స్ అంటాం."
+        }
+      ]
+    },
+    {
+      "segment_index": 41,
+      "start": 310.08,
+      "end": 318.48,
+      "entries": []
+    },
+    {
+      "segment_index": 42,
+      "start": 318.48,
+      "end": 324.78,
+      "entries": [
+        {
+          "original_phrase": "లావుగా",
+          "language": "Telugu",
+          "literal_translation": "thick",
+          "standard_term": "Cross-sectional Area (of a conductor)",
+          "category": "technical",
+          "context": "అలాగే వైర్ అనేది లావుగా ఉన్నా సరే ఆటమ్స్ ఎక్కువగా ఉంటాయి."
+        }
+      ]
+    },
+    {
+      "segment_index": 43,
+      "start": 324.78,
+      "end": 334.98,
+      "entries": [
+        {
+          "original_phrase": "వేడిగా తయారవుతుంది",
+          "language": "Telugu",
+          "literal_translation": "becomes hot",
+          "standard_term": "Joule Heating / Resistive Heating",
+          "category": "technical",
+          "context": "అంటే వైర్ అనేది వేడిగా తయారవుతుంది."
+        },
+        {
+          "original_phrase": "వైబ్రేట్ అవుతూ ఉంటాయి",
+          "language": "Telugu",
+          "literal_translation": "vibrate",
+          "standard_term": "Thermal Vibration (of atoms)",
+          "category": "technical",
+          "context": "అలా వేడిగా ఉన్నప్పుడు వైర్ లో ఉన్న ఆటమ్స్ అనేవి వైబ్రేట్ అవుతూ ఉంటాయి."
+        }
+      ]
+    },
+    {
+      "segment_index": 44,
+      "start": 334.98,
+      "end": 341.08,
+      "entries": [
+        {
+          "original_phrase": "అడ్డుకుంటాయి",
+          "language": "Telugu",
+          "literal_translation": "obstruct",
+          "standard_term": "Increased Obstruction (due to thermal vibration)",
+          "category": "technical",
+          "context": "ఎలక్ట్రాన్స్ యొక్క మూవ్మెంట్ ని మరి కొంచెం అడ్డుకుంటాయి."
+        }
+      ]
+    },
+    {
+      "segment_index": 45,
+      "start": 341.08,
+      "end": 346.88,
+      "entries": []
+    },
+    {
+      "segment_index": 46,
+      "start": 346.88,
+      "end": 351.68,
+      "entries": []
+    },
+    {
+      "segment_index": 47,
+      "start": 351.68,
+      "end": 354.08,
+      "entries": []
+    },
+    {
+      "segment_index": 48,
+      "start": 354.08,
+      "end": 359.48,
+      "entries": [
+        {
+          "original_phrase": "అనులోమానుపాతంలో ఉంటుంది",
+          "language": "Telugu",
+          "literal_translation": "will be in direct proportion",
+          "standard_term": "Directly Proportional",
+          "category": "technical",
+          "context": "వోల్టేజ్ కి అనులోమానుపాతంలో ఉంటుంది"
+        }
+      ]
+    },
+    {
+      "segment_index": 49,
+      "start": 359.48,
+      "end": 364.78,
+      "entries": []
+    },
+    {
+      "segment_index": 50,
+      "start": 364.78,
+      "end": 370.08,
+      "entries": []
+    },
+    {
+      "segment_index": 51,
+      "start": 370.08,
+      "end": 375.48,
+      "entries": []
+    },
+    {
+      "segment_index": 52,
+      "start": 375.48,
+      "end": 380.08,
+      "entries": [
+        {
+          "original_phrase": "స్థిరంగా ఉండాలి",
+          "language": "Telugu",
+          "literal_translation": "must be stable/constant",
+          "standard_term": "Maintained Constant",
+          "category": "technical",
+          "context": "టెంపరేచర్ అనేది స్థిరంగా ఉండాలి"
+        }
+      ]
+    },
+    {
+      "segment_index": 53,
+      "start": 380.08,
+      "end": 382.08,
+      "entries": []
+    },
+    {
+      "segment_index": 54,
+      "start": 382.08,
+      "end": 384.88,
+      "entries": []
+    },
+    {
+      "segment_index": 55,
+      "start": 384.88,
+      "end": 390.08,
+      "entries": []
+    },
+    {
+      "segment_index": 56,
+      "start": 390.08,
+      "end": 393.98,
+      "entries": []
+    },
+    {
+      "segment_index": 57,
+      "start": 393.98,
+      "end": 396.08,
+      "entries": []
+    },
+    {
+      "segment_index": 58,
+      "start": 396.08,
+      "end": 403.98,
+      "entries": []
+    },
+    {
+      "segment_index": 59,
+      "start": 403.98,
+      "end": 409.48,
+      "entries": []
+    },
+    {
+      "segment_index": 60,
+      "start": 409.48,
+      "end": 415.28,
+      "entries": []
+    },
+    {
+      "segment_index": 61,
+      "start": 415.28,
+      "end": 420.08,
+      "entries": [
+        {
+          "original_phrase": "స్థిరంగా ఉండాలి",
+          "language": "Telugu",
+          "literal_translation": "should be constant",
+          "standard_term": "Constant",
+          "category": "technical",
+          "context": "టెంపరేచర్ అనేది స్థిరంగా ఉండాలి అని చెప్పాను."
+        }
+      ]
+    },
+    {
+      "segment_index": 62,
+      "start": 420.08,
+      "end": 424.78,
+      "entries": []
+    },
+    {
+      "segment_index": 63,
+      "start": 424.78,
+      "end": 430.08,
+      "entries": []
+    },
+    {
+      "segment_index": 64,
+      "start": 430.08,
+      "end": 437.78,
+      "entries": []
+    },
+    {
+      "segment_index": 65,
+      "start": 437.78,
+      "end": 442.08,
+      "entries": []
+    },
+    {
+      "segment_index": 66,
+      "start": 442.08,
+      "end": 445.48,
+      "entries": []
+    },
+    {
+      "segment_index": 67,
+      "start": 445.48,
+      "end": 448.48,
+      "entries": []
+    },
+    {
+      "segment_index": 68,
+      "start": 448.48,
+      "end": 450.48,
+      "entries": []
+    },
+    {
+      "segment_index": 69,
+      "start": 450.48,
+      "end": 454.08,
+      "entries": [
+        {
+          "original_phrase": "అనులోమానుపాతం",
+          "language": "Telugu",
+          "literal_translation": "direct proportionality",
+          "standard_term": "Direct Proportionality",
+          "category": "technical",
+          "context": "ఈ సింబల్ ని ప్రొపోర్షనాలిటీ అంటాం. అంటే అనులోమానుపాతం."
+        }
+      ]
+    },
+    {
+      "segment_index": 70,
+      "start": 454.08,
+      "end": 458.48,
+      "entries": []
+    },
+    {
+      "segment_index": 71,
+      "start": 458.48,
+      "end": 461.58,
+      "entries": []
+    },
+    {
+      "segment_index": 72,
+      "start": 461.58,
+      "end": 465.48,
+      "entries": [
+        {
+          "original_phrase": "స్థిరంగా ఉండేది",
+          "language": "Telugu",
+          "literal_translation": "what remains constant",
+          "standard_term": "Constant",
+          "category": "technical",
+          "context": "మన ఓమ్స్ లలో స్థిరంగా ఉండేది రెసిస్టెన్స్."
+        }
+      ]
+    },
+    {
+      "segment_index": 73,
+      "start": 465.48,
+      "end": 468.08,
+      "entries": []
+    },
+    {
+      "segment_index": 74,
+      "start": 468.08,
+      "end": 473.98,
+      "entries": []
+    },
+    {
+      "segment_index": 75,
+      "start": 473.98,
+      "end": 476.78,
+      "entries": [
+        {
+          "original_phrase": "ఇన్వర్స్ లో వేద్దాం",
+          "language": "Telugu",
+          "literal_translation": "let's put in inverse",
+          "standard_term": "Take the inverse",
+          "category": "technical",
+          "context": "కాబట్టి దీన్ని మనం ఇన్వర్స్ లో వేద్దాం."
+        }
+      ]
+    },
+    {
+      "segment_index": 76,
+      "start": 476.78,
+      "end": 478.08,
+      "entries": []
+    },
+    {
+      "segment_index": 77,
+      "start": 478.08,
+      "end": 479.68,
+      "entries": []
+    },
+    {
+      "segment_index": 78,
+      "start": 479.68,
+      "end": 483.48,
+      "entries": [
+        {
+          "original_phrase": "ఈక్వేషన్ ... వస్తుంది",
+          "language": "Telugu",
+          "literal_translation": "equation ... comes/becomes",
+          "standard_term": "Equation yields",
+          "category": "technical",
+          "context": "సో ఫైనల్ గా ఈ ఈక్వేషన్ I = V/R వస్తుంది."
+        }
+      ]
+    },
+    {
+      "segment_index": 79,
+      "start": 483.48,
+      "end": 485.88,
+      "entries": [
+        {
+          "original_phrase": "ఓమ్స్ లా ఈక్వేషన్ అంటాం",
+          "language": "Telugu",
+          "literal_translation": "we call Ohm's Law equation",
+          "standard_term": "Is known as Ohm's Law equation",
+          "category": "technical",
+          "context": "సో దీన్నే మనం ఓమ్స్ లా ఈక్వేషన్ అంటాం."
+        }
+      ]
+    },
+    {
+      "segment_index": 80,
+      "start": 485.88,
+      "end": 489.38,
+      "entries": []
+    },
+    {
+      "segment_index": 81,
+      "start": 490.08,
+      "end": 491.48,
+      "entries": []
+    },
+    {
+      "segment_index": 82,
+      "start": 491.48,
+      "end": 497.98,
+      "entries": []
+    }
+  ]
+}

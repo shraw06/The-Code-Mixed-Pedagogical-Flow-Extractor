@@ -1,0 +1,2118 @@
+{
+  "video": "Eigen Values & Eigen Vectors ｜ Matrices ｜ Numericals ｜ Maths",
+  "language": "Hindi-English",
+  "total_segments": 143,
+  "mapped_segments": 89,
+  "total_mappings": 146,
+  "mappings": [
+    {
+      "segment_index": 0,
+      "start": 0.0,
+      "end": 5.88,
+      "entries": []
+    },
+    {
+      "segment_index": 1,
+      "start": 5.88,
+      "end": 12.98,
+      "entries": [
+        {
+          "original_phrase": "diye gaye matrix",
+          "language": "Hindi",
+          "literal_translation": "given matrix",
+          "standard_term": "Given Matrix",
+          "category": "technical",
+          "context": "Jisme hum ye dekhenge ki kaise hum diye gaye matrix ki eigen value..."
+        }
+      ]
+    },
+    {
+      "segment_index": 3,
+      "start": 19.28,
+      "end": 30.38,
+      "entries": [
+        {
+          "original_phrase": "ek numerical likh ke rakha hai",
+          "language": "Hindi",
+          "literal_translation": "have written a numerical",
+          "standard_term": "Numerical Problem",
+          "category": "conversational",
+          "context": "...eigen value samajhne ke liye ek numerical likh ke rakha hai yaha pe..."
+        }
+      ]
+    },
+    {
+      "segment_index": 4,
+      "start": 30.38,
+      "end": 38.98,
+      "entries": [
+        {
+          "original_phrase": "dhundi jati hai",
+          "language": "Hindi",
+          "literal_translation": "are searched/found",
+          "standard_term": "Are Computed",
+          "category": "technical",
+          "context": "...eigen values dhundi jati hai aur usme se eigen vectors hum find kar sakte hain."
+        }
+      ]
+    },
+    {
+      "segment_index": 5,
+      "start": 38.98,
+      "end": 48.88,
+      "entries": [
+        {
+          "original_phrase": "dhundni hai",
+          "language": "Hindi",
+          "literal_translation": "need to search/find",
+          "standard_term": "To Compute",
+          "category": "technical",
+          "context": "To eigen values agar hume dhundni hai, to uska ye characteristic equation ho gaya..."
+        }
+      ]
+    },
+    {
+      "segment_index": 6,
+      "start": 48.88,
+      "end": 58.38,
+      "entries": [
+        {
+          "original_phrase": "diya hua matrix",
+          "language": "Hindi",
+          "literal_translation": "given matrix",
+          "standard_term": "Given Matrix",
+          "category": "technical",
+          "context": "Jahan pe A jo hai, wo hamara diya hua matrix hai, lambda jo hai..."
+        }
+      ]
+    },
+    {
+      "segment_index": 7,
+      "start": 58.38,
+      "end": 64.98,
+      "entries": [
+        {
+          "original_phrase": "rakh di",
+          "language": "Hindi",
+          "literal_translation": "placed/kept",
+          "standard_term": "Substituted",
+          "category": "technical",
+          "context": "...Ye wali value 3 8 0 -1 rakh di, minus lambda eigen value rakh diya."
+        },
+        {
+          "original_phrase": "rakh diya",
+          "language": "Hindi",
+          "literal_translation": "placed/kept",
+          "standard_term": "Substituted",
+          "category": "technical",
+          "context": "...minus lambda eigen value rakh diya."
+        }
+      ]
+    },
+    {
+      "segment_index": 8,
+      "start": 64.98,
+      "end": 70.08,
+      "entries": []
+    },
+    {
+      "segment_index": 9,
+      "start": 70.08,
+      "end": 77.58,
+      "entries": [
+        {
+          "original_phrase": "andar le gaye",
+          "language": "Hindi",
+          "literal_translation": "took inside",
+          "standard_term": "Scalar Multiplication",
+          "category": "technical",
+          "context": "Ab ye lambda ko andar le gaye, to ye lambda idhar aa jayega..."
+        }
+      ]
+    },
+    {
+      "segment_index": 10,
+      "start": 77.58,
+      "end": 81.08,
+      "entries": []
+    },
+    {
+      "segment_index": 11,
+      "start": 81.08,
+      "end": 90.08,
+      "entries": []
+    },
+    {
+      "segment_index": 12,
+      "start": 90.08,
+      "end": 94.98,
+      "entries": [
+        {
+          "original_phrase": "nikalenge",
+          "language": "Hindi",
+          "literal_translation": "will extract/find",
+          "standard_term": "Will Compute",
+          "category": "technical",
+          "context": "Ab iska hum determinant nikalenge, kaise?"
+        }
+      ]
+    },
+    {
+      "segment_index": 13,
+      "start": 94.98,
+      "end": 102.98,
+      "entries": []
+    },
+    {
+      "segment_index": 14,
+      "start": 102.98,
+      "end": 108.28,
+      "entries": []
+    },
+    {
+      "segment_index": 15,
+      "start": 108.28,
+      "end": 113.08,
+      "entries": []
+    },
+    {
+      "segment_index": 16,
+      "start": 113.08,
+      "end": 123.08,
+      "entries": [
+        {
+          "original_phrase": "do equation milne wale hain",
+          "language": "Hindi",
+          "literal_translation": "two equations are going to be obtained",
+          "standard_term": "We will obtain two equations",
+          "category": "conversational",
+          "context": "Hume do equation milne wale hain yaha pe konsi?"
+        },
+        {
+          "original_phrase": "Ye wala jo likha hai",
+          "language": "Hindi",
+          "literal_translation": "This one which is written",
+          "standard_term": "The equation written as",
+          "category": "conversational",
+          "context": "konsi? Ye wala jo likha hai 3 - lambda = 0"
+        },
+        {
+          "original_phrase": "dusra konsa mila?",
+          "language": "Hindi",
+          "literal_translation": "which other one was found?",
+          "standard_term": "What was the other equation?",
+          "category": "conversational",
+          "context": "aur dusra konsa mila? -1 - lambda = 0."
+        }
+      ]
+    },
+    {
+      "segment_index": 17,
+      "start": 123.08,
+      "end": 132.98,
+      "entries": [
+        {
+          "original_phrase": "lambda ki value aa jayegi",
+          "language": "Hindi",
+          "literal_translation": "lambda's value will come",
+          "standard_term": "The value of lambda will be obtained",
+          "category": "conversational",
+          "context": "To yaha se lambda ki value aa jayegi konsi?"
+        },
+        {
+          "original_phrase": "wo side le gaye",
+          "language": "Hindi",
+          "literal_translation": "took to that side",
+          "standard_term": "transposed to the other side",
+          "category": "technical",
+          "context": "Lambda ko wo side le gaye to lambda = 3"
+        }
+      ]
+    },
+    {
+      "segment_index": 18,
+      "start": 132.98,
+      "end": 139.08,
+      "entries": [
+        {
+          "original_phrase": "do kya mil gaye hain?",
+          "language": "Hindi",
+          "literal_translation": "what two things have we got?",
+          "standard_term": "What two values have we obtained?",
+          "category": "conversational",
+          "context": "To hume do kya mil gaye hain? Eigen values"
+        },
+        {
+          "original_phrase": "diye gaye matrix ke",
+          "language": "Hindi",
+          "literal_translation": "of the given matrix",
+          "standard_term": "of the Given Matrix",
+          "category": "technical",
+          "context": "Eigen values diye gaye matrix ke"
+        },
+        {
+          "original_phrase": "ek answer hamara ho gaya",
+          "language": "Hindi",
+          "literal_translation": "one answer of ours is done",
+          "standard_term": "This completes one part of our solution",
+          "category": "conversational",
+          "context": "to ye ek answer hamara ho gaya."
+        }
+      ]
+    },
+    {
+      "segment_index": 19,
+      "start": 139.08,
+      "end": 146.08,
+      "entries": [
+        {
+          "original_phrase": "eigen values mili hai",
+          "language": "Hindi",
+          "literal_translation": "eigen values have been found",
+          "standard_term": "eigen values have been obtained",
+          "category": "conversational",
+          "context": "ab hume do eigen values mili hai"
+        },
+        {
+          "original_phrase": "kya bol denge ke",
+          "language": "Hindi",
+          "literal_translation": "what will we say that",
+          "standard_term": "we can state that",
+          "category": "conversational",
+          "context": "to hum kya bol denge ke do alag alag eigen values"
+        },
+        {
+          "original_phrase": "alag alag eigen values ke liye",
+          "language": "Hindi",
+          "literal_translation": "for different eigen values",
+          "standard_term": "for distinct eigen values",
+          "category": "technical",
+          "context": "do alag alag eigen values ke liye ab alag alag eigen vectors milenge."
+        },
+        {
+          "original_phrase": "alag alag eigen vectors milenge",
+          "language": "Hindi",
+          "literal_translation": "different eigen vectors will be found",
+          "standard_term": "distinct eigen vectors will be obtained",
+          "category": "technical",
+          "context": "alag alag eigen values ke liye ab alag alag eigen vectors milenge."
+        }
+      ]
+    },
+    {
+      "segment_index": 20,
+      "start": 146.08,
+      "end": 153.78,
+      "entries": [
+        {
+          "original_phrase": "eigen values mili",
+          "language": "Hindi",
+          "literal_translation": "eigen values were found",
+          "standard_term": "eigen values were obtained",
+          "category": "conversational",
+          "context": "Yaani do eigen values mili, to do eigen vectors milenge"
+        },
+        {
+          "original_phrase": "eigen vectors milenge",
+          "language": "Hindi",
+          "literal_translation": "eigen vectors will be found",
+          "standard_term": "eigen vectors will be obtained",
+          "category": "conversational",
+          "context": "to do eigen vectors milenge"
+        },
+        {
+          "original_phrase": "find karte hain",
+          "language": "Hindi",
+          "literal_translation": "we find",
+          "standard_term": "let's find",
+          "category": "conversational",
+          "context": "to ab eigen vector find karte hain kiske liye?"
+        },
+        {
+          "original_phrase": "Ye wali eigen value ke liye",
+          "language": "Hindi",
+          "literal_translation": "for this eigen value",
+          "standard_term": "for this specific eigen value",
+          "category": "conversational",
+          "context": "kiske liye? Ye wali eigen value ke liye."
+        }
+      ]
+    },
+    {
+      "segment_index": 21,
+      "start": 153.78,
+      "end": 161.08,
+      "entries": [
+        {
+          "original_phrase": "likh liya",
+          "language": "Hindi",
+          "literal_translation": "wrote down",
+          "standard_term": "we have noted",
+          "category": "conversational",
+          "context": "To yaha pe likh liya eigen vector"
+        },
+        {
+          "original_phrase": "ab dhundenge",
+          "language": "Hindi",
+          "literal_translation": "now we will search",
+          "standard_term": "we will now determine",
+          "category": "technical",
+          "context": "eigen vector ab dhundenge lambda = 3 ke liye"
+        },
+        {
+          "original_phrase": "dhund lenge",
+          "language": "Hindi",
+          "literal_translation": "will find",
+          "standard_term": "will determine",
+          "category": "technical",
+          "context": "phir baad me lambda = -1 ke liye dhund lenge"
+        },
+        {
+          "original_phrase": "mil jayenge",
+          "language": "Hindi",
+          "literal_translation": "will be found",
+          "standard_term": "will be obtained",
+          "category": "conversational",
+          "context": "to do eigen vectors mil jayenge, theek hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 22,
+      "start": 161.08,
+      "end": 168.78,
+      "entries": [
+        {
+          "original_phrase": "kaise dhunde?",
+          "language": "Hindi",
+          "literal_translation": "how to find?",
+          "standard_term": "How do we determine this?",
+          "category": "conversational",
+          "context": "To kaise dhunde?"
+        },
+        {
+          "original_phrase": "wapas se",
+          "language": "Hindi",
+          "literal_translation": "again",
+          "standard_term": "revisiting",
+          "category": "conversational",
+          "context": "To wapas se ye jo hamara equation hai"
+        },
+        {
+          "original_phrase": "hamara equation hai",
+          "language": "Hindi",
+          "literal_translation": "our equation is",
+          "standard_term": "the equation we derived",
+          "category": "conversational",
+          "context": "ye jo hamara equation hai, characteristic equation"
+        },
+        {
+          "original_phrase": "eigen value ka",
+          "language": "Hindi",
+          "literal_translation": "of the eigen value",
+          "standard_term": "for the eigen value",
+          "category": "technical",
+          "context": "characteristic equation eigen value ka, wo likh denge."
+        },
+        {
+          "original_phrase": "wo likh denge",
+          "language": "Hindi",
+          "literal_translation": "we will write that",
+          "standard_term": "we will write it down",
+          "category": "conversational",
+          "context": "eigen value ka, wo likh denge."
+        }
+      ]
+    },
+    {
+      "segment_index": 23,
+      "start": 168.78,
+      "end": 176.08,
+      "entries": [
+        {
+          "original_phrase": "as it is hai",
+          "language": "Hindi",
+          "literal_translation": "is as it is",
+          "standard_term": "remains unchanged",
+          "category": "conversational",
+          "context": "A to as it is hai"
+        },
+        {
+          "original_phrase": "lambda ki value hum likh denge 3",
+          "language": "Hindi",
+          "literal_translation": "we will write lambda's value as 3",
+          "standard_term": "we will substitute lambda = 3",
+          "category": "technical",
+          "context": "is baar lambda ki value hum likh denge 3"
+        },
+        {
+          "original_phrase": "dhund rahe hain",
+          "language": "Hindi",
+          "literal_translation": "are searching",
+          "standard_term": "are determining",
+          "category": "technical",
+          "context": "hum eigen vector dhund rahe hain"
+        },
+        {
+          "original_phrase": "3i ho gaya",
+          "language": "Hindi",
+          "literal_translation": "it became 3i",
+          "standard_term": "it results in 3i",
+          "category": "conversational",
+          "context": "to 3i ho gaya, theek hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 24,
+      "start": 176.08,
+      "end": 182.08,
+      "entries": [
+        {
+          "original_phrase": "kon sa hamara diya gaya matrix",
+          "language": "Hindi",
+          "literal_translation": "which is our given matrix",
+          "standard_term": "our Given Matrix A",
+          "category": "technical",
+          "context": "Ab A kon sa hamara diya gaya matrix"
+        },
+        {
+          "original_phrase": "wo likh liya",
+          "language": "Hindi",
+          "literal_translation": "wrote that",
+          "standard_term": "we have written it down",
+          "category": "conversational",
+          "context": "diya gaya matrix, wo likh liya"
+        },
+        {
+          "original_phrase": "ye likh diya",
+          "language": "Hindi",
+          "literal_translation": "wrote this",
+          "standard_term": "we have written this",
+          "category": "conversational",
+          "context": "identity matrix 0 1 ye likh diya."
+        }
+      ]
+    },
+    {
+      "segment_index": 25,
+      "start": 182.08,
+      "end": 186.08,
+      "entries": [
+        {
+          "original_phrase": "multiply kar diya",
+          "language": "Hindi",
+          "literal_translation": "multiplied",
+          "standard_term": "we multiply",
+          "category": "technical",
+          "context": "Ab ye 3 ko multiply kar diya"
+        },
+        {
+          "original_phrase": "aa jayega",
+          "language": "Hindi",
+          "literal_translation": "will come",
+          "standard_term": "will appear",
+          "category": "conversational",
+          "context": "to yaha 3 yaha 3 aa jayega."
+        }
+      ]
+    },
+    {
+      "segment_index": 26,
+      "start": 186.08,
+      "end": 190.98,
+      "entries": [
+        {
+          "original_phrase": "aa gaya",
+          "language": "Hindi",
+          "literal_translation": "came",
+          "standard_term": "is obtained",
+          "category": "conversational",
+          "context": "Ye 3 aa gaya"
+        },
+        {
+          "original_phrase": "dono ko subtract kar diya",
+          "language": "Hindi",
+          "literal_translation": "subtracted both",
+          "standard_term": "we subtract both matrices",
+          "category": "technical",
+          "context": "ab dono ko subtract kar diya"
+        }
+      ]
+    },
+    {
+      "segment_index": 27,
+      "start": 190.98,
+      "end": 195.08,
+      "entries": []
+    },
+    {
+      "segment_index": 28,
+      "start": 195.08,
+      "end": 200.08,
+      "entries": [
+        {
+          "original_phrase": "kiski value hume mili?",
+          "language": "Hindi",
+          "literal_translation": "whose value did we get?",
+          "standard_term": "What value have we obtained?",
+          "category": "conversational",
+          "context": "To ye kiski value hume mili?"
+        },
+        {
+          "original_phrase": "value hume mili",
+          "language": "Hindi",
+          "literal_translation": "value we got",
+          "standard_term": "value we obtained",
+          "category": "conversational",
+          "context": "Ye value hume mili A - 3i ki"
+        },
+        {
+          "original_phrase": "ye rahi",
+          "language": "Hindi",
+          "literal_translation": "here it is",
+          "standard_term": "this is",
+          "category": "conversational",
+          "context": "A - 3i ki, ye rahi A - 3i ki."
+        }
+      ]
+    },
+    {
+      "segment_index": 29,
+      "start": 200.08,
+      "end": 203.08,
+      "entries": [
+        {
+          "original_phrase": "kya dhundna hai?",
+          "language": "Hindi",
+          "literal_translation": "what do we have to find?",
+          "standard_term": "What are we required to determine?",
+          "category": "conversational",
+          "context": "Hume to kya dhundna hai?"
+        },
+        {
+          "original_phrase": "dhundna hai eigen vector",
+          "language": "Hindi",
+          "literal_translation": "have to find eigen vector",
+          "standard_term": "we need to determine the eigen vector",
+          "category": "technical",
+          "context": "Hume to dhundna hai eigen vector."
+        }
+      ]
+    },
+    {
+      "segment_index": 30,
+      "start": 203.08,
+      "end": 212.08,
+      "entries": [
+        {
+          "original_phrase": "eigen vector ka ek characteristic equation hai",
+          "language": "Hindi",
+          "literal_translation": "there is a characteristic equation of the eigen vector",
+          "standard_term": "There is a characteristic equation for the eigen vector",
+          "category": "technical",
+          "context": "To eigen vector ka ek characteristic equation hai"
+        },
+        {
+          "original_phrase": "yaad rakhna hai",
+          "language": "Hindi",
+          "literal_translation": "have to remember",
+          "standard_term": "it is important to recall",
+          "category": "conversational",
+          "context": "wo hume yaad rakhna hai"
+        },
+        {
+          "original_phrase": "kuch aisa hi hai",
+          "language": "Hindi",
+          "literal_translation": "it is something similar",
+          "standard_term": "it is analogous",
+          "category": "conversational",
+          "context": "wo kuch aisa hi hai"
+        },
+        {
+          "original_phrase": "extra X multiply kiya hai",
+          "language": "Hindi",
+          "literal_translation": "an extra X is multiplied",
+          "standard_term": "an additional vector X is multiplied",
+          "category": "technical",
+          "context": "lekin yaha pe ek extra X multiply kiya hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 31,
+      "start": 212.08,
+      "end": 218.08,
+      "entries": []
+    },
+    {
+      "segment_index": 32,
+      "start": 218.08,
+      "end": 222.08,
+      "entries": []
+    },
+    {
+      "segment_index": 33,
+      "start": 222.08,
+      "end": 225.08,
+      "entries": []
+    },
+    {
+      "segment_index": 34,
+      "start": 225.08,
+      "end": 230.08,
+      "entries": [
+        {
+          "original_phrase": "kitna by kitna ka matrix",
+          "language": "Hindi",
+          "literal_translation": "what by what matrix",
+          "standard_term": "Matrix Dimensions",
+          "category": "conversational",
+          "context": "Kyuki ye kitna by kitna ka matrix hai?"
+        }
+      ]
+    },
+    {
+      "segment_index": 35,
+      "start": 230.08,
+      "end": 233.08,
+      "entries": []
+    },
+    {
+      "segment_index": 36,
+      "start": 233.08,
+      "end": 239.08,
+      "entries": []
+    },
+    {
+      "segment_index": 37,
+      "start": 239.08,
+      "end": 243.08,
+      "entries": []
+    },
+    {
+      "segment_index": 38,
+      "start": 243.08,
+      "end": 249.08,
+      "entries": []
+    },
+    {
+      "segment_index": 39,
+      "start": 249.08,
+      "end": 255.08,
+      "entries": []
+    },
+    {
+      "segment_index": 40,
+      "start": 255.08,
+      "end": 260.08,
+      "entries": [
+        {
+          "original_phrase": "easiness ke liye",
+          "language": "Hindi-English",
+          "literal_translation": "for easiness",
+          "standard_term": "For Simplification",
+          "category": "conversational",
+          "context": "Equation ko 4 se divide kar denge easiness ke liye."
+        }
+      ]
+    },
+    {
+      "segment_index": 41,
+      "start": 260.08,
+      "end": 268.08,
+      "entries": []
+    },
+    {
+      "segment_index": 42,
+      "start": 268.08,
+      "end": 274.08,
+      "entries": []
+    },
+    {
+      "segment_index": 43,
+      "start": 274.08,
+      "end": 282.08,
+      "entries": []
+    },
+    {
+      "segment_index": 44,
+      "start": 282.08,
+      "end": 286.08,
+      "entries": []
+    },
+    {
+      "segment_index": 45,
+      "start": 286.08,
+      "end": 290.08,
+      "entries": []
+    },
+    {
+      "segment_index": 46,
+      "start": 290.08,
+      "end": 296.08,
+      "entries": []
+    },
+    {
+      "segment_index": 47,
+      "start": 296.08,
+      "end": 303.08,
+      "entries": []
+    },
+    {
+      "segment_index": 48,
+      "start": 303.08,
+      "end": 308.08,
+      "entries": []
+    },
+    {
+      "segment_index": 49,
+      "start": 308.08,
+      "end": 313.08,
+      "entries": []
+    },
+    {
+      "segment_index": 50,
+      "start": 313.08,
+      "end": 318.08,
+      "entries": []
+    },
+    {
+      "segment_index": 51,
+      "start": 318.08,
+      "end": 324.08,
+      "entries": [
+        {
+          "original_phrase": "bahar nikal denge",
+          "language": "Hindi",
+          "literal_translation": "will take out",
+          "standard_term": "Factor out",
+          "category": "technical",
+          "context": "Sirf ye K1 jo hai, wo bahar nikal denge."
+        }
+      ]
+    },
+    {
+      "segment_index": 52,
+      "start": 324.08,
+      "end": 331.08,
+      "entries": [
+        {
+          "original_phrase": "Bahar nikal diya",
+          "language": "Hindi",
+          "literal_translation": "took out",
+          "standard_term": "Factored out",
+          "category": "technical",
+          "context": "X ka value K1 kya kiya? Bahar nikal diya"
+        },
+        {
+          "original_phrase": "kya bacha?",
+          "language": "Hindi",
+          "literal_translation": "what was left?",
+          "standard_term": "Remaining terms",
+          "category": "conversational",
+          "context": "Bahar nikal diya, to yaha kya bacha?"
+        }
+      ]
+    },
+    {
+      "segment_index": 53,
+      "start": 331.08,
+      "end": 335.08,
+      "entries": []
+    },
+    {
+      "segment_index": 54,
+      "start": 335.08,
+      "end": 344.08,
+      "entries": []
+    },
+    {
+      "segment_index": 55,
+      "start": 344.08,
+      "end": 348.08,
+      "entries": []
+    },
+    {
+      "segment_index": 56,
+      "start": 348.08,
+      "end": 351.08,
+      "entries": []
+    },
+    {
+      "segment_index": 57,
+      "start": 351.08,
+      "end": 356.08,
+      "entries": []
+    },
+    {
+      "segment_index": 58,
+      "start": 356.08,
+      "end": 360.08,
+      "entries": []
+    },
+    {
+      "segment_index": 59,
+      "start": 360.08,
+      "end": 364.08,
+      "entries": []
+    },
+    {
+      "segment_index": 60,
+      "start": 364.08,
+      "end": 367.08,
+      "entries": []
+    },
+    {
+      "segment_index": 61,
+      "start": 367.08,
+      "end": 370.08,
+      "entries": [
+        {
+          "original_phrase": "de ke rakha hai",
+          "language": "Hindi",
+          "literal_translation": "has given and kept",
+          "standard_term": "Given Value",
+          "category": "conversational",
+          "context": "A ka value de ke rakha hai"
+        }
+      ]
+    },
+    {
+      "segment_index": 62,
+      "start": 370.08,
+      "end": 375.08,
+      "entries": [
+        {
+          "original_phrase": "addition karenge",
+          "language": "Hindi-English",
+          "literal_translation": "will do addition",
+          "standard_term": "Perform Addition",
+          "category": "technical",
+          "context": "Ab addition karenge simply"
+        },
+        {
+          "original_phrase": "ho jayega",
+          "language": "Hindi",
+          "literal_translation": "will become",
+          "standard_term": "Will Result In",
+          "category": "conversational",
+          "context": "to ye 4 ho jayega"
+        }
+      ]
+    },
+    {
+      "segment_index": 63,
+      "start": 375.08,
+      "end": 380.08,
+      "entries": [
+        {
+          "original_phrase": "mil gayi",
+          "language": "Hindi",
+          "literal_translation": "got",
+          "standard_term": "Obtained",
+          "category": "conversational",
+          "context": "kiski value mil gayi? Ye value hume mil gayi"
+        }
+      ]
+    },
+    {
+      "segment_index": 64,
+      "start": 380.08,
+      "end": 383.08,
+      "entries": [
+        {
+          "original_phrase": "chahiye",
+          "language": "Hindi",
+          "literal_translation": "need",
+          "standard_term": "Required",
+          "category": "conversational",
+          "context": "Hume to kya chahiye? Eigen vector chahiye."
+        }
+      ]
+    },
+    {
+      "segment_index": 65,
+      "start": 383.08,
+      "end": 387.08,
+      "entries": [
+        {
+          "original_phrase": "multiply ho jayega",
+          "language": "Hindi-English",
+          "literal_translation": "will become multiplied",
+          "standard_term": "Will Be Multiplied",
+          "category": "technical",
+          "context": "Yaha pe X multiply ho jayega."
+        }
+      ]
+    },
+    {
+      "segment_index": 66,
+      "start": 387.08,
+      "end": 390.08,
+      "entries": [
+        {
+          "original_phrase": "multiply me X ho gaya",
+          "language": "Hindi-English",
+          "literal_translation": "multiplied in X happened",
+          "standard_term": "Is Multiplied by X",
+          "category": "technical",
+          "context": "A - lambda I multiply me X ho gaya"
+        }
+      ]
+    },
+    {
+      "segment_index": 67,
+      "start": 390.08,
+      "end": 394.08,
+      "entries": [
+        {
+          "original_phrase": "ye rahi value",
+          "language": "Hindi",
+          "literal_translation": "this is the value",
+          "standard_term": "Here is the value",
+          "category": "conversational",
+          "context": "A - lambda I ki to ye rahi value"
+        },
+        {
+          "original_phrase": "likh diya",
+          "language": "Hindi",
+          "literal_translation": "wrote",
+          "standard_term": "Written",
+          "category": "conversational",
+          "context": "8 0 likh diya."
+        }
+      ]
+    },
+    {
+      "segment_index": 68,
+      "start": 394.08,
+      "end": 398.08,
+      "entries": [
+        {
+          "original_phrase": "kya lenge?",
+          "language": "Hindi",
+          "literal_translation": "what will we take?",
+          "standard_term": "What should we assume/consider?",
+          "category": "conversational",
+          "context": "X kya lenge?"
+        },
+        {
+          "original_phrase": "lenge",
+          "language": "Hindi",
+          "literal_translation": "will take",
+          "standard_term": "Assume",
+          "category": "conversational",
+          "context": "X1 X2 lenge"
+        }
+      ]
+    },
+    {
+      "segment_index": 69,
+      "start": 398.08,
+      "end": 401.08,
+      "entries": [
+        {
+          "original_phrase": "solve karenge",
+          "language": "Hindi-English",
+          "literal_translation": "will solve",
+          "standard_term": "Solve",
+          "category": "technical",
+          "context": "Isko solve karenge"
+        }
+      ]
+    },
+    {
+      "segment_index": 70,
+      "start": 401.08,
+      "end": 405.08,
+      "entries": []
+    },
+    {
+      "segment_index": 71,
+      "start": 405.08,
+      "end": 409.08,
+      "entries": [
+        {
+          "original_phrase": "ho gaya",
+          "language": "Hindi",
+          "literal_translation": "became",
+          "standard_term": "Results in",
+          "category": "conversational",
+          "context": "Aur ye ho gaya 8 X1"
+        }
+      ]
+    },
+    {
+      "segment_index": 72,
+      "start": 409.08,
+      "end": 413.08,
+      "entries": [
+        {
+          "original_phrase": "kya likhenge?",
+          "language": "Hindi",
+          "literal_translation": "what will we write?",
+          "standard_term": "What can we deduce/infer?",
+          "category": "conversational",
+          "context": "ispe se hum kya likhenge?"
+        },
+        {
+          "original_phrase": "ho gaya",
+          "language": "Hindi",
+          "literal_translation": "became",
+          "standard_term": "Evaluated to",
+          "category": "conversational",
+          "context": "kyuki ye 0 ho gaya."
+        }
+      ]
+    },
+    {
+      "segment_index": 73,
+      "start": 413.08,
+      "end": 416.08,
+      "entries": [
+        {
+          "original_phrase": "niche chala jayega",
+          "language": "Hindi",
+          "literal_translation": "will go down",
+          "standard_term": "Will move to the denominator",
+          "category": "technical",
+          "context": "X1 4 niche chala jayega"
+        },
+        {
+          "original_phrase": "0 ke barabar",
+          "language": "Hindi",
+          "literal_translation": "equal to 0",
+          "standard_term": "Equal to 0",
+          "category": "technical",
+          "context": "to 0 ke barabar."
+        }
+      ]
+    },
+    {
+      "segment_index": 74,
+      "start": 416.08,
+      "end": 420.08,
+      "entries": [
+        {
+          "original_phrase": "Usi tarike se",
+          "language": "Hindi",
+          "literal_translation": "In the same way",
+          "standard_term": "Similarly",
+          "category": "conversational",
+          "context": "Usi tarike se yaha se kya likhenge?"
+        }
+      ]
+    },
+    {
+      "segment_index": 75,
+      "start": 420.08,
+      "end": 422.08,
+      "entries": [
+        {
+          "original_phrase": "mil gaya",
+          "language": "Hindi",
+          "literal_translation": "got",
+          "standard_term": "Obtained",
+          "category": "conversational",
+          "context": "X1 0 mil gaya hume."
+        }
+      ]
+    },
+    {
+      "segment_index": 76,
+      "start": 422.08,
+      "end": 428.08,
+      "entries": []
+    },
+    {
+      "segment_index": 77,
+      "start": 428.08,
+      "end": 433.08,
+      "entries": []
+    },
+    {
+      "segment_index": 78,
+      "start": 433.08,
+      "end": 437.08,
+      "entries": []
+    },
+    {
+      "segment_index": 79,
+      "start": 437.08,
+      "end": 441.08,
+      "entries": []
+    },
+    {
+      "segment_index": 80,
+      "start": 441.08,
+      "end": 444.08,
+      "entries": []
+    },
+    {
+      "segment_index": 81,
+      "start": 444.08,
+      "end": 448.08,
+      "entries": []
+    },
+    {
+      "segment_index": 82,
+      "start": 448.08,
+      "end": 450.08,
+      "entries": []
+    },
+    {
+      "segment_index": 83,
+      "start": 450.08,
+      "end": 452.08,
+      "entries": []
+    },
+    {
+      "segment_index": 84,
+      "start": 452.08,
+      "end": 455.08,
+      "entries": [
+        {
+          "original_phrase": "ke barabar",
+          "language": "Hindi",
+          "literal_translation": "equal to",
+          "standard_term": "equals",
+          "category": "technical",
+          "context": "X1 X2 ke barabar bola tha."
+        }
+      ]
+    },
+    {
+      "segment_index": 85,
+      "start": 455.08,
+      "end": 459.08,
+      "entries": []
+    },
+    {
+      "segment_index": 86,
+      "start": 459.08,
+      "end": 464.08,
+      "entries": [
+        {
+          "original_phrase": "bahar nikalna hai constant",
+          "language": "Hindi-English",
+          "literal_translation": "need to take out constant",
+          "standard_term": "Factor out a constant",
+          "category": "technical",
+          "context": "yaani kuch bahar nikalna hai constant, use hi hum eigen vector bol denge."
+        }
+      ]
+    },
+    {
+      "segment_index": 87,
+      "start": 464.08,
+      "end": 468.08,
+      "entries": [
+        {
+          "original_phrase": "bahar nikal dete hain",
+          "language": "Hindi",
+          "literal_translation": "let's take out",
+          "standard_term": "Let's factor out",
+          "category": "technical",
+          "context": "to yaha se K2 bahar nikal dete hain, to kya hoga?"
+        }
+      ]
+    },
+    {
+      "segment_index": 88,
+      "start": 468.08,
+      "end": 471.08,
+      "entries": [
+        {
+          "original_phrase": "bahar nikala",
+          "language": "Hindi",
+          "literal_translation": "took out",
+          "standard_term": "Factored out",
+          "category": "technical",
+          "context": "K2 bahar nikala, to yaha to 0 ka 0 hi hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 89,
+      "start": 471.08,
+      "end": 475.08,
+      "entries": [
+        {
+          "original_phrase": "kaise bahar nikala?",
+          "language": "Hindi",
+          "literal_translation": "how did you take out?",
+          "standard_term": "How was it factored out?",
+          "category": "technical",
+          "context": "phir kaise bahar nikala?"
+        }
+      ]
+    },
+    {
+      "segment_index": 90,
+      "start": 475.08,
+      "end": 478.08,
+      "entries": []
+    },
+    {
+      "segment_index": 91,
+      "start": 478.08,
+      "end": 483.08,
+      "entries": []
+    },
+    {
+      "segment_index": 92,
+      "start": 483.08,
+      "end": 486.08,
+      "entries": [
+        {
+          "original_phrase": "andar multiply karo",
+          "language": "Hindi",
+          "literal_translation": "multiply inside",
+          "standard_term": "Distribute",
+          "category": "technical",
+          "context": "K2 ko andar multiply karo"
+        }
+      ]
+    },
+    {
+      "segment_index": 93,
+      "start": 486.08,
+      "end": 490.08,
+      "entries": [
+        {
+          "original_phrase": "aa gaya",
+          "language": "Hindi",
+          "literal_translation": "came",
+          "standard_term": "Resulted in",
+          "category": "conversational",
+          "context": "0 aa gaya"
+        },
+        {
+          "original_phrase": "ye step kar sakte hain",
+          "language": "Hindi",
+          "literal_translation": "can do this step",
+          "standard_term": "This step is valid",
+          "category": "conversational",
+          "context": "yaani hum ye step kar sakte hain"
+        }
+      ]
+    },
+    {
+      "segment_index": 94,
+      "start": 490.08,
+      "end": 494.08,
+      "entries": [
+        {
+          "original_phrase": "ho gaya",
+          "language": "Hindi",
+          "literal_translation": "became",
+          "standard_term": "Is",
+          "category": "conversational",
+          "context": "eigen vector ho gaya"
+        }
+      ]
+    },
+    {
+      "segment_index": 95,
+      "start": 494.08,
+      "end": 497.08,
+      "entries": [
+        {
+          "original_phrase": "jaldi se screenshot le lo",
+          "language": "Hindi",
+          "literal_translation": "quickly take a screenshot",
+          "standard_term": "Capture the screen",
+          "category": "conversational",
+          "context": "To jaldi se screenshot le lo"
+        },
+        {
+          "original_phrase": "aage badhte hain",
+          "language": "Hindi",
+          "literal_translation": "let's move forward",
+          "standard_term": "Let's proceed",
+          "category": "conversational",
+          "context": "aage badhte hain"
+        }
+      ]
+    },
+    {
+      "segment_index": 96,
+      "start": 497.08,
+      "end": 503.08,
+      "entries": [
+        {
+          "original_phrase": "find karne ki method",
+          "language": "Hindi",
+          "literal_translation": "method to find",
+          "standard_term": "Method for determining",
+          "category": "technical",
+          "context": "eigen vector find karne ki method"
+        }
+      ]
+    },
+    {
+      "segment_index": 97,
+      "start": 503.08,
+      "end": 505.08,
+      "entries": [
+        {
+          "original_phrase": "kafi lambi thi",
+          "language": "Hindi",
+          "literal_translation": "was quite long",
+          "standard_term": "Was lengthy",
+          "category": "conversational",
+          "context": "Wo method kafi lambi thi"
+        }
+      ]
+    },
+    {
+      "segment_index": 98,
+      "start": 505.08,
+      "end": 510.08,
+      "entries": [
+        {
+          "original_phrase": "shortcut tarike se find karenge",
+          "language": "Hindi",
+          "literal_translation": "will find using a shortcut method",
+          "standard_term": "Determine using a shortcut method",
+          "category": "technical",
+          "context": "eigen values ko ek shortcut tarike se find karenge"
+        }
+      ]
+    },
+    {
+      "segment_index": 99,
+      "start": 510.08,
+      "end": 514.08,
+      "entries": [
+        {
+          "original_phrase": "shortcut lagane ke",
+          "language": "Hindi",
+          "literal_translation": "for applying shortcut",
+          "standard_term": "For applying the shortcut",
+          "category": "technical",
+          "context": "ye shortcut lagane ke kuch do conditions hai"
+        }
+      ]
+    },
+    {
+      "segment_index": 100,
+      "start": 514.08,
+      "end": 522.08,
+      "entries": [
+        {
+          "original_phrase": "upper triangle ya fir lower triangle 0 ho",
+          "language": "Hindi",
+          "literal_translation": "upper triangle or lower triangle is 0",
+          "standard_term": "Triangular Matrix",
+          "category": "technical",
+          "context": "upper triangle ya fir lower triangle 0 ho"
+        }
+      ]
+    },
+    {
+      "segment_index": 101,
+      "start": 522.08,
+      "end": 526.08,
+      "entries": [
+        {
+          "original_phrase": "dono triangle 0 ho",
+          "language": "Hindi",
+          "literal_translation": "both triangles are 0",
+          "standard_term": "Diagonal Matrix",
+          "category": "technical",
+          "context": "dono triangle 0 ho"
+        }
+      ]
+    },
+    {
+      "segment_index": 102,
+      "start": 526.08,
+      "end": 530.08,
+      "entries": [
+        {
+          "original_phrase": "tab lagega",
+          "language": "Hindi",
+          "literal_translation": "then it will apply",
+          "standard_term": "Then it is applicable",
+          "category": "conversational",
+          "context": "Upper me 0 ho, tab lagega"
+        },
+        {
+          "original_phrase": "tab bhi shortcut lagega",
+          "language": "Hindi",
+          "literal_translation": "then also shortcut will apply",
+          "standard_term": "The shortcut will still apply",
+          "category": "conversational",
+          "context": "lower me 0 ho, tab bhi shortcut lagega"
+        }
+      ]
+    },
+    {
+      "segment_index": 103,
+      "start": 530.08,
+      "end": 536.08,
+      "entries": [
+        {
+          "original_phrase": "Dono upper aur lower triangle 0 ho",
+          "language": "Hindi",
+          "literal_translation": "both upper and lower triangles are 0",
+          "standard_term": "Diagonal Matrix",
+          "category": "technical",
+          "context": "Dono upper aur lower triangle 0 ho"
+        },
+        {
+          "original_phrase": "shortcut laga sakte hain",
+          "language": "Hindi",
+          "literal_translation": "can apply shortcut",
+          "standard_term": "Can apply the shortcut",
+          "category": "technical",
+          "context": "tab hum ye shortcut laga sakte hain"
+        },
+        {
+          "original_phrase": "dekh lete hain kaise",
+          "language": "Hindi",
+          "literal_translation": "let's see how",
+          "standard_term": "Let's examine how",
+          "category": "conversational",
+          "context": "dekh lete hain kaise"
+        }
+      ]
+    },
+    {
+      "segment_index": 104,
+      "start": 536.08,
+      "end": 539.08,
+      "entries": [
+        {
+          "original_phrase": "find karne ki hai",
+          "language": "Hindi",
+          "literal_translation": "need to find",
+          "standard_term": "Need to determine",
+          "category": "technical",
+          "context": "eigen value find karne ki hai"
+        }
+      ]
+    },
+    {
+      "segment_index": 105,
+      "start": 539.08,
+      "end": 542.08,
+      "entries": [
+        {
+          "original_phrase": "numerical same",
+          "language": "Hindi",
+          "literal_translation": "same numerical",
+          "standard_term": "Same problem",
+          "category": "conversational",
+          "context": "Ye hi numerical same humne dekha tha"
+        },
+        {
+          "original_phrase": "dekha tha abhi abhi",
+          "language": "Hindi",
+          "literal_translation": "just saw",
+          "standard_term": "Recently discussed",
+          "category": "conversational",
+          "context": "humne dekha tha abhi abhi"
+        }
+      ]
+    },
+    {
+      "segment_index": 106,
+      "start": 542.08,
+      "end": 547.08,
+      "entries": [
+        {
+          "original_phrase": "condition lagaenge",
+          "language": "Hindi",
+          "literal_translation": "will apply condition",
+          "standard_term": "Apply the condition",
+          "category": "conversational",
+          "context": "yaha pe condition lagaenge"
+        }
+      ]
+    },
+    {
+      "segment_index": 107,
+      "start": 547.08,
+      "end": 550.08,
+      "entries": [
+        {
+          "original_phrase": "shortcut lagega",
+          "language": "Hindi",
+          "literal_translation": "shortcut will apply",
+          "standard_term": "The shortcut applies",
+          "category": "conversational",
+          "context": "ab shortcut lagega"
+        }
+      ]
+    },
+    {
+      "segment_index": 108,
+      "start": 550.08,
+      "end": 555.08,
+      "entries": []
+    },
+    {
+      "segment_index": 109,
+      "start": 555.08,
+      "end": 561.08,
+      "entries": [
+        {
+          "original_phrase": "seedha hum bol denge",
+          "language": "Hindi",
+          "literal_translation": "we will directly say",
+          "standard_term": "We can directly conclude",
+          "category": "conversational",
+          "context": "To seedha hum bol denge ye jo diagonal hai"
+        },
+        {
+          "original_phrase": "eigen ki value",
+          "language": "Hindi",
+          "literal_translation": "eigen's value",
+          "standard_term": "Eigenvalue",
+          "category": "technical",
+          "context": "Ye eigen ki value represent karega."
+        }
+      ]
+    },
+    {
+      "segment_index": 110,
+      "start": 561.08,
+      "end": 566.08,
+      "entries": [
+        {
+          "original_phrase": "kitna aa jayega",
+          "language": "Hindi",
+          "literal_translation": "how much will it come",
+          "standard_term": "What will be the value?",
+          "category": "conversational",
+          "context": "lambda kitna aa jayega?"
+        },
+        {
+          "original_phrase": "yahi hamara answer tha",
+          "language": "Hindi",
+          "literal_translation": "this was our answer",
+          "standard_term": "This is our answer",
+          "category": "conversational",
+          "context": "-1, to yahi hamara answer tha"
+        }
+      ]
+    },
+    {
+      "segment_index": 111,
+      "start": 566.08,
+      "end": 570.08,
+      "entries": [
+        {
+          "original_phrase": "3x3 ka hai",
+          "language": "Hindi",
+          "literal_translation": "is of 3x3",
+          "standard_term": "is a 3x3 matrix",
+          "category": "technical",
+          "context": "ab ye 3x3 ka hai"
+        },
+        {
+          "original_phrase": "kya find karna hai",
+          "language": "Hindi",
+          "literal_translation": "what to find",
+          "standard_term": "What do we need to determine?",
+          "category": "conversational",
+          "context": "iska hume kya find karna hai?"
+        }
+      ]
+    },
+    {
+      "segment_index": 112,
+      "start": 570.08,
+      "end": 575.08,
+      "entries": [
+        {
+          "original_phrase": "Wapas se shortcut lagaenge",
+          "language": "Hindi",
+          "literal_translation": "Again will apply shortcut",
+          "standard_term": "We will re-apply the shortcut",
+          "category": "conversational",
+          "context": "Wapas se shortcut lagaenge"
+        },
+        {
+          "original_phrase": "hona chahiye",
+          "language": "Hindi",
+          "literal_translation": "should be",
+          "standard_term": "must be",
+          "category": "conversational",
+          "context": "0 hona chahiye"
+        }
+      ]
+    },
+    {
+      "segment_index": 113,
+      "start": 575.08,
+      "end": 579.08,
+      "entries": [
+        {
+          "original_phrase": "dekh sakte hain",
+          "language": "Hindi",
+          "literal_translation": "can see",
+          "standard_term": "We can observe",
+          "category": "conversational",
+          "context": "yaha pe dekh sakte hain"
+        }
+      ]
+    },
+    {
+      "segment_index": 114,
+      "start": 579.08,
+      "end": 584.08,
+      "entries": [
+        {
+          "original_phrase": "kiski value batayega",
+          "language": "Hindi",
+          "literal_translation": "whose value will it tell",
+          "standard_term": "What value will it indicate?",
+          "category": "conversational",
+          "context": "hamesha kiski value batayega?"
+        },
+        {
+          "original_phrase": "Wo batayega eigen ki value",
+          "language": "Hindi",
+          "literal_translation": "It will tell eigen's value",
+          "standard_term": "It will indicate the eigenvalue",
+          "category": "technical",
+          "context": "Wo batayega eigen ki value."
+        }
+      ]
+    },
+    {
+      "segment_index": 115,
+      "start": 584.08,
+      "end": 590.08,
+      "entries": [
+        {
+          "original_phrase": "kon sa hai",
+          "language": "Hindi",
+          "literal_translation": "which one is it",
+          "standard_term": "Which is it?",
+          "category": "conversational",
+          "context": "diagonal kon sa hai?"
+        },
+        {
+          "original_phrase": "aayegi",
+          "language": "Hindi",
+          "literal_translation": "will come",
+          "standard_term": "will be",
+          "category": "conversational",
+          "context": "Eigen value -5 aayegi"
+        }
+      ]
+    },
+    {
+      "segment_index": 116,
+      "start": 590.08,
+      "end": 592.08,
+      "entries": [
+        {
+          "original_phrase": "ye ho gaya hamara answer",
+          "language": "Hindi",
+          "literal_translation": "this became our answer",
+          "standard_term": "This is our answer",
+          "category": "conversational",
+          "context": "To ye ho gaya hamara answer."
+        }
+      ]
+    },
+    {
+      "segment_index": 117,
+      "start": 592.08,
+      "end": 594.08,
+      "entries": [
+        {
+          "original_phrase": "Iske corresponding me",
+          "language": "Hindi",
+          "literal_translation": "In its corresponding",
+          "standard_term": "Corresponding to this",
+          "category": "technical",
+          "context": "Iske corresponding me eigen vectors"
+        },
+        {
+          "original_phrase": "teen aayenge",
+          "language": "Hindi",
+          "literal_translation": "three will come",
+          "standard_term": "there will be three",
+          "category": "conversational",
+          "context": "eigen vectors bhi teen aayenge."
+        }
+      ]
+    },
+    {
+      "segment_index": 118,
+      "start": 594.08,
+      "end": 595.08,
+      "entries": []
+    },
+    {
+      "segment_index": 119,
+      "start": 595.08,
+      "end": 597.08,
+      "entries": [
+        {
+          "original_phrase": "Next lete hain",
+          "language": "Hindi",
+          "literal_translation": "Let's take next",
+          "standard_term": "Let's consider the next example",
+          "category": "conversational",
+          "context": "Next lete hain"
+        },
+        {
+          "original_phrase": "iski eigen value dhundni hai",
+          "language": "Hindi",
+          "literal_translation": "its eigen value is to be found",
+          "standard_term": "We need to find its eigenvalue",
+          "category": "technical",
+          "context": "iski eigen value dhundni hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 120,
+      "start": 597.08,
+      "end": 601.08,
+      "entries": [
+        {
+          "original_phrase": "Wapas se condition apply karenge",
+          "language": "Hindi",
+          "literal_translation": "Again will apply condition",
+          "standard_term": "We will re-apply the condition",
+          "category": "conversational",
+          "context": "Wapas se condition apply karenge"
+        }
+      ]
+    },
+    {
+      "segment_index": 121,
+      "start": 601.08,
+      "end": 605.08,
+      "entries": [
+        {
+          "original_phrase": "kya batayega",
+          "language": "Hindi",
+          "literal_translation": "what will it tell",
+          "standard_term": "what will it indicate/represent",
+          "category": "conversational",
+          "context": "wo kya batayega? Ye batayega eigen value."
+        },
+        {
+          "original_phrase": "batayega eigen value",
+          "language": "Hindi-English",
+          "literal_translation": "will tell eigen value",
+          "standard_term": "indicates eigen value",
+          "category": "conversational",
+          "context": "Ye batayega eigen value."
+        }
+      ]
+    },
+    {
+      "segment_index": 122,
+      "start": 605.08,
+      "end": 608.08,
+      "entries": [
+        {
+          "original_phrase": "lambda = 1 aayega",
+          "language": "Hindi-English",
+          "literal_translation": "lambda = 1 will come",
+          "standard_term": "lambda = 1 is obtained",
+          "category": "conversational",
+          "context": "So lambda = 1 aayega, lambda = 2 aa jayega"
+        },
+        {
+          "original_phrase": "lambda = 2 aa jayega",
+          "language": "Hindi-English",
+          "literal_translation": "lambda = 2 will come",
+          "standard_term": "lambda = 2 is obtained",
+          "category": "conversational",
+          "context": "lambda = 1 aayega, lambda = 2 aa jayega"
+        }
+      ]
+    },
+    {
+      "segment_index": 123,
+      "start": 608.08,
+      "end": 609.08,
+      "entries": []
+    },
+    {
+      "segment_index": 124,
+      "start": 609.08,
+      "end": 611.08,
+      "entries": [
+        {
+          "original_phrase": "matrix le lete hain",
+          "language": "Hindi-English",
+          "literal_translation": "let's take matrix",
+          "standard_term": "let's consider the matrix",
+          "category": "conversational",
+          "context": "Ye wala matrix le lete hain hamara"
+        }
+      ]
+    },
+    {
+      "segment_index": 125,
+      "start": 611.08,
+      "end": 615.08,
+      "entries": [
+        {
+          "original_phrase": "condition lagaenge",
+          "language": "Hindi-English",
+          "literal_translation": "will apply condition",
+          "standard_term": "will apply the condition",
+          "category": "conversational",
+          "context": "condition lagaenge upper lower triangle wali."
+        },
+        {
+          "original_phrase": "upper lower triangle wali",
+          "language": "Hindi-English",
+          "literal_translation": "upper lower triangle one",
+          "standard_term": "upper/lower triangular matrix condition",
+          "category": "technical",
+          "context": "condition lagaenge upper lower triangle wali."
+        }
+      ]
+    },
+    {
+      "segment_index": 126,
+      "start": 615.08,
+      "end": 619.08,
+      "entries": [
+        {
+          "original_phrase": "ho gaya lower triangle",
+          "language": "Hindi-English",
+          "literal_translation": "has become lower triangle",
+          "standard_term": "is a lower triangular matrix",
+          "category": "technical",
+          "context": "Ye kya ho gaya hamara? Ye ho gaya lower triangle."
+        }
+      ]
+    },
+    {
+      "segment_index": 127,
+      "start": 619.08,
+      "end": 624.08,
+      "entries": [
+        {
+          "original_phrase": "Lower triangle 0",
+          "language": "Hindi-English",
+          "literal_translation": "Lower triangle 0",
+          "standard_term": "Triangular Matrix Property (zero off-diagonal elements)",
+          "category": "technical",
+          "context": "Lower triangle 0, to ye jo diagonal hai"
+        }
+      ]
+    },
+    {
+      "segment_index": 128,
+      "start": 624.08,
+      "end": 629.08,
+      "entries": [
+        {
+          "original_phrase": "eigen value kitni hogi",
+          "language": "Hindi-English",
+          "literal_translation": "how much will eigen value be",
+          "standard_term": "what will the eigen value be",
+          "category": "conversational",
+          "context": "So eigen value kitni hogi? 1, 1/2, 0, 2."
+        }
+      ]
+    },
+    {
+      "segment_index": 129,
+      "start": 629.08,
+      "end": 634.08,
+      "entries": [
+        {
+          "original_phrase": "pucha kya hai",
+          "language": "Hindi",
+          "literal_translation": "what is asked",
+          "standard_term": "what is the question",
+          "category": "conversational",
+          "context": "Theek hai, pucha kya hai? Hume to find the eigen value..."
+        },
+        {
+          "original_phrase": "pucha hai",
+          "language": "Hindi",
+          "literal_translation": "is asked",
+          "standard_term": "is required",
+          "category": "conversational",
+          "context": "Hume to find the eigen value of A^9 pucha hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 130,
+      "start": 634.08,
+      "end": 636.08,
+      "entries": [
+        {
+          "original_phrase": "9 power karna padega",
+          "language": "Hindi-English",
+          "literal_translation": "will have to do 9 power",
+          "standard_term": "will have to raise to the power of 9",
+          "category": "conversational",
+          "context": "Yaani iska 9 power karna padega."
+        }
+      ]
+    },
+    {
+      "segment_index": 131,
+      "start": 636.08,
+      "end": 642.08,
+      "entries": []
+    },
+    {
+      "segment_index": 132,
+      "start": 642.08,
+      "end": 649.08,
+      "entries": [
+        {
+          "original_phrase": "ye ho jayega 1",
+          "language": "Hindi-English",
+          "literal_translation": "this will become 1",
+          "standard_term": "this evaluates to 1",
+          "category": "conversational",
+          "context": "To ye ho jayega 1, 2^9 512"
+        }
+      ]
+    },
+    {
+      "segment_index": 133,
+      "start": 649.08,
+      "end": 653.08,
+      "entries": [
+        {
+          "original_phrase": "ho gaya hamara answer",
+          "language": "Hindi",
+          "literal_translation": "has become our answer",
+          "standard_term": "this is our answer",
+          "category": "conversational",
+          "context": "To ye ho gaya hamara answer eigen value A^9 ka."
+        }
+      ]
+    },
+    {
+      "segment_index": 134,
+      "start": 653.08,
+      "end": 654.08,
+      "entries": [
+        {
+          "original_phrase": "Aakhri dekh lete hain",
+          "language": "Hindi",
+          "literal_translation": "let's look at the last one",
+          "standard_term": "let's examine the final problem/case",
+          "category": "conversational",
+          "context": "Aakhri dekh lete hain."
+        }
+      ]
+    },
+    {
+      "segment_index": 135,
+      "start": 654.08,
+      "end": 657.08,
+      "entries": [
+        {
+          "original_phrase": "pehle to dhund lete hain",
+          "language": "Hindi",
+          "literal_translation": "first let's find it",
+          "standard_term": "first, let's determine it",
+          "category": "conversational",
+          "context": "Find the eigen value, pehle to dhund lete hain."
+        }
+      ]
+    },
+    {
+      "segment_index": 136,
+      "start": 657.08,
+      "end": 661.08,
+      "entries": [
+        {
+          "original_phrase": "batayegi",
+          "language": "Hindi",
+          "literal_translation": "will tell/indicate",
+          "standard_term": "will represent / will yield",
+          "category": "technical",
+          "context": "to ye diagonal eigen value batayegi."
+        }
+      ]
+    },
+    {
+      "segment_index": 137,
+      "start": 661.08,
+      "end": 664.08,
+      "entries": []
+    },
+    {
+      "segment_index": 138,
+      "start": 664.08,
+      "end": 667.08,
+      "entries": [
+        {
+          "original_phrase": "chahiye",
+          "language": "Hindi",
+          "literal_translation": "need/want",
+          "standard_term": "we need to find / we are looking for",
+          "category": "conversational",
+          "context": "A^5 ka eigen value chahiye."
+        }
+      ]
+    },
+    {
+      "segment_index": 139,
+      "start": 667.08,
+      "end": 672.08,
+      "entries": []
+    },
+    {
+      "segment_index": 140,
+      "start": 672.08,
+      "end": 678.08,
+      "entries": []
+    },
+    {
+      "segment_index": 141,
+      "start": 678.08,
+      "end": 683.08,
+      "entries": [
+        {
+          "original_phrase": "zyada se zyada",
+          "language": "Hindi",
+          "literal_translation": "more and more / as much as possible",
+          "standard_term": "as many as possible / maximize",
+          "category": "conversational",
+          "context": "To zyada se zyada ye eigen value eigen vector ke numerical practice karna."
+        },
+        {
+          "original_phrase": "practice karna",
+          "language": "Hindi",
+          "literal_translation": "to do practice",
+          "standard_term": "to practice / to solve",
+          "category": "conversational",
+          "context": "numerical practice karna."
+        }
+      ]
+    },
+    {
+      "segment_index": 142,
+      "start": 683.08,
+      "end": 687.08,
+      "entries": [
+        {
+          "original_phrase": "bas itna hi",
+          "language": "Hindi",
+          "literal_translation": "only this much",
+          "standard_term": "that's all / this concludes",
+          "category": "conversational",
+          "context": "To is video me bas itna hi,"
+        }
+      ]
+    }
+  ]
+}

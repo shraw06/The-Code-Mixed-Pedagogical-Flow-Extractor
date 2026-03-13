@@ -1,0 +1,633 @@
+{
+  "video": "What is Python｜ History of Python｜ Why we learn Python in Tamil-Python Series Part 1",
+  "language": "Tamil-English",
+  "total_segments": 84,
+  "mapped_segments": 14,
+  "total_mappings": 14,
+  "mappings": [
+    {
+      "segment_index": 0,
+      "start": 12.26,
+      "end": 16.06,
+      "entries": []
+    },
+    {
+      "segment_index": 1,
+      "start": 17.16,
+      "end": 27.56,
+      "entries": []
+    },
+    {
+      "segment_index": 2,
+      "start": 28.46,
+      "end": 34.46,
+      "entries": []
+    },
+    {
+      "segment_index": 3,
+      "start": 35.06,
+      "end": 42.66,
+      "entries": []
+    },
+    {
+      "segment_index": 4,
+      "start": 43.96,
+      "end": 50.26,
+      "entries": []
+    },
+    {
+      "segment_index": 5,
+      "start": 51.06,
+      "end": 103.76,
+      "entries": []
+    },
+    {
+      "segment_index": 6,
+      "start": 107.66,
+      "end": 111.46,
+      "entries": []
+    },
+    {
+      "segment_index": 7,
+      "start": 111.96,
+      "end": 124.36,
+      "entries": [
+        {
+          "original_phrase": "rendu per communicate panra maari",
+          "language": "Tamil",
+          "literal_translation": "like two people communicating",
+          "standard_term": "Interactive Execution",
+          "category": "conversational",
+          "context": "Appadina rendu per communicate panra maari."
+        }
+      ]
+    },
+    {
+      "segment_index": 8,
+      "start": 125.06,
+      "end": 127.46,
+      "entries": [
+        {
+          "original_phrase": "questions ku answer panra maari",
+          "language": "Tamil",
+          "literal_translation": "like answering questions",
+          "standard_term": "Immediate Feedback",
+          "category": "conversational",
+          "context": "Just questions ku answer panra maari."
+        }
+      ]
+    },
+    {
+      "segment_index": 9,
+      "start": 128.46,
+      "end": 134.86,
+      "entries": []
+    },
+    {
+      "segment_index": 10,
+      "start": 136.46,
+      "end": 146.76,
+      "entries": []
+    },
+    {
+      "segment_index": 11,
+      "start": 147.56,
+      "end": 151.56,
+      "entries": []
+    },
+    {
+      "segment_index": 12,
+      "start": 153.06,
+      "end": 156.06,
+      "entries": []
+    },
+    {
+      "segment_index": 13,
+      "start": 156.56,
+      "end": 206.86,
+      "entries": [
+        {
+          "original_phrase": "endha field la venalum",
+          "language": "Tamil",
+          "literal_translation": "in any field",
+          "standard_term": "Versatility",
+          "category": "conversational",
+          "context": "Yenna Python ah nama endha field la venalum use pannalam."
+        }
+      ]
+    },
+    {
+      "segment_index": 14,
+      "start": 208.46,
+      "end": 217.66,
+      "entries": []
+    },
+    {
+      "segment_index": 15,
+      "start": 220.06,
+      "end": 221.66,
+      "entries": []
+    },
+    {
+      "segment_index": 16,
+      "start": 223.36,
+      "end": 234.46,
+      "entries": []
+    },
+    {
+      "segment_index": 17,
+      "start": 235.36,
+      "end": 239.46,
+      "entries": []
+    },
+    {
+      "segment_index": 18,
+      "start": 240.36,
+      "end": 241.66,
+      "entries": []
+    },
+    {
+      "segment_index": 19,
+      "start": 242.66,
+      "end": 248.36,
+      "entries": []
+    },
+    {
+      "segment_index": 20,
+      "start": 249.26,
+      "end": 256.56,
+      "entries": []
+    },
+    {
+      "segment_index": 21,
+      "start": 257.26,
+      "end": 302.26,
+      "entries": []
+    },
+    {
+      "segment_index": 22,
+      "start": 303.96,
+      "end": 308.76,
+      "entries": []
+    },
+    {
+      "segment_index": 23,
+      "start": 309.86,
+      "end": 320.66,
+      "entries": []
+    },
+    {
+      "segment_index": 24,
+      "start": 321.46,
+      "end": 326.36,
+      "entries": []
+    },
+    {
+      "segment_index": 25,
+      "start": 327.56,
+      "end": 336.76,
+      "entries": []
+    },
+    {
+      "segment_index": 26,
+      "start": 338.56,
+      "end": 349.26,
+      "entries": []
+    },
+    {
+      "segment_index": 27,
+      "start": 349.56,
+      "end": 354.76,
+      "entries": []
+    },
+    {
+      "segment_index": 28,
+      "start": 355.36,
+      "end": 403.36,
+      "entries": []
+    },
+    {
+      "segment_index": 29,
+      "start": 409.06,
+      "end": 413.66,
+      "entries": []
+    },
+    {
+      "segment_index": 30,
+      "start": 415.36,
+      "end": 419.46,
+      "entries": []
+    },
+    {
+      "segment_index": 31,
+      "start": 421.06,
+      "end": 432.96,
+      "entries": []
+    },
+    {
+      "segment_index": 32,
+      "start": 434.66,
+      "end": 443.76,
+      "entries": [
+        {
+          "original_phrase": "adhukana type ku convert aagura maari",
+          "language": "Tamil",
+          "literal_translation": "to its respective type convert in a way that happens",
+          "standard_term": "Automatic Type Conversion",
+          "category": "technical",
+          "context": "automatically adhukana type ku convert aagura maari design pannirukanga."
+        }
+      ]
+    },
+    {
+      "segment_index": 33,
+      "start": 444.46,
+      "end": 447.96,
+      "entries": []
+    },
+    {
+      "segment_index": 34,
+      "start": 448.76,
+      "end": 453.36,
+      "entries": []
+    },
+    {
+      "segment_index": 35,
+      "start": 454.06,
+      "end": 455.26,
+      "entries": []
+    },
+    {
+      "segment_index": 36,
+      "start": 456.66,
+      "end": 459.26,
+      "entries": []
+    },
+    {
+      "segment_index": 37,
+      "start": 459.96,
+      "end": 504.96,
+      "entries": []
+    },
+    {
+      "segment_index": 38,
+      "start": 516.36,
+      "end": 518.26,
+      "entries": []
+    },
+    {
+      "segment_index": 39,
+      "start": 519.26,
+      "end": 526.76,
+      "entries": []
+    },
+    {
+      "segment_index": 40,
+      "start": 528.16,
+      "end": 529.06,
+      "entries": []
+    },
+    {
+      "segment_index": 41,
+      "start": 529.76,
+      "end": 536.36,
+      "entries": []
+    },
+    {
+      "segment_index": 42,
+      "start": 537.96,
+      "end": 539.26,
+      "entries": []
+    },
+    {
+      "segment_index": 43,
+      "start": 540.06,
+      "end": 542.06,
+      "entries": []
+    },
+    {
+      "segment_index": 44,
+      "start": 542.66,
+      "end": 551.96,
+      "entries": []
+    },
+    {
+      "segment_index": 45,
+      "start": 552.56,
+      "end": 556.66,
+      "entries": []
+    },
+    {
+      "segment_index": 46,
+      "start": 557.46,
+      "end": 601.46,
+      "entries": []
+    },
+    {
+      "segment_index": 47,
+      "start": 608.46,
+      "end": 611.46,
+      "entries": []
+    },
+    {
+      "segment_index": 48,
+      "start": 612.06,
+      "end": 620.66,
+      "entries": []
+    },
+    {
+      "segment_index": 49,
+      "start": 621.36,
+      "end": 629.56,
+      "entries": []
+    },
+    {
+      "segment_index": 50,
+      "start": 630.26,
+      "end": 636.46,
+      "entries": []
+    },
+    {
+      "segment_index": 51,
+      "start": 638.46,
+      "end": 647.56,
+      "entries": []
+    },
+    {
+      "segment_index": 52,
+      "start": 648.66,
+      "end": 652.16,
+      "entries": []
+    },
+    {
+      "segment_index": 53,
+      "start": 656.06,
+      "end": 657.06,
+      "entries": []
+    },
+    {
+      "segment_index": 54,
+      "start": 657.76,
+      "end": 707.06,
+      "entries": []
+    },
+    {
+      "segment_index": 55,
+      "start": 708.36,
+      "end": 713.66,
+      "entries": []
+    },
+    {
+      "segment_index": 56,
+      "start": 714.46,
+      "end": 720.76,
+      "entries": [
+        {
+          "original_phrase": "program podalam",
+          "language": "Tamil",
+          "literal_translation": "can put/write program",
+          "standard_term": "Implement a program",
+          "category": "conversational",
+          "context": "C illana C++ language codes kuda use panni program podalam."
+        }
+      ]
+    },
+    {
+      "segment_index": 57,
+      "start": 722.66,
+      "end": 725.26,
+      "entries": []
+    },
+    {
+      "segment_index": 58,
+      "start": 725.76,
+      "end": 729.76,
+      "entries": []
+    },
+    {
+      "segment_index": 59,
+      "start": 730.66,
+      "end": 734.86,
+      "entries": []
+    },
+    {
+      "segment_index": 60,
+      "start": 735.66,
+      "end": 746.06,
+      "entries": []
+    },
+    {
+      "segment_index": 61,
+      "start": 747.56,
+      "end": 749.36,
+      "entries": []
+    },
+    {
+      "segment_index": 62,
+      "start": 750.06,
+      "end": 751.46,
+      "entries": []
+    },
+    {
+      "segment_index": 63,
+      "start": 752.16,
+      "end": 755.36,
+      "entries": []
+    },
+    {
+      "segment_index": 64,
+      "start": 756.26,
+      "end": 802.46,
+      "entries": []
+    },
+    {
+      "segment_index": 65,
+      "start": 803.26,
+      "end": 813.46,
+      "entries": []
+    },
+    {
+      "segment_index": 66,
+      "start": 814.96,
+      "end": 815.86,
+      "entries": []
+    },
+    {
+      "segment_index": 67,
+      "start": 816.76,
+      "end": 824.06,
+      "entries": []
+    },
+    {
+      "segment_index": 68,
+      "start": 825.06,
+      "end": 834.76,
+      "entries": []
+    },
+    {
+      "segment_index": 69,
+      "start": 835.36,
+      "end": 836.76,
+      "entries": []
+    },
+    {
+      "segment_index": 70,
+      "start": 837.66,
+      "end": 841.66,
+      "entries": []
+    },
+    {
+      "segment_index": 71,
+      "start": 842.46,
+      "end": 845.56,
+      "entries": []
+    },
+    {
+      "segment_index": 72,
+      "start": 846.26,
+      "end": 847.66,
+      "entries": []
+    },
+    {
+      "segment_index": 73,
+      "start": 848.56,
+      "end": 853.56,
+      "entries": []
+    },
+    {
+      "segment_index": 74,
+      "start": 854.56,
+      "end": 911.66,
+      "entries": [
+        {
+          "original_phrase": "pirichu search pannum",
+          "language": "Tamil",
+          "literal_translation": "separating and searching",
+          "standard_term": "Query Tokenization",
+          "category": "technical",
+          "context": "Google oda search engine indha sentence ah separate words adhavadhu Python, tutorial nu pirichu search pannum."
+        }
+      ]
+    },
+    {
+      "segment_index": 75,
+      "start": 912.46,
+      "end": 922.56,
+      "entries": [
+        {
+          "original_phrase": "double quotes kulla kudukkumbodhu exactly andha sentence match panni search pannum",
+          "language": "Tamil",
+          "literal_translation": "when you put inside double quotes, it will search by exactly matching that sentence",
+          "standard_term": "Exact Phrase Search",
+          "category": "technical",
+          "context": "But neenga unga question ah double quotes kulla kudukkumbodhu exactly andha sentence match panni search pannum."
+        }
+      ]
+    },
+    {
+      "segment_index": 76,
+      "start": 924.46,
+      "end": 933.96,
+      "entries": [
+        {
+          "original_phrase": "file type colon PDF ippadi use pannalam",
+          "language": "Tamil",
+          "literal_translation": "can use 'file type colon PDF' like this",
+          "standard_term": "File Type Search Operator",
+          "category": "technical",
+          "context": "...search term space file type colon PDF ippadi use pannalam."
+        }
+      ]
+    },
+    {
+      "segment_index": 77,
+      "start": 934.56,
+      "end": 948.66,
+      "entries": [
+        {
+          "original_phrase": "unga search term kaana PDF files mattumey list aagum",
+          "language": "Tamil",
+          "literal_translation": "only PDF files for your search term will be listed",
+          "standard_term": "File Type Filtered Results",
+          "category": "technical",
+          "context": "...unga search term kaana PDF files mattumey list aagum."
+        }
+      ]
+    },
+    {
+      "segment_index": 78,
+      "start": 949.56,
+      "end": 957.56,
+      "entries": [
+        {
+          "original_phrase": "endha type file venunalum search pannalam",
+          "language": "Tamil",
+          "literal_translation": "can search for any type of file",
+          "standard_term": "Multiple File Type Search Capability",
+          "category": "technical",
+          "context": "...indha maari endha type file venunalum search pannalam."
+        }
+      ]
+    },
+    {
+      "segment_index": 79,
+      "start": 958.76,
+      "end": 1000.86,
+      "entries": [
+        {
+          "original_phrase": "pudichirukkum nu namburen",
+          "language": "Tamil",
+          "literal_translation": "I hope you liked it",
+          "standard_term": "Closing Remark",
+          "category": "conversational",
+          "context": "Indha video ungaluku pudichirukkum nu namburen."
+        }
+      ]
+    },
+    {
+      "segment_index": 80,
+      "start": 1001.66,
+      "end": 1004.46,
+      "entries": [
+        {
+          "original_phrase": "Pudichirundha like pannunga, share pannunga",
+          "language": "Tamil",
+          "literal_translation": "If you liked it, like it, share it",
+          "standard_term": "Call to Action (Engagement)",
+          "category": "conversational",
+          "context": "Pudichirundha like pannunga, share pannunga."
+        }
+      ]
+    },
+    {
+      "segment_index": 81,
+      "start": 1005.36,
+      "end": 1008.36,
+      "entries": [
+        {
+          "original_phrase": "Edhavadhu suggestions and feedback irundha comment la sollunga",
+          "language": "Tamil",
+          "literal_translation": "If there are any suggestions and feedback, tell in the comments",
+          "standard_term": "Call for Feedback",
+          "category": "conversational",
+          "context": "Edhavadhu suggestions and feedback irundha comment la sollunga."
+        }
+      ]
+    },
+    {
+      "segment_index": 82,
+      "start": 1008.76,
+      "end": 1013.06,
+      "entries": [
+        {
+          "original_phrase": "Innum neraya kathuka, easy ah kathuka namma channel ah subscribe pannunga",
+          "language": "Tamil",
+          "literal_translation": "To learn more, to learn easily, subscribe to our channel",
+          "standard_term": "Call to Action (Subscription)",
+          "category": "conversational",
+          "context": "Innum neraya kathuka, easy ah kathuka namma channel ah subscribe pannunga."
+        }
+      ]
+    }
+  ]
+}

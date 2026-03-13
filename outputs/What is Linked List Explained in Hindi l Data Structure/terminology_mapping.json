@@ -1,0 +1,517 @@
+{
+  "video": "What is Linked List Explained in Hindi l Data Structure",
+  "language": "Hindi-English",
+  "total_segments": 47,
+  "mapped_segments": 18,
+  "total_mappings": 26,
+  "mappings": [
+    {
+      "segment_index": 0,
+      "start": 0.0,
+      "end": 10.2,
+      "entries": []
+    },
+    {
+      "segment_index": 1,
+      "start": 10.2,
+      "end": 22.3,
+      "entries": []
+    },
+    {
+      "segment_index": 2,
+      "start": 22.3,
+      "end": 33.4,
+      "entries": []
+    },
+    {
+      "segment_index": 3,
+      "start": 33.4,
+      "end": 48.7,
+      "entries": [
+        {
+          "original_phrase": "bhagdaud",
+          "language": "Hindi",
+          "literal_translation": "running around / hustle",
+          "standard_term": "Last-minute preparation / Information gathering",
+          "category": "conversational",
+          "context": "To engineering exam se pehle apni bhagdaud bahut chal rahi hoti hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 4,
+      "start": 48.7,
+      "end": 100.0,
+      "entries": [
+        {
+          "original_phrase": "ek dost se dusre dost ki taraf bhagte... knowledge gain karte rehte hain",
+          "language": "Hindi",
+          "literal_translation": "run from one friend to another... keep gaining knowledge",
+          "standard_term": "Node Traversal / Information Retrieval",
+          "category": "conversational",
+          "context": "To hum ek dost se dusre dost ki taraf bhagte, dusre se teesre ki taraf bhagte hain aur knowledge gain karte rehte hain, knowledge gain karte rehte hain."
+        }
+      ]
+    },
+    {
+      "segment_index": 5,
+      "start": 100.0,
+      "end": 125.3,
+      "entries": []
+    },
+    {
+      "segment_index": 6,
+      "start": 125.3,
+      "end": 133.9,
+      "entries": []
+    },
+    {
+      "segment_index": 7,
+      "start": 133.9,
+      "end": 142.7,
+      "entries": [
+        {
+          "original_phrase": "sawal",
+          "language": "Hindi",
+          "literal_translation": "question",
+          "standard_term": "Problem / Query",
+          "category": "technical",
+          "context": "...paper mein kaun sa sawal aane wala hai..."
+        }
+      ]
+    },
+    {
+      "segment_index": 8,
+      "start": 142.7,
+      "end": 153.9,
+      "entries": [
+        {
+          "original_phrase": "paper khali na jaye",
+          "language": "Hindi",
+          "literal_translation": "paper doesn't go empty",
+          "standard_term": "Avoid failing / Ensure passing",
+          "category": "conversational",
+          "context": "...taki main kuch likh pau, paper khali na jaye bhaiya apna..."
+        }
+      ]
+    },
+    {
+      "segment_index": 9,
+      "start": 153.9,
+      "end": 202.7,
+      "entries": []
+    },
+    {
+      "segment_index": 10,
+      "start": 202.7,
+      "end": 212.7,
+      "entries": []
+    },
+    {
+      "segment_index": 11,
+      "start": 212.7,
+      "end": 222.7,
+      "entries": []
+    },
+    {
+      "segment_index": 12,
+      "start": 222.7,
+      "end": 238.9,
+      "entries": [
+        {
+          "original_phrase": "B ke paas bhag",
+          "language": "Hindi",
+          "literal_translation": "run to B",
+          "standard_term": "Node Reference / Pointer",
+          "category": "conversational",
+          "context": "...Wo bolta hai B ke paas bhag bhaiya, jo banda B hai na..."
+        }
+      ]
+    },
+    {
+      "segment_index": 13,
+      "start": 238.9,
+      "end": 254.5,
+      "entries": []
+    },
+    {
+      "segment_index": 14,
+      "start": 254.5,
+      "end": 304.4,
+      "entries": [
+        {
+          "original_phrase": "paper khali chhodenge",
+          "language": "Hindi",
+          "literal_translation": "will leave the paper empty",
+          "standard_term": "Fail the exam / Submit an empty paper",
+          "category": "conversational",
+          "context": "...apan aisa to nahi ki paper khali chhodenge..."
+        }
+      ]
+    },
+    {
+      "segment_index": 15,
+      "start": 304.4,
+      "end": 322.0,
+      "entries": []
+    },
+    {
+      "segment_index": 16,
+      "start": 322.0,
+      "end": 338.9,
+      "entries": []
+    },
+    {
+      "segment_index": 17,
+      "start": 338.9,
+      "end": 349.4,
+      "entries": []
+    },
+    {
+      "segment_index": 18,
+      "start": 349.4,
+      "end": 402.9,
+      "entries": []
+    },
+    {
+      "segment_index": 19,
+      "start": 402.9,
+      "end": 414.4,
+      "entries": [
+        {
+          "original_phrase": "teen dost",
+          "language": "Hindi",
+          "literal_translation": "three friends",
+          "standard_term": "Nodes (in a Linked List)",
+          "category": "conversational",
+          "context": "Ye jo aapke teen dost the na jinhone aapki madad ki hai, these are nothing but the nodes of your linked list."
+        }
+      ]
+    },
+    {
+      "segment_index": 20,
+      "start": 414.4,
+      "end": 428.9,
+      "entries": []
+    },
+    {
+      "segment_index": 21,
+      "start": 428.9,
+      "end": 439.9,
+      "entries": []
+    },
+    {
+      "segment_index": 22,
+      "start": 439.9,
+      "end": 457.9,
+      "entries": []
+    },
+    {
+      "segment_index": 23,
+      "start": 457.9,
+      "end": 508.5,
+      "entries": []
+    },
+    {
+      "segment_index": 24,
+      "start": 508.5,
+      "end": 518.9,
+      "entries": []
+    },
+    {
+      "segment_index": 25,
+      "start": 518.9,
+      "end": 539.9,
+      "entries": []
+    },
+    {
+      "segment_index": 26,
+      "start": 539.9,
+      "end": 600.9,
+      "entries": [
+        {
+          "original_phrase": "agle kahan jau main",
+          "language": "Hindi",
+          "literal_translation": "where should I go next",
+          "standard_term": "Node Traversal / Following a Pointer",
+          "category": "conversational",
+          "context": "...jab maine usse pucha reference ki aage bhaiya chapter two, agla reference, agla kahan jau main, to usne bola iske paas ja."
+        }
+      ]
+    },
+    {
+      "segment_index": 27,
+      "start": 600.9,
+      "end": 609.9,
+      "entries": []
+    },
+    {
+      "segment_index": 28,
+      "start": 609.9,
+      "end": 621.3,
+      "entries": []
+    },
+    {
+      "segment_index": 29,
+      "start": 621.3,
+      "end": 637.4,
+      "entries": [
+        {
+          "original_phrase": "Yahan se jana hai aapko yahan pe",
+          "language": "Hindi",
+          "literal_translation": "You have to go from here to here",
+          "standard_term": "Node Traversal / Following a Pointer",
+          "category": "conversational",
+          "context": "Yahan se jana hai aapko yahan pe, sahi baat hai?"
+        },
+        {
+          "original_phrase": "is node tak mujhe jana hai",
+          "language": "Hindi",
+          "literal_translation": "I need to go to this node",
+          "standard_term": "Node Traversal / Accessing a Node",
+          "category": "conversational",
+          "context": "Isse mujhe access karna hai, is node tak mujhe jana hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 30,
+      "start": 637.4,
+      "end": 657.9,
+      "entries": [
+        {
+          "original_phrase": "ek sequence mein sare memory location lage pade the",
+          "language": "Hindi",
+          "literal_translation": "all memory locations were arranged in a sequence",
+          "standard_term": "Contiguous Memory Allocation",
+          "category": "conversational",
+          "context": "Array mein humne kya dekha tha bhaiya, ek sequence mein sare memory location lage pade the, contiguous memory location."
+        }
+      ]
+    },
+    {
+      "segment_index": 31,
+      "start": 657.9,
+      "end": 704.3,
+      "entries": []
+    },
+    {
+      "segment_index": 32,
+      "start": 704.3,
+      "end": 734.9,
+      "entries": []
+    },
+    {
+      "segment_index": 33,
+      "start": 734.9,
+      "end": 746.4,
+      "entries": [
+        {
+          "original_phrase": "agla chapter",
+          "language": "Hindi",
+          "literal_translation": "next chapter",
+          "standard_term": "Next Node",
+          "category": "conversational",
+          "context": "Fir isne bola agla chapter to yahan pe C le liya."
+        }
+      ]
+    },
+    {
+      "segment_index": 34,
+      "start": 746.4,
+      "end": 800.9,
+      "entries": [
+        {
+          "original_phrase": "subject ki sari study khatam ho gayi",
+          "language": "Hindi",
+          "literal_translation": "all subject study is finished",
+          "standard_term": "End of Linked List",
+          "category": "conversational",
+          "context": "Ab iske baad to bhaiya mera subject ki sari study khatam ho gayi to mujhe aage jane ki zarurat nahi hai."
+        },
+        {
+          "original_phrase": "sara mamla khatam ho jata hai",
+          "language": "Hindi",
+          "literal_translation": "the whole matter ends",
+          "standard_term": "List Termination",
+          "category": "conversational",
+          "context": "To yahan jab bhaiya sara mamla khatam ho jata hai, matlab jo indicate karta hai the end of the linked list,"
+        }
+      ]
+    },
+    {
+      "segment_index": 35,
+      "start": 800.9,
+      "end": 817.4,
+      "entries": []
+    },
+    {
+      "segment_index": 36,
+      "start": 817.4,
+      "end": 828.0,
+      "entries": []
+    },
+    {
+      "segment_index": 37,
+      "start": 828.0,
+      "end": 837.9,
+      "entries": []
+    },
+    {
+      "segment_index": 38,
+      "start": 837.9,
+      "end": 858.9,
+      "entries": [
+        {
+          "original_phrase": "first chapter ke liye kisse approach karna hai",
+          "language": "Hindi",
+          "literal_translation": "who to approach for the first chapter",
+          "standard_term": "Starting Node",
+          "category": "conversational",
+          "context": "Shuruat mein maine kya bataya tha ki mujhe pata hai ki mujhe first chapter ke liye kisse approach karna hai."
+        },
+        {
+          "original_phrase": "sabse pehli jo shuruat mujhe karni hai apne linked list ki",
+          "language": "Hindi",
+          "literal_translation": "the very first start I have to make for my linked list",
+          "standard_term": "Head Node",
+          "category": "conversational",
+          "context": "Matlab sabse pehli jo shuruat mujhe karni hai apne linked list ki ya fir knowing about the subject that I have to give or appear for exam, uski shuruat mujhe chapter one se karni thi, to mujhe pata tha ki iske paas jana hai."
+        },
+        {
+          "original_phrase": "chapter one se karni thi",
+          "language": "Hindi",
+          "literal_translation": "had to start from chapter one",
+          "standard_term": "Starting Node",
+          "category": "conversational",
+          "context": "uski shuruat mujhe chapter one se karni thi, to mujhe pata tha ki iske paas jana hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 39,
+      "start": 858.9,
+      "end": 916.2,
+      "entries": [
+        {
+          "original_phrase": "head pointer karke cheez hoti hai",
+          "language": "Hindi",
+          "literal_translation": "there is a thing called head pointer",
+          "standard_term": "Head Pointer",
+          "category": "technical",
+          "context": "To wo bhai sahab yahan pe ek head pointer karke cheez hoti hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 40,
+      "start": 916.2,
+      "end": 935.9,
+      "entries": [
+        {
+          "original_phrase": "sabse pehle wala jo node hota hai",
+          "language": "Hindi",
+          "literal_translation": "the very first node that is",
+          "standard_term": "Head Node",
+          "category": "conversational",
+          "context": "ek head pointer hota hai jo aapke sabse pehle wala jo node hota hai jaise ki is case mein A hai, use point karta hai."
+        },
+        {
+          "original_phrase": "sab yahan pe samapt khatam",
+          "language": "Hindi",
+          "literal_translation": "everything ends here finished",
+          "standard_term": "List Termination",
+          "category": "conversational",
+          "context": "Null matlab bhaiya sab yahan pe samapt khatam."
+        }
+      ]
+    },
+    {
+      "segment_index": 41,
+      "start": 935.9,
+      "end": 955.5,
+      "entries": [
+        {
+          "original_phrase": "sirf forward forward forward matlab aage aage aage ka hi sochta hai, aage aage aage ka hi dekhta hai",
+          "language": "Hindi",
+          "literal_translation": "only thinks forward forward forward meaning only thinks about what's ahead, only looks ahead",
+          "standard_term": "Unidirectional Traversal",
+          "category": "conversational",
+          "context": "Jo kya karta hai bhaiya, sirf forward forward forward matlab aage aage aage ka hi sochta hai, aage aage aage ka hi dekhta hai."
+        }
+      ]
+    },
+    {
+      "segment_index": 42,
+      "start": 955.5,
+      "end": 1011.5,
+      "entries": [
+        {
+          "original_phrase": "sirf aage ka nahi, wo piche ka bhi dekhta hai",
+          "language": "Hindi",
+          "literal_translation": "not just forward, it also looks backward",
+          "standard_term": "Bidirectional Traversal",
+          "category": "conversational",
+          "context": "Matlab wo sirf aage ka nahi, wo piche ka bhi dekhta hai bhai."
+        }
+      ]
+    },
+    {
+      "segment_index": 43,
+      "start": 1011.5,
+      "end": 1025.5,
+      "entries": []
+    },
+    {
+      "segment_index": 44,
+      "start": 1025.5,
+      "end": 1040.6,
+      "entries": []
+    },
+    {
+      "segment_index": 45,
+      "start": 1040.6,
+      "end": 1058.3,
+      "entries": [
+        {
+          "original_phrase": "Circle ban gaya",
+          "language": "Hindi-English",
+          "literal_translation": "A circle was formed",
+          "standard_term": "Cyclic Structure",
+          "category": "conversational",
+          "context": "To yahan kya ban gaya? Circle ban gaya."
+        },
+        {
+          "original_phrase": "Yahan se shuru hua, wapas aa gaya",
+          "language": "Hindi",
+          "literal_translation": "It started from here, came back",
+          "standard_term": "Cyclic Traversal",
+          "category": "conversational",
+          "context": "Yahan se shuru hua, wapas aa gaya, yahan se shuru ho gaya, wapas aa gaya."
+        },
+        {
+          "original_phrase": "last node aapke linked list ke first node ko connected hota hai",
+          "language": "Hindi-English",
+          "literal_translation": "last node of your linked list is connected to the first node",
+          "standard_term": "Tail Node Connection to Head Node",
+          "category": "technical",
+          "context": "jahan pe aapka last node aapke linked list ke first node ko connected hota hai"
+        },
+        {
+          "original_phrase": "point kar raha hota hai",
+          "language": "Hindi-English",
+          "literal_translation": "is pointing",
+          "standard_term": "References",
+          "category": "technical",
+          "context": "ya fir point kar raha hota hai simple way mein."
+        }
+      ]
+    },
+    {
+      "segment_index": 46,
+      "start": 1058.3,
+      "end": 1115.6,
+      "entries": []
+    }
+  ]
+}
