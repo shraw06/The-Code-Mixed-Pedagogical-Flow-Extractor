@@ -7,12 +7,13 @@ This script runs the full pipeline in sequence:
   2. audio_extractor        — extract audio tracks (WAV) via ffmpeg
   3. speech_to_text         — Gemini-based transcription preserving code-mixed speech
   4. linguistic_standardizer— clean & normalise English text, preserve originals
-  5. concept_extract        — spaCy + KeyBERT concept extraction with timestamps
-  6. build_graph            — LLM-powered pedagogical prerequisite graph (DAG)
-  7. codemix_analyzer       — quantitative code-mixing analysis (CMI, switches)
-  8. visualize_graph        — per-video dependency diagrams, interactive HTML
-  9. topological_sort       — learning roadmap (topologically sorted concept order + flowchart)
- 10. visualize_codemix      — code-mix profiles, cross-video comparison
+  5. terminology_mapper     — explicit Indic colloquial → English academic term mapping
+  6. concept_extract        — spaCy + KeyBERT concept extraction with timestamps
+  7. build_graph            — LLM-powered pedagogical prerequisite graph (DAG)
+  8. codemix_analyzer       — quantitative code-mixing analysis (CMI, switches)
+  9. visualize_graph        — per-video dependency diagrams, interactive HTML
+ 10. topological_sort       — learning roadmap (topologically sorted concept order + flowchart)
+ 11. visualize_codemix      — code-mix profiles, cross-video comparison
 
 Each step is executed as a separate Python process to avoid importing
 modules that execute work at import time.
@@ -71,6 +72,8 @@ def speech_to_text():
 def linguistic_standardizer():
     return _run_script("linguistic_standardizer.py")
 
+def terminology_mapper():
+    return _run_script("terminology_mapper.py")
 
 def concept_extract():
     return _run_script("concept_extract.py")
@@ -98,6 +101,7 @@ def run_all():
         ("extract_audio", extract_audio),
         ("speech_to_text", speech_to_text),
         ("linguistic_standardizer", linguistic_standardizer),
+        ("terminology_mapper", terminology_mapper),
         ("concept_extract", concept_extract),
         ("build_graph", build_graphs),
         ("codemix_analyzer", codemix_analyze),
