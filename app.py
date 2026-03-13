@@ -46,6 +46,7 @@ for d in (
     DATA / "concepts",
     DATA / "graphs",
     DATA / "analysis",
+    DATA / "terminology_mappings",
     OUTPUTS,
 ):
     d.mkdir(parents=True, exist_ok=True)
@@ -95,6 +96,11 @@ STAGES = [
         "id": "standardisation",
         "label": "Linguistic Standardisation",
         "description": "Cleaning & normalising English text",
+    },
+    {
+        "id": "terminology",
+        "label": "Terminology Mapping",
+        "description": "Mapping colloquial Indic terms to standard English academic terminology",
     },
     {
         "id": "concepts",
@@ -245,6 +251,11 @@ def _stage_standardisation(stem: str):
     with open(json_out, "w", encoding="utf-8") as f:
         json.dump(cleaned_segments, f, indent=4, ensure_ascii=False)
 
+def _stage_terminology(stem: str):
+    """Map colloquial Indic terms to standard English academic terminology."""
+    mod = _get_module("terminology_mapper")
+    transcript_path = str(DATA / "transcripts" / f"{stem}.json")
+    mod.generate_mapping(transcript_path)
 
 def _stage_concepts(stem: str):
     """Extract and consolidate concepts."""
@@ -359,6 +370,8 @@ def _stage_outputs(stem: str, stage_id: str) -> dict:
         _add("transcript_json", DATA / "transcripts" / f"{stem}.json")
     elif stage_id == "standardisation":
         _add("cleaned_json", DATA / "cleaned_transcripts" / f"{stem}.json")
+    elif stage_id == "terminology":
+        _add("terminology_json", DATA / "terminology_mappings" / f"{stem}.json")
     elif stage_id == "concepts":
         _add("concepts_json", DATA / "concepts" / f"{stem}.json")
     elif stage_id == "graph":
@@ -397,6 +410,7 @@ def _pipeline_worker(job_id: str, stem: str, source: str = "file",
         ("audio",           _stage_audio),
         ("transcription",   _stage_transcription),
         ("standardisation", _stage_standardisation),
+        ("terminology",     _stage_terminology),
         ("concepts",        _stage_concepts),
         ("graph",           _stage_graph),
         ("codemix",         _stage_codemix),
